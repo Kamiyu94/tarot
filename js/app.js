@@ -348,29 +348,22 @@ class TarotApp {
         });
 
 
-        const copyViaTextarea = () => {
-            const ta = document.createElement('textarea');
-            ta.value = text;
-            ta.setAttribute('readonly', '');
-            ta.style.cssText = 'position:fixed;top:-200%;left:-200%;';
-            document.body.appendChild(ta);
-            ta.focus();
-            ta.setSelectionRange(0, ta.value.length);
-            try {
-                document.execCommand('copy');
-                this.showToast();
-            } catch (e) {
+        const shareOrPrompt = () => {
+            if (navigator.share) {
+                navigator.share({ text }).catch(e => {
+                    if (e.name !== 'AbortError') prompt('請複製以下內容', text);
+                });
+            } else {
                 prompt('請複製以下內容', text);
             }
-            document.body.removeChild(ta);
         };
 
         if (navigator.clipboard) {
             navigator.clipboard.writeText(text).then(() => {
                 this.showToast();
-            }).catch(copyViaTextarea);
+            }).catch(shareOrPrompt);
         } else {
-            copyViaTextarea();
+            shareOrPrompt();
         }
     }
 
