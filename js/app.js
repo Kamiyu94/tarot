@@ -280,7 +280,12 @@ class TarotApp {
             await document.fonts.ready;
             // Apply Snapshot Mode (text-only, full height)
             this.resultContent.classList.add('snapshot-mode');
-            // Wait for layout update
+            // Wait for all images to finish loading
+            const imgs = Array.from(this.resultContent.querySelectorAll('img'));
+            await Promise.all(imgs.map(img => img.complete
+                ? Promise.resolve()
+                : new Promise(r => { img.onload = r; img.onerror = r; })
+            ));
             await new Promise(resolve => setTimeout(resolve, 100));
             const canvas = await html2canvas(this.resultContent, {
                 backgroundColor: '#0a0a1a',
@@ -346,10 +351,11 @@ class TarotApp {
         const copyViaTextarea = () => {
             const ta = document.createElement('textarea');
             ta.value = text;
-            ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;';
+            ta.setAttribute('readonly', '');
+            ta.style.cssText = 'position:fixed;top:-200%;left:-200%;';
             document.body.appendChild(ta);
             ta.focus();
-            ta.select();
+            ta.setSelectionRange(0, ta.value.length);
             try {
                 document.execCommand('copy');
                 this.showToast();
