@@ -100,8 +100,8 @@
             <button class="action-btn save-btn" id="saveBtn">
                 <span>📥</span> 儲存圖片
             </button>
-            <button class="action-btn share-btn" id="shareBtn">
-                <span>📤</span> 分享結果
+            <button class="action-btn copy-btn" id="copyTextBtn">
+                <span>📋</span> 複製文字
             </button>
             <button class="action-btn redraw-btn" id="redrawBtn">
                 <span>🔄</span> 重新抽牌
@@ -109,7 +109,10 @@
         </div>
     </div>
 
-    <!-- Loading overlay for save/share -->
+    <!-- 複製成功提示 -->
+    <div class="toast" id="toast">已複製，可直接貼給 AI 解牌</div>
+
+    <!-- Loading overlay -->
     <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-spinner"></div>
         <p>處理中...</p>

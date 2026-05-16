@@ -11,3 +11,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Original source images (large files, not needed in repo)
+ChatGPT/
+images/originals/

@@ -1,5 +1,4 @@
 // 塔羅占卜 App - 主程式
-const TEACHER_LINE_URL = "https://line.me/R/ti/p/@nuw5707v";
 class TarotApp {
     constructor() {
         this.mode = null; // 'single', 'three', or 'five'
@@ -69,8 +68,9 @@ class TarotApp {
         this.resultCards = document.getElementById('resultCards');
         this.resultMeanings = document.getElementById('resultMeanings');
         this.saveBtn = document.getElementById('saveBtn');
-        this.shareBtn = document.getElementById('shareBtn');
+        this.copyTextBtn = document.getElementById('copyTextBtn');
         this.redrawBtn = document.getElementById('redrawBtn');
+        this.toast = document.getElementById('toast');
         // Loading
         this.loadingOverlay = document.getElementById('loadingOverlay');
     }
@@ -84,7 +84,7 @@ class TarotApp {
         this.resultBackBtn.addEventListener('click', () => this.goToHome());
         // Action buttons
         this.saveBtn.addEventListener('click', () => this.saveImage());
-        this.shareBtn.addEventListener('click', () => this.shareResult());
+        this.copyTextBtn.addEventListener('click', () => this.copyTextForAI());
         this.redrawBtn.addEventListener('click', () => this.startDraw(this.mode));
     }
     createStars() {
@@ -123,12 +123,8 @@ class TarotApp {
         this.switchScreen(this.homeScreen);
         this.drawnCards = [];
         this.currentDrawIndex = 0;
-        // Remove CTA
-        const cta = document.querySelector('.floating-cta');
-        if (cta) cta.remove();
-        // Clean URL
         if (window.location.hash === '#result') {
-            history.replaceState(null, '', ' '); // Remove hash
+            history.replaceState(null, '', ' ');
         }
     }
     getCardCount(mode) {
@@ -272,27 +268,7 @@ class TarotApp {
             `;
         }).join('');
         this.switchScreen(this.resultScreen);
-        // Push History State
         history.pushState({ page: 'result' }, 'Result', '#result');
-        // Inject Floating CTA Button
-        // Inject Floating CTA Button
-        const existingBtn = document.querySelector('.floating-cta');
-        if (existingBtn) existingBtn.remove();
-        // Load Config
-        const siteConfig = JSON.parse(localStorage.getItem('siteConfig')) || {};
-        // 客戶端特定 URL
-        const DEFAULT_DEMO_URL = "https://line.me/R/ti/p/@nuw5707v";
-        const targetUrl = siteConfig.lineUrl || DEFAULT_DEMO_URL;
-        const ctaContainer = document.createElement('div');
-        ctaContainer.className = 'floating-cta';
-        ctaContainer.innerHTML = `
-            <button class="line-floating-btn" onclick="window.open('${targetUrl}', '_blank')">
-                <span class="line-icon">💬</span>
-                <span class="line-text">詢問老師</span>
-            </button>
-        `;
-        document.body.appendChild(ctaContainer);
-        // Padding is now handled by CSS .result-content { padding-bottom: 140px !important; }
     }
     showLoading(show) {
         this.loadingOverlay.classList.toggle('active', show);
@@ -344,57 +320,40 @@ class TarotApp {
             this.copyTextResult();
         }
     }
-    copyTextResult() {
-        const text = this.generateShareText();
-        navigator.clipboard.writeText(text).then(() => {
-            alert('分享失敗，已將結果複製到剪貼簿');
-        }).catch(() => {
-            alert('複製失敗，請手動複製');
-        });
-    }
-    async shareResult() {
-        const text = this.generateShareText();
-        // 檢查是否支援 Web Share API
-        if (navigator.share) {
-            try {
-                await navigator.share({
-                    title: '塔羅牌占卜結果',
-                    text: text
-                });
-            } catch (err) {
-                if (err.name !== 'AbortError') {
-                    // 使用複製到剪貼簿作為備案
-                    this.copyToClipboard(text);
-                }
-            }
-        } else {
-            // 不支援 Web Share API，複製到剪貼簿
-            this.copyToClipboard(text);
-        }
-    }
-    copyToClipboard(text) {
-        navigator.clipboard.writeText(text).then(() => {
-            alert('已複製結果到剪貼簿，可以貼上到任何地方分享');
-        }).catch(() => {
-            // 備用方案：顯示文字框供使用者複製
-            prompt('請複製以下內容分享', text);
-        });
-    }
-    generateShareText() {
+    copyTextForAI() {
         const labels = this.modeLabels[this.mode];
-        let text = '🔮 我的塔羅牌占卜結果：\n\n';
+        const modeNames = {
+            single: '單張抽牌',
+            three: '三張牌陣（過去・現在・未來）',
+            five: '五張牌陣（深度解析）'
+        };
+
+        let text = `🔮 塔羅牌占卜結果\n`;
+        text += `牌陣：${modeNames[this.mode]}\n`;
+        text += `─`.repeat(30) + `\n\n`;
+
         this.drawnCards.forEach((drawn, i) => {
+            const meaning = drawn.isReversed ? drawn.card.reversed : drawn.card.upright;
             if (this.mode !== 'single') {
                 text += `【${labels[i]}】\n`;
             }
-            text += `${drawn.card.symbol} ${drawn.card.name} (${drawn.isReversed ? '逆位' : '正位'})\n`;
-            if (this.mode !== 'single') {
-                text += '\n';
-            }
+            text += `${drawn.card.name} / ${drawn.card.nameEn}（${drawn.isReversed ? '逆位' : '正位'}）\n`;
+            text += `關鍵字：${meaning.keywords.join('、')}\n`;
+            text += `牌義：${meaning.desc}\n\n`;
         });
-        text += '\n✨ 來自「塔羅牌占卜」App';
-        text += '\n🔗 https://kamiyu94.github.io/fortune-teller/';
-        return text;
+
+        text += `請根據以上塔羅牌結果，給我深入的解牌分析。`;
+
+        navigator.clipboard.writeText(text).then(() => {
+            this.showToast();
+        }).catch(() => {
+            prompt('請複製以下內容', text);
+        });
+    }
+
+    showToast() {
+        this.toast.classList.add('show');
+        setTimeout(() => this.toast.classList.remove('show'), 2500);
     }
 }
 // Initialize app when DOM is ready
