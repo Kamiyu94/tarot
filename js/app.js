@@ -342,7 +342,6 @@ class TarotApp {
             text += `牌義：${meaning.desc}\n\n`;
         });
 
-        text += `請根據以上塔羅牌結果，給我深入的解牌分析。`;
 
         navigator.clipboard.writeText(text).then(() => {
             this.showToast();
