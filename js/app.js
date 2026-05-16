@@ -343,11 +343,29 @@ class TarotApp {
         });
 
 
-        navigator.clipboard.writeText(text).then(() => {
-            this.showToast();
-        }).catch(() => {
-            prompt('請複製以下內容', text);
-        });
+        const copyViaTextarea = () => {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;';
+            document.body.appendChild(ta);
+            ta.focus();
+            ta.select();
+            try {
+                document.execCommand('copy');
+                this.showToast();
+            } catch (e) {
+                prompt('請複製以下內容', text);
+            }
+            document.body.removeChild(ta);
+        };
+
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(text).then(() => {
+                this.showToast();
+            }).catch(copyViaTextarea);
+        } else {
+            copyViaTextarea();
+        }
     }
 
     showToast() {
