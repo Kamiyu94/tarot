@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="塔羅牌占卜 - 探索命運的指引">
     <meta name="theme-color" content="#1a0a2e">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -40,6 +40,18 @@
             </div>
             <p class="subtitle">探索命運的神秘指引</p>
 
+            <div class="question-box">
+                <label class="question-field-label" for="questionInput">想問的問題（選填）</label>
+                <textarea
+                    id="questionInput"
+                    class="question-input"
+                    rows="3"
+                    maxlength="300"
+                    placeholder="例如：我該不該換工作？這段關係還值得繼續嗎？"
+                ></textarea>
+                <p class="question-hint">抽牌後可連同問題與牌義，一鍵複製貼給 AI 解讀</p>
+            </div>
+
             <div class="mode-buttons">
                 <button class="mode-btn" id="singleModeBtn">
                     <span class="card-icon">🂠</span>
@@ -68,6 +80,7 @@
 
         <div class="draw-content">
             <h2 class="draw-title" id="drawTitle">點擊卡牌抽牌</h2>
+            <div class="question-banner" id="drawQuestionPreview" hidden></div>
 
             <div class="cards-container" id="cardsContainer">
                 <!-- Cards will be dynamically inserted here -->
@@ -86,6 +99,7 @@
 
         <div class="result-content" id="resultContent">
             <h2 class="result-title">占卜結果</h2>
+            <div class="question-banner result-question" id="resultQuestion" hidden></div>
 
             <div class="result-cards" id="resultCards">
                 <!-- Result cards will be inserted here -->
@@ -101,7 +115,7 @@
                 <span>📥</span> 儲存圖片
             </button>
             <button class="action-btn copy-btn" id="copyTextBtn">
-                <span>📋</span> 複製文字
+                <span>📋</span> 複製給 AI
             </button>
             <button class="action-btn redraw-btn" id="redrawBtn">
                 <span>🔄</span> 重新抽牌

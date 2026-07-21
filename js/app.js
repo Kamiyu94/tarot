@@ -1,96 +1,74 @@
 // 塔羅占卜 App - 主程式
 class TarotApp {
     constructor() {
-        this.mode = null; // 'single', 'three', or 'five'
+        this.mode = null; // 'single' | 'three' | 'five'
+        this.question = '';
         this.drawnCards = [];
         this.currentDrawIndex = 0;
-        // 定義牌陣標籤
         this.modeLabels = {
             single: ['占卜結果'],
             three: ['過去', '現在', '未來'],
-            five: [
-                '問題現況',
-                '外在影響',
-                '內在影響',
-                '解決建議',
-                '全能洞見'
-            ]
+            five: ['問題現況', '外在影響', '內在影響', '解決建議', '全能洞見']
         };
+        this.modeNames = {
+            single: '單張抽牌',
+            three: '三張牌陣（過去・現在・未來）',
+            five: '五張牌陣（深度解析）'
+        };
+
         this.initElements();
         this.initEventListeners();
         this.createStars();
         this.registerServiceWorker();
-        // Debug Check
         this.checkDebugMode();
     }
-    checkDebugMode() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const debugId = urlParams.get('debug_card');
-        if (debugId) {
-            const id = parseInt(debugId);
-            const card = TAROT_CARDS.find(c => c.id === id);
-            if (card) {
-                console.log('Debug mode: Previewing card', card.name);
-                this.mode = 'single';
-                this.drawnCards = [{
-                    card: card,
-                    isReversed: false
-                }];
-                // Use native class switching (CSS handles opacity/visibility)
-                // Remove active from all screens first
-                this.homeScreen.classList.remove('active');
-                this.drawScreen.classList.remove('active');
-                this.resultScreen.classList.remove('active');
-                // Add active to result screen
-                this.resultScreen.classList.add('active');
-                // Render the result immediately
-                this.showResult();
-            }
-        }
-    }
+
     initElements() {
-        // Screens
         this.homeScreen = document.getElementById('homeScreen');
         this.drawScreen = document.getElementById('drawScreen');
         this.resultScreen = document.getElementById('resultScreen');
-        // Home screen
+
+        this.questionInput = document.getElementById('questionInput');
         this.singleModeBtn = document.getElementById('singleModeBtn');
         this.threeModeBtn = document.getElementById('threeModeBtn');
         this.fiveModeBtn = document.getElementById('fiveModeBtn');
-        // Draw screen
+
         this.backBtn = document.getElementById('backBtn');
         this.drawTitle = document.getElementById('drawTitle');
+        this.drawQuestionPreview = document.getElementById('drawQuestionPreview');
         this.cardsContainer = document.getElementById('cardsContainer');
         this.drawHint = document.getElementById('drawHint');
-        // Result screen
+
         this.resultBackBtn = document.getElementById('resultBackBtn');
         this.resultContent = document.getElementById('resultContent');
+        this.resultQuestion = document.getElementById('resultQuestion');
         this.resultCards = document.getElementById('resultCards');
         this.resultMeanings = document.getElementById('resultMeanings');
         this.saveBtn = document.getElementById('saveBtn');
         this.copyTextBtn = document.getElementById('copyTextBtn');
         this.redrawBtn = document.getElementById('redrawBtn');
         this.toast = document.getElementById('toast');
-        // Loading
         this.loadingOverlay = document.getElementById('loadingOverlay');
     }
+
     initEventListeners() {
-        // Mode selection
         this.singleModeBtn.addEventListener('click', () => this.startDraw('single'));
         this.threeModeBtn.addEventListener('click', () => this.startDraw('three'));
         this.fiveModeBtn.addEventListener('click', () => this.startDraw('five'));
-        // Back buttons
+
         this.backBtn.addEventListener('click', () => this.goToHome());
         this.resultBackBtn.addEventListener('click', () => this.goToHome());
-        // Action buttons
+
         this.saveBtn.addEventListener('click', () => this.saveImage());
         this.copyTextBtn.addEventListener('click', () => this.copyTextForAI());
         this.redrawBtn.addEventListener('click', () => this.startDraw(this.mode));
+
+        window.addEventListener('popstate', () => this.handlePopState());
     }
+
     createStars() {
         const container = document.getElementById('starsContainer');
-        const starCount = 100;
-        for (let i = 0; i < starCount; i++) {
+        for (let i = 0; i < 100; i++) {
             const star = document.createElement('div');
             star.className = 'star';
             star.style.left = `${Math.random() * 100}%`;
@@ -101,16 +79,36 @@ class TarotApp {
             container.appendChild(star);
         }
     }
+
     async registerServiceWorker() {
-        if ('serviceWorker' in navigator) {
-            try {
-                await navigator.serviceWorker.register('./sw.js');
-                console.log('Service Worker registered');
-            } catch (error) {
-                console.log('Service Worker registration failed:', error);
-            }
+        if (!('serviceWorker' in navigator)) return;
+        try {
+            await navigator.serviceWorker.register('./sw.js');
+        } catch (error) {
+            console.log('Service Worker registration failed:', error);
         }
     }
+
+    /** 開發用：?debug_card=0 預覽單張結果 */
+    checkDebugMode() {
+        const debugId = new URLSearchParams(window.location.search).get('debug_card');
+        if (debugId === null || debugId === '') return;
+
+        const id = parseInt(debugId, 10);
+        if (Number.isNaN(id)) return;
+
+        const card = TAROT_CARDS.find(c => c.id === id);
+        if (!card) {
+            console.error('Debug: card not found for id', debugId);
+            return;
+        }
+
+        this.mode = 'single';
+        this.question = '（Debug 預覽）';
+        this.drawnCards = [{ card, isReversed: false }];
+        this.showResult();
+    }
+
     switchScreen(target) {
         [this.homeScreen, this.drawScreen, this.resultScreen].forEach(screen => {
             screen.classList.remove('active');
@@ -119,14 +117,31 @@ class TarotApp {
         window.scrollTo(0, 0);
         setTimeout(() => window.scrollTo(0, 0), 50);
     }
+
+    clearResultHash() {
+        if (window.location.hash === '#result') {
+            const path = window.location.pathname + window.location.search;
+            history.replaceState(null, '', path || './');
+        }
+    }
+
     goToHome() {
         this.switchScreen(this.homeScreen);
         this.drawnCards = [];
         this.currentDrawIndex = 0;
-        if (window.location.hash === '#result') {
-            history.replaceState(null, '', ' ');
+        this.clearResultHash();
+        // 保留問題輸入框內容，方便改完再抽
+        if (this.questionInput && this.question) {
+            this.questionInput.value = this.question;
         }
     }
+
+    handlePopState() {
+        if (!window.location.hash) {
+            this.goToHome();
+        }
+    }
+
     getCardCount(mode) {
         switch (mode) {
             case 'single': return 1;
@@ -135,6 +150,7 @@ class TarotApp {
             default: return 1;
         }
     }
+
     getDrawTitle(mode) {
         switch (mode) {
             case 'single': return '點擊卡牌抽牌';
@@ -143,23 +159,73 @@ class TarotApp {
             default: return '點擊卡牌抽牌';
         }
     }
+
+    captureQuestion() {
+        this.question = (this.questionInput?.value || '').trim();
+    }
+
+    updateQuestionPreviews() {
+        const hasQ = Boolean(this.question);
+
+        if (this.drawQuestionPreview) {
+            if (hasQ) {
+                this.drawQuestionPreview.hidden = false;
+                this.drawQuestionPreview.innerHTML =
+                    `<span class="question-label">你的問題</span>` +
+                    `<span class="question-text">${this.escapeHtml(this.question)}</span>`;
+            } else {
+                this.drawQuestionPreview.hidden = true;
+                this.drawQuestionPreview.innerHTML = '';
+            }
+        }
+
+        if (this.resultQuestion) {
+            if (hasQ) {
+                this.resultQuestion.hidden = false;
+                this.resultQuestion.innerHTML =
+                    `<span class="question-label">你的問題</span>` +
+                    `<span class="question-text">${this.escapeHtml(this.question)}</span>`;
+            } else {
+                this.resultQuestion.hidden = true;
+                this.resultQuestion.innerHTML = '';
+            }
+        }
+    }
+
+    escapeHtml(str) {
+        return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
+    }
+
     startDraw(mode) {
+        if (!mode) return;
+
+        this.captureQuestion();
         this.mode = mode;
         this.drawnCards = [];
         this.currentDrawIndex = 0;
+
         const cardCount = this.getCardCount(mode);
         const labels = this.modeLabels[mode];
+
         this.drawTitle.textContent = this.getDrawTitle(mode);
-        // Create cards
+        this.updateQuestionPreviews();
+
         this.cardsContainer.innerHTML = '';
         for (let i = 0; i < cardCount; i++) {
             const card = this.createCardElement(i, mode !== 'single' ? labels[i] : null);
             this.cardsContainer.appendChild(card);
         }
+
         this.drawHint.classList.remove('hidden');
         this.drawHint.querySelector('span:last-child').textContent = '點擊卡牌揭示命運';
         this.switchScreen(this.drawScreen);
+        this.clearResultHash();
     }
+
     createCardElement(index, label) {
         const card = document.createElement('div');
         card.className = 'tarot-card';
@@ -181,58 +247,66 @@ class TarotApp {
         card.addEventListener('click', () => this.handleCardClick(card, index));
         return card;
     }
+
     handleCardClick(cardElement, index) {
-        // Only allow clicking the next card in sequence
-        if (index !== this.currentDrawIndex || cardElement.classList.contains('flipped')) {
-            return;
-        }
-        // Draw a random card
+        const alreadyRevealed =
+            cardElement.classList.contains('flipped') ||
+            cardElement.classList.contains('reversed') ||
+            cardElement.classList.contains('disabled');
+
+        if (index !== this.currentDrawIndex || alreadyRevealed) return;
+
         const drawnCard = this.drawRandomCard();
+        if (!drawnCard) return;
+
         this.drawnCards.push(drawnCard);
-        // Update card display
+
         const cardFront = cardElement.querySelector('.card-front');
         const symbolEl = cardFront.querySelector('.card-symbol');
         if (drawnCard.card.image) {
-            symbolEl.innerHTML = `<img src="${drawnCard.card.image}" class="tarot-img" alt="${drawnCard.card.name}">`;
+            symbolEl.innerHTML =
+                `<img src="${drawnCard.card.image}" class="tarot-img" alt="${drawnCard.card.name}">`;
         } else {
             symbolEl.textContent = drawnCard.card.symbol || '?';
         }
         cardFront.querySelector('.card-name').textContent = drawnCard.card.name;
         cardFront.querySelector('.card-name-en').textContent = drawnCard.card.nameEn;
+
         const positionEl = cardFront.querySelector('.card-position');
         positionEl.textContent = drawnCard.isReversed ? '逆位' : '正位';
         positionEl.className = `card-position ${drawnCard.isReversed ? 'reversed' : 'upright'}`;
-        // Flip animation
-        if (drawnCard.isReversed) {
-            cardElement.classList.add('reversed');
-        } else {
-            cardElement.classList.add('flipped');
-        }
+
+        // 正位：翻面；逆位：翻面 + 旋轉（CSS .reversed 已含 rotateY）
+        cardElement.classList.add(drawnCard.isReversed ? 'reversed' : 'flipped');
         cardElement.classList.add('disabled');
         this.currentDrawIndex++;
-        // Update hint
+
         const totalCards = this.getCardCount(this.mode);
         if (this.currentDrawIndex < totalCards) {
             this.drawHint.querySelector('span:last-child').textContent =
                 `還剩 ${totalCards - this.currentDrawIndex} 張牌`;
         } else {
             this.drawHint.classList.add('hidden');
-            // Show result after a delay
             setTimeout(() => this.showResult(), 1000);
         }
     }
+
     drawRandomCard() {
-        // Get available cards (not already drawn)
         const drawnIds = this.drawnCards.map(d => d.card.id);
         const available = TAROT_CARDS.filter(c => !drawnIds.includes(c.id));
-        // Random card and position
+        if (available.length === 0) {
+            console.error('No cards left in deck');
+            return null;
+        }
         const card = available[Math.floor(Math.random() * available.length)];
         const isReversed = Math.random() < 0.5;
         return { card, isReversed };
     }
+
     showResult() {
         const labels = this.modeLabels[this.mode];
-        // Generate result cards HTML
+        this.updateQuestionPreviews();
+
         this.resultCards.innerHTML = this.drawnCards.map((drawn, i) => {
             const visual = drawn.card.image
                 ? `<img src="${drawn.card.image}" class="tarot-img result-img" alt="${drawn.card.name}">`
@@ -244,7 +318,7 @@ class TarotApp {
                 <div class="card-name">${drawn.card.name}</div>
             </div>`;
         }).join('');
-        // Generate meanings HTML
+
         this.resultMeanings.innerHTML = this.drawnCards.map((drawn, i) => {
             const meaning = drawn.isReversed ? drawn.card.reversed : drawn.card.upright;
             const visual = drawn.card.image
@@ -267,26 +341,41 @@ class TarotApp {
                 </div>
             `;
         }).join('');
+
         this.switchScreen(this.resultScreen);
-        history.pushState({ page: 'result' }, 'Result', '#result');
+
+        if (window.location.hash !== '#result') {
+            history.pushState({ page: 'result' }, '', '#result');
+        }
     }
+
     showLoading(show) {
         this.loadingOverlay.classList.toggle('active', show);
     }
+
     async saveImage() {
+        if (typeof html2canvas !== 'function') {
+            this.copyTextForAI();
+            this.showToast('截圖套件未載入，已改複製文字');
+            return;
+        }
+
         this.showLoading(true);
         try {
-            // Wait for fonts
             await document.fonts.ready;
-            // Apply Snapshot Mode (text-only, full height)
             this.resultContent.classList.add('snapshot-mode');
-            // Wait for all images to finish loading
+
             const imgs = Array.from(this.resultContent.querySelectorAll('img'));
-            await Promise.all(imgs.map(img => img.complete
-                ? Promise.resolve()
-                : new Promise(r => { img.onload = r; img.onerror = r; })
+            await Promise.all(imgs.map(img =>
+                img.complete
+                    ? Promise.resolve()
+                    : new Promise(r => {
+                        img.onload = r;
+                        img.onerror = r;
+                    })
             ));
             await new Promise(resolve => setTimeout(resolve, 100));
+
             const canvas = await html2canvas(this.resultContent, {
                 backgroundColor: '#0a0a1a',
                 scale: 2,
@@ -298,43 +387,39 @@ class TarotApp {
                 windowWidth: this.resultContent.scrollWidth,
                 windowHeight: this.resultContent.scrollHeight
             });
-            // Remove Snapshot Mode
+
             this.resultContent.classList.remove('snapshot-mode');
-            // Use Blob and URL.createObjectURL to download
-            canvas.toBlob((blob) => {
-                if (blob) {
-                    const url = URL.createObjectURL(blob);
-                    const link = document.createElement('a');
-                    link.href = url;
-                    link.download = `塔羅牌結果_${new Date().toLocaleDateString('zh-TW').replace(/\//g, '-')}.png`;
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                    URL.revokeObjectURL(url);
-                    this.showLoading(false);
-                } else {
-                    throw new Error('Failed to create blob');
-                }
-            }, 'image/png');
+
+            const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+            if (!blob) throw new Error('Failed to create blob');
+
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `塔羅牌結果_${new Date().toLocaleDateString('zh-TW').replace(/\//g, '-')}.png`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
         } catch (error) {
             console.error('Save image failed:', error);
-            // Remove Snapshot Mode in case of error
             this.resultContent.classList.remove('snapshot-mode');
+            this.copyTextForAI();
+            this.showToast('儲存失敗，已改複製文字');
+        } finally {
             this.showLoading(false);
-            // Fallback: copy text
-            this.copyTextResult();
         }
     }
-    copyTextForAI() {
-        const labels = this.modeLabels[this.mode];
-        const modeNames = {
-            single: '單張抽牌',
-            three: '三張牌陣（過去・現在・未來）',
-            five: '五張牌陣（深度解析）'
-        };
 
+    buildResultText() {
+        const labels = this.modeLabels[this.mode];
         let text = `🔮 塔羅牌占卜結果\n`;
-        text += `牌陣：${modeNames[this.mode]}\n`;
+        text += `牌陣：${this.modeNames[this.mode] || this.mode}\n`;
+
+        if (this.question) {
+            text += `問題：${this.question}\n`;
+        }
+
         text += `─`.repeat(30) + `\n\n`;
 
         this.drawnCards.forEach((drawn, i) => {
@@ -347,6 +432,17 @@ class TarotApp {
             text += `牌義：${meaning.desc}\n\n`;
         });
 
+        if (this.question) {
+            text += `請依以上塔羅牌義，針對我的問題「${this.question}」給出清楚的解讀與實用建議。`;
+        } else {
+            text += `請依以上塔羅牌義給出清楚的解讀與實用建議。`;
+        }
+
+        return text;
+    }
+
+    copyTextForAI() {
+        const text = this.buildResultText();
 
         const shareOrPrompt = () => {
             if (navigator.share) {
@@ -358,120 +454,23 @@ class TarotApp {
             }
         };
 
-        if (navigator.clipboard) {
-            navigator.clipboard.writeText(text).then(() => {
-                this.showToast();
-            }).catch(shareOrPrompt);
+        if (navigator.clipboard?.writeText) {
+            navigator.clipboard.writeText(text)
+                .then(() => this.showToast())
+                .catch(shareOrPrompt);
         } else {
             shareOrPrompt();
         }
     }
 
-    showToast() {
+    showToast(message) {
+        if (message) this.toast.textContent = message;
+        else this.toast.textContent = '已複製，可直接貼給 AI 解牌';
         this.toast.classList.add('show');
         setTimeout(() => this.toast.classList.remove('show'), 2500);
     }
 }
-// Initialize app when DOM is ready
+
 document.addEventListener('DOMContentLoaded', () => {
-    new TarotApp();
-});
-// ========================================
-// STANDALONE DEBUG MODE - Mock 5-Card Spread
-// Places the debug card in position 3 (center) with 4 random placeholders
-// ========================================
-window.addEventListener('load', function () {
-    const params = new URLSearchParams(window.location.search);
-    const debugId = params.get('debug_card');
-    if (debugId !== null) {
-        console.log("Debug Mode Active for Card ID:", debugId);
-        // 1. Force Screen Switch
-        const homeScreen = document.getElementById('homeScreen');
-        const drawScreen = document.getElementById('drawScreen');
-        const resultScreen = document.getElementById('resultScreen');
-        if (homeScreen) homeScreen.classList.remove('active');
-        if (drawScreen) drawScreen.classList.remove('active');
-        if (resultScreen) resultScreen.classList.add('active');
-        // 2. Find the Debug Card
-        const debugCard = TAROT_CARDS.find(c => c.id == parseInt(debugId));
-        if (debugCard) {
-            console.log("Found debug card:", debugCard.name);
-            // 3. Create Mock 5-Card Array
-            // Position 3 (index 2) = debug card, others = random placeholders
-            const usedIds = [debugCard.id];
-            const getRandomCard = () => {
-                const available = TAROT_CARDS.filter(c => !usedIds.includes(c.id));
-                const card = available[Math.floor(Math.random() * available.length)];
-                usedIds.push(card.id);
-                return card;
-            };
-            const mockSpread = [
-                { card: getRandomCard(), isReversed: false },
-                { card: getRandomCard(), isReversed: false },
-                { card: debugCard, isReversed: false },        // DEBUG CARD at position 3
-                { card: getRandomCard(), isReversed: false },
-                { card: getRandomCard(), isReversed: false }
-            ];
-            // 4. Define 5-card spread labels
-            const labels = ['問題現況', '外在影響', '🔍 預覽', '解決建議', '全能洞見'];
-            // 5. Render Result Cards (same format as real game)
-            const resultCards = document.getElementById('resultCards');
-            if (resultCards) {
-                resultCards.innerHTML = mockSpread.map((drawn, i) => {
-                    const isDebugCard = i === 2;
-                    const visual = drawn.card.image
-                        ? `<img src="${drawn.card.image}" class="tarot-img result-img" alt="${drawn.card.name}">`
-                        : `<span>${drawn.card.symbol || '?'}</span>`;
-                    return `
-                    <div class="result-card ${drawn.isReversed ? 'reversed' : ''}" ${isDebugCard ? 'style="border-color: #e91e63; box-shadow: 0 0 15px rgba(233, 30, 99, 0.5);"' : ''}>
-                        <div class="card-label">${labels[i]}</div>
-                        <div class="card-symbol ${drawn.isReversed ? 'is-reversed' : ''}">${visual}</div>
-                        <div class="card-name">${drawn.card.name}</div>
-                    </div>`;
-                }).join('');
-            }
-            // 6. Update Page Title
-            const resultTitle = document.querySelector('.result-title');
-            if (resultTitle) {
-                resultTitle.textContent = '🔍 五牌陣預覽 - ' + debugCard.name;
-            }
-            // 7. Hide Meanings Section
-            const resultMeanings = document.getElementById('resultMeanings');
-            if (resultMeanings) {
-                resultMeanings.style.display = 'none';
-            }
-            // 8. Update Action Buttons
-            const redrawBtn = document.getElementById('redrawBtn');
-            if (redrawBtn) {
-                redrawBtn.textContent = '🔄 重新預覽';
-                redrawBtn.onclick = function () {
-                    window.location.reload();
-                };
-            }
-        } else {
-            console.error("Card not found for ID:", debugId);
-        }
-    }
-});
-// Handle Browser Back Button
-window.addEventListener('popstate', (event) => {
-    // If we are popping back to the initial state (no hash)
-    // We need to access the TarotApp instance. Since it's inside a closure/class, 
-    // we might need to expose it or reload. simpler: reload if hash is empty.
-    // Or better: trigger the back button logic if we are on home.
-    if (!window.location.hash) {
-        // Assume we want to go home if hash is empty
-        const homeBtn = document.getElementById('backBtn'); // This is usually on draw screen
-        // Ideally we call resetGame. But we don't have global access.
-        // Let's reload to be safe and clean, OR find the instance.
-        // For this simple app, we can just reload or try to click a back button.
-        // Hack: Click the result back button if it's visible
-        const resultBack = document.getElementById('resultBackBtn');
-        if (resultBack && resultBack.offsetParent) {
-            resultBack.click();
-        } else {
-            // Just reload to clear state if confused
-            window.location.reload();
-        }
-    }
+    window.tarotApp = new TarotApp();
 });

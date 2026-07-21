@@ -6,15 +6,16 @@
 
 - 🎴 **完整 78 張塔羅牌** - 22 張大阿爾克那 + 56 張小阿爾克那
 - ⬆️⬇️ **正逆位解讀** - 每張牌包含正位與逆位的詳細解釋
-- 🎯 **兩種抽牌模式** - 單張抽牌 / 三張牌陣（過去・現在・未來）
+- 🎯 **三種抽牌模式** - 單張 / 三張牌陣（過去・現在・未來）/ 五張牌陣
+- 💬 **問題輸入** - 抽牌前可填想問的問題，結果可連同牌義一鍵複製給 AI 解讀
 - 🌙 **精美介面** - 神秘深色星空主題 + 流暢翻牌動畫
-- 📥 **儲存與分享** - 可截圖儲存或分享到社群媒體
-- 📱 **PWA 支援** - 可安裝到 Android/iOS 主畫面，支援離線使用
+- 📥 **儲存與分享** - 可截圖儲存或複製文字
+- 📱 **PWA 支援** - 可安裝到 Android/iOS 主畫面
 - 🌏 **繁體中文** - 全繁體中文介面與牌義解說
 
 ## 🚀 線上體驗
 
-👉 [點擊這裡開始占卜](https://你的用戶名.github.io/tarot-pwa/)
+👉 [https://kamiyu94.github.io/tarot/](https://kamiyu94.github.io/tarot/)
 
 ## 📱 安裝到手機
 
@@ -31,32 +32,29 @@
 ## 🛠️ 本機開發
 
 ```bash
-# 複製專案
-git clone https://github.com/你的用戶名/tarot-pwa.git
-cd tarot-pwa
-
-# 啟動本機伺服器
+git clone https://github.com/Kamiyu94/tarot.git
+cd tarot
 python -m http.server 8080
-
-# 開啟瀏覽器
 # http://localhost:8080
 ```
 
 ## 📁 專案結構
 
 ```
-tarot-pwa/
+tarot/
 ├── index.html          # 主頁面
+├── admin.html          # 牌義／圖檔管理後台
 ├── manifest.json       # PWA 設定
-├── sw.js              # Service Worker
+├── sw.js               # Service Worker
 ├── css/
-│   └── style.css      # 樣式表
+│   ├── style.css       # 主站樣式
+│   └── admin.css
 ├── js/
-│   ├── app.js         # 應用程式邏輯
-│   └── tarot-data.js  # 78張塔羅牌資料
+│   ├── app.js          # 應用程式邏輯
+│   ├── tarot-data.js   # 78 張塔羅牌資料
+│   └── admin.js
+├── images/cards/       # 牌面圖
 └── icons/
-    ├── icon-192.svg   # 小圖示
-    └── icon-512.svg   # 大圖示
 ```
 
 ## 📄 授權
