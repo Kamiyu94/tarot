@@ -1,0 +1,23 @@
+{
+  "card_id": 8,
+  "card_name": "力量",
+  "character": "Dragon Quest V adult protagonist with Great Sabrecat",
+  "series": "Dragon Quest V",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/dq5-hero-official.png",
+    "references/great-sabrecat-official-card.jpg"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+    "https://blog.jp.square-enix.com/dqmbs/2016/10/post-60.html",
+    "https://blog.jp.square-enix.com/dqmbs/PR_MO-094_%E3%82%AD%E3%83%A9%E3%83%BC%E3%83%91%E3%83%B3%E3%82%B5%E3%83%BC.jpg"
+  ],
+  "prompt": "Use case: illustration-story. Asset type: one finished tarot illustration, portrait 2:3 full bleed.\nPrimary request: Strength portrayed by the ACTUAL ADULT protagonist of Dragon Quest V together with his Great Sabrecat companion (キラーパンサー). This is the recognizable Dragon Quest V character and monster, not an original adventurer with an ordinary lion.\nReference image roles: Reference 1 (official hero artwork) locks the ADULT hero's face and costume. Use the fully colored adult standing in the upper right, NOT the little child and NOT the large sepia background portrait. Reference 2 (official Great Sabrecat card) locks ONLY the monster's anatomy and colors; ignore every piece of text, border, UI, QR code, stats and background on that reference.\nHero identity constraints: adult young man, dark shoulder-length hair under a vivid purple turban, purple scarf and long purple cape, white sleeveless wrap tunic with a rough lower edge, wide dark belt with a round silver buckle, small green drawstring pouch at his waist, silver wrist/upper-arm bands, blue calf wraps and brown boots. His familiar curved wooden staff rests upright beside him. Preserve the mature DQV hero's proportions and facial features, not a child.\nMonster identity constraints: Great Sabrecat is a powerful large yellow/gold feline with unmistakable black leopard spots, bright RED upright head crest/mane and red tail tuft, white muzzle/lower jaw and white broad chest and paws, and long curved white saber fangs. Not an orange lion, not an ordinary tiger, not a red-furred lion. Keep the unique red crest, spotted coat and sabers very clear.\nNew scene and tarot symbolism: the adult hero kneels calmly beside his seated Great Sabrecat on a sunlit green hill. His free hand gently rests on the companion's forehead/cheek; the monster leans toward him with a relaxed trusting expression and soft eyes. Both faces read clearly, conveying lifelong trust, compassion and quiet courage. No fighting, no threat, no restraints or forced mouth opening. Full bodies visible, closely grouped and large in the portrait.\nShared DQ tarot art direction: faithful classic Toriyama Dragon Quest character illustration, strong clean black outlines, precise cel-painted color areas, subtle hand-painted paper texture, warm ivory clouds, clear blue sky, rounded distant blue mountains and green landscape with modest flowers. The hero's purple/white outfit and the cat's red/yellow spots remain vivid and accurate. Single coherent full-bleed portrait scene with high small-screen readability.\nConstraints: no text, no letters, no numbers, no card name, no card frame, no border, no watermark, no logo, no QR, no stats, no UI, no photographed trading card. Do not reproduce the official reference card layout. Do not include other DQV cast members.",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-bbc40fc1-763a-4302-90cc-1a8264fb160d.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-08-strength-dq5-hero-sabrecat.png",
+  "sha256": "12c6ddb7de3d307ca3bcff0f85815a73a66f0d2b9db776f92c5203578abb5edd",
+  "visual_review": "Recognizable adult DQV protagonist: purple turban/scarf/cape, white sleeveless tunic, green pouch, silver bands, blue calf wraps and wood staff. Great Sabrecat has red crest/tail tuft, yellow black-spotted coat, white chest/paws and saber fangs. Gentle trusting interaction, no frame/text/QR."
+}

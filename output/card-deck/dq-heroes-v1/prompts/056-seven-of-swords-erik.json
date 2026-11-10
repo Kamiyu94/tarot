@@ -1,0 +1,24 @@
+{
+  "card_id": 56,
+  "card_name": "寶劍七",
+  "character": "Erik／カミュ",
+  "series": "DQ XI",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Seven of Swords. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual DQXI Erik: tall swept-up spiky pale blue hair, green hooded tunic, magenta sash, blue-gray trousers and brown boots as official. In a quiet old fortress garden, he moves carefully while carrying exactly FIVE clearly separate steel swords bundled across his arms. Exactly TWO additional swords remain planted in the ground behind him; total SEVEN swords. Each has a visible distinct hilt; no daggers/hilts on his belt, no other weapons. Thoughtful strategy rather than violence, a sideways alert glance, sunny blue-sky Dragon Quest landscape. No victims, text, numbers or frame.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-56-seven-of-swords-erik.png",
+  "reference_paths": [
+    "references/b-dq11-camus-official.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.dq11.jp/s/pf/characters/camus.html",
+    "https://www.dq11.jp/s/pf/characters/_img/camus/chara_2d_sp.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-56-seven-of-swords-erik.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-5355f4fc-b55c-4277-b9c6-8656d2651805.png",
+  "sha256": "ffe078a88b67a2711a65c54dfeb2283bacde20536b9669c76ad4fb613996a824",
+  "visual_review": "Erik identity retained, exactly five carried swords with five visible hilts and two left planted behind, seven total. No extra personal weapon, no text/frame.",
+  "expected_suit_count": 7,
+  "observed_suit_count": 7
+}

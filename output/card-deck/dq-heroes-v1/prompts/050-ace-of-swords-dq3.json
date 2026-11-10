@@ -1,0 +1,21 @@
+{
+  "card_id": 50,
+  "card_name": "寶劍王牌",
+  "character": "Dragon Quest III male Hero",
+  "series": "Dragon Quest III",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete portrait 2:3 tarot illustration, Ace of Swords. The FIRST reference is the official Dragon Quest III male Hero, exact identity/costume reference; the SECOND reference is only the established deck ink/color/texture style, not a scene to copy.\nDraw the actual DQIII male Hero: black upswept spiky hair, silver circlet and round green jewel, blue lace-front tunic over yellow long sleeves and leggings, purple scarf/cape, wide brown belt, brown cuffed boots. In a dramatic but peaceful mountaintop tableau, he raises EXACTLY ONE large gleaming steel sword straight up into the open blue sky. This ONE upright blade dominates the central upper composition. A small golden crown encircles the tip, with tiny olive and palm branches beside the crown, a few cream clouds and sun rays: clarity, truth and a fresh mental beginning. Hero occupies lower central foreground with clear determined eyes. No additional swords, no sheathed sword hilt on his back; his free hand rests by his side. Sword is an emblem of insight, not attacking anyone. Broad green valleys, distant mountains and brisk clean air.\nFaithful Akira Toriyama Dragon Quest character drawing, confident crisp black ink contours, flat vivid hand-painted cel colors and restrained shadows, subtle watercolor-paper grain matching the sample, warm ivory highlights, rich clear blue sky, greens and ochres. Excellent mobile readability. Full bleed single cohesive artwork edge to edge, no border or frame. NO typography, title, numerals, letters, printed text, logos, watermark, UI, card mockup, or unrelated franchise characters. Make sword count exactly ONE and recognizable.\n",
+  "reference_paths": [
+    "references/dq3-hero-male-official.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.dragonquest.jp/roto-trilogy/dq3/character/index.html",
+    "https://www.dragonquest.jp/roto-trilogy/dq3/character/_img/player/chara_a.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-50-ace-of-swords-dq3-hero.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-ae535e13-cfa5-472b-85d0-9bd5fa21f5e7.png",
+  "sha256": "1bfd5fd1adeae638f676281b9e5375911d4f7605db80d4d9823685ff965047d8",
+  "visual_review": "Actual DQIII Hero identity and costume preserved. Exactly one upright sword with crown and olive/palm branches, no second hilt; full bleed 1024x1536, no text/frame."
+}

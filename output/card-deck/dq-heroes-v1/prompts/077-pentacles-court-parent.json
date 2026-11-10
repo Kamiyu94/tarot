@@ -1,0 +1,26 @@
+{
+  "card_id": 77,
+  "card_name": "錢幣國王",
+  "character": "Torneko／トルネコ",
+  "character_display": "Torneko／トルネコ",
+  "series": "DQ IV",
+  "series_display": "勇者鬥惡龍 IV",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: King of Pentacles, one card illustration for the established DQ tarot deck.\nScene: The actual Torneko from DQIV, stout cheerful merchant with a large blue moustache, blue hair under his soft red cap, red-purple vest, blue-and-white striped long-sleeved merchant robe, broad belly belt and leather satchel. He sits comfortably on a richly carved wooden chair in a welcoming stone courtyard beside his shop. One large golden pentacle coin is supported upright on his knee and steadied by his hand, fully visible. Wooden crates, closed fabric bundles, grapevines and a thriving town in the distance imply successful stewardship and generosity. Keep his red cap and signature merchant clothing rather than replacing them with a generic royal crown or king costume. No abacus staff and no loose currency scattered around.\nReference 1 is the exact Dragon Quest character identity and costume reference. Reference 2 is ONLY the approved deck line, color and subtle paper texture style. Create one original cohesive full-bleed portrait 2:3 illustration. Faithful Toriyama Dragon Quest character design, confident clean black ink contours, crisp hand-painted cel-color blocks, restrained shadows, verdant fantasy landscape and mobile-readable composition. Keep the character recognizable. Do not copy text, framing, UI, labels or faded duplicate portraits from the reference sheet. No title, typography, numbers, watermarks, logos or card border. Exactly ONE large golden pentacle coin with an embossed five-pointed star, with its entire circular edge clearly visible; no other coins in the scene.",
+  "asset_filename": "card-77-king-of-pentacles-dq4-torneko.png",
+  "reference_paths": [
+    "references/artist-a-dq4-torneko.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png"
+  ],
+  "expected_suit_count": 1,
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-05d485ad-86e8-4e2e-b9a6-cf9a75d52856.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-77-king-of-pentacles-dq4-torneko.png",
+  "sha256": "aa9a7aa16cb0ae0d809ef1a0b1f6a572822d4f464a0f39807e9ec786649e1d2e",
+  "visual_review": "Actual Torneko red cap, blue hair and moustache, purple vest, blue-white striped merchant robe and satchel retained. Seated in merchant courtyard holding one large clearly marked star pentacle. Consistent deck style with no title/frame/watermark.",
+  "observed_suit_count": 1
+}

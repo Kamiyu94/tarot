@@ -8,7 +8,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["新開始", "天真", "冒險", "自由", "潛力"], "desc": "站在旅途的起點，帶著純粹的熱情踏入未知。代表新的開始、無限可能與自發性。相信自己的直覺，勇敢邁出第一步。"},
     "reversed": {"keywords": ["魯莽", "冒失", "缺乏計畫", "輕率"], "desc": "行動前缺乏思考，可能因魯莽而導致失誤。需要在自由與謹慎之間找到平衡，重新評估風險。"}
   ,
-    "image": "images/cards/0.webp"},
+    "image": "images/cards/dq-heroes-v1/card-00.webp"},
   {
     "id": 1,
     "name": "魔術師",
@@ -17,7 +17,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["意志力", "技能", "主動", "創造力", "資源"], "desc": "擁有實現目標所需的一切工具與能力。代表意志力、技巧與行動力。現在是將想法化為現實的最佳時機。"},
     "reversed": {"keywords": ["操弄", "技能未發揮", "詐騙", "猶豫不決"], "desc": "才能未能充分發揮，或以欺騙手段達到目的。需重新審視動機，確保行動出於誠信。"}
   ,
-    "image": "images/cards/1.webp"},
+    "image": "images/cards/dq-heroes-v1/card-01.webp"},
   {
     "id": 2,
     "name": "女祭司",
@@ -26,7 +26,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["直覺", "潛意識", "神秘", "智慧", "內省"], "desc": "代表深層的直覺與內在智慧。提示傾聽內心的聲音，答案藏於潛意識之中。保持安靜，讓洞察力自然浮現。"},
     "reversed": {"keywords": ["壓抑直覺", "隱藏秘密", "表面知識", "脫離內心"], "desc": "忽略內在聲音或壓抑直覺。可能過度依賴理性分析，需重新連結自己的內在感知。"}
   ,
-    "image": "images/cards/2.webp"},
+    "image": "images/cards/dq-heroes-v1/card-02.webp"},
   {
     "id": 3,
     "name": "皇后",
@@ -35,7 +35,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["豐盛", "母性", "自然", "創造力", "滋養"], "desc": "代表豐饒、創造與滋養的力量。象徵母性與自然的豐盛。鼓勵享受生活中的美好，給予與接受愛與關懷。"},
     "reversed": {"keywords": ["創意受阻", "依賴", "過度保護", "空虛"], "desc": "豐盛受阻或過度依賴他人。可能需要重建自我價值感，學習獨立滋養自己。"}
   ,
-    "image": "images/cards/3.webp"},
+    "image": "images/cards/dq-heroes-v1/card-03.webp"},
   {
     "id": 4,
     "name": "皇帝",
@@ -44,7 +44,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["權威", "結構", "穩定", "領導力", "父性"], "desc": "代表秩序、權威與穩固的基礎。象徵理性的領導與紀律。透過建立清晰的規則與結構來達成目標。"},
     "reversed": {"keywords": ["專制", "缺乏紀律", "剛愎自用", "失控"], "desc": "權力被濫用或紀律崩潰。可能過於控制或完全失去方向，需在彈性與規範之間取得平衡。"}
   ,
-    "image": "images/cards/4.webp"},
+    "image": "images/cards/dq-heroes-v1/card-04.webp"},
   {
     "id": 5,
     "name": "教皇",
@@ -53,7 +53,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["傳統", "信仰", "制度", "精神指引", "從眾"], "desc": "代表傳統價值、精神指引與社會制度。尋求導師或遵循既有規範可帶來穩定。象徵對集體智慧的信任。"},
     "reversed": {"keywords": ["叛逆", "非傳統", "個人信仰", "突破規範"], "desc": "質疑傳統規範或尋求個人化的精神道路。代表對既定體制的反叛，鼓勵找到屬於自己的信仰方式。"}
   ,
-    "image": "images/cards/5.webp"},
+    "image": "images/cards/dq-heroes-v1/card-05.webp"},
   {
     "id": 6,
     "name": "戀人",
@@ -62,7 +62,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["愛", "選擇", "結合", "價值觀", "和諧"], "desc": "代表愛情、重要選擇與價值觀的結合。不僅指浪漫關係，也象徵在兩條道路之間做出符合內心的抉擇。"},
     "reversed": {"keywords": ["失衡", "價值觀衝突", "錯誤選擇", "逃避決定"], "desc": "關係或選擇中出現失衡與衝突。可能在逃避重要決定，需誠實面對自己真正的價值觀。"}
   ,
-    "image": "images/cards/6.webp"},
+    "image": "images/cards/dq-heroes-v1/card-06.webp"},
   {
     "id": 7,
     "name": "戰車",
@@ -71,7 +71,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["意志力", "控制", "勝利", "決心", "自律"], "desc": "以強大的意志力克服障礙，邁向勝利。代表專注、自律與掌控方向的能力。只要堅定目標，必能突破困境。"},
     "reversed": {"keywords": ["失控", "方向不明", "侵略性", "缺乏意志力"], "desc": "失去對局勢或情緒的控制，方向感模糊。需重新凝聚意志力，避免衝動行事。"}
   ,
-    "image": "images/cards/7.webp"},
+    "image": "images/cards/dq-heroes-v1/card-07.webp"},
   {
     "id": 8,
     "name": "力量",
@@ -80,7 +80,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["內在力量", "勇氣", "耐心", "慈悲", "自我控制"], "desc": "以溫柔與慈悲展現真正的力量，而非武力。代表內在的勇氣、耐心與自我掌控。以愛與理解化解困難。"},
     "reversed": {"keywords": ["自我懷疑", "軟弱", "壓抑情緒", "缺乏自信"], "desc": "內在力量受到壓抑，可能因自我懷疑而退縮。需重新找回對自己的信心與內在的堅韌。"}
   ,
-    "image": "images/cards/8.webp"},
+    "image": "images/cards/dq-heroes-v1/card-08.webp"},
   {
     "id": 9,
     "name": "隱士",
@@ -89,7 +89,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["內省", "孤獨", "尋求真理", "智慧", "指引"], "desc": "從喧囂中退隱，獨自尋求內在的智慧與真理。代表需要靜思、自我反省的時期。智慧來自於獨處與沉澱。"},
     "reversed": {"keywords": ["孤立", "退縮", "拒絕接受幫助", "迷失"], "desc": "過度孤立或拒絕外界的幫助與連結。需在獨處與社交之間找到平衡，避免陷入孤立無援的狀態。"}
   ,
-    "image": "images/cards/9.webp"},
+    "image": "images/cards/dq-heroes-v1/card-09.webp"},
   {
     "id": 10,
     "name": "命運之輪",
@@ -98,7 +98,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["命運", "轉機", "循環", "好運", "改變"], "desc": "命運之輪轉動，帶來改變與新的機遇。代表生命的循環與因果。把握此刻的順境，同時接受變化是生命的常態。"},
     "reversed": {"keywords": ["厄運", "抗拒改變", "不幸循環", "失控"], "desc": "陷入不幸的循環或抗拒命運的變化。需接受無法掌控的事物，從中學習並找到新的平衡點。"}
   ,
-    "image": "images/cards/10.webp"},
+    "image": "images/cards/dq-heroes-v1/card-10.webp"},
   {
     "id": 11,
     "name": "正義",
@@ -107,7 +107,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["公正", "真相", "因果", "法律", "平衡"], "desc": "代表公平、真理與業力的法則。事情將得到公正的評判，行動的後果會如實呈現。誠實面對真相。"},
     "reversed": {"keywords": ["不公正", "不誠實", "逃避責任", "偏見"], "desc": "面臨不公正的對待，或自身逃避應負的責任。需誠實檢視自己的行為，承擔相應的後果。"}
   ,
-    "image": "images/cards/11.webp"},
+    "image": "images/cards/dq-heroes-v1/card-11.webp"},
   {
     "id": 12,
     "name": "倒吊人",
@@ -116,7 +116,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["暫停", "臣服", "新視角", "犧牲", "等待"], "desc": "自願暫停行動，以不同的視角重新看待事物。代表透過犧牲與等待獲得深層洞見。放手反而能帶來解脫。"},
     "reversed": {"keywords": ["拖延", "無謂犧牲", "抗拒改變", "固執"], "desc": "無謂的拖延或不必要的犧牲。可能過於固執，拒絕從不同角度看問題，需評估當前的停滯是否有意義。"}
   ,
-    "image": "images/cards/12.webp"},
+    "image": "images/cards/dq-heroes-v1/card-12.webp"},
   {
     "id": 13,
     "name": "死神",
@@ -125,7 +125,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["終結", "蛻變", "過渡", "放下", "新生"], "desc": "舊事物的結束，為新的開始騰出空間。代表深刻的蛻變與轉化。放下不再適合的一切，迎接新生。"},
     "reversed": {"keywords": ["抗拒改變", "停滯", "無法放手", "腐朽"], "desc": "抗拒必要的改變，緊抓已死去的事物。需鼓起勇氣放手，允許舊章節真正結束。"}
   ,
-    "image": "images/cards/13.webp"},
+    "image": "images/cards/dq-heroes-v1/card-13.webp"},
   {
     "id": 14,
     "name": "節制",
@@ -134,7 +134,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["平衡", "節制", "耐心", "融合", "中庸"], "desc": "以耐心與平衡調和生命中的不同元素。代表中庸之道、和諧與長期視野。不急不躁，穩健前行。"},
     "reversed": {"keywords": ["失衡", "過度放縱", "衝突", "缺乏節制"], "desc": "生活中出現失衡或過度放縱。需重新調整步調，在極端之間找回中間道路。"}
   ,
-    "image": "images/cards/14.webp"},
+    "image": "images/cards/dq-heroes-v1/card-14.webp"},
   {
     "id": 15,
     "name": "惡魔",
@@ -143,7 +143,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["束縛", "物質主義", "上癮", "陰影面", "執念"], "desc": "代表自我設限、物質執著與難以擺脫的束縛。提醒審視那些讓自己受困的習慣或關係，鎖鏈往往是自己套上的。"},
     "reversed": {"keywords": ["掙脫束縛", "覺醒", "釋放", "重獲自由"], "desc": "開始意識到束縛的存在，並鼓起勇氣掙脫。代表從上癮、執念或負面關係中解放，重獲自由。"}
   ,
-    "image": "images/cards/15.webp"},
+    "image": "images/cards/dq-heroes-v1/card-15.webp"},
   {
     "id": 16,
     "name": "高塔",
@@ -152,7 +152,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["突變", "動盪", "崩塌", "啟示", "覺醒"], "desc": "突如其來的動盪打破舊有的結構。雖然過程痛苦，但崩塌是為了清除虛假的基礎，為更穩固的未來鋪路。"},
     "reversed": {"keywords": ["逃避崩潰", "拖延危機", "內在動盪", "抗拒改變"], "desc": "試圖避免不可避免的改變，或危機正在內部悄悄發酵。延遲面對只會讓問題加劇，需勇敢直視。"}
   ,
-    "image": "images/cards/16.webp"},
+    "image": "images/cards/dq-heroes-v1/card-16.webp"},
   {
     "id": 17,
     "name": "星星",
@@ -161,7 +161,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["希望", "信念", "療癒", "靈感", "平靜"], "desc": "黑暗過後的希望之光。代表療癒、靈感與對未來的信念。敞開心扉接受宇宙的滋養，相信一切終將好轉。"},
     "reversed": {"keywords": ["絕望", "失去信念", "幻滅", "缺乏靈感"], "desc": "感到希望渺茫或失去對未來的信心。需尋回內心的平靜，重新點燃對生命的信念。"}
   ,
-    "image": "images/cards/17.webp"},
+    "image": "images/cards/dq-heroes-v1/card-17.webp"},
   {
     "id": 18,
     "name": "月亮",
@@ -170,7 +170,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["幻覺", "恐懼", "潛意識", "直覺", "迷惑"], "desc": "迷霧中的旅程，真相尚未明朗。代表潛意識的浮現、恐懼與不確定感。相信直覺，謹慎辨別真實與幻象。"},
     "reversed": {"keywords": ["恐懼消散", "真相浮現", "混亂結束", "壓抑情緒"], "desc": "迷霧逐漸散去，真相開始清晰。過去壓抑的恐懼與困惑正走向解決，需持續面對內心的陰影。"}
   ,
-    "image": "images/cards/18.webp"},
+    "image": "images/cards/dq-heroes-v1/card-18.webp"},
   {
     "id": 19,
     "name": "太陽",
@@ -179,7 +179,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["喜悅", "成功", "活力", "樂觀", "豐盛"], "desc": "代表光明、喜悅與成功。事情朝著正面方向發展，充滿活力與自信。享受這段充滿光彩的時光。"},
     "reversed": {"keywords": ["過度樂觀", "延遲成功", "負面思維", "活力不足"], "desc": "成功稍有延遲，或過度樂觀而忽略現實。保持正面態度的同時，也需腳踏實地面對挑戰。"}
   ,
-    "image": "images/cards/19.webp"},
+    "image": "images/cards/dq-heroes-v1/card-19.webp"},
   {
     "id": 20,
     "name": "審判",
@@ -188,7 +188,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["覺醒", "審判", "重生", "召喚", "反思"], "desc": "重大的覺醒與自我反思時刻。代表過去行為的評判與新生命的召喚。誠實回顧過去，接受轉化，邁向更高的自我。"},
     "reversed": {"keywords": ["自我懷疑", "拒絕反思", "逃避責任", "無法原諒"], "desc": "可能逃避必要的自我反省，或無法放下過去。學習原諒自己和他人，才能真正走向新生。"}
   ,
-    "image": "images/cards/20.webp"},
+    "image": "images/cards/dq-heroes-v1/card-20.webp"},
   {
     "id": 21,
     "name": "世界",
@@ -197,7 +197,7 @@ const TAROT_CARDS = [
     "upright": {"keywords": ["完成", "整合", "成就", "圓滿", "新循環"], "desc": "代表一個重要階段的圓滿完成。所有努力得到了肯定，達到整合與成就感。在享受成功的同時，準備迎接下一個循環的開始。"},
     "reversed": {"keywords": ["未竟之事", "停滯", "延遲完成", "缺乏結束感"], "desc": "某件重要的事尚未真正完成，或停留在快要結束的邊緣。需找出阻礙完成的因素，給這個階段一個真正的結尾。"}
   ,
-    "image": "images/cards/21.webp"},
+    "image": "images/cards/dq-heroes-v1/card-21.webp"},
   {
     "id": 22,
     "name": "權杖王牌",
@@ -221,7 +221,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能感到缺乏動力或靈感。重新點燃你的熱情，不要讓機會溜走。"
     },
-    "image": "images/cards/card_22.webp"
+    "image": "images/cards/dq-heroes-v1/card-22.webp"
   },
   {
     "id": 23,
@@ -246,7 +246,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能害怕做出選擇或缺乏遠見。不要讓恐懼阻止你前進。"
     },
-    "image": "images/cards/card_23.webp"
+    "image": "images/cards/dq-heroes-v1/card-23.webp"
   },
   {
     "id": 24,
@@ -271,7 +271,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能遇到阻礙或計劃延遲。保持耐心，重新評估你的策略。"
     },
-    "image": "images/cards/card_24.webp"
+    "image": "images/cards/dq-heroes-v1/card-24.webp"
   },
   {
     "id": 25,
@@ -296,7 +296,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能感到不穩定或慶祝被延遲。專注於建立穩固的基礎。"
     },
-    "image": "images/cards/card_25.webp"
+    "image": "images/cards/dq-heroes-v1/card-25.webp"
   },
   {
     "id": 26,
@@ -321,7 +321,7 @@ const TAROT_CARDS = [
       ],
       "desc": "衝突正在緩解，或你在逃避必要的對抗。尋找建設性的方式解決分歧。"
     },
-    "image": "images/cards/card_26.webp"
+    "image": "images/cards/dq-heroes-v1/card-26.webp"
   },
   {
     "id": 27,
@@ -346,7 +346,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能遭遇挫折或未獲得預期的認可。保持謙虛，從失敗中學習。"
     },
-    "image": "images/cards/card_27.webp"
+    "image": "images/cards/dq-heroes-v1/card-27.webp"
   },
   {
     "id": 28,
@@ -371,7 +371,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能感到被壓垮或想要放棄。評估這場戰鬥是否值得繼續。"
     },
-    "image": "images/cards/card_28.webp"
+    "image": "images/cards/dq-heroes-v1/card-28.webp"
   },
   {
     "id": 29,
@@ -396,7 +396,7 @@ const TAROT_CARDS = [
       ],
       "desc": "進展受阻或溝通出現問題。保持耐心，重新調整節奏。"
     },
-    "image": "images/cards/card_29.webp"
+    "image": "images/cards/dq-heroes-v1/card-29.webp"
   },
   {
     "id": 30,
@@ -421,7 +421,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能過度防備或筋疲力盡。知道何時該休息，何時該尋求幫助。"
     },
-    "image": "images/cards/card_30.webp"
+    "image": "images/cards/dq-heroes-v1/card-30.webp"
   },
   {
     "id": 31,
@@ -446,7 +446,7 @@ const TAROT_CARDS = [
       ],
       "desc": "即將釋放壓力，或學會拒絕不必要的負擔。不要讓責任壓垮你。"
     },
-    "image": "images/cards/card_31.webp"
+    "image": "images/cards/dq-heroes-v1/card-31.webp"
   },
   {
     "id": 32,
@@ -471,7 +471,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能缺乏方向感或熱情消退。重新找回你的激情和目標。"
     },
-    "image": "images/cards/card_32.webp"
+    "image": "images/cards/dq-heroes-v1/card-32.webp"
   },
   {
     "id": 33,
@@ -496,7 +496,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能過於衝動或遭遇阻礙。在行動前多加思考。"
     },
-    "image": "images/cards/card_33.webp"
+    "image": "images/cards/dq-heroes-v1/card-33.webp"
   },
   {
     "id": 34,
@@ -521,7 +521,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能缺乏自信或過於強勢。找回內在的平衡和穩定。"
     },
-    "image": "images/cards/card_34.webp"
+    "image": "images/cards/dq-heroes-v1/card-34.webp"
   },
   {
     "id": 35,
@@ -546,7 +546,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能過於專制或期望過高。學會傾聽他人，保持謙遜。"
     },
-    "image": "images/cards/card_35.webp"
+    "image": "images/cards/dq-heroes-v1/card-35.webp"
   },
   {
     "id": 36,
@@ -571,7 +571,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能壓抑情感或感到情緒空虛。釋放你的感受，允許愛流動。"
     },
-    "image": "images/cards/card_36.webp"
+    "image": "images/cards/dq-heroes-v1/card-36.webp"
   },
   {
     "id": 37,
@@ -596,7 +596,7 @@ const TAROT_CARDS = [
       ],
       "desc": "關係中出現不平衡或衝突。需要溝通和重新建立連結。"
     },
-    "image": "images/cards/card_37.webp"
+    "image": "images/cards/dq-heroes-v1/card-37.webp"
   },
   {
     "id": 38,
@@ -621,7 +621,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能感到被排斥或社交過度。在社交與獨處間找到平衡。"
     },
-    "image": "images/cards/card_38.webp"
+    "image": "images/cards/dq-heroes-v1/card-38.webp"
   },
   {
     "id": 39,
@@ -646,7 +646,7 @@ const TAROT_CARDS = [
       ],
       "desc": "從冷漠中覺醒，準備好接受新的可能性。走出舒適區。"
     },
-    "image": "images/cards/card_39.webp"
+    "image": "images/cards/dq-heroes-v1/card-39.webp"
   },
   {
     "id": 40,
@@ -671,7 +671,7 @@ const TAROT_CARDS = [
       ],
       "desc": "開始接受失去並向前看。療癒正在發生，放下過去的遺憾。"
     },
-    "image": "images/cards/card_40.webp"
+    "image": "images/cards/dq-heroes-v1/card-40.webp"
   },
   {
     "id": 41,
@@ -696,7 +696,7 @@ const TAROT_CARDS = [
       ],
       "desc": "過度沉溺於過去可能阻礙前進。珍惜回憶但要活在當下。"
     },
-    "image": "images/cards/card_41.webp"
+    "image": "images/cards/dq-heroes-v1/card-41.webp"
   },
   {
     "id": 42,
@@ -721,7 +721,7 @@ const TAROT_CARDS = [
       ],
       "desc": "迷霧散去，能夠更清楚地看待選擇。是時候做出決定了。"
     },
-    "image": "images/cards/card_42.webp"
+    "image": "images/cards/dq-heroes-v1/card-42.webp"
   },
   {
     "id": 43,
@@ -746,7 +746,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能害怕改變或不確定是否該離開。傾聽內心的真正渴望。"
     },
-    "image": "images/cards/card_43.webp"
+    "image": "images/cards/dq-heroes-v1/card-43.webp"
   },
   {
     "id": 44,
@@ -770,7 +770,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能得到想要的卻仍感到空虛。真正的滿足來自內心。"
     },
-    "image": "images/cards/card_44.webp"
+    "image": "images/cards/dq-heroes-v1/card-44.webp"
   },
   {
     "id": 45,
@@ -795,7 +795,7 @@ const TAROT_CARDS = [
       ],
       "desc": "家庭關係中可能存在問題。努力修復連結，調整期望。"
     },
-    "image": "images/cards/card_45.webp"
+    "image": "images/cards/dq-heroes-v1/card-45.webp"
   },
   {
     "id": 46,
@@ -820,7 +820,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能過於情緒化或沉溺幻想。培養情緒成熟度。"
     },
-    "image": "images/cards/card_46.webp"
+    "image": "images/cards/dq-heroes-v1/card-46.webp"
   },
   {
     "id": 47,
@@ -845,7 +845,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能過於理想化或遭遇情感上的失望。保持現實。"
     },
-    "image": "images/cards/card_47.webp"
+    "image": "images/cards/dq-heroes-v1/card-47.webp"
   },
   {
     "id": 48,
@@ -870,7 +870,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能情緒過於敏感或與他人界限不清。保護你的能量。"
     },
-    "image": "images/cards/card_48.webp"
+    "image": "images/cards/dq-heroes-v1/card-48.webp"
   },
   {
     "id": 49,
@@ -895,7 +895,7 @@ const TAROT_CARDS = [
       ],
       "desc": "可能壓抑情感或利用情緒操控他人。尋求內在平衡。"
     },
-    "image": "images/cards/card_49.webp"
+    "image": "images/cards/dq-heroes-v1/card-49.webp"
   },
   {
     "id": 50,
@@ -920,7 +920,7 @@ const TAROT_CARDS = [
       ],
       "desc": "思維混亂或溝通出現問題。在做決定前尋求更多資訊。"
     },
-    "image": "images/cards/card_50.webp"
+    "image": "images/cards/dq-heroes-v1/card-50.webp"
   },
   {
     "id": 51,
@@ -945,7 +945,7 @@ const TAROT_CARDS = [
       ],
       "desc": "僵局被打破，準備好面對一直逃避的事情。"
     },
-    "image": "images/cards/card_51.webp"
+    "image": "images/cards/dq-heroes-v1/card-51.webp"
   },
   {
     "id": 52,
@@ -970,7 +970,7 @@ const TAROT_CARDS = [
       ],
       "desc": "從心痛中恢復，開始療癒的過程。釋放過去的傷痛。"
     },
-    "image": "images/cards/card_52.webp"
+    "image": "images/cards/dq-heroes-v1/card-52.webp"
   },
   {
     "id": 53,
@@ -996,7 +996,7 @@ const TAROT_CARDS = [
       "desc": "可能過度疲勞卻無法休息。強迫自己停下來休養。"
     }
   ,
-    "image": "images/cards/22.webp"},
+    "image": "images/cards/dq-heroes-v1/card-53.webp"},
   {
     "id": 54,
     "name": "寶劍五",
@@ -1021,7 +1021,7 @@ const TAROT_CARDS = [
       "desc": "衝突結束，是時候和解或從錯誤中學習。"
     }
   ,
-    "image": "images/cards/23.webp"},
+    "image": "images/cards/dq-heroes-v1/card-54.webp"},
   {
     "id": 55,
     "name": "寶劍六",
@@ -1046,7 +1046,7 @@ const TAROT_CARDS = [
       "desc": "可能被困住或害怕改變。面對那些未解決的問題。"
     }
   ,
-    "image": "images/cards/24.webp"},
+    "image": "images/cards/dq-heroes-v1/card-55.webp"},
   {
     "id": 56,
     "name": "寶劍七",
@@ -1071,7 +1071,7 @@ const TAROT_CARDS = [
       "desc": "欺騙被揭露，或決定走更誠實的道路。"
     }
   ,
-    "image": "images/cards/25.webp"},
+    "image": "images/cards/dq-heroes-v1/card-56.webp"},
   {
     "id": 57,
     "name": "寶劍八",
@@ -1096,7 +1096,7 @@ const TAROT_CARDS = [
       "desc": "開始看到出路，從自我設限中解脫。你比想像的更自由。"
     }
   ,
-    "image": "images/cards/26.webp"},
+    "image": "images/cards/dq-heroes-v1/card-57.webp"},
   {
     "id": 58,
     "name": "寶劍九",
@@ -1121,7 +1121,7 @@ const TAROT_CARDS = [
       "desc": "最壞的時刻正在過去，找到方法處理焦慮。"
     }
   ,
-    "image": "images/cards/27.webp"},
+    "image": "images/cards/dq-heroes-v1/card-58.webp"},
   {
     "id": 59,
     "name": "寶劍十",
@@ -1146,7 +1146,7 @@ const TAROT_CARDS = [
       "desc": "從谷底開始回升，或在拖延不可避免的結束。"
     }
   ,
-    "image": "images/cards/28.webp"},
+    "image": "images/cards/dq-heroes-v1/card-59.webp"},
   {
     "id": 60,
     "name": "寶劍侍者",
@@ -1171,7 +1171,7 @@ const TAROT_CARDS = [
       "desc": "可能過於衝動或散播八卦。想清楚再說話。"
     }
   ,
-    "image": "images/cards/29.webp"},
+    "image": "images/cards/dq-heroes-v1/card-60.webp"},
   {
     "id": 61,
     "name": "寶劍騎士",
@@ -1196,7 +1196,7 @@ const TAROT_CARDS = [
       "desc": "可能過於激進或行動沒有計劃。放慢腳步思考。"
     }
   ,
-    "image": "images/cards/30.webp"},
+    "image": "images/cards/dq-heroes-v1/card-61.webp"},
   {
     "id": 62,
     "name": "寶劍王后",
@@ -1221,7 +1221,7 @@ const TAROT_CARDS = [
       "desc": "可能過於嚴厲或與他人疏離。用同理心平衡理性。"
     }
   ,
-    "image": "images/cards/31.webp"},
+    "image": "images/cards/dq-heroes-v1/card-62.webp"},
   {
     "id": 63,
     "name": "寶劍國王",
@@ -1246,7 +1246,7 @@ const TAROT_CARDS = [
       "desc": "可能濫用權力或過於冷酷。記住權力伴隨責任。"
     }
   ,
-    "image": "images/cards/32.webp"},
+    "image": "images/cards/dq-heroes-v1/card-63.webp"},
   {
     "id": 64,
     "name": "錢幣王牌",
@@ -1271,7 +1271,7 @@ const TAROT_CARDS = [
       "desc": "可能錯過重要的機會或面臨財務挑戰。重新審視你的計劃。"
     }
   ,
-    "image": "images/cards/33.webp"},
+    "image": "images/cards/dq-heroes-v1/card-64.webp"},
   {
     "id": 65,
     "name": "錢幣二",
@@ -1296,7 +1296,7 @@ const TAROT_CARDS = [
       "desc": "可能承擔太多導致失衡。重新安排優先順序。"
     }
   ,
-    "image": "images/cards/34.webp"},
+    "image": "images/cards/dq-heroes-v1/card-65.webp"},
   {
     "id": 66,
     "name": "錢幣三",
@@ -1321,7 +1321,7 @@ const TAROT_CARDS = [
       "desc": "團隊合作出現問題或工作品質不佳。改善溝通和技能。"
     }
   ,
-    "image": "images/cards/35.webp"},
+    "image": "images/cards/dq-heroes-v1/card-66.webp"},
   {
     "id": 67,
     "name": "錢幣四",
@@ -1346,7 +1346,7 @@ const TAROT_CARDS = [
       "desc": "可能過於吝嗇或過度揮霍。在保守與慷慨間找到平衡。"
     }
   ,
-    "image": "images/cards/36.webp"},
+    "image": "images/cards/dq-heroes-v1/card-67.webp"},
   {
     "id": 68,
     "name": "錢幣五",
@@ -1371,7 +1371,7 @@ const TAROT_CARDS = [
       "desc": "困難時期即將結束，接受他人的幫助和支持。"
     }
   ,
-    "image": "images/cards/37.webp"},
+    "image": "images/cards/dq-heroes-v1/card-68.webp"},
   {
     "id": 69,
     "name": "錢幣六",
@@ -1396,7 +1396,7 @@ const TAROT_CARDS = [
       "desc": "給予或接受的關係可能不平衡。確保交換是公平的。"
     }
   ,
-    "image": "images/cards/38.webp"},
+    "image": "images/cards/dq-heroes-v1/card-69.webp"},
   {
     "id": 70,
     "name": "錢幣七",
@@ -1421,7 +1421,7 @@ const TAROT_CARDS = [
       "desc": "可能對結果感到焦慮或投資沒有回報。重新考慮你的策略。"
     }
   ,
-    "image": "images/cards/39.webp"},
+    "image": "images/cards/dq-heroes-v1/card-70.webp"},
   {
     "id": 71,
     "name": "錢幣八",
@@ -1446,7 +1446,7 @@ const TAROT_CARDS = [
       "desc": "可能感到無聊或無法專注。重新找回對工作的熱情。"
     }
   ,
-    "image": "images/cards/40.webp"},
+    "image": "images/cards/dq-heroes-v1/card-71.webp"},
   {
     "id": 72,
     "name": "錢幣九",
@@ -1471,7 +1471,7 @@ const TAROT_CARDS = [
       "desc": "可能在財務上過度依賴他人或缺乏自律。培養真正的獨立。"
     }
   ,
-    "image": "images/cards/41.webp"},
+    "image": "images/cards/dq-heroes-v1/card-72.webp"},
   {
     "id": 73,
     "name": "錢幣十",
@@ -1496,7 +1496,7 @@ const TAROT_CARDS = [
       "desc": "可能面臨財務問題或家庭衝突。關注長期穩定而非短期利益。"
     }
   ,
-    "image": "images/cards/42.webp"},
+    "image": "images/cards/dq-heroes-v1/card-73.webp"},
   {
     "id": 74,
     "name": "錢幣侍者",
@@ -1521,7 +1521,7 @@ const TAROT_CARDS = [
       "desc": "可能缺乏專注或計劃不切實際。腳踏實地，專心學習。"
     }
   ,
-    "image": "images/cards/43.webp"},
+    "image": "images/cards/dq-heroes-v1/card-74.webp"},
   {
     "id": 75,
     "name": "錢幣騎士",
@@ -1546,7 +1546,7 @@ const TAROT_CARDS = [
       "desc": "可能過於保守或陷入停滯。保持前進的動力。"
     }
   ,
-    "image": "images/cards/44.webp"},
+    "image": "images/cards/dq-heroes-v1/card-75.webp"},
   {
     "id": 76,
     "name": "錢幣王后",
@@ -1571,7 +1571,7 @@ const TAROT_CARDS = [
       "desc": "可能過度關注他人而忽略自己，或過於注重物質。找回平衡。"
     }
   ,
-    "image": "images/cards/45.webp"},
+    "image": "images/cards/dq-heroes-v1/card-76.webp"},
   {
     "id": 77,
     "name": "錢幣國王",
@@ -1596,5 +1596,5 @@ const TAROT_CARDS = [
       "desc": "可能過於專注物質或財務管理不善。記住生活不只有金錢。"
     }
   ,
-    "image": "images/cards/46.webp"}
+    "image": "images/cards/dq-heroes-v1/card-77.webp"}
 ];

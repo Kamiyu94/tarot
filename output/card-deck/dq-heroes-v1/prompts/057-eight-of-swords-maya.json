@@ -1,0 +1,24 @@
+{
+  "card_id": 57,
+  "card_name": "寶劍八",
+  "character": "Maya／マーニャ",
+  "series": "DQ IV",
+  "tool": "image_gen.imagegen",
+  "status": "superseded_count_correction",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Eight of Swords. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual adult DQIV Maya, preserve her long purple hair, recognizable jeweled headpiece, face and characteristic purple-hair/white/orange/gold costume palette from official reference, presented in a modest fully covered long orange robe and white cape suitable for a tarot scene. She stands calmly in a circle of exactly EIGHT planted steel swords, FOUR at left and FOUR at right, all blades/hilts visible, with a clear open path ahead. A loose pale ribbon covers her eyes as a symbol of limited perspective; her hands are free and relaxed, no restraints or ropes, no distress or injury. Towering blue mountains beyond morning mist, reflective mood, no suggestive pose or emphasis on body. No extra weapons, no frame or writing.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-57-eight-of-swords-maya.png",
+  "reference_paths": [
+    "references/b-dq4-maya-official.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq4/",
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_mana.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-57-eight-of-swords-maya.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-c7b334f7-05cb-42ea-93ea-37d3e374f8ef.png",
+  "sha256": "7359bb34bebadfad82b85c9f5659a88d8c3431aa04ccd42825d3cb87fe3de625",
+  "visual_review": "Maya modest costume and identity correct, but only three left swords and four right swords are visible: observed seven, expected eight. Needs one additional visible left sword.",
+  "expected_suit_count": 8,
+  "observed_suit_count": 7
+}

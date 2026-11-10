@@ -1,0 +1,129 @@
+{
+  "purpose": "Non-destructive encoding comparison; live WebP and manifest unchanged",
+  "samples": [
+    {
+      "id": 0,
+      "name": "愚者",
+      "variants": [
+        {
+          "profile": "768-q88-current",
+          "width": 768,
+          "height": 1152,
+          "quality": 88,
+          "bytes": 411630,
+          "path": "output/card-deck/dq-heroes-v1/encoding-study/card-00-768-q88-original.webp",
+          "reductionPercent": 0
+        },
+        {
+          "profile": "640-q84",
+          "width": 640,
+          "height": 960,
+          "quality": 84,
+          "bytes": 262488,
+          "path": "output/card-deck/dq-heroes-v1/encoding-study/card-00-640-q84.webp",
+          "reductionPercent": 36.23
+        },
+        {
+          "profile": "768-q80",
+          "width": 768,
+          "height": 1152,
+          "quality": 80,
+          "bytes": 315626,
+          "path": "output/card-deck/dq-heroes-v1/encoding-study/card-00-768-q80.webp",
+          "reductionPercent": 23.32
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "力量",
+      "variants": [
+        {
+          "profile": "768-q88-current",
+          "width": 768,
+          "height": 1152,
+          "quality": 88,
+          "bytes": 328388,
+          "path": "output/card-deck/dq-heroes-v1/encoding-study/card-08-768-q88-original.webp",
+          "reductionPercent": 0
+        },
+        {
+          "profile": "640-q84",
+          "width": 640,
+          "height": 960,
+          "quality": 84,
+          "bytes": 201822,
+          "path": "output/card-deck/dq-heroes-v1/encoding-study/card-08-640-q84.webp",
+          "reductionPercent": 38.54
+        },
+        {
+          "profile": "768-q80",
+          "width": 768,
+          "height": 1152,
+          "quality": 80,
+          "bytes": 232298,
+          "path": "output/card-deck/dq-heroes-v1/encoding-study/card-08-768-q80.webp",
+          "reductionPercent": 29.26
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "女祭司",
+      "variants": [
+        {
+          "profile": "768-q88-current",
+          "width": 768,
+          "height": 1152,
+          "quality": 88,
+          "bytes": 321204,
+          "path": "output/card-deck/dq-heroes-v1/encoding-study/card-02-768-q88-original.webp",
+          "reductionPercent": 0
+        },
+        {
+          "profile": "640-q84",
+          "width": 640,
+          "height": 960,
+          "quality": 84,
+          "bytes": 198018,
+          "path": "output/card-deck/dq-heroes-v1/encoding-study/card-02-640-q84.webp",
+          "reductionPercent": 38.35
+        },
+        {
+          "profile": "768-q80",
+          "width": 768,
+          "height": 1152,
+          "quality": 80,
+          "bytes": 231220,
+          "path": "output/card-deck/dq-heroes-v1/encoding-study/card-02-768-q80.webp",
+          "reductionPercent": 28.01
+        }
+      ]
+    }
+  ],
+  "sampleBasedEstimates": {
+    "768-q88-current": {
+      "sampleTotalBytes": 1061222,
+      "sampleMeanBytes": 353741,
+      "estimated78Bytes": 27591772,
+      "estimated78MiB": 26.31
+    },
+    "640-q84": {
+      "sampleTotalBytes": 662328,
+      "sampleMeanBytes": 220776,
+      "estimated78Bytes": 17220528,
+      "estimated78MiB": 16.42
+    },
+    "768-q80": {
+      "sampleTotalBytes": 779144,
+      "sampleMeanBytes": 259715,
+      "estimated78Bytes": 20257744,
+      "estimated78MiB": 19.32
+    }
+  },
+  "decodePixelsPerCard": {
+    "768x1152": 884736,
+    "640x960": 614400
+  },
+  "decodeReductionPercent640": 30.56
+}

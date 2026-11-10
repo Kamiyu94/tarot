@@ -1,0 +1,24 @@
+{
+  "card_id": 55,
+  "card_name": "寶劍六",
+  "character": "主人公（單人划船）",
+  "series": "DQ VIII",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Six of Swords. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: The actual DQVIII Hero travels ALONE in a small wooden boat across calm blue water toward a sunlit shore. Preserve his official brown hair beneath ORANGE bandana, blue tunic, YELLOW sleeveless long coat, green trousers, brown boots and green pouch. Exactly SIX steel swords stand safely secured along the boat sides, THREE left and THREE right, all six blades and hilts visible and spaced, none touching the hero. He steers with a plain wooden oar, no sword hilt on his back or belt and no additional swords. Quiet transition from difficulty to a hopeful new shore, small islands, distant Dragon Quest green hills, dignified calm expression. Only one person, no other characters, no danger, no lettering or reference frame.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-55-six-of-swords-dq8-hero.png",
+  "reference_paths": [
+    "references/artist-a-dq8-hero.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq8/",
+    "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_hero.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-55-six-of-swords-dq8-hero.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-74b55492-a61a-4ea0-8aa2-2dd7530d82d3.png",
+  "sha256": "5709ec7b45586f96c55fcd65ee8218e36a608ccd9fcc9b4ea31473ec48a8666b",
+  "visual_review": "Actual DQVIII Hero alone in boat, orange bandana/yellow coat/blue tunic/green trousers. Exactly three secured swords each side, six total, no personal hilt or other person, no text/frame.",
+  "expected_suit_count": 6,
+  "observed_suit_count": 6
+}

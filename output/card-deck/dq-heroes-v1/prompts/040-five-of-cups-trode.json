@@ -1,0 +1,22 @@
+{
+  "card_id": 40,
+  "card_name": "聖杯五",
+  "character": "Trode／トロデ",
+  "series": "DQ VIII",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Five of Cups. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual DQVIII transformed King Trode: small green humanoid with pointed ears, unruly pale green hair, small purple lips, orange hooded robe/coat. He stands wistfully beside a stream with lowered head. Exactly FIVE golden chalices: THREE knocked over in front with spilled water, TWO upright just behind him within easy reach. A small stone bridge and warm light in distance give hope; sadness but no danger. Do not include reference writing/parchment/background or any additional cup.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-40-five-of-cups-trode.png",
+  "reference_paths": [
+    "references/artist-a-dq8-trode.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq8/",
+    "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_torode.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-40-five-of-cups-trode.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-8564ca51-0e8a-4ace-be29-cf6eefce7bb9.png",
+  "sha256": "0cd8c2829805e28a25f4b3913810407c8359cd9953677a9941b5ecaf161006cf",
+  "visual_review": "King Trode retains green creature identity and orange robe. Exactly three spilled cups in foreground plus two standing cups behind him, five total; no typography/frame and consistent style."
+}

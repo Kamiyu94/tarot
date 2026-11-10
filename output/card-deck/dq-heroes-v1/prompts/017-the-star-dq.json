@@ -1,0 +1,32 @@
+{
+  "card_id": 17,
+  "card_name": "星星",
+  "character": "Jessica／ゼシカ",
+  "series": "DQ VIII",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/artist-a-dq8-jessica.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_jessica.png",
+    "https://www.jp.square-enix.com/dqsp/dq8/"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ VIII adult Jessica: orange twin high ponytails, purple off-shoulder long-sleeved top, yellow corset, full long RED skirt with white petticoat edge and brown boots. Fully clothed neutral portrayal, no revealing costume alterations. Use official character only, no parchment or page text.\nTarot composition: The Star. Fully clothed DQVIII Jessica kneels comfortably beside a clear spring under a luminous star-filled deep-blue sky. Her red full skirt, purple sleeves/yellow corset and twin orange ponytails remain exact. She holds two small water pitchers and gently pours one into the pool and one onto nearby earth, a hopeful healing gesture. One large radiant ivory star and seven smaller stars shimmer above, calm turquoise water and fresh flowers below. Peaceful neutral full-body scene, no nudity or sexualized pose.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-17-the-star-dq.png",
+  "character_display": "潔西卡（ゼシカ）",
+  "series_display": "勇者鬥惡龍 VIII",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-cad1f4d5-a533-48a7-b989-9b4e6deb3159.png",
+  "sha256": "4130aeb14503795d2aeae66a194e9aa36c664e9de95a14af0b1ebe4782c6ca43",
+  "visual_review": "Jessica identity/outfit preserved; corrected final sky has exactly one large star and seven small stars. Two pitchers, hopeful water scene, no card frame/text.",
+  "iterations": [
+    {
+      "source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/rejected/card-17-the-star-v1-eight-small-stars.png",
+      "status": "rejected",
+      "reason": "Eight small stars instead of seven",
+      "sha256": "095a6411a0ceede08304c88dbbc91a4ff6f4275c57df17c6d01ac9db8201bce7"
+    }
+  ],
+  "edit_prompt": "Edit only the attached illustration. Keep the entire artwork, Jessica's identity and clothing, exact pose, two pitchers, flowing water, background, ink linework and colors unchanged. There are currently ONE large star and EIGHT small stars. Remove ONLY the isolated small star in the lower LEFT sky, at approximately x=228 y=444 of the 1024x1536 source, directly left of Jessica's upper ponytail and above the tree line. Fill its place seamlessly with the same blue sky texture. The final sky must have exactly ONE large central star and SEVEN small stars. Do not remove any other star, add any star, change anything else, or add text or border."
+}

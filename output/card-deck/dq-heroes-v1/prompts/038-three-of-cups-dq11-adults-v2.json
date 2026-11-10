@@ -1,0 +1,34 @@
+{
+  "card_id": 38,
+  "card_name": "聖杯三",
+  "character": "Sylvando、Rab、Hendrik",
+  "series": "DQ XI",
+  "tool": "image_gen.imagegen",
+  "status": "failed_moderation",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Three of Cups. The first 3 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: A new friendship tableau of THREE ADULT DQXI male companions: Sylvando, Rab and Hendrik, each in his complete normal official outfit, all fully clothed. Sylvando has slick black tied-back hair, gray-and-cream paneled performer tunic with pom-pom trim and red sleeves. Rab is the elderly stout white-mustached man in red cap, red/gold waistcoat, white long sleeves and mustard trousers. Hendrik is the tall mature purple-haired knight in full black-and-gold armor, dark red cape and trimmed beard. They stand together in a bright daytime flower garden, smiling gently and celebrating fellowship. Each holds ONE separate golden chalice filled with WHITE FLOWERS, exactly THREE flower-filled chalices total, all rims and stems clearly visible with spacing. These are flower arrangements, not beverages; no one drinks. No extra cups, no sword or staff. Use character references only for appearance; render everyone in the same 2D ink-and-cel illustrative style, not 3D.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-38-three-of-cups-dq11-adults-v2.png",
+  "reference_paths": [
+    "references/b-dq11-silvia-official.png",
+    "references/b-dq11-row-official.png",
+    "references/b-dq11-hendrik-official.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.dq11.jp/s/pf/characters/silvia.html",
+    "https://www.dq11.jp/s/pf/characters/_img/silvia/chara_2d_sp.png",
+    "https://www.dq11.jp/s/pf/characters/row.html",
+    "https://www.dq11.jp/s/pf/characters/_img/row/chara_2d_sp.png",
+    "https://www.dq11.jp/s/pf/characters/s1_gur.html",
+    "https://www.dq11.jp/s/pf/characters/_img/s1_gur/chara_pc.png"
+  ],
+  "failure": {
+    "http_status": 400,
+    "code": "moderation_blocked",
+    "categories": [
+      "other"
+    ],
+    "request_id": "f28cf687-64a8-4095-922d-cc37b53b5ca6",
+    "message": "Your request was rejected by the safety system."
+  },
+  "resolution": "Substantive new adult-companion/flower scene also blocked. Reported to parent; no repeated retries."
+}

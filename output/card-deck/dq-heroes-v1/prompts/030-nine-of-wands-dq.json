@@ -1,0 +1,34 @@
+{
+  "card_id": 30,
+  "card_name": "權杖九",
+  "character": "Carver／ハッサン",
+  "series": "DQ VI",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/artist-a-dq6-carver.jpg"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq6/story/images/hassan_bg.jpg",
+    "https://www.jp.square-enix.com/dqsp/dq6/story/"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ VI Carver: very muscular stocky man, pink-purple MOHAWK, short blue-gray vest over bare chest, orange shoulder sash, green belt and greenish shorts, green leg wraps. Foreground character only.\nTarot composition: Nine of Wands. Carver rests one hand on ONE upright wooden wand and stands resiliently before exactly EIGHT wooden wands planted in a clear row behind him. NINE total, all nine tops individually visible, not overlapped or cut off. Purple mohawk and muscular physique with blue-gray vest/orange sash remain faithful. Slightly tired but confident face, healed small cloth wrist wrap only, no injury or fighting. Endurance at sunset.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-30-nine-of-wands-dq.png",
+  "character_display": "哈桑（ハッサン）",
+  "series_display": "勇者鬥惡龍 VI",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-81e05112-bb61-4c51-9029-c71148ad370c.png",
+  "sha256": "5e26d7163b681a500f0a989a2720151541aa7df5e6795eb5a2cc63cf54d9740d",
+  "visual_review": "Carver identity preserved; final image visually counted eight rear staffs (four each side) plus one front staff = nine total. No additional wand-like props, no text/frame.",
+  "expected_suit_count": 9,
+  "observed_suit_count": 9,
+  "iterations": [
+    {
+      "source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/rejected/card-30-nine-of-wands-v1-ten-wands.png",
+      "status": "rejected",
+      "reason": "Nine background plus one foreground wand was ten, expected nine total",
+      "sha256": "5fb62993ad19256d7c1082976077043ea82b04ce00e35e35317c76b27ea6952a"
+    }
+  ],
+  "edit_prompt": "Edit only this finished tarot illustration and preserve Carver, all his features and clothing, his pose, the front wooden wand under his hand, the sunset and overall art exactly. Current image has NINE background vertical wands plus ONE foreground wand, so ten total. Remove ONLY the entire FAR-LEFT BACKGROUND wand, whose top circular cut surface is centered near x=63,y=145 in the 1024x1536 source. Remove its full vertical trunk down to the grass and its attached small leaves; restore matching sunset sky, distant hills and grass behind it. Do not remove or alter any other wand. Final composition must have exactly EIGHT background vertical wands plus the ONE foreground wand under his hand: NINE total wooden wands. Keep all remaining tops visible and distinct. Change nothing else; add no text, labels, frame or watermark."
+}

@@ -1,0 +1,24 @@
+{
+  "card_id": 57,
+  "card_name": "寶劍八",
+  "character": "Maya／マーニャ",
+  "series": "DQ IV",
+  "tool": "image_gen.imagegen",
+  "status": "superseded_count_correction",
+  "prompt": "Use case: precise-object-edit. Image 1 is the tarot illustration to correct; image 2 is only the original Maya identity reference, do not change the modest fully covered robe or pose. Change ONLY the sword count: image 1 currently shows THREE planted swords to the LEFT of the woman and FOUR to her RIGHT (seven total). Add exactly ONE additional fully identifiable planted steel sword to the LEFT group, safely in the grass and not touching the woman, with its own separate visible round pommel, grip, crossguard and blade. Position it behind/near the other left swords with enough spacing for the FOUR left hilts to be clearly countable. Final image must show FOUR left swords plus FOUR right swords, exactly EIGHT total. Preserve all seven existing swords, woman, blindfold, freely hanging hands, orange robe, white cape, headdress, landscape, light, ink/cel style and portrait framing unchanged. No other changes, no extra blades or weapons, no text or border. Quiet nonviolent symbolic scene.",
+  "asset_filename": "card-57-eight-of-swords-maya-v2.png",
+  "reference_paths": [
+    "sources/card-57-eight-of-swords-maya.png",
+    "references/b-dq4-maya-official.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq4/",
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_mana.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-57-eight-of-swords-maya-v2.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-d8c85e6b-9eee-4d8e-ae02-0b944fb869fa.png",
+  "sha256": "a1a46892dce30f4fba4e9c45d4098057483585b3412c698b083dc4e67b9b4962",
+  "visual_review": "Correction over-added two left swords: now five left hilts plus four right, observed nine. Must remove one left sword before approval.",
+  "expected_suit_count": 8,
+  "observed_suit_count": 9
+}

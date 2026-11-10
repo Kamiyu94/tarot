@@ -15,3 +15,19 @@ Thumbs.db
 # Original source images (large files, not needed in repo)
 ChatGPT/
 images/originals/
+
+# Keep generated full-resolution artwork and downloaded official reference art local.
+# Lightweight JSON source indexes remain available for provenance.
+output/card-deck/*/sources/
+output/card-deck/*/references/*
+!output/card-deck/*/references/*.json
+output/card-deck/*/queue-status.json
+output/card-deck/*/.integration.lock
+output/card-deck/*/encoding-study/*
+!output/card-deck/*/encoding-study/report.json
+# The superseded manga style study stays local; only dq-heroes-v1 is released.
+images/cards/manga-adventure-v1/
+output/card-deck/manga-adventure-v1/
+scripts/__pycache__/
+.playwright-mcp/
+output/card-deck/*/artist-*-work.py

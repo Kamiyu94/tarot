@@ -1,0 +1,1117 @@
+{
+  "deck": "dq-heroes-v1",
+  "verifiedAt": "2026-11-10T15:28:01.103157+00:00",
+  "cardCount": 78,
+  "uniqueImageHashes": 78,
+  "encodingProfile": {
+    "format": "WEBP",
+    "maxWidth": 640,
+    "maxHeight": 960,
+    "quality": 84,
+    "method": 6
+  },
+  "totalRuntimeBytes": 20191754,
+  "runtimeMiB": 19.26,
+  "pixelBudget": {
+    "totalDecodedPixels640": 47923200,
+    "equivalentTotalPixels768": 69009408,
+    "pixelReductionPercent": 30.56,
+    "note": "Pixel counts are deterministic dimensions, not a measurement of browser RAM."
+  },
+  "declaredSuitCountMismatches": [],
+  "approvedFoolRawUnchanged": true,
+  "files": [
+    {
+      "id": 0,
+      "name": "愚者",
+      "path": "images/cards/dq-heroes-v1/card-00.webp",
+      "bytes": 262488,
+      "sha256": "daa796c7b1227f53230d696e18f507f73ad6968999882c2f2b90d421963e45b9",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "c89038304e673c1a65bba9b3fce2ae90c60a4f2b0c8f319d409f2e4ed068b214",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/000-the-fool-dq3.json",
+      "promptSha256": "ed53228da446e2fef109257192f31a18ba04e263b69fd63f096a1495074e12c2"
+    },
+    {
+      "id": 1,
+      "name": "魔術師",
+      "path": "images/cards/dq-heroes-v1/card-01.webp",
+      "bytes": 275818,
+      "sha256": "2c814f0a232978345c816e7e68e7424c805b9678ebccffd369ddc13b4736e749",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "eb5308697f2943ab94c09acd43f314d9495371c61c81d39620fd08ae75bf4278",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/001-the-magician-dq.json",
+      "promptSha256": "0f2df7f57f593a119d940f4f96e49bda1956671636f0a50f5da91c7003cce984"
+    },
+    {
+      "id": 2,
+      "name": "女祭司",
+      "path": "images/cards/dq-heroes-v1/card-02.webp",
+      "bytes": 198018,
+      "sha256": "1a7294e850b08f1ac7c4ba2185bd138306a2dad326bef8e1753ece7b3500c2ca",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "9c9ba7ee32a41e92a39ab1ba2cec7733bb46733a18bdea4275a924e72331f275",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/002-high-priestess-dq11-serena.json",
+      "promptSha256": "9101343a06bf9360bc4ca5f8506bde243820c83ecb74703204c2e3ca14057fa0"
+    },
+    {
+      "id": 3,
+      "name": "皇后",
+      "path": "images/cards/dq-heroes-v1/card-03.webp",
+      "bytes": 283164,
+      "sha256": "bd24976bc3a1794bc35d8e3010f40267da9fc2dbccc1a15786b09a3fc8b3e4fe",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "60735bc1b0ac085ae07a28397433faf5dffe23ada134eb2cee679cff3b27e39d",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/003-the-empress-dq.json",
+      "promptSha256": "2d85d6124de896dadfc180decd0c67a9e1903cc752d6154392a3eea8e09b2f8c"
+    },
+    {
+      "id": 4,
+      "name": "皇帝",
+      "path": "images/cards/dq-heroes-v1/card-04.webp",
+      "bytes": 242766,
+      "sha256": "d7093648e69ba0855f4d8759ea72701b093cd9099c8721721f6872898f014153",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "f3e2eb8794dfe737d5e6344d9b343b37deb5f9c37c65146e7d970e665e6bac42",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/004-the-emperor-dq.json",
+      "promptSha256": "3cc64c3925a0da04bac6f84edcbfa25bdd7b5accb08a06befa783e81d66b2fd9"
+    },
+    {
+      "id": 5,
+      "name": "教皇",
+      "path": "images/cards/dq-heroes-v1/card-05.webp",
+      "bytes": 211980,
+      "sha256": "a437a8442502621fafded4841ffe6a5cabffa2e5aeeca0b8d98ee09f1e428242",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "a2846999fe939ce7becb653f6b7099c79071ded35aed8127c042e8b183d01bbd",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/005-the-hierophant-dq.json",
+      "promptSha256": "fb7af810fb19fb9329ac2fdd7dc45747556663ed7d370a0e29d86982c0e0a6e1"
+    },
+    {
+      "id": 6,
+      "name": "戀人",
+      "path": "images/cards/dq-heroes-v1/card-06.webp",
+      "bytes": 274318,
+      "sha256": "eaf1bb0388e5392adfb4e6d99c7092cbebe1b74546e5a886d0d37913dc36d98d",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "7366cb728b92a87d0b78d3305420bfaba79fcc630a79c56f9c52aff285feb394",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/006-the-lovers-dq.json",
+      "promptSha256": "98a47f18023e92acd053000c7c1767815016c03491ceaf9d952eb763204559dd"
+    },
+    {
+      "id": 7,
+      "name": "戰車",
+      "path": "images/cards/dq-heroes-v1/card-07.webp",
+      "bytes": 247926,
+      "sha256": "d50734c3d6523391921ce41a1d81b00494bf323eea736ac546674a00c3c7d55a",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "eaa6908da61af11c5d059873cb6341f9be1e293ae6146676bbf350cc065a26d4",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/007-the-chariot-dq.json",
+      "promptSha256": "aac120f0191755edfae24ea861f1fd19191df4d558943055db7f6cb1ee3c7faa"
+    },
+    {
+      "id": 8,
+      "name": "力量",
+      "path": "images/cards/dq-heroes-v1/card-08.webp",
+      "bytes": 201822,
+      "sha256": "709ec452418d21335b33190c71bcb3b0d5299c9e9b1b7b2dfdc465eaa8d8d388",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "12c6ddb7de3d307ca3bcff0f85815a73a66f0d2b9db776f92c5203578abb5edd",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/008-strength-dq5.json",
+      "promptSha256": "1112025c453d2dbadebf003ecb38aa383d49b0202b7d4f3b3252857165a28d99"
+    },
+    {
+      "id": 9,
+      "name": "隱士",
+      "path": "images/cards/dq-heroes-v1/card-09.webp",
+      "bytes": 220896,
+      "sha256": "4176fe73847dc681d0a4375d6b9acb76723eb7873425528d7205e0c6dc188e2e",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "1bec0fd8e0c1e83cc681e3348d06cea623e64f644914b11e33cd2d51477a39ef",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/009-the-hermit-dq.json",
+      "promptSha256": "06f343fee8e7fb664504e7f914a4b233bf4f15b5c577bf004113bbcbc85701fa"
+    },
+    {
+      "id": 10,
+      "name": "命運之輪",
+      "path": "images/cards/dq-heroes-v1/card-10.webp",
+      "bytes": 272416,
+      "sha256": "3c934147866ea941b2b5a89fb2dab03cffdb11b368165b609432d9b4833812d7",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "b870a117cc22ec54a03433579d9a55e1539300dea484f7c484dc4ada678113c5",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/010-wheel-of-fortune-dq.json",
+      "promptSha256": "ff0e5d43c6ef76aa2890faa4b303bbfa402611c03d4b4582de579aa4ebc779b7"
+    },
+    {
+      "id": 11,
+      "name": "正義",
+      "path": "images/cards/dq-heroes-v1/card-11.webp",
+      "bytes": 234986,
+      "sha256": "22af0c4a3d7fe1c24be9ee64055f3e0493a5d0cc0e0aa827d7d29cb5361d8fb8",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "abd97d692511ad2e6482e2467168d529db7b6663bdc49dd43eed491dc3e614a2",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/011-justice-dq.json",
+      "promptSha256": "bba798179a56d038b3b0613f5c674c6192f9de749202c2e93cf1018bf658fd9d"
+    },
+    {
+      "id": 12,
+      "name": "倒吊人",
+      "path": "images/cards/dq-heroes-v1/card-12.webp",
+      "bytes": 267828,
+      "sha256": "1b5a28bd804611ab72cd8c574e27dcb502beaf87684d3150182512ddc868ba67",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "32c2ccac71af07d7bc811d3273e3e14239b4365540040b87890f98da908bc5e4",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/012-the-hanged-man-dq.json",
+      "promptSha256": "a783a75212db40675929a1b39f31c8effc71b59837eaffcf966dcc955119ffdb"
+    },
+    {
+      "id": 13,
+      "name": "死神",
+      "path": "images/cards/dq-heroes-v1/card-13.webp",
+      "bytes": 269132,
+      "sha256": "87403025fcbe20f7c69d51230d1ac898598413197d39cce16db963481bd23fc8",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "bd79ee0779a563c778a36f13e4e70fc797235a325104c203739c7fdd59d7276c",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/013-death-dq.json",
+      "promptSha256": "a4b87c7c5a44cd076b933bf106be8f197bd954f7f34fa8301cfc94e4bd7a22de"
+    },
+    {
+      "id": 14,
+      "name": "節制",
+      "path": "images/cards/dq-heroes-v1/card-14.webp",
+      "bytes": 282002,
+      "sha256": "5b0183f0552ba4b9efd4044870f43dc4a1055cb694bd6b7a1707baf34368d65e",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "2888bf13c8d76e55832ac05fff23d8cc409e06f7b93574f8c391abbe83306486",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/014-temperance-dq.json",
+      "promptSha256": "a4ab34722eb01751bf959b7281bf359cd6d6b0d14325655a81ec26c17a3dda02"
+    },
+    {
+      "id": 15,
+      "name": "惡魔",
+      "path": "images/cards/dq-heroes-v1/card-15.webp",
+      "bytes": 214554,
+      "sha256": "dd78808b789873c8b31dd2de20591773cfe451b606116314b2f91e28bbd82a83",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "233a2ebc68143a42907588306d1c5b75cd87e9c64af03f19b07c4812a23e3278",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/015-the-devil-dq.json",
+      "promptSha256": "5580ef2213902cdd5631c7c6304535eb270af621c5339d3ec57a3d61288520e6"
+    },
+    {
+      "id": 16,
+      "name": "高塔",
+      "path": "images/cards/dq-heroes-v1/card-16.webp",
+      "bytes": 240578,
+      "sha256": "9fd3d99a1e50b443d6cbd261ba4a8ddf21f9691a8cae5b31e42da0c42678d45e",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "560e67fee5d883200020e5e87924125b6f85a82fd35036aaf4bb81421c353c42",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/016-the-tower-dq.json",
+      "promptSha256": "7a0d382ce0c990d8cef60c1ed20b825762a83c4571066f11a63f17441a85ea56"
+    },
+    {
+      "id": 17,
+      "name": "星星",
+      "path": "images/cards/dq-heroes-v1/card-17.webp",
+      "bytes": 250710,
+      "sha256": "67d6c73c68babe770ab26b890848a60367db7f9006c63e17c7a5220beba6dfca",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "4130aeb14503795d2aeae66a194e9aa36c664e9de95a14af0b1ebe4782c6ca43",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/017-the-star-dq.json",
+      "promptSha256": "ddddb3c5583ee954a6353658f5c9a1543a3938666613351a00c35e52cadba86b"
+    },
+    {
+      "id": 18,
+      "name": "月亮",
+      "path": "images/cards/dq-heroes-v1/card-18.webp",
+      "bytes": 235690,
+      "sha256": "02a6ac86284dc8b405751708aca44780e62db4d67af430fc134ad7c8390bc7d4",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "a556744190ec159ab4b882e1341f2d1a562a73884958290c5c425deeb14dddf1",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/018-the-moon-dq.json",
+      "promptSha256": "873c82e7056bf67a693456395fb52efa6a28dd14fb140b79fa829d26d955dd8b"
+    },
+    {
+      "id": 19,
+      "name": "太陽",
+      "path": "images/cards/dq-heroes-v1/card-19.webp",
+      "bytes": 235008,
+      "sha256": "a62bc23f04728bb6728494c2ae201d6876699bb902299cdd2fec3268e97285a6",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "e43672805b8bc2ddd5c89c2603ef838dd2edbc0e631cd6366adb18e0b4116dbd",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/019-the-sun-dq.json",
+      "promptSha256": "cd318b895b849d040ee430f38eb0971c286caf8491e5f1d35b583ac2d2fa0a02"
+    },
+    {
+      "id": 20,
+      "name": "審判",
+      "path": "images/cards/dq-heroes-v1/card-20.webp",
+      "bytes": 270898,
+      "sha256": "cbcab8de5e9d51757f9c4041262086ebc553a75909f842db55629018886a4172",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "bb638fb32357820cd5d89e43be6b2ea9a4e2c99288fe14fc4e349e85558b2e6a",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/020-judgement-dq.json",
+      "promptSha256": "b30622d025400b419ff5f2cc9dfe1690f443c0cebc61cea705786ee0a03e3e87"
+    },
+    {
+      "id": 21,
+      "name": "世界",
+      "path": "images/cards/dq-heroes-v1/card-21.webp",
+      "bytes": 295328,
+      "sha256": "8c1372633aea727285f2b8898eaa7035e15f7f70f2e63fa2f6f541ed93bafdb6",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "c1d8a7519d5e35199578b6e5072f2c0faa658c79e94136917d002f306cb1d457",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/021-the-world-dq.json",
+      "promptSha256": "461e8f26b1b56796fcd11ad2604642d921dc2372af56290ccb163cba38d9f827"
+    },
+    {
+      "id": 22,
+      "name": "權杖王牌",
+      "path": "images/cards/dq-heroes-v1/card-22.webp",
+      "bytes": 277598,
+      "sha256": "f8a70f58d71134a4cbd0d22aee4150ae3e1e998f1e7e33d1fcffe35c71e5e1df",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "1dcc517207d0740d2ec5993469ae74c2404ad373bf81f1e40270862de89403a6",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/022-ace-of-wands-dq.json",
+      "promptSha256": "a140244c8de23e9856ad9d95fb440d87de29a25b32d72e03cd5fe6fcdbfb64db"
+    },
+    {
+      "id": 23,
+      "name": "權杖二",
+      "path": "images/cards/dq-heroes-v1/card-23.webp",
+      "bytes": 233706,
+      "sha256": "b0a7d250f09e7055b3911ae4c80900f6a9d69b95ee3e2111e8a684fa6190874c",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "d64a79eefd8188553b17aa8b0921735952bc75f477628db364b9237cb87cac2b",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/023-two-of-wands-dq.json",
+      "promptSha256": "da4bdf13a4c3a366b5067d5a5b918832a8804bc351de7d67e935ad1633495c77"
+    },
+    {
+      "id": 24,
+      "name": "權杖三",
+      "path": "images/cards/dq-heroes-v1/card-24.webp",
+      "bytes": 243674,
+      "sha256": "c4d390e8796edaaf5a9c8419635fca40bbcdc5c96e0c5fad83827e819c332c22",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "813038b26c7b7ac01ff15993b77787029068e83787509140a8d3861f80cc7c74",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/024-three-of-wands-dq.json",
+      "promptSha256": "0032a105f7420472e61188ff49416962911fec3b80e55624ea26764ef20d3383"
+    },
+    {
+      "id": 25,
+      "name": "權杖四",
+      "path": "images/cards/dq-heroes-v1/card-25.webp",
+      "bytes": 284026,
+      "sha256": "1328af9a2e043bc06ac16a264264f10c65cba42d633cb616e911e4c244e259b2",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "ec18eb86ae614fd552705517eac18eda323b4ad7224c05bcb3e5f36d683deed8",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/025-four-of-wands-dq.json",
+      "promptSha256": "7e6204629e9ba3bc708cf157f2273fb120cd678c6a7201425b6e2f576579e916"
+    },
+    {
+      "id": 26,
+      "name": "權杖五",
+      "path": "images/cards/dq-heroes-v1/card-26.webp",
+      "bytes": 267244,
+      "sha256": "812e22fc07274148edd362d5fdd1e806d19505dee316e9d5f1d82a1a67ce5c03",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "08b7f906a05e3c8c6e1552dad4de12c884ba56742875ba45ad45cc460ebef2de",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/026-five-of-wands-dq.json",
+      "promptSha256": "eb52552d6d13195336cf67b40f76e4df3625fc05e36572aa3b03188c72de8486"
+    },
+    {
+      "id": 27,
+      "name": "權杖六",
+      "path": "images/cards/dq-heroes-v1/card-27.webp",
+      "bytes": 249454,
+      "sha256": "430fc63e5977bd9229b618f799edd6e1e00bb54cd6aaabd3b0716a5f0e67e2b7",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "081ad82d7d483c15d03f2eeb619a5c9cc62f780c64a5e7ff1a522820bb8f001d",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/027-six-of-wands-dq.json",
+      "promptSha256": "5fd8edd5001f8980ca65e7bd55f68475341ed2730ef9663684e1cc4feade158c"
+    },
+    {
+      "id": 28,
+      "name": "權杖七",
+      "path": "images/cards/dq-heroes-v1/card-28.webp",
+      "bytes": 260354,
+      "sha256": "9ae718924b02a4fb1848581b931bd3cdd68c176c700eb7cf4b84174b8aa2afee",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "97a4884f560f92b0938257109b0f471d6ef164ecb8aa45e0535a9cc330ccd9f5",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/028-seven-of-wands-dq.json",
+      "promptSha256": "077aeb401a38f162bd87861a72b29eca062be2b40fbc51f3f455970b6fbc6a35"
+    },
+    {
+      "id": 29,
+      "name": "權杖八",
+      "path": "images/cards/dq-heroes-v1/card-29.webp",
+      "bytes": 238344,
+      "sha256": "ce8e790036439c291d9dd5a9ab22445f1ee681d6a7d317c7e02a9f57261c24a2",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "b7a10ef78da91126c54c03b9967479d916394df01a6ab682682a024dee823b12",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/029-eight-of-wands-dq.json",
+      "promptSha256": "6f8fd07ec98e27f5d0e91875501daf5500d090bea6cad2b722fa2ebb9217c55b"
+    },
+    {
+      "id": 30,
+      "name": "權杖九",
+      "path": "images/cards/dq-heroes-v1/card-30.webp",
+      "bytes": 266996,
+      "sha256": "5ccd4a474b4cc6ee46baa2df3144567e7119266ec92c055ef0801facd467b071",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "5e26d7163b681a500f0a989a2720151541aa7df5e6795eb5a2cc63cf54d9740d",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/030-nine-of-wands-dq.json",
+      "promptSha256": "ad4473ed7b95d64fefee1659cebf01d4808b4464887d2b3b334ab02c5368b7fe"
+    },
+    {
+      "id": 31,
+      "name": "權杖十",
+      "path": "images/cards/dq-heroes-v1/card-31.webp",
+      "bytes": 271668,
+      "sha256": "8b453103d7d98be95b72bdfa3ed569e67e41cf88a25b011790948682d2053cb4",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "f44ca47e8f85fab809a4998781bceddd1eb76839ae14cda39e2bc2397b5386ae",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/031-ten-of-wands-dq.json",
+      "promptSha256": "3fd25d0046bf70050a0060c9c32e9147e8340edfbf513c641f08428e0f79c877"
+    },
+    {
+      "id": 32,
+      "name": "權杖侍者",
+      "path": "images/cards/dq-heroes-v1/card-32.webp",
+      "bytes": 280640,
+      "sha256": "16fb5d0a2a37acb9d4496f8ad5281c2b7ec3bb98696a8d274b58988fc18cbea3",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "f9414ba22dbd7c3908ddfdf978460f3f735579f0cbc9e19ae5283a302a4e3d49",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/032-page-of-wands-dq.json",
+      "promptSha256": "6df956603fdc31131e9a6a6215781a1885a82447bf3df659d0f3f7d216a723ea"
+    },
+    {
+      "id": 33,
+      "name": "權杖騎士",
+      "path": "images/cards/dq-heroes-v1/card-33.webp",
+      "bytes": 280470,
+      "sha256": "18513a5a68c9418d67f8d7a02a29cf9dab6269cdbf4c85b54357a3203545663c",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "0dad0f777743eb0417c56911079ed5b80e4ab1faf09c2e40cec2e39a3c4d319c",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/033-knight-of-wands-dq.json",
+      "promptSha256": "da40e940f7f3c03792dea71c4474cb52145c1610f33a807aa406cbde4cc5d230"
+    },
+    {
+      "id": 34,
+      "name": "權杖王后",
+      "path": "images/cards/dq-heroes-v1/card-34.webp",
+      "bytes": 233846,
+      "sha256": "d2867703c8aa1c1e88b6ead78d8b12313fdc90a0622720fdff8d7dd57fdf4de8",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "f364f09a4d2176e3fb99f37e0bb7f210e5377065229c156f55bc0f71c420bcb8",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/034-queen-of-wands-dq.json",
+      "promptSha256": "d79403bcaaaf1a15cbac2a508a3949c8741d3949dbaca15c10dfdab57480d313"
+    },
+    {
+      "id": 35,
+      "name": "權杖國王",
+      "path": "images/cards/dq-heroes-v1/card-35.webp",
+      "bytes": 246222,
+      "sha256": "edb72def3e80fdb8aa99f2a886e0ade6781b12e58be86f39de222dca2239b2a4",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "b4f9e922bbed557faec4dd4e72231497151635fe2cffa028e1c4c87acc176f1a",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/035-king-of-wands-dq.json",
+      "promptSha256": "dabc531133eb4943c3460d294dc8a7c90fde98db449c3c6844d2f60a688bd1aa"
+    },
+    {
+      "id": 36,
+      "name": "聖杯王牌",
+      "path": "images/cards/dq-heroes-v1/card-36.webp",
+      "bytes": 280374,
+      "sha256": "57b059d05c2403695f65b451657d5f41f6dde5c7150c6fe6f9c39ee3ae041c25",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "a2a0b1e712adc5dbfcb5fd17c97cbec6515ac36687b6f639d69d70bbdcb69a5a",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/036-ace-of-cups-slime.json",
+      "promptSha256": "eace8c0baab51442071c32f419b68d099c24545c0ffbdb2ace95df44c341c3fb"
+    },
+    {
+      "id": 37,
+      "name": "聖杯二",
+      "path": "images/cards/dq-heroes-v1/card-37.webp",
+      "bytes": 273520,
+      "sha256": "0d91ca18d3d68f1b2f43f8b89649db7e1cc944ed4a4e6af98274edfc8607344e",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "1b3b4b5eecd3929671c1245c1e4c9943b0c11a4cc0807199aac9f60ac019d1b3",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/037-two-of-cups-dq5.json",
+      "promptSha256": "0c08454cc5d066b108c7a332bd6bf03634ed658e1cf9bc0ad4e2448884dc728f"
+    },
+    {
+      "id": 38,
+      "name": "聖杯三",
+      "path": "images/cards/dq-heroes-v1/card-38.webp",
+      "bytes": 290730,
+      "sha256": "8d2f33f5a2c0f7433bf60de110ba4c6766b173f7b6c4c92b5af692058c2ad653",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "49c66d092cb47a7e459ae2c0a799f7b2fd4c03f6b13b74e3bb6b398b229b9480",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/038-three-of-cups-slimes-parent.json",
+      "promptSha256": "4d70c42aaf7c834b197e4395d2f1d70f16d6c8a7eec16db2d656a51a87c910b4"
+    },
+    {
+      "id": 39,
+      "name": "聖杯四",
+      "path": "images/cards/dq-heroes-v1/card-39.webp",
+      "bytes": 280202,
+      "sha256": "56b3e57bacc8b0c93f60556b3c5ce9120c02fed20ae8594bbf69234e5ed73ee7",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "5be6724dc83746b5a2c456725c0c1709cbd1ec9146ac53f202bf7986269a295c",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/039-four-of-cups-maribel.json",
+      "promptSha256": "9eb03c764b0159aebd67f95654518003e107f2c9cfd5e532e6d21d67d65a98fd"
+    },
+    {
+      "id": 40,
+      "name": "聖杯五",
+      "path": "images/cards/dq-heroes-v1/card-40.webp",
+      "bytes": 288580,
+      "sha256": "4c6b2ea9344f2666b91cac712da764f257aba4bcd2739b07c4289c91466bca16",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "0cd8c2829805e28a25f4b3913810407c8359cd9953677a9941b5ecaf161006cf",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/040-five-of-cups-trode.json",
+      "promptSha256": "786c57c3265f221bc901102aee2628842cb3cd5260e11680c0464677635eb368"
+    },
+    {
+      "id": 41,
+      "name": "聖杯六",
+      "path": "images/cards/dq-heroes-v1/card-41.webp",
+      "bytes": 271538,
+      "sha256": "126784929ae24b5107c726d0d57f90d57a9c0e5de452563fe867d7a70dd36120",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "c3197d02fc96a85cd34cbdf9cc00216492a98b47a057c5ae335eb21f2f149f6e",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/041-six-of-cups-dq5-childhood.json",
+      "promptSha256": "af065c0a1974b182f8926a5e8f4f7df9050892f92e7be04daadcdcfda45ee449"
+    },
+    {
+      "id": 42,
+      "name": "聖杯七",
+      "path": "images/cards/dq-heroes-v1/card-42.webp",
+      "bytes": 279706,
+      "sha256": "ffd811c777d8cfe4fe308346e127632a3ca82ce67d366af92d9f47135fac1ab1",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "07daf8c13c61d14a3ab1f809eb53d2560f5bc628cfcec23d2e8fe7b171b9915b",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/042-seven-of-cups-meena.json",
+      "promptSha256": "831d41c46cd769f6a3cdf2b99d8dfe6d7e606e398211366b8bc73a3b2a68e4bd"
+    },
+    {
+      "id": 43,
+      "name": "聖杯八",
+      "path": "images/cards/dq-heroes-v1/card-43.webp",
+      "bytes": 282846,
+      "sha256": "0fbbd1f4b88caeeb082e70047958bf2fb00f3c2dada91124355d4b311c8c958e",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "f27bcc8d617ee20b73182caf701a6a740eff68d5797b0d0d2239bfce54ab31f7",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/043-eight-of-cups-kiefer.json",
+      "promptSha256": "7396b51e3e496add4b7295d3bd8da60d55be9749cc5ba7ffa6fc08cb32cb8445"
+    },
+    {
+      "id": 44,
+      "name": "聖杯九",
+      "path": "images/cards/dq-heroes-v1/card-44.webp",
+      "bytes": 277900,
+      "sha256": "7cd7f490acd3ec20d333c6f3ffb9b180c054d316accda0e35a39c41bd3cecf8c",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "672313a535afbe93d74326f6ce82be3a3132f12708adb7ded525db41ee4dedc4",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/044-nine-of-cups-torneko.json",
+      "promptSha256": "edf245a91b7a68051ff8bc86d32aa92edd8d28aacad0c3a2c8edfa79d566953b"
+    },
+    {
+      "id": 45,
+      "name": "聖杯十",
+      "path": "images/cards/dq-heroes-v1/card-45.webp",
+      "bytes": 233286,
+      "sha256": "747efc27eab23695fe73d1faa53ef6f7b2ff17e425a1e974473b40a1c2a76fa9",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "33ac97b8e0c109f9d888a8459bddcdc20ae6067e76477fff50e1861e43561614",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/045-ten-of-cups-dq5-family-v2.json",
+      "promptSha256": "8b4f7e7d0ce793817af4fae1753b7e3da9b18bcf00b1b776aabf3c6cd9afe6da"
+    },
+    {
+      "id": 46,
+      "name": "聖杯侍者",
+      "path": "images/cards/dq-heroes-v1/card-46.webp",
+      "bytes": 225834,
+      "sha256": "d3cc3e3ee127fab6f5b1c2fc9c9f20840c7ac35bd5039fca7f79971ab517da51",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "b3d9b12d7d7530c7978dc87fa2d90e5a824c5e67a79209ea8f5349f8304d4868",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/046-page-of-cups-sylvando.json",
+      "promptSha256": "f30288c7e710d858c1859b36d202dfd42a6c9e4b81ef747912000ddff6586f3d"
+    },
+    {
+      "id": 47,
+      "name": "聖杯騎士",
+      "path": "images/cards/dq-heroes-v1/card-47.webp",
+      "bytes": 261118,
+      "sha256": "f5a452cccd7c7cc1fa41472c93f1f88e1e41a9126d63cc0d33c06cc546f19f3f",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "e8dfa0fd8adae266ee7722925dbb749a3046d85b2129bbd52054c7bd2085f386",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/047-knight-of-cups-angelo.json",
+      "promptSha256": "fa1e83c93fc3c87d56354543b00535b7dd9f16d32d28faa16d068884e7532efc"
+    },
+    {
+      "id": 48,
+      "name": "聖杯王后",
+      "path": "images/cards/dq-heroes-v1/card-48.webp",
+      "bytes": 249822,
+      "sha256": "36f333dced8a256b73ae1a1ed767419079065d87ca275d5d4161732f0f241bca",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "52ddd003cce9f0de4b7926f472d4341c7360ac8c4cec3bd8de3e2fa262cb588c",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/048-queen-of-cups-nera.json",
+      "promptSha256": "3a07a83e161cc42eb131216070a7e44962c28ed6343d400b9d010dcee5fb05a2"
+    },
+    {
+      "id": 49,
+      "name": "聖杯國王",
+      "path": "images/cards/dq-heroes-v1/card-49.webp",
+      "bytes": 262880,
+      "sha256": "ef6df3575cd63b406a0c358d6934b51d74bd0631387a84cf089622d6536fc3d2",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "b6a6416363ca786c8ffe0b0062f61397d5292b63948b6e60cd2950c2e7fa5b93",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/049-king-of-cups-dq5-hero.json",
+      "promptSha256": "b78d9a95b54ab859b485637d1f4a5513d041f8e5d85f487971f05d08ae8dc914"
+    },
+    {
+      "id": 50,
+      "name": "寶劍王牌",
+      "path": "images/cards/dq-heroes-v1/card-50.webp",
+      "bytes": 226248,
+      "sha256": "52adc655978a04708e82ff837639e4d0639123b1b7465abf6ef34f12bd32b257",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "1bfd5fd1adeae638f676281b9e5375911d4f7605db80d4d9823685ff965047d8",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/050-ace-of-swords-dq3.json",
+      "promptSha256": "c8581a217cb3ed17609697ec5d91932f90b6a4e6ec384561f81b0c4ef790405d"
+    },
+    {
+      "id": 51,
+      "name": "寶劍二",
+      "path": "images/cards/dq-heroes-v1/card-51.webp",
+      "bytes": 245004,
+      "sha256": "f76ef26c40a0afa61c884a700db2003bfc8e6dec87be5152cf0b1d1065fe9b60",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "8b1671d0b076b364f13b173ce53262a042f1bdb136c37edb03440818f5990d42",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/051-two-of-swords-terry.json",
+      "promptSha256": "60820ddea4531293d310fe277eaad766299f2da5aa58eaa5093193d1be8febe2"
+    },
+    {
+      "id": 52,
+      "name": "寶劍三",
+      "path": "images/cards/dq-heroes-v1/card-52.webp",
+      "bytes": 246328,
+      "sha256": "61741a000d7e111b52f8426c913a165802a2d71eb7538aebe3825a7fcd6f36ff",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "e4e1a7daf6b241d2adfaf5e2e3848f175c1a846c0ea4dc0588f10786ab5e97ab",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/052-three-of-swords-psaro-rose.json",
+      "promptSha256": "d12c24d0dc87c7c594e603df46439b427ae82656ee9a9bfc4494a91a2a317be5"
+    },
+    {
+      "id": 53,
+      "name": "寶劍四",
+      "path": "images/cards/dq-heroes-v1/card-53.webp",
+      "bytes": 254614,
+      "sha256": "04a024c0ed89c315c0f8f90a3dd4444d814d4a13da9bdb039df5a288b23c7b2d",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "5cbd3a38f8ca1b9c9e9be69bd4f97b8629b3575ec116a42d6d9eb23406e591c3",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/053-four-of-swords-dq1-hero.json",
+      "promptSha256": "4b71e9eb1b6e59509fa3c3d2a4704764bcd0dac696adae5787e4956ba6666d37"
+    },
+    {
+      "id": 54,
+      "name": "寶劍五",
+      "path": "images/cards/dq-heroes-v1/card-54.webp",
+      "bytes": 254638,
+      "sha256": "59912b02a47a1e555df0d0dea2903f3befe32df5a7af537d33503f291572cf3f",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "90c1254fe4450554786c1426861856c2908894da472dedf47d15cffac4eb39cd",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/054-five-of-swords-erik-v2.json",
+      "promptSha256": "f6a5457ded6899f6978fc1c61c022b0a91cf95f73e2141304f4591908d461269"
+    },
+    {
+      "id": 55,
+      "name": "寶劍六",
+      "path": "images/cards/dq-heroes-v1/card-55.webp",
+      "bytes": 249452,
+      "sha256": "9047c7fd797caaf0b90ea14340e4d582978439a8717ff15a7d84c7f07c8a7f12",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "5709ec7b45586f96c55fcd65ee8218e36a608ccd9fcc9b4ea31473ec48a8666b",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/055-six-of-swords-dq8-hero.json",
+      "promptSha256": "f2b45b7bc7c5b8c220555d3ab85357c07b7f7fc3980b204e59bd952e50073e7b"
+    },
+    {
+      "id": 56,
+      "name": "寶劍七",
+      "path": "images/cards/dq-heroes-v1/card-56.webp",
+      "bytes": 294790,
+      "sha256": "ede0f11a486625cc74454b3f2df0e13f7dbb73e7608e9288a284b4b879c233a3",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "ffe078a88b67a2711a65c54dfeb2283bacde20536b9669c76ad4fb613996a824",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/056-seven-of-swords-erik.json",
+      "promptSha256": "3d81a24b01f16921c55e7725f4858440efd84d96a86f8bb6cd5ea812b70b2dcd"
+    },
+    {
+      "id": 57,
+      "name": "寶劍八",
+      "path": "images/cards/dq-heroes-v1/card-57.webp",
+      "bytes": 234806,
+      "sha256": "faa02e6867b94a03345f77c836480fa48e4a767e593da90b33f3f8071c617ed3",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "2b28bb0a71859ddfbe306ea83cdbc63070daa32d24be67cf3cc6b33e20d62c49",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/057-eight-of-swords-maya-v3.json",
+      "promptSha256": "802a588c4b6e13c662b637291fda0bcb7c524ae2f32e4dacb6e1e913c99ba74b"
+    },
+    {
+      "id": 58,
+      "name": "寶劍九",
+      "path": "images/cards/dq-heroes-v1/card-58.webp",
+      "bytes": 241122,
+      "sha256": "7a9f57a5fd1e12b6b9a3b917dd452fbc022d77aab77720cb5f769e818cb6824d",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "f7777e2a71e8b7d2cf3b4e781e8081d406a2e01ee32da6388052dcc6648f1957",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/058-nine-of-swords-milly.json",
+      "promptSha256": "e6dacc2101dc37041b5fc9ce12895aaeef74240ff86927cef5a228cd7c8dcc95"
+    },
+    {
+      "id": 59,
+      "name": "寶劍十",
+      "path": "images/cards/dq-heroes-v1/card-59.webp",
+      "bytes": 269408,
+      "sha256": "8e7b1dc90bece2ee40721e7b0a46afafe8a8d982920232af980f9c03128e3997",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "02bc5e9f92789ec3149c584279883df3894617a404aa27e2995d0967607e7aa5",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/059-ten-of-swords-pankraz.json",
+      "promptSha256": "4c0264be01dfd46ec296f91ae1dea8b6677510354a4e641753510c4afe8f81d7"
+    },
+    {
+      "id": 60,
+      "name": "寶劍侍者",
+      "path": "images/cards/dq-heroes-v1/card-60.webp",
+      "bytes": 263236,
+      "sha256": "360159fde26528b7fd10de6cd2e1f53035cde1afccb1730716b651fbb85f0098",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "237aa953204a30f70e1a11d4927824048b4c5088fe4141e74cd58587751c2dd3",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/060-page-of-swords-ragnar.json",
+      "promptSha256": "5d93a02e201995d75bdfeedcc6aeed2bd6d63c5b36aa1c3ad15e0e3c5f20a317"
+    },
+    {
+      "id": 61,
+      "name": "寶劍騎士",
+      "path": "images/cards/dq-heroes-v1/card-61.webp",
+      "bytes": 258146,
+      "sha256": "1c514ea1c47d91afaeef7d10890b8ef5f191d673b8dbd9bfe5362ea08f852dda",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "cdceaa8ffa2443c90d7697c42387cd659e2ce91171042d34f5d9676d8bfe86c8",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/061-knight-of-swords-hendrik.json",
+      "promptSha256": "d2a493fffc4d187166135ae5b9c6812cb1eca0f7c4c984ac0d3a5d5a1ee578ec"
+    },
+    {
+      "id": 62,
+      "name": "寶劍王后",
+      "path": "images/cards/dq-heroes-v1/card-62.webp",
+      "bytes": 249380,
+      "sha256": "e638c3c3731ffde46dee8e63b4e2aaa37460fa0ac8980824e9c369ce873d3e51",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "a5b08dd87cfc2db2633ab4029851df489738ba20035c46ec82628f0f15727f4f",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/062-queen-of-swords-anlucia.json",
+      "promptSha256": "eec8fe3a7e8fb921d4e65010a8b79a2d5e0fb8bcd4b748297fc98ce9243598eb"
+    },
+    {
+      "id": 63,
+      "name": "寶劍國王",
+      "path": "images/cards/dq-heroes-v1/card-63.webp",
+      "bytes": 251350,
+      "sha256": "bb567de9db9a0ef4e7bbc2bf767dd0ee15b87a148d2d3a4f2ba212e497216618",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "b376430034ac4466af8fb5b1a9af9964dc788c78eb6a642abb29554948a49645",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/063-king-of-swords-dq4-hero.json",
+      "promptSha256": "728d7d741bacc07444a317fd6e58c921f44b468c252e30d324010be6899c96c7"
+    },
+    {
+      "id": 64,
+      "name": "錢幣王牌",
+      "path": "images/cards/dq-heroes-v1/card-64.webp",
+      "bytes": 283784,
+      "sha256": "4f261295b9afafe11dd3fb2345e617ee202f3751401ca7c393c957a7083e16ed",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "2b99676adc9e973951ed1b1ec812c1141c4b077d187e0d40abd86ba5fc86f6ea",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/064-pentacles-parent.json",
+      "promptSha256": "2fb0cf29e818b841932de1af079752608a8e1bd95dc92d9ab6f4fc8835a406e2"
+    },
+    {
+      "id": 65,
+      "name": "錢幣二",
+      "path": "images/cards/dq-heroes-v1/card-65.webp",
+      "bytes": 241678,
+      "sha256": "2133dea5dbbe8cebc32162da9b2f329ee8022943ae24d54a8f5f0e451dacd695",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "d07d7e5544992754181d57b4997d5c6a421f78a38c21ce681392eae9284c46c7",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/065-pentacles-parent.json",
+      "promptSha256": "aa3d0b6609eb0565b4fb2a3f4ad303c38681436455b81035833ae24491e61164"
+    },
+    {
+      "id": 66,
+      "name": "錢幣三",
+      "path": "images/cards/dq-heroes-v1/card-66.webp",
+      "bytes": 252050,
+      "sha256": "6580a9666f06d689b735f70b4440813a32b1c0cad5bf12830eacd7b2417ffc52",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "cc5dc1dd80af40b4f9549ddb6530d1cfdd6e9ebbd480156fdf06866d335c8a9a",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/066-three-of-pentacles-dq.json",
+      "promptSha256": "3dd058a9fa897a5bd8d274eb443e2a9cd63dba0bdbb232396a4c1571d5a4870d"
+    },
+    {
+      "id": 67,
+      "name": "錢幣四",
+      "path": "images/cards/dq-heroes-v1/card-67.webp",
+      "bytes": 266002,
+      "sha256": "c7bd2e622c845cc8aecd61e99a96fc70f7b04aab55b00033dc2e719e4e1a89e9",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "74a44b3bf586ad1d7ecbf4e3f6150d9502a8ef8061a93b4419b0c48723a1c744",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/067-four-of-pentacles-dq.json",
+      "promptSha256": "9ff9d4bc8425a3ea5cc907fe6f897112f28d5e5b738d3279d043315fd2eb5257"
+    },
+    {
+      "id": 68,
+      "name": "錢幣五",
+      "path": "images/cards/dq-heroes-v1/card-68.webp",
+      "bytes": 248950,
+      "sha256": "e25bc62a8fa3b22f877e285d850db25e54bdc8e9c0d25f316f41d2add7ff2903",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "0ac77592c780dc2d1c9b15f5693e8407e9b3b1bddcee8855bf8f5c24e59c60b1",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/068-five-of-pentacles-dq.json",
+      "promptSha256": "8f19019caab13abeaff58f7c90e27a38c76e62cbf917325b8729d70f22d8f52f"
+    },
+    {
+      "id": 69,
+      "name": "錢幣六",
+      "path": "images/cards/dq-heroes-v1/card-69.webp",
+      "bytes": 268420,
+      "sha256": "adda635e9ad4bb07a5705f1dc42f177d34269f7a9c3993bdb71964fdb59bee9e",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "d31c4402b254e5c79cc9677b7b7768f041da20306350194f48f4bdd2bb7a2a7d",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/069-pentacles-number-parent.json",
+      "promptSha256": "f995c26a6c9c22d9de537c90e2281c304d2b8bd16e4672de8dfe3592683e14b2"
+    },
+    {
+      "id": 70,
+      "name": "錢幣七",
+      "path": "images/cards/dq-heroes-v1/card-70.webp",
+      "bytes": 296540,
+      "sha256": "ea0c893dcb6f20b703f1c160847a586bf1e9306bc5199747c84397b1bc53f9c0",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "4a7aad1fa8a07df8e9ad7748613667b2ddd7f2d4294e07284a47a870b8164e82",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/070-pentacles-number-parent.json",
+      "promptSha256": "c7d3e15186e42c23dee5acffc379943b099a13b2dfa607fb4a887fdffbeb35a9"
+    },
+    {
+      "id": 71,
+      "name": "錢幣八",
+      "path": "images/cards/dq-heroes-v1/card-71.webp",
+      "bytes": 262620,
+      "sha256": "f4ca41ef3dac048f80582400cf54fd6bbcea160b031d69fcad3ecdd54f8f7c6d",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "321f26f872803bebc00b820b3fc7a1f91bc242de0b48c9961fe83319745bdfa8",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/071-pentacles-number-parent.json",
+      "promptSha256": "8c150ee8519fcc36cbd86072e4cf59f8eb0521f8cc0d050f195aedbb124fb8e0"
+    },
+    {
+      "id": 72,
+      "name": "錢幣九",
+      "path": "images/cards/dq-heroes-v1/card-72.webp",
+      "bytes": 289720,
+      "sha256": "c1cc6f5fd3fa373c21a1556b2b598ef790521f0594d656c26107e58e5e38cab8",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "6ef830d21b6973333454ca647ece1f86d863d7e168ed9977d2ccf51296fb054c",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/072-pentacles-number-parent.json",
+      "promptSha256": "afb1fa483e0f7e56fb701c44fb9e848f5c4fd1d4b5c8efc444087680e96afd07"
+    },
+    {
+      "id": 73,
+      "name": "錢幣十",
+      "path": "images/cards/dq-heroes-v1/card-73.webp",
+      "bytes": 246550,
+      "sha256": "dcc2b266a90cfe2cde5b500ad073917755ead9858fa6c7068810f8963e602b88",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "5058b98e158915fb77cca32b3601d63035f0b501f25f7f2fa850d2df59b057cc",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/073-ten-of-pentacles-dq.json",
+      "promptSha256": "e3739b1d15855a24ee56adde88370fb2b94243a72c86ed1b3efa0eddd51c2adb"
+    },
+    {
+      "id": 74,
+      "name": "錢幣侍者",
+      "path": "images/cards/dq-heroes-v1/card-74.webp",
+      "bytes": 268852,
+      "sha256": "df18bb528aab051906146d48a46234fb1d57e99908ccbe454991417ba6547223",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "c61cad87fb473dfd5bfbe058a29ab5e1aea657a7ee6f4178c319cb52193267cb",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/074-pentacles-court-parent.json",
+      "promptSha256": "eb07e1cd843b60a590bd9b3f29fad4cab26eaf8f295f9b294f7613e4b5e025ec"
+    },
+    {
+      "id": 75,
+      "name": "錢幣騎士",
+      "path": "images/cards/dq-heroes-v1/card-75.webp",
+      "bytes": 275784,
+      "sha256": "6a6011b69103abaaabf8ee0828847384581f677e7d799b765af568c8c58e24ea",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "64124f7ad014071239ef55a8c2f92e3e47b66a9d11f7c78504c505481255fb71",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/075-pentacles-court-parent.json",
+      "promptSha256": "9041a1e2d3f696476bd856965e5636f57100d468f5037e58cbc0262097d86bb0"
+    },
+    {
+      "id": 76,
+      "name": "錢幣王后",
+      "path": "images/cards/dq-heroes-v1/card-76.webp",
+      "bytes": 296122,
+      "sha256": "1e69ac7f7188fe1601ef5cbc077e7bb87966f93b2e07c608692e8ac38f1a19aa",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "e7261647b6334c6af9971bb09696d2ad3006b763869b2ac05c0479353155090a",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/076-pentacles-court-parent.json",
+      "promptSha256": "67531e7d2840b20fc790a404b04c835c6960a7daed7cd4479b3897dc7fd438c5"
+    },
+    {
+      "id": 77,
+      "name": "錢幣國王",
+      "path": "images/cards/dq-heroes-v1/card-77.webp",
+      "bytes": 275256,
+      "sha256": "4c784a390595bb7cf836bf8410421ab2657cdcfad548b4e0c19799c2d2556635",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sourceSha256": "aa9a7aa16cb0ae0d809ef1a0b1f6a572822d4f464a0f39807e9ec786649e1d2e",
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/077-pentacles-court-parent.json",
+      "promptSha256": "c43e100934f54a962389da401f439609618b1b1a3a195a1236562c5d11b59ed9"
+    }
+  ]
+}

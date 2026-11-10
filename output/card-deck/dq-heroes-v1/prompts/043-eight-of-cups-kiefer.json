@@ -1,0 +1,22 @@
+{
+  "card_id": 43,
+  "card_name": "聖杯八",
+  "character": "Kiefer／キーファ",
+  "series": "DQ VII",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Eight of Cups. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual DQVII Kiefer, shoulder-length BLOND hair, red princely tunic over a blue inner collar, red shoulder pads, dark leather harness, black gloves and dark boots as the official reference. He walks away toward distant moonlit mountains, glancing toward the path of self-discovery. Exactly EIGHT golden chalices stay behind in foreground on a stone terrace: FIVE in an evenly spaced bottom row, THREE in a raised row behind them. All eight rims and stems visible, no cup in hand. Reflective departure, no danger or wounds. Ignore all reference writing/frame.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-43-eight-of-cups-kiefer.png",
+  "reference_paths": [
+    "references/artist-a-dq7-kiefer.jpg",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq7/story/",
+    "https://www.jp.square-enix.com/dqsp/dq7/story/images/kifa_body.jpg"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-43-eight-of-cups-kiefer.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-2c4b2704-f8c1-4b22-9302-e86ef7e1c01d.png",
+  "sha256": "f27bcc8d617ee20b73182caf701a6a740eff68d5797b0d0d2239bfce54ab31f7",
+  "visual_review": "Kiefer official blond hair and red princely outfit preserved; eight cups clearly arranged five lower and three upper, departing toward mountains, no text/frame."
+}

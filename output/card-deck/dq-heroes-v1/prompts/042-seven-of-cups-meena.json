@@ -1,0 +1,22 @@
+{
+  "card_id": 42,
+  "card_name": "聖杯七",
+  "character": "Meena／ミネア",
+  "series": "DQ IV",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Seven of Cups. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual DQIV Meena, fortune teller, retain exact official face, hair and costume from reference. She stands below a dreamlike array of exactly SEVEN separate golden chalices on clouds, arranged four across upper sky and three across middle sky with clear spacing. Seven cups contain seven distinct symbolic visions: a crown, small castle, jewels, laurel, friendly dragon, veiled figure, and flower. Meena looks upward thoughtfully, exploring possibilities. No extra cups in hands or ground, no additional sword/coins that look like extra cups. Moonlit fantasy sky yet vivid readable ink illustration.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-42-seven-of-cups-meena.png",
+  "reference_paths": [
+    "references/b-dq4-meena-official.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq4/",
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_minea.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-42-seven-of-cups-meena.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-637f51f3-8078-4c09-9c2e-646aaf114dce.png",
+  "sha256": "07daf8c13c61d14a3ab1f809eb53d2560f5bc628cfcec23d2e8fe7b171b9915b",
+  "visual_review": "Meena identity preserved with purple hair, orange dress and silver-green circlet. Exactly seven vision chalices, four upper and three middle; no extra cup, clear count, no text/frame."
+}

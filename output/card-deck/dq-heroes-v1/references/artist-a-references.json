@@ -1,0 +1,253 @@
+{
+  "references": [
+    {
+      "file": "artist-a-dq5-bianca.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq5/",
+      "character": "bianca",
+      "series": "DQ V",
+      "sha256": "eaef1129d337d9e31ad8caeb71dcf5802233a49a5bb3dfefe00510085c79403a",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq5-pankraz.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq5/images/papas_illust.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq5/",
+      "character": "pankraz",
+      "series": "DQ V",
+      "sha256": "e8d137c02b4852a6d01d3e717e3648caf66a55625e89fd6a4a0e5d5a237f17d0",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq5-nera.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq5/images/flora_illust.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq5/",
+      "character": "nera",
+      "series": "DQ V",
+      "sha256": "97ff05be88d2328007d32199f4d9fd0cb92dbfd83dc3a55c6e0ada69fcfde906",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq5-debora.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq5/images/debora_illust.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq5/",
+      "character": "debora",
+      "series": "DQ V",
+      "sha256": "dad7604522c92d447fe19524056ea4ccf2c54561c39493e6e3fbf2d8630ba07c",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq5-twins.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq5/images/boy_girl_illust.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq5/",
+      "character": "twins",
+      "series": "DQ V",
+      "sha256": "e56f9551a4b6d11758ea523fe74fafd097e1e73fd5eb9735c0ccfbf9b6236584",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq4-ragnar.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_ryan.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+      "character": "ragnar",
+      "series": "DQ IV",
+      "sha256": "031fb633ef15c2a47401f40f8fcdd21f6521dd627cac1ced98e348d209930d41",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq4-borya.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_burai.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+      "character": "borya",
+      "series": "DQ IV",
+      "sha256": "6ea18ab2ee5bf4972d2bf4c886ed3dcbdf3a275c67e48e03e67594b259031817",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq4-alena.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_arena.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+      "character": "alena",
+      "series": "DQ IV",
+      "sha256": "cb504e099044565f60cdaab11dbf44aa3a06e3be4281714a4f7976abc5db3301",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq4-kiryl.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_krift.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+      "character": "kiryl",
+      "series": "DQ IV",
+      "sha256": "039e2da9ab97774ea8f551ceda34dc5b2041705aac67205f985b70f37c8ed6f0",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq4-torneko.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+      "character": "torneko",
+      "series": "DQ IV",
+      "sha256": "89593b09412df089546744568f9cedbf943553c575b441eed62c93fe2bdaada1",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq4-hero.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_hero_male.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+      "character": "hero",
+      "series": "DQ IV",
+      "sha256": "6d641519abc92049d96a373337922d347824a128561aba4c0e0431a8cb0e5c4b",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq6-hero.jpg",
+      "url": "https://www.jp.square-enix.com/dqsp/dq6/story/images/hero_bg.jpg",
+      "page": "https://www.jp.square-enix.com/dqsp/dq6/story/",
+      "character": "hero",
+      "series": "DQ VI",
+      "sha256": "1ca73443a6c202460034b58c46fff7b4af1cfc1520784874a4df888c4b49f3bd",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq6-carver.jpg",
+      "url": "https://www.jp.square-enix.com/dqsp/dq6/story/images/hassan_bg.jpg",
+      "page": "https://www.jp.square-enix.com/dqsp/dq6/story/",
+      "character": "carver",
+      "series": "DQ VI",
+      "sha256": "c2d5ca0b4beee38bb772de58441ecd3a61c83e59fbf3ffa07ea90f8bb25d30f4",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq6-milly.jpg",
+      "url": "https://www.jp.square-enix.com/dqsp/dq6/story/images/mireille_bg.jpg",
+      "page": "https://www.jp.square-enix.com/dqsp/dq6/story/",
+      "character": "milly",
+      "series": "DQ VI",
+      "sha256": "cad54972a2d26431ea2315f1b11ee7fba204f4771d4c8066fe42aac57ebc9b4d",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq6-ashlynn.jpg",
+      "url": "https://www.jp.square-enix.com/dqsp/dq6/story/images/barbara_bg.jpg",
+      "page": "https://www.jp.square-enix.com/dqsp/dq6/story/",
+      "character": "ashlynn",
+      "series": "DQ VI",
+      "sha256": "314fcf380dd2a7494867751ab94954b068898752d179eea236ea278498883a50",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq6-terry.jpg",
+      "url": "https://www.jp.square-enix.com/dqsp/dq6/story/images/terry_bg.jpg",
+      "page": "https://www.jp.square-enix.com/dqsp/dq6/story/",
+      "character": "terry",
+      "series": "DQ VI",
+      "sha256": "9bf030ffbb11c4f6ea094bf4ed713eae8921335f27ab5a3feffde266ce13159b",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq7-hero.jpg",
+      "url": "https://www.jp.square-enix.com/dqsp/dq7/story/images/hero_body.jpg",
+      "page": "https://www.jp.square-enix.com/dqsp/dq7/story/",
+      "character": "hero",
+      "series": "DQ VII",
+      "sha256": "213825d6a3fb3216726a7c1f40dbb3e5cff42fec3019789cde93db2cbbb42ccc",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq7-kiefer.jpg",
+      "url": "https://www.jp.square-enix.com/dqsp/dq7/story/images/kifa_body.jpg",
+      "page": "https://www.jp.square-enix.com/dqsp/dq7/story/",
+      "character": "kiefer",
+      "series": "DQ VII",
+      "sha256": "aebf3c95c686853306a123c18b374119c8dcc8f2383ff7dacf86fce6c3081598",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq7-maribel.jpg",
+      "url": "https://www.jp.square-enix.com/dqsp/dq7/story/images/maribel_body.jpg",
+      "page": "https://www.jp.square-enix.com/dqsp/dq7/story/",
+      "character": "maribel",
+      "series": "DQ VII",
+      "sha256": "257feec19d8a42bd81789908598bb93bbdbde60f3902fc68958da0fdc75519f7",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq8-hero.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_hero.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq8/",
+      "character": "hero",
+      "series": "DQ VIII",
+      "sha256": "d7e02cf7d86d422b60c1a1d310d80ee8a69e74d7eda8aba7ba7bda55dcce438b",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq8-yangus.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_yangus.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq8/",
+      "character": "yangus",
+      "series": "DQ VIII",
+      "sha256": "9e69e94165d3bb4071b4793cd2b3dbe90c2d78b829f16823999ca853fb42f0b4",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq8-trode.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_torode.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq8/",
+      "character": "trode",
+      "series": "DQ VIII",
+      "sha256": "4461674a0c7abfe5684946a8b5b4d3e4d4fc5304bedc20b8b47f284c00ee6110",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq8-angelo.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_kukule.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq8/",
+      "character": "angelo",
+      "series": "DQ VIII",
+      "sha256": "18397dbdb538af78803c3a1ec5d6b20f250888aca2023321021f37ec7ad29a48",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq2-cast.jpg",
+      "url": "https://www.jp.square-enix.com/dqsp/dq2/images/main_visual.jpg",
+      "page": "https://www.jp.square-enix.com/dqsp/dq2/",
+      "character": "Prince of Midenhall (blue-clothed young man, not green-clothed Cannock)",
+      "series": "DQ II",
+      "sha256": "39c33d765e73ae6ee9322194dcb1479796c534dd9db2bc78ff8d59eb7df5ead1",
+      "visually_inspected": true,
+      "usage": "Character identity only; ignore any page text/background/frame."
+    },
+    {
+      "file": "artist-a-dq8-jessica.png",
+      "character": "Jessica / ゼシカ",
+      "series": "DQ VIII",
+      "url": "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_jessica.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq8/",
+      "sha256": "285c35020462c152ebc44f642ba2197bb1175e56c76f5c38b68b8b49030ec69f",
+      "visually_inspected": true
+    }
+  ]
+}

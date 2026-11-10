@@ -1,0 +1,24 @@
+{
+  "card_id": 62,
+  "card_name": "寶劍王后",
+  "character": "Anlucia／アンルシア",
+  "series": "DQ X",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Queen of Swords. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual DQX Anlucia, blond long hair and silver circlet, pink tunic dress with gold trim over white long sleeves, crimson cape, brown tall boots and her crest/belt exactly as reference. She sits upright on a stone throne on a high airy terrace, holding exactly ONE long steel sword vertically, a clear calm independently thinking expression. One sword total, remove extra weapon hilts/scabbards. Broad sky, delicate clouds, distant kingdom and mountains, dignified heroine not generic queen. Render as crisp 2D Toriyama Dragon Quest illustration, no text/frame or unrelated characters.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-62-queen-of-swords-anlucia.png",
+  "reference_paths": [
+    "references/b-dq10-anlucia-official.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.dqx.jp/offline/character/buddy/06/",
+    "https://www.dqx.jp/offline/assets/img/character/buddy/06/character.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-62-queen-of-swords-anlucia.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-6f252ba0-5b84-4710-8718-8f9f70cf4e55.png",
+  "sha256": "a5b08dd87cfc2db2633ab4029851df489738ba20035c46ec82628f0f15727f4f",
+  "visual_review": "Anlucia official blonde hair/circlet, pink-gold tunic over white sleeves, red cape and crest retained. Exactly one full sword held vertically, no spare hilt, no text/frame.",
+  "expected_suit_count": 1,
+  "observed_suit_count": 1
+}

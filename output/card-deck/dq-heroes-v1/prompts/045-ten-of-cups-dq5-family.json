@@ -1,0 +1,26 @@
+{
+  "card_id": 45,
+  "card_name": "聖杯十",
+  "character": "主人公與家人",
+  "series": "DQ V",
+  "tool": "image_gen.imagegen",
+  "status": "superseded_identity_correction",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Ten of Cups. The first 3 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: A warm family tableau using the actual DQV adult Hero in purple/white, adult Bianca in teal/yellow, and their small blond boy and girl twins in their official outfits. Four people together in a sunny flowering field, looking up to a rainbow. Exactly TEN golden chalices decorate the rainbow in two clearly spaced arcs of FIVE on the left and FIVE on the right. No one carries any additional cup; all ten clearly identifiable. Children fully clothed, innocent family joy and harmony, no extra adults/child reference duplicates. Use sheets for identities only, no duplicated large background figures.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-45-ten-of-cups-dq5-family.png",
+  "reference_paths": [
+    "references/dq5-hero-official.png",
+    "references/artist-a-dq5-bianca.png",
+    "references/artist-a-dq5-twins.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/boy_girl_illust.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-45-ten-of-cups-dq5-family.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-9e66317b-60c2-4488-9719-67292d063ee3.png",
+  "sha256": "7a9e2468ab7b20c1eb20848797caa0441e136e9e7a0ab32a3be52c18333f063f",
+  "visual_review": "Exactly ten cups and parents/boy correct, but girl was drawn as young Bianca rather than DQV daughter. Targeted identity correction required."
+}

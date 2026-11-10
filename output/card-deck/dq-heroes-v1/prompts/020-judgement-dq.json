@@ -1,0 +1,24 @@
+{
+  "card_id": 20,
+  "card_name": "審判",
+  "character": "預設男性主人公",
+  "series": "DQ IX",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/parent-dq9-hero-gallery-reference.png"
+  ],
+  "reference_urls": [
+    "https://www.creativeuncut.com/gallery-14/art/dq9-angel-main-player-male.jpg",
+    "https://www.creativeuncut.com/gallery-14/dq9-angel-main-player-male.html"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ IX default male Celestrian hero from archived original artwork: short swept brown hair, small white feather wings, dark brown long sleeves, brown segmented armor with LILAC edging, yellow leggings and beige cuffed boots. Use character only, never copy gallery title; third-party-hosted original art reference, not an official-host image.\nTarot composition: Judgement. The actual DQIX default male Celestrian hero stands on a high hill as radiant dawn breaks through soft clouds. His small white feather wings, brown hair, purple-edged brown segmented outfit and yellow leggings are faithful and clearly recognizable. He lifts his face with a serene awakened expression toward a small golden trumpet floating in the soft morning light above, symbolizing a call to a new life. The world below awakens with fresh green fields and opening flowers. No graves, resurrected bodies or combat; hopeful renewal.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-20-judgement-dq.png",
+  "character_display": "第九代主人公",
+  "series_display": "勇者鬥惡龍 IX",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-17250e7c-49ef-46dd-978e-b0ea25c9d966.png",
+  "sha256": "bb638fb32357820cd5d89e43be6b2ea9a4e2c99288fe14fc4e349e85558b2e6a",
+  "visual_review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+  "referenceHostType": "third_party_original_art_archive_not_official_host"
+}

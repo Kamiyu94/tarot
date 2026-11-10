@@ -1,0 +1,26 @@
+{
+  "card_id": 72,
+  "card_name": "錢幣九",
+  "character": "Nera／フローラ",
+  "character_display": "Nera／フローラ",
+  "series": "DQ V",
+  "series_display": "勇者鬥惡龍 V",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: Nine of Pentacles, one illustration for the established Dragon Quest tarot deck.\nScene: The actual Nera from DQV, long cobalt-blue hair, large pink/lilac hair bow, white and pink long full skirt with ornate violet/blue trim, bright pink decorated waist panel, gold belt and bracelets, dark shoes. She stands serenely in a lush private garden beside an elegant vine trellis. EXACTLY NINE large golden five-point-star pentacles are prominently visible on the trellis in THREE evenly spaced rows of THREE coins, all circular rims fully visible. No tenth coin and no extra currency. A small falcon perches on a vine branch nearby. Rich greenery, flowers, gentle light and a distant manor convey cultivated abundance and self-possession. Full figure with recognizable outfit, natural dignified pose.\nReference 1 provides actual character identity/outfit only; reference 2 provides only the approved deck ink/cel-color/paper texture style, not a scene or person to copy. Draw a single new continuous full-bleed 2:3 portrait illustration. Faithful recognizable Dragon Quest character design, confident black ink contours, crisp hand-painted cel-color blocks, restrained shading and subtle watercolor-paper grain. Large readable figures and clearly spaced gold pentacle coins with embossed five-point stars. No typography, titles, numbers, logos, watermark, UI or card frame. Ignore any text, framing and faded duplicate portraits in the official reference sheet. Do not add incidental currency or coin-shaped ornaments that could be mistaken for additional pentacles.",
+  "asset_filename": "card-72-nine-of-pentacles-dq5-nera.png",
+  "reference_paths": [
+    "references/artist-a-dq5-nera.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/flora_illust.png"
+  ],
+  "expected_suit_count": 9,
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-c824cbf1-2200-4f14-a313-8626a48ff35e.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-72-nine-of-pentacles-dq5-nera.png",
+  "sha256": "6ef830d21b6973333454ca647ece1f86d863d7e168ed9977d2ccf51296fb054c",
+  "visual_review": "Exactly nine star pentacles on garden trellis, three rows of three. Actual Nera blue hair/pink bow/white-pink long dress and ornamental waist colors retained; dignified garden pose and falcon. No frame, title or watermark.",
+  "observed_suit_count": 9
+}

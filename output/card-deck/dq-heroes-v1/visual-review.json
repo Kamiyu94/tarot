@@ -1,0 +1,941 @@
+{
+  "deck": "dq-heroes-v1",
+  "status": "complete_and_applied",
+  "reviewer": "parent-agent",
+  "userDirection": "Use recognizable Dragon Quest series heroes and characters, not generic original adventurers.",
+  "userStyleFeedback": "approved_by_user",
+  "cards": [
+    {
+      "id": 0,
+      "name": "愚者",
+      "qualityStatus": "pass",
+      "sourceSha256": "c89038304e673c1a65bba9b3fce2ae90c60a4f2b0c8f319d409f2e4ed068b214",
+      "runtimeSha256": "daa796c7b1227f53230d696e18f507f73ad6968999882c2f2b90d421963e45b9",
+      "review": "DQIII hero identity clearly preserved: silver circlet with green jewel, blue tunic/yellow sleeves and leggings, purple cape, sword/shield; full-body cliff/rose/dog beginning-of-journey tableau. No card title or border.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 1,
+      "name": "魔術師",
+      "qualityStatus": "pass",
+      "sourceSha256": "eb5308697f2943ab94c09acd43f314d9495371c61c81d39620fd08ae75bf4278",
+      "runtimeSha256": "2c814f0a232978345c816e7e68e7424c805b9678ebccffd369ddc13b4736e749",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 2,
+      "name": "女祭司",
+      "qualityStatus": "pass",
+      "sourceSha256": "9c9ba7ee32a41e92a39ab1ba2cec7733bb46733a18bdea4275a924e72331f275",
+      "runtimeSha256": "1a7294e850b08f1ac7c4ba2185bd138306a2dad326bef8e1753ece7b3500c2ca",
+      "review": "Serena identity preserved: long pale-blonde hair and broad green headband, turquoise jewelry, green laced bodice/green skirt with ivory pleated front, white puff sleeves, orange sash, purple boots and brown lyre. Calm moonlit unlettered columns/pool/scroll scene; no card title, frame or watermark. Waist buckle partly obscured by hands/lyre in seated pose.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 3,
+      "name": "皇后",
+      "qualityStatus": "pass",
+      "sourceSha256": "60735bc1b0ac085ae07a28397433faf5dffe23ada134eb2cee679cff3b27e39d",
+      "runtimeSha256": "bd24976bc3a1794bc35d8e3010f40267da9fc2dbccc1a15786b09a3fc8b3e4fe",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 4,
+      "name": "皇帝",
+      "qualityStatus": "pass",
+      "sourceSha256": "f3e2eb8794dfe737d5e6344d9b343b37deb5f9c37c65146e7d970e665e6bac42",
+      "runtimeSha256": "d7093648e69ba0855f4d8759ea72701b093cd9099c8721721f6872898f014153",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 5,
+      "name": "教皇",
+      "qualityStatus": "pass",
+      "sourceSha256": "a2846999fe939ce7becb653f6b7099c79071ded35aed8127c042e8b183d01bbd",
+      "runtimeSha256": "a437a8442502621fafded4841ffe6a5cabffa2e5aeeca0b8d98ee09f1e428242",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 6,
+      "name": "戀人",
+      "qualityStatus": "pass",
+      "sourceSha256": "7366cb728b92a87d0b78d3305420bfaba79fcc630a79c56f9c52aff285feb394",
+      "runtimeSha256": "eaf1bb0388e5392adfb4e6d99c7092cbebe1b74546e5a886d0d37913dc36d98d",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 7,
+      "name": "戰車",
+      "qualityStatus": "pass",
+      "sourceSha256": "eaa6908da61af11c5d059873cb6341f9be1e293ae6146676bbf350cc065a26d4",
+      "runtimeSha256": "d50734c3d6523391921ce41a1d81b00494bf323eea736ac546674a00c3c7d55a",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 8,
+      "name": "力量",
+      "qualityStatus": "pass",
+      "sourceSha256": "12c6ddb7de3d307ca3bcff0f85815a73a66f0d2b9db776f92c5203578abb5edd",
+      "runtimeSha256": "709ec452418d21335b33190c71bcb3b0d5299c9e9b1b7b2dfdc465eaa8d8d388",
+      "review": "Recognizable adult DQV protagonist: purple turban/scarf/cape, white sleeveless tunic, green pouch, silver bands, blue calf wraps and wood staff. Great Sabrecat has red crest/tail tuft, yellow black-spotted coat, white chest/paws and saber fangs. Gentle trusting interaction, no frame/text/QR.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 9,
+      "name": "隱士",
+      "qualityStatus": "pass",
+      "sourceSha256": "1bec0fd8e0c1e83cc681e3348d06cea623e64f644914b11e33cd2d51477a39ef",
+      "runtimeSha256": "4176fe73847dc681d0a4375d6b9acb76723eb7873425528d7205e0c6dc188e2e",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 10,
+      "name": "命運之輪",
+      "qualityStatus": "pass",
+      "sourceSha256": "b870a117cc22ec54a03433579d9a55e1539300dea484f7c484dc4ada678113c5",
+      "runtimeSha256": "3c934147866ea941b2b5a89fb2dab03cffdb11b368165b609432d9b4833812d7",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 11,
+      "name": "正義",
+      "qualityStatus": "pass",
+      "sourceSha256": "abd97d692511ad2e6482e2467168d529db7b6663bdc49dd43eed491dc3e614a2",
+      "runtimeSha256": "22af0c4a3d7fe1c24be9ee64055f3e0493a5d0cc0e0aa827d7d29cb5361d8fb8",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 12,
+      "name": "倒吊人",
+      "qualityStatus": "pass",
+      "sourceSha256": "32c2ccac71af07d7bc811d3273e3e14239b4365540040b87890f98da908bc5e4",
+      "runtimeSha256": "1b5a28bd804611ab72cd8c574e27dcb502beaf87684d3150182512ddc868ba67",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 13,
+      "name": "死神",
+      "qualityStatus": "pass",
+      "sourceSha256": "bd79ee0779a563c778a36f13e4e70fc797235a325104c203739c7fdd59d7276c",
+      "runtimeSha256": "87403025fcbe20f7c69d51230d1ac898598413197d39cce16db963481bd23fc8",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 14,
+      "name": "節制",
+      "qualityStatus": "pass",
+      "sourceSha256": "2888bf13c8d76e55832ac05fff23d8cc409e06f7b93574f8c391abbe83306486",
+      "runtimeSha256": "5b0183f0552ba4b9efd4044870f43dc4a1055cb694bd6b7a1707baf34368d65e",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 15,
+      "name": "惡魔",
+      "qualityStatus": "pass",
+      "sourceSha256": "233a2ebc68143a42907588306d1c5b75cd87e9c64af03f19b07c4812a23e3278",
+      "runtimeSha256": "dd78808b789873c8b31dd2de20591773cfe451b606116314b2f91e28bbd82a83",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 16,
+      "name": "高塔",
+      "qualityStatus": "pass",
+      "sourceSha256": "560e67fee5d883200020e5e87924125b6f85a82fd35036aaf4bb81421c353c42",
+      "runtimeSha256": "9fd3d99a1e50b443d6cbd261ba4a8ddf21f9691a8cae5b31e42da0c42678d45e",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 17,
+      "name": "星星",
+      "qualityStatus": "pass",
+      "sourceSha256": "4130aeb14503795d2aeae66a194e9aa36c664e9de95a14af0b1ebe4782c6ca43",
+      "runtimeSha256": "67d6c73c68babe770ab26b890848a60367db7f9006c63e17c7a5220beba6dfca",
+      "review": "Jessica identity/outfit preserved; corrected final sky has exactly one large star and seven small stars. Two pitchers, hopeful water scene, no card frame/text.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 18,
+      "name": "月亮",
+      "qualityStatus": "pass",
+      "sourceSha256": "a556744190ec159ab4b882e1341f2d1a562a73884958290c5c425deeb14dddf1",
+      "runtimeSha256": "02a6ac86284dc8b405751708aca44780e62db4d67af430fc134ad7c8390bc7d4",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 19,
+      "name": "太陽",
+      "qualityStatus": "pass",
+      "sourceSha256": "e43672805b8bc2ddd5c89c2603ef838dd2edbc0e631cd6366adb18e0b4116dbd",
+      "runtimeSha256": "a62bc23f04728bb6728494c2ae201d6876699bb902299cdd2fec3268e97285a6",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 20,
+      "name": "審判",
+      "qualityStatus": "pass",
+      "sourceSha256": "bb638fb32357820cd5d89e43be6b2ea9a4e2c99288fe14fc4e349e85558b2e6a",
+      "runtimeSha256": "cbcab8de5e9d51757f9c4041262086ebc553a75909f842db55629018886a4172",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 21,
+      "name": "世界",
+      "qualityStatus": "pass",
+      "sourceSha256": "c1d8a7519d5e35199578b6e5072f2c0faa658c79e94136917d002f306cb1d457",
+      "runtimeSha256": "8c1372633aea727285f2b8898eaa7035e15f7f70f2e63fa2f6f541ed93bafdb6",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": null
+    },
+    {
+      "id": 22,
+      "name": "權杖王牌",
+      "qualityStatus": "pass",
+      "sourceSha256": "1dcc517207d0740d2ec5993469ae74c2404ad373bf81f1e40270862de89403a6",
+      "runtimeSha256": "f8a70f58d71134a4cbd0d22aee4150ae3e1e998f1e7e33d1fcffe35c71e5e1df",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 23,
+      "name": "權杖二",
+      "qualityStatus": "pass",
+      "sourceSha256": "d64a79eefd8188553b17aa8b0921735952bc75f477628db364b9237cb87cac2b",
+      "runtimeSha256": "b0a7d250f09e7055b3911ae4c80900f6a9d69b95ee3e2111e8a684fa6190874c",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 2
+    },
+    {
+      "id": 24,
+      "name": "權杖三",
+      "qualityStatus": "pass",
+      "sourceSha256": "813038b26c7b7ac01ff15993b77787029068e83787509140a8d3861f80cc7c74",
+      "runtimeSha256": "c4d390e8796edaaf5a9c8419635fca40bbcdc5c96e0c5fad83827e819c332c22",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 3
+    },
+    {
+      "id": 25,
+      "name": "權杖四",
+      "qualityStatus": "pass",
+      "sourceSha256": "ec18eb86ae614fd552705517eac18eda323b4ad7224c05bcb3e5f36d683deed8",
+      "runtimeSha256": "1328af9a2e043bc06ac16a264264f10c65cba42d633cb616e911e4c244e259b2",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 4
+    },
+    {
+      "id": 26,
+      "name": "權杖五",
+      "qualityStatus": "pass",
+      "sourceSha256": "08b7f906a05e3c8c6e1552dad4de12c884ba56742875ba45ad45cc460ebef2de",
+      "runtimeSha256": "812e22fc07274148edd362d5fdd1e806d19505dee316e9d5f1d82a1a67ce5c03",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 5
+    },
+    {
+      "id": 27,
+      "name": "權杖六",
+      "qualityStatus": "pass",
+      "sourceSha256": "081ad82d7d483c15d03f2eeb619a5c9cc62f780c64a5e7ff1a522820bb8f001d",
+      "runtimeSha256": "430fc63e5977bd9229b618f799edd6e1e00bb54cd6aaabd3b0716a5f0e67e2b7",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 6
+    },
+    {
+      "id": 28,
+      "name": "權杖七",
+      "qualityStatus": "pass",
+      "sourceSha256": "97a4884f560f92b0938257109b0f471d6ef164ecb8aa45e0535a9cc330ccd9f5",
+      "runtimeSha256": "9ae718924b02a4fb1848581b931bd3cdd68c176c700eb7cf4b84174b8aa2afee",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 7
+    },
+    {
+      "id": 29,
+      "name": "權杖八",
+      "qualityStatus": "pass",
+      "sourceSha256": "b7a10ef78da91126c54c03b9967479d916394df01a6ab682682a024dee823b12",
+      "runtimeSha256": "ce8e790036439c291d9dd5a9ab22445f1ee681d6a7d317c7e02a9f57261c24a2",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 8
+    },
+    {
+      "id": 30,
+      "name": "權杖九",
+      "qualityStatus": "pass",
+      "sourceSha256": "5e26d7163b681a500f0a989a2720151541aa7df5e6795eb5a2cc63cf54d9740d",
+      "runtimeSha256": "5ccd4a474b4cc6ee46baa2df3144567e7119266ec92c055ef0801facd467b071",
+      "review": "Carver identity preserved; final image visually counted eight rear staffs (four each side) plus one front staff = nine total. No additional wand-like props, no text/frame.",
+      "expectedSuitCount": 9
+    },
+    {
+      "id": 31,
+      "name": "權杖十",
+      "qualityStatus": "pass",
+      "sourceSha256": "f44ca47e8f85fab809a4998781bceddd1eb76839ae14cda39e2bc2397b5386ae",
+      "runtimeSha256": "8b453103d7d98be95b72bdfa3ed569e67e41cf88a25b011790948682d2053cb4",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 10
+    },
+    {
+      "id": 32,
+      "name": "權杖侍者",
+      "qualityStatus": "pass",
+      "sourceSha256": "f9414ba22dbd7c3908ddfdf978460f3f735579f0cbc9e19ae5283a302a4e3d49",
+      "runtimeSha256": "16fb5d0a2a37acb9d4496f8ad5281c2b7ec3bb98696a8d274b58988fc18cbea3",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 33,
+      "name": "權杖騎士",
+      "qualityStatus": "pass",
+      "sourceSha256": "0dad0f777743eb0417c56911079ed5b80e4ab1faf09c2e40cec2e39a3c4d319c",
+      "runtimeSha256": "18513a5a68c9418d67f8d7a02a29cf9dab6269cdbf4c85b54357a3203545663c",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 34,
+      "name": "權杖王后",
+      "qualityStatus": "pass",
+      "sourceSha256": "f364f09a4d2176e3fb99f37e0bb7f210e5377065229c156f55bc0f71c420bcb8",
+      "runtimeSha256": "d2867703c8aa1c1e88b6ead78d8b12313fdc90a0622720fdff8d7dd57fdf4de8",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 35,
+      "name": "權杖國王",
+      "qualityStatus": "pass",
+      "sourceSha256": "b4f9e922bbed557faec4dd4e72231497151635fe2cffa028e1c4c87acc176f1a",
+      "runtimeSha256": "edb72def3e80fdb8aa99f2a886e0ade6781b12e58be86f39de222dca2239b2a4",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 36,
+      "name": "聖杯王牌",
+      "qualityStatus": "pass",
+      "sourceSha256": "a2a0b1e712adc5dbfcb5fd17c97cbec6515ac36687b6f639d69d70bbdcb69a5a",
+      "runtimeSha256": "57b059d05c2403695f65b451657d5f41f6dde5c7150c6fe6f9c39ee3ae041c25",
+      "review": "Classic blue Slime identity preserved, exactly one overflowing golden chalice, no extra cups; bright consistent deck style, full bleed 1024x1536 with no text/frame.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 37,
+      "name": "聖杯二",
+      "qualityStatus": "pass",
+      "sourceSha256": "1b3b4b5eecd3929671c1245c1e4c9943b0c11a4cc0807199aac9f60ac019d1b3",
+      "runtimeSha256": "0d91ca18d3d68f1b2f43f8b89649db7e1cc944ed4a4e6af98274edfc8607344e",
+      "review": "DQV adult Hero and Bianca identities preserved, two adults each hold one cup, exactly two chalices; no duplicate reference figures, no text/frame, consistent 1024x1536 style.",
+      "expectedSuitCount": 2
+    },
+    {
+      "id": 38,
+      "name": "聖杯三",
+      "qualityStatus": "pass",
+      "sourceSha256": "49c66d092cb47a7e459ae2c0a799f7b2fd4c03f6b13b74e3bb6b398b229b9480",
+      "runtimeSha256": "8d2f33f5a2c0f7433bf60de110ba4c6766b173f7b6c4c92b5af692058c2ad653",
+      "review": "Exactly three recognizable blue Slimes and exactly three separate golden flower-filled chalices. Approved deck line/color/texture maintained. Full-bleed portrait without humans, lettering, frame or watermark.",
+      "expectedSuitCount": 3
+    },
+    {
+      "id": 39,
+      "name": "聖杯四",
+      "qualityStatus": "pass",
+      "sourceSha256": "5be6724dc83746b5a2c456725c0c1709cbd1ec9146ac53f202bf7986269a295c",
+      "runtimeSha256": "56b3e57bacc8b0c93f60556b3c5ce9120c02fed20ae8594bbf69234e5ed73ee7",
+      "review": "Actual Maribel identity with orange hood, red curls and green/red outfit; three cups on ground plus one cloud-hand cup, exactly four, no text/frame and consistent portrait style.",
+      "expectedSuitCount": 4
+    },
+    {
+      "id": 40,
+      "name": "聖杯五",
+      "qualityStatus": "pass",
+      "sourceSha256": "0cd8c2829805e28a25f4b3913810407c8359cd9953677a9941b5ecaf161006cf",
+      "runtimeSha256": "4c6b2ea9344f2666b91cac712da764f257aba4bcd2739b07c4289c91466bca16",
+      "review": "King Trode retains green creature identity and orange robe. Exactly three spilled cups in foreground plus two standing cups behind him, five total; no typography/frame and consistent style.",
+      "expectedSuitCount": 5
+    },
+    {
+      "id": 41,
+      "name": "聖杯六",
+      "qualityStatus": "pass",
+      "sourceSha256": "c3197d02fc96a85cd34cbdf9cc00216492a98b47a057c5ae335eb21f2f149f6e",
+      "runtimeSha256": "126784929ae24b5107c726d0d57f90d57a9c0e5de452563fe867d7a70dd36120",
+      "review": "DQV child Hero and child Bianca correctly selected, innocent flower exchange; exactly four flower chalices foreground and two on wall, six total. No adult duplicates, text or frame, consistent portrait style.",
+      "expectedSuitCount": 6
+    },
+    {
+      "id": 42,
+      "name": "聖杯七",
+      "qualityStatus": "pass",
+      "sourceSha256": "07daf8c13c61d14a3ab1f809eb53d2560f5bc628cfcec23d2e8fe7b171b9915b",
+      "runtimeSha256": "ffd811c777d8cfe4fe308346e127632a3ca82ce67d366af92d9f47135fac1ab1",
+      "review": "Meena identity preserved with purple hair, orange dress and silver-green circlet. Exactly seven vision chalices, four upper and three middle; no extra cup, clear count, no text/frame.",
+      "expectedSuitCount": 7
+    },
+    {
+      "id": 43,
+      "name": "聖杯八",
+      "qualityStatus": "pass",
+      "sourceSha256": "f27bcc8d617ee20b73182caf701a6a740eff68d5797b0d0d2239bfce54ab31f7",
+      "runtimeSha256": "0fbbd1f4b88caeeb082e70047958bf2fb00f3c2dada91124355d4b311c8c958e",
+      "review": "Kiefer official blond hair and red princely outfit preserved; eight cups clearly arranged five lower and three upper, departing toward mountains, no text/frame.",
+      "expectedSuitCount": 8
+    },
+    {
+      "id": 44,
+      "name": "聖杯九",
+      "qualityStatus": "pass",
+      "sourceSha256": "672313a535afbe93d74326f6ce82be3a3132f12708adb7ded525db41ee4dedc4",
+      "runtimeSha256": "7cd7f490acd3ec20d333c6f3ffb9b180c054d316accda0e35a39c41bd3cecf8c",
+      "review": "Torneko official blue mustache, purple cap/vest and blue-white stripes preserved; exactly nine chalices clearly displayed in three-by-three shelves. Full bleed, no text/frame.",
+      "expectedSuitCount": 9
+    },
+    {
+      "id": 45,
+      "name": "聖杯十",
+      "qualityStatus": "pass",
+      "sourceSha256": "33ac97b8e0c109f9d888a8459bddcdc20ae6067e76477fff50e1861e43561614",
+      "runtimeSha256": "747efc27eab23695fe73d1faa53ef6f7b2ff17e425a1e974473b40a1c2a76fa9",
+      "review": "Corrected daughter to actual DQV white/lavender dress, purple cape, green ribbon bows and green pouch; parents and boy identities retained; exactly ten rainbow cups (five each side), no text/frame.",
+      "expectedSuitCount": 10
+    },
+    {
+      "id": 46,
+      "name": "聖杯侍者",
+      "qualityStatus": "pass",
+      "sourceSha256": "b3d9b12d7d7530c7978dc87fa2d90e5a824c5e67a79209ea8f5349f8304d4868",
+      "runtimeSha256": "d3cc3e3ee127fab6f5b1c2fc9c9f20840c7ac35bd5039fca7f79971ab517da51",
+      "review": "Sylvando official black tied-back hair and gray-cream/red performer costume preserved. Exactly one chalice with one visible little fish, seaside scene, no text/frame; consistent deck art.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 47,
+      "name": "聖杯騎士",
+      "qualityStatus": "pass",
+      "sourceSha256": "e8dfa0fd8adae266ee7722925dbb749a3046d85b2129bbd52054c7bd2085f386",
+      "runtimeSha256": "f5a452cccd7c7cc1fa41472c93f1f88e1e41a9126d63cc0d33c06cc546f19f3f",
+      "review": "Angelo official silver tied hair, red templar outfit and white boots retained; white horse and exactly one offered cup, no extra cup, no text/frame.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 48,
+      "name": "聖杯王后",
+      "qualityStatus": "pass",
+      "sourceSha256": "52ddd003cce9f0de4b7926f472d4341c7360ac8c4cec3bd8de3e2fa262cb588c",
+      "runtimeSha256": "36f333dced8a256b73ae1a1ed767419079065d87ca275d5d4161732f0f241bca",
+      "review": "Actual Nera identity: blue hair, pink bow, ornate white/pink dress and gold accents. One cup held by both hands, calm lake scene, no extra cups, no text/frame.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 49,
+      "name": "聖杯國王",
+      "qualityStatus": "pass",
+      "sourceSha256": "b6a6416363ca786c8ffe0b0062f61397d5292b63948b6e60cd2950c2e7fa5b93",
+      "runtimeSha256": "ef6df3575cd63b406a0c358d6934b51d74bd0631387a84cf089622d6536fc3d2",
+      "review": "DQV adult Hero purple turban/cape, white robe and green pouch preserved. Exactly one cup on seaside throne, no staff or additional cup, no text/frame.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 50,
+      "name": "寶劍王牌",
+      "qualityStatus": "pass",
+      "sourceSha256": "1bfd5fd1adeae638f676281b9e5375911d4f7605db80d4d9823685ff965047d8",
+      "runtimeSha256": "52adc655978a04708e82ff837639e4d0639123b1b7465abf6ef34f12bd32b257",
+      "review": "Actual DQIII Hero identity and costume preserved. Exactly one upright sword with crown and olive/palm branches, no second hilt; full bleed 1024x1536, no text/frame.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 51,
+      "name": "寶劍二",
+      "qualityStatus": "pass",
+      "sourceSha256": "8b1671d0b076b364f13b173ce53262a042f1bdb136c37edb03440818f5990d42",
+      "runtimeSha256": "f76ef26c40a0afa61c884a700db2003bfc8e6dec87be5152cf0b1d1065fe9b60",
+      "review": "Terry official teal costume and silver hair preserved with blindfold; exactly two complete crossed blades, no additional hilts, no text/frame.",
+      "expectedSuitCount": 2
+    },
+    {
+      "id": 52,
+      "name": "寶劍三",
+      "qualityStatus": "pass",
+      "sourceSha256": "e4e1a7daf6b241d2adfaf5e2e3848f175c1a846c0ea4dc0588f10786ab5e97ab",
+      "runtimeSha256": "61741a000d7e111b52f8426c913a165802a2d71eb7538aebe3825a7fcd6f36ff",
+      "review": "Actual Psaro and Rosalie identities match official DQM3 reference variant; exactly three swords through a symbolic heart cloud, none touches people, no injury; no text/frame.",
+      "expectedSuitCount": 3
+    },
+    {
+      "id": 53,
+      "name": "寶劍四",
+      "qualityStatus": "pass",
+      "sourceSha256": "5cbd3a38f8ca1b9c9e9be69bd4f97b8629b3575ec116a42d6d9eb23406e591c3",
+      "runtimeSha256": "04a024c0ed89c315c0f8f90a3dd4444d814d4a13da9bdb039df5a288b23c7b2d",
+      "review": "DQI hero official horned blue helmet, blue armor and red-white cape retained. Exactly four wall swords, all separate, no personal sword hilt, peaceful rest; no text/frame.",
+      "expectedSuitCount": 4
+    },
+    {
+      "id": 54,
+      "name": "寶劍五",
+      "qualityStatus": "pass",
+      "sourceSha256": "90c1254fe4450554786c1426861856c2908894da472dedf47d15cffac4eb39cd",
+      "runtimeSha256": "59912b02a47a1e555df0d0dea2903f3befe32df5a7af537d33503f291572cf3f",
+      "review": "New Erik scene succeeds: canonical blue hair/green hood/magenta sash, one thoughtful adult, exactly five complete rack swords, none held or used. No text/frame.",
+      "expectedSuitCount": 5
+    },
+    {
+      "id": 55,
+      "name": "寶劍六",
+      "qualityStatus": "pass",
+      "sourceSha256": "5709ec7b45586f96c55fcd65ee8218e36a608ccd9fcc9b4ea31473ec48a8666b",
+      "runtimeSha256": "9047c7fd797caaf0b90ea14340e4d582978439a8717ff15a7d84c7f07c8a7f12",
+      "review": "Actual DQVIII Hero alone in boat, orange bandana/yellow coat/blue tunic/green trousers. Exactly three secured swords each side, six total, no personal hilt or other person, no text/frame.",
+      "expectedSuitCount": 6
+    },
+    {
+      "id": 56,
+      "name": "寶劍七",
+      "qualityStatus": "pass",
+      "sourceSha256": "ffe078a88b67a2711a65c54dfeb2283bacde20536b9669c76ad4fb613996a824",
+      "runtimeSha256": "ede0f11a486625cc74454b3f2df0e13f7dbb73e7608e9288a284b4b879c233a3",
+      "review": "Erik identity retained, exactly five carried swords with five visible hilts and two left planted behind, seven total. No extra personal weapon, no text/frame.",
+      "expectedSuitCount": 7
+    },
+    {
+      "id": 57,
+      "name": "寶劍八",
+      "qualityStatus": "pass",
+      "sourceSha256": "2b28bb0a71859ddfbe306ea83cdbc63070daa32d24be67cf3cc6b33e20d62c49",
+      "runtimeSha256": "faa02e6867b94a03345f77c836480fa48e4a767e593da90b33f3f8071c617ed3",
+      "review": "Final correction shows four distinct left hilts and four distinct right hilts, exactly eight swords; Maya identity/covered orange-white attire retained, free hands and open path, no text/frame.",
+      "expectedSuitCount": 8
+    },
+    {
+      "id": 58,
+      "name": "寶劍九",
+      "qualityStatus": "pass",
+      "sourceSha256": "f7777e2a71e8b7d2cf3b4e781e8081d406a2e01ee32da6388052dcc6648f1957",
+      "runtimeSha256": "7a9f57a5fd1e12b6b9a3b917dd452fbc022d77aab77720cb5f769e818cb6824d",
+      "review": "Milly official blond hair, silver circlet and blue-violet/cream outfit retained; exactly nine wall swords arranged three-by-three, no blade touches her, no text/frame.",
+      "expectedSuitCount": 9
+    },
+    {
+      "id": 59,
+      "name": "寶劍十",
+      "qualityStatus": "pass",
+      "sourceSha256": "02bc5e9f92789ec3149c584279883df3894617a404aa27e2995d0967607e7aa5",
+      "runtimeSha256": "8e7b1dc90bece2ee40721e7b0a46afafe8a8d982920232af980f9c03128e3997",
+      "review": "Pankraz actual cream leather one-shoulder top, tooth necklace, blue fur cloak, black mustache and red pouch retained. Exactly five planted swords left and five right, ten total; alive/uninjured, no text/frame.",
+      "expectedSuitCount": 10
+    },
+    {
+      "id": 60,
+      "name": "寶劍侍者",
+      "qualityStatus": "pass",
+      "sourceSha256": "237aa953204a30f70e1a11d4927824048b4c5088fe4141e74cd58587751c2dd3",
+      "runtimeSha256": "360159fde26528b7fd10de6cd2e1f53035cde1afccb1730716b651fbb85f0098",
+      "review": "Ragnar official pink armor, plumed pink helmet, blue mustache, gray shoulders and red cape retained. Exactly one complete upright sword, no spare hilt, no text/frame.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 61,
+      "name": "寶劍騎士",
+      "qualityStatus": "pass",
+      "sourceSha256": "cdceaa8ffa2443c90d7697c42387cd659e2ce91171042d34f5d9676d8bfe86c8",
+      "runtimeSha256": "1c514ea1c47d91afaeef7d10890b8ef5f191d673b8dbd9bfe5362ea08f852dda",
+      "review": "Hendrik canonical purple hair/beard and black-gold full armor with eagle and red cape retained in 2D. Exactly one raised sword on dark horse, no spare hilt, no text/frame.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 62,
+      "name": "寶劍王后",
+      "qualityStatus": "pass",
+      "sourceSha256": "a5b08dd87cfc2db2633ab4029851df489738ba20035c46ec82628f0f15727f4f",
+      "runtimeSha256": "e638c3c3731ffde46dee8e63b4e2aaa37460fa0ac8980824e9c369ce873d3e51",
+      "review": "Anlucia official blonde hair/circlet, pink-gold tunic over white sleeves, red cape and crest retained. Exactly one full sword held vertically, no spare hilt, no text/frame.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 63,
+      "name": "寶劍國王",
+      "qualityStatus": "pass",
+      "sourceSha256": "b376430034ac4466af8fb5b1a9af9964dc788c78eb6a642abb29554948a49645",
+      "runtimeSha256": "bb567de9db9a0ef4e7bbc2bf767dd0ee15b87a148d2d3a4f2ba212e497216618",
+      "review": "DQIV male Hero official green hair, winged blue-jewel headband, teal cape/tunic and white clothing retained. Exactly one upright sword, no secondary hilt, no text/frame.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 64,
+      "name": "錢幣王牌",
+      "qualityStatus": "pass",
+      "sourceSha256": "2b99676adc9e973951ed1b1ec812c1141c4b077d187e0d40abd86ba5fc86f6ea",
+      "runtimeSha256": "4f261295b9afafe11dd3fb2345e617ee202f3751401ca7c393c957a7083e16ed",
+      "review": "Stella recognizable blonde curls/pink bow/orange dress/black stockings/red-bow shoes/pink butterfly wings. Exactly one large star pentacle fully visible. Approved deck ink/cel-color texture, no text or frame.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 65,
+      "name": "錢幣二",
+      "qualityStatus": "pass",
+      "sourceSha256": "d07d7e5544992754181d57b4997d5c6a421f78a38c21ce681392eae9284c46c7",
+      "runtimeSha256": "2133dea5dbbe8cebc32162da9b2f329ee8022943ae24d54a8f5f0e451dacd695",
+      "review": "Torneko identity and blue-white striped robe retained. Exactly two clearly separated star pentacle coins, one in each hand, connected by green infinity ribbon. No extra currency or text/frame.",
+      "expectedSuitCount": 2
+    },
+    {
+      "id": 66,
+      "name": "錢幣三",
+      "qualityStatus": "pass",
+      "sourceSha256": "cc5dc1dd80af40b4f9549ddb6530d1cfdd6e9ebbd480156fdf06866d335c8a9a",
+      "runtimeSha256": "6580a9666f06d689b735f70b4440813a32b1c0cad5bf12830eacd7b2417ffc52",
+      "review": "Final image has exactly three large gold pentacles on the arch; blueprint is plain architectural linework without extra coin symbols. Carver/Ragnar/Yangus identity and cooperative scene preserved, no text/frame.",
+      "expectedSuitCount": 3
+    },
+    {
+      "id": 67,
+      "name": "錢幣四",
+      "qualityStatus": "pass",
+      "sourceSha256": "74a44b3bf586ad1d7ecbf4e3f6150d9502a8ef8061a93b4419b0c48723a1c744",
+      "runtimeSha256": "c7bd2e622c845cc8aecd61e99a96fc70f7b04aab55b00033dc2e719e4e1a89e9",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 4
+    },
+    {
+      "id": 68,
+      "name": "錢幣五",
+      "qualityStatus": "pass",
+      "sourceSha256": "0ac77592c780dc2d1c9b15f5693e8407e9b3b1bddcee8855bf8f5c24e59c60b1",
+      "runtimeSha256": "e25bc62a8fa3b22f877e285d850db25e54bdc8e9c0d25f316f41d2add7ff2903",
+      "review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 5
+    },
+    {
+      "id": 69,
+      "name": "錢幣六",
+      "qualityStatus": "pass",
+      "sourceSha256": "d31c4402b254e5c79cc9677b7b7768f041da20306350194f48f4bdd2bb7a2a7d",
+      "runtimeSha256": "adda635e9ad4bb07a5705f1dc42f177d34269f7a9c3993bdb71964fdb59bee9e",
+      "review": "Exactly six star pentacle coins in two columns of three on wall; Torneko shares bread with two clothed townspeople, scale empty. Merchant identity, approved deck style, no title/frame/watermark.",
+      "expectedSuitCount": 6
+    },
+    {
+      "id": 70,
+      "name": "錢幣七",
+      "qualityStatus": "pass",
+      "sourceSha256": "4a7aad1fa8a07df8e9ad7748613667b2ddd7f2d4294e07284a47a870b8164e82",
+      "runtimeSha256": "ea0c893dcb6f20b703f1c160847a586bf1e9306bc5199747c84397b1bc53f9c0",
+      "review": "Exactly seven star pentacles on vine trellis: three upper and four lower. Grown-up Bianca official side braid, teal dress and yellow cape preserved; thoughtful gardening pose, no title/frame/watermark.",
+      "expectedSuitCount": 7
+    },
+    {
+      "id": 71,
+      "name": "錢幣八",
+      "qualityStatus": "pass",
+      "sourceSha256": "321f26f872803bebc00b820b3fc7a1f91bc242de0b48c9961fe83319745bdfa8",
+      "runtimeSha256": "f4ca41ef3dac048f80582400cf54fd6bbcea160b031d69fcad3ecdd54f8f7c6d",
+      "review": "Exactly eight star pentacles: three upper plus four lower on workshop wall, one on bench. Actual DQXI Hero brown bob/violet coat/gray sleeves/green boots retained; focused engraving pose. No frame, title or watermark.",
+      "expectedSuitCount": 8
+    },
+    {
+      "id": 72,
+      "name": "錢幣九",
+      "qualityStatus": "pass",
+      "sourceSha256": "6ef830d21b6973333454ca647ece1f86d863d7e168ed9977d2ccf51296fb054c",
+      "runtimeSha256": "c1cc6f5fd3fa373c21a1556b2b598ef790521f0594d656c26107e58e5e38cab8",
+      "review": "Exactly nine star pentacles on garden trellis, three rows of three. Actual Nera blue hair/pink bow/white-pink long dress and ornamental waist colors retained; dignified garden pose and falcon. No frame, title or watermark.",
+      "expectedSuitCount": 9
+    },
+    {
+      "id": 73,
+      "name": "錢幣十",
+      "qualityStatus": "pass",
+      "sourceSha256": "5058b98e158915fb77cca32b3601d63035f0b501f25f7f2fa850d2df59b057cc",
+      "runtimeSha256": "dcc2b266a90cfe2cde5b500ad073917755ead9858fa6c7068810f8963e602b88",
+      "review": "Final image visually counted five gold star coins on each stone pillar = ten total. DQV Hero/Bianca/Rex/Tabitha and all signature costumes preserved. No printed text or card frame.",
+      "expectedSuitCount": 10
+    },
+    {
+      "id": 74,
+      "name": "錢幣侍者",
+      "qualityStatus": "pass",
+      "sourceSha256": "c61cad87fb473dfd5bfbe058a29ab5e1aea657a7ee6f4178c319cb52193267cb",
+      "runtimeSha256": "df18bb528aab051906146d48a46234fb1d57e99908ccbe454991417ba6547223",
+      "review": "Actual DQVII Hero green cap/tunic, cream sleeves, brown belt, teal leggings and cuffed boots retained. Exactly one golden star pentacle, studying pose with map and ruins; no frame, title or watermark.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 75,
+      "name": "錢幣騎士",
+      "qualityStatus": "pass",
+      "sourceSha256": "64124f7ad014071239ef55a8c2f92e3e47b66a9d11f7c78504c505481255fb71",
+      "runtimeSha256": "6a6011b69103abaaabf8ee0828847384581f677e7d799b765af568c8c58e24ea",
+      "review": "Actual DQVIII Hero orange bandana/yellow coat/blue tunic/green pouch retained. Calm horse standing on road, exactly one raised gold pentacle. Consistent deck colors and linework; no frame, title or watermark.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 76,
+      "name": "錢幣王后",
+      "qualityStatus": "pass",
+      "sourceSha256": "e7261647b6334c6af9971bb09696d2ad3006b763869b2ac05c0479353155090a",
+      "runtimeSha256": "1e69ac7f7188fe1601ef5cbc077e7bb87966f93b2e07c608692e8ac38f1a19aa",
+      "review": "Actual adult Debora identity: voluminous dark hair, rose ornaments, turquoise eyes, green jewels, pink ruffled dress and white fur coat retained. Relaxed dignified seated pose, one clearly visible large star pentacle on lap, garden and rabbit. Consistent deck style; no title/frame/watermark.",
+      "expectedSuitCount": 1
+    },
+    {
+      "id": 77,
+      "name": "錢幣國王",
+      "qualityStatus": "pass",
+      "sourceSha256": "aa9a7aa16cb0ae0d809ef1a0b1f6a572822d4f464a0f39807e9ec786649e1d2e",
+      "runtimeSha256": "4c784a390595bb7cf836bf8410421ab2657cdcfad548b4e0c19799c2d2556635",
+      "review": "Actual Torneko red cap, blue hair and moustache, purple vest, blue-white striped merchant robe and satchel retained. Seated in merchant courtyard holding one large clearly marked star pentacle. Consistent deck style with no title/frame/watermark.",
+      "expectedSuitCount": 1
+    }
+  ],
+  "previewVerification": {
+    "viewports": [
+      320,
+      390,
+      1440
+    ],
+    "all78PreviewImagesLoaded": true,
+    "horizontalOverflow": false,
+    "mobileCaptionSize": "16px",
+    "liveDeckApplied": true
+  },
+  "approvedSampleIds": [
+    0,
+    8,
+    2
+  ],
+  "reviewMethod": "Individual artist inspection followed by parent full-gallery review; automated source/runtime/prompt hashes and 78 unique image checks.",
+  "readyCount": 78,
+  "applied": true,
+  "productionReview": {
+    "artistAIds": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      66,
+      67,
+      68,
+      73
+    ],
+    "artistBIds": [
+      36,
+      37,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "parentGeneratedIds": [
+      38,
+      64,
+      65,
+      69,
+      70,
+      71,
+      72,
+      74,
+      75,
+      76,
+      77
+    ],
+    "sampleIds": [
+      0,
+      8,
+      2
+    ],
+    "parentGalleryReviewedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+    ],
+    "all78RuntimeImagesLoaded": true,
+    "uniqueRuntimeImageCount": 78,
+    "runtimeDimensions": [
+      640,
+      960
+    ],
+    "sourcePngsRetained": true,
+    "originalArtworkRetained": true
+  },
+  "appVerification": {
+    "viewports": [
+      320,
+      390,
+      1440
+    ],
+    "horizontalOverflow": false,
+    "initialSimpleModeChecked": false,
+    "all78NewImagesLoaded": true,
+    "presetCountsVerified": [
+      1,
+      3,
+      5
+    ],
+    "customDrawVerified": {
+      "count": 7,
+      "unique": 7
+    },
+    "simpleTextHasNoPositionLabels": true,
+    "fiveCardDetailedPositionLabelsRetained": true,
+    "mobileCardNameFont": "18px",
+    "mobileMeaningDescriptionFont": "16px",
+    "mobileActionFont": "14px",
+    "mobileActionMinHeight": 48,
+    "imageExport": {
+      "success": true,
+      "cardCount": 7,
+      "dimensions": [
+        508,
+        2332
+      ],
+      "visuallyInspected": true
+    },
+    "serviceWorkerVersion": "tarot-app-v9"
+  }
+}

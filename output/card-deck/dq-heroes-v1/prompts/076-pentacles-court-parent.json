@@ -1,0 +1,26 @@
+{
+  "card_id": 76,
+  "card_name": "錢幣王后",
+  "character": "Debora／デボラ",
+  "character_display": "Debora／デボラ",
+  "series": "DQ V",
+  "series_display": "勇者鬥惡龍 V",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: Queen of Pentacles, one card illustration for the established DQ tarot deck.\nScene: The actual adult Debora from DQV, long voluminous dark gray hair, red rose hair ornaments, turquoise eyes and green jewel necklace, her recognizable pink ruffled dress, wide green-and-gold belt, white fur-trimmed long coat and red shoes. She is seated with a relaxed dignified normal posture on a carved stone garden chair in a lush walled garden. Both hands gently support one large golden pentacle coin resting on her lap. Her full official outfit stays on and all key clothing colors are retained. Green foliage, flowers, ripe fruit on a small tree and a quiet distant manor suggest practical care, abundance and comfort. A single small rabbit sits by the chair.\nReference 1 is the exact Dragon Quest character identity and costume reference. Reference 2 is ONLY the approved deck line, color and subtle paper texture style. Create one original cohesive full-bleed portrait 2:3 illustration. Faithful Toriyama Dragon Quest character design, confident clean black ink contours, crisp hand-painted cel-color blocks, restrained shadows, verdant fantasy landscape and mobile-readable composition. Keep the character recognizable. Do not copy text, framing, UI, labels or faded duplicate portraits from the reference sheet. No title, typography, numbers, watermarks, logos or card border. Exactly ONE large golden pentacle coin with an embossed five-pointed star, with its entire circular edge clearly visible; no other coins in the scene.",
+  "asset_filename": "card-76-queen-of-pentacles-dq5-debora.png",
+  "reference_paths": [
+    "references/artist-a-dq5-debora.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/debora_illust.png"
+  ],
+  "expected_suit_count": 1,
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-011629c5-d464-46e3-984e-abbce028f2e7.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-76-queen-of-pentacles-dq5-debora.png",
+  "sha256": "e7261647b6334c6af9971bb09696d2ad3006b763869b2ac05c0479353155090a",
+  "visual_review": "Actual adult Debora identity: voluminous dark hair, rose ornaments, turquoise eyes, green jewels, pink ruffled dress and white fur coat retained. Relaxed dignified seated pose, one clearly visible large star pentacle on lap, garden and rabbit. Consistent deck style; no title/frame/watermark.",
+  "observed_suit_count": 1
+}

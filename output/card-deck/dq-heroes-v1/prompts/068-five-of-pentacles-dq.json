@@ -1,0 +1,27 @@
+{
+  "card_id": 68,
+  "card_name": "錢幣五",
+  "character": "成年主人公與Bianca",
+  "series": "DQ V",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/dq5-hero-official.png",
+    "references/artist-a-dq5-bianca.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+    "https://www.jp.square-enix.com/dqsp/dq5/",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ V ADULT hero: purple turban/scarf/long cape, white sleeveless rough-edged tunic, green belt pouch, silver bands, dark hair; use fully colored adult at upper right, not child or sepia portrait.\nCharacter reference 2: DQ V Bianca: adult fully colored blonde woman with side braid, teal dress, golden-yellow cape and oval silver buckle; not the child or sepia portrait.\nTarot composition: Five of Pentacles. The recognizable adult DQV Hero in purple turban/cape and adult blonde Bianca in teal dress/yellow cape walk together along a snowy village path, supporting one another with kind concerned expressions. Keep both fully clothed, warm fabric draped over their existing signature outfits. A warmly lit stone house window above them contains exactly FIVE round gold coin medallions each embossed with a simple five-point star, arranged as one clear horizontal row of five, fully visible and separated. Cold blue snow contrasts with hopeful golden light, mutual aid during hardship, no injury, weapons, extra coins or text.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-68-five-of-pentacles-dq.png",
+  "character_display": "第五代主人公與碧安卡",
+  "series_display": "勇者鬥惡龍 V",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-e5dd2038-a844-47e5-912d-61f945e1ad6e.png",
+  "sha256": "0ac77592c780dc2d1c9b15f5693e8407e9b3b1bddcee8855bf8f5c24e59c60b1",
+  "visual_review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+  "expected_suit_count": 5,
+  "observed_suit_count": 5
+}

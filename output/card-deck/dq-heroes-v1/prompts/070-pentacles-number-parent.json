@@ -1,0 +1,26 @@
+{
+  "card_id": 70,
+  "card_name": "錢幣七",
+  "character": "Bianca／ビアンカ",
+  "character_display": "Bianca／ビアンカ",
+  "series": "DQ V",
+  "series_display": "勇者鬥惡龍 V",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: Seven of Pentacles, one illustration for the established Dragon Quest tarot deck.\nScene: The actual grown-up Bianca from DQV, blonde hair in a single side braid, turquoise eyes, teal sleeveless dress, mustard-yellow short shoulder cape tied at her waist, silver belt buckle and bracelets, dark cuffed boots. She rests both hands on the handle of a garden spade and thoughtfully surveys a thriving vine trellis. EXACTLY SEVEN distinct large golden star pentacles grow among the vines, in two clearly separated groups: THREE in the upper row and FOUR in the lower row. Keep every coin unobstructed and clearly countable. No other pentacles or currency. A peaceful cultivated garden with fruit, earth and a distant cozy cottage expresses patient work and waiting for harvest. Only the grown-up Bianca appears; do not include the smaller childhood/background portraits from the reference.\nReference 1 provides actual character identity/outfit only; reference 2 provides only the approved deck ink/cel-color/paper texture style, not a scene or person to copy. Draw a single new continuous full-bleed 2:3 portrait illustration. Faithful recognizable Dragon Quest character design, confident black ink contours, crisp hand-painted cel-color blocks, restrained shading and subtle watercolor-paper grain. Large readable figures and clearly spaced gold pentacle coins with embossed five-point stars. No typography, titles, numbers, logos, watermark, UI or card frame. Ignore any text, framing and faded duplicate portraits in the official reference sheet. Do not add incidental currency or coin-shaped ornaments that could be mistaken for additional pentacles.",
+  "asset_filename": "card-70-seven-of-pentacles-dq5-bianca.png",
+  "reference_paths": [
+    "references/artist-a-dq5-bianca.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png"
+  ],
+  "expected_suit_count": 7,
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-8ec5868f-4469-4a2a-8aa0-d80c5c89198d.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-70-seven-of-pentacles-dq5-bianca.png",
+  "sha256": "4a7aad1fa8a07df8e9ad7748613667b2ddd7f2d4294e07284a47a870b8164e82",
+  "visual_review": "Exactly seven star pentacles on vine trellis: three upper and four lower. Grown-up Bianca official side braid, teal dress and yellow cape preserved; thoughtful gardening pose, no title/frame/watermark.",
+  "observed_suit_count": 7
+}

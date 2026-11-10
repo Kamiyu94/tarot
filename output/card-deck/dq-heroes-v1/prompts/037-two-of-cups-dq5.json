@@ -1,0 +1,24 @@
+{
+  "card_id": 37,
+  "card_name": "聖杯二",
+  "character": "主人公與 Bianca",
+  "series": "DQ V",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Two of Cups. The first 2 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Use only ADULT versions from references: DQV Hero in purple turban/cape, sleeveless white robe, green belt pouch, and adult Bianca with blonde side braid, teal dress, mustard-yellow cape, silver belt and cuffs. They stand facing each other beside a garden fountain, each holding ONE golden chalice at chest height, exactly TWO chalices total, gently touching rims. Warm mutual understanding, fully clothed and nonsexual, clear hands and open expressions. Do not include child versions or additional cups.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-37-two-of-cups-dq5.png",
+  "reference_paths": [
+    "references/dq5-hero-official.png",
+    "references/artist-a-dq5-bianca.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-37-two-of-cups-dq5.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-90fe6326-2fa7-4c8a-baaa-ca79247d31c7.png",
+  "sha256": "1b3b4b5eecd3929671c1245c1e4c9943b0c11a4cc0807199aac9f60ac019d1b3",
+  "visual_review": "DQV adult Hero and Bianca identities preserved, two adults each hold one cup, exactly two chalices; no duplicate reference figures, no text/frame, consistent 1024x1536 style."
+}

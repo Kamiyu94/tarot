@@ -1,0 +1,25 @@
+{
+  "card_id": 34,
+  "card_name": "權杖王后",
+  "character": "Alena／アリーナ",
+  "series": "DQ IV",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/artist-a-dq4-alena.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_arena.png",
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ IV Alena: curled orange hair, oversized indigo pointed hat/scarf/cape, yellow short dress, dark tights, orange boots and gloves.\nTarot composition: Queen of Wands. Alena sits confidently on an elegant simple sunlit garden seat, holding exactly ONE sprouting wooden wand in one hand and ONE sunflower in the other. Her familiar pointed indigo hat/cape, orange curls and yellow dress remain unchanged, no royal costume substitution. A little black cat sits quietly at her boot. Warm sunflowers, generous courage and charisma.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-34-queen-of-wands-dq.png",
+  "character_display": "亞莉娜（アリーナ）",
+  "series_display": "勇者鬥惡龍 IV",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-96c14f02-72e6-483a-ab96-7ed09e54a673.png",
+  "sha256": "f364f09a4d2176e3fb99f37e0bb7f210e5377065229c156f55bc0f71c420bcb8",
+  "visual_review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+  "expected_suit_count": 1,
+  "observed_suit_count": 1
+}

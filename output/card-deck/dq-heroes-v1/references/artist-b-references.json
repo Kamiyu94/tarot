@@ -1,0 +1,112 @@
+{
+  "references": [
+    {
+      "file": "b-dq11-camus-official.png",
+      "url": "https://www.dq11.jp/s/pf/characters/_img/camus/chara_2d_sp.png",
+      "page": "https://www.dq11.jp/s/pf/characters/camus.html",
+      "character": "Erik / カミュ",
+      "series": "Dragon Quest XI S",
+      "sha256": "935f74df8bbd7a8ab74c737da70a3c77d400af577c2b401ef85f291597fb6e7f",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-dq11-veronica-official.png",
+      "url": "https://www.dq11.jp/s/pf/characters/_img/veronica/chara_2d_sp.png",
+      "page": "https://www.dq11.jp/s/pf/characters/veronica.html",
+      "character": "Veronica / ベロニカ",
+      "series": "Dragon Quest XI S",
+      "sha256": "380152213c3c879f9c4c6cc650d2d5d9d47d17d01bbeac7d50701cbdbe15ae8e",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-dq11-silvia-official.png",
+      "url": "https://www.dq11.jp/s/pf/characters/_img/silvia/chara_2d_sp.png",
+      "page": "https://www.dq11.jp/s/pf/characters/silvia.html",
+      "character": "Sylvando / シルビア",
+      "series": "Dragon Quest XI S",
+      "sha256": "854b2776f4ba777fe40c7771ed7b701fe86eeed1000e465914e3c869db67893b",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-dq11-martina-official.png",
+      "url": "https://www.dq11.jp/s/pf/characters/_img/martina/chara_2d_sp.png",
+      "page": "https://www.dq11.jp/s/pf/characters/martina.html",
+      "character": "Jade / マルティナ",
+      "series": "Dragon Quest XI S",
+      "sha256": "eca53fe3e60cb930cf1090369570a1229413e40e9e8b5d2a61477bfd953479ec",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-dq11-row-official.png",
+      "url": "https://www.dq11.jp/s/pf/characters/_img/row/chara_2d_sp.png",
+      "page": "https://www.dq11.jp/s/pf/characters/row.html",
+      "character": "Rab / ロウ",
+      "series": "Dragon Quest XI S",
+      "sha256": "b70cc7b58ccc29b5b3b46faebc199bc24c4a94d9c3c843464039ade1abd41848",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-dq11-player-official.png",
+      "url": "https://www.dq11.jp/s/pf/characters/_img/player/chara_2d_sp.png",
+      "page": "https://www.dq11.jp/s/pf/characters/player.html",
+      "character": "Hero",
+      "series": "Dragon Quest XI S",
+      "sha256": "affdb4e1c80e339c9053c99459d24d9e57d85a4ebf3bcd88fcc90bd1fa97dd9c",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-dq11-hendrik-official.png",
+      "url": "https://www.dq11.jp/s/pf/characters/_img/s1_gur/chara_pc.png",
+      "page": "https://www.dq11.jp/s/pf/characters/s1_gur.html",
+      "character": "Hendrik / グレイグ",
+      "series": "Dragon Quest XI S",
+      "sha256": "3c9a25948019fca210d4183e9f616bd55fa58d60172998990e5629daa1f86eb2",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-dq10-anlucia-official.png",
+      "url": "https://www.dqx.jp/offline/assets/img/character/buddy/06/character.png",
+      "page": "https://www.dqx.jp/offline/character/buddy/06/",
+      "character": "Anlucia / アンルシア",
+      "series": "Dragon Quest X",
+      "sha256": "ef71bd2780c55e08176c87c67c3aad50e596e710a08dd2c29fe8e1e82ebc59b7",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-slime-official.jpg",
+      "url": "https://store.jp.square-enix.com/img/goods/S/MW1192-3_00S.jpg",
+      "page": "https://store.jp.square-enix.com/estore/e/edragonquest-goods_dD_p4/",
+      "character": "Slime / スライム",
+      "series": "Dragon Quest series",
+      "sha256": "981e8e0d151791f14f6481a903e54b1e754b6081e0e9047a4ab8b8a67a6f03f7",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-dq4-meena-official.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_minea.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq4/",
+      "character": "Meena / ミネア",
+      "series": "Dragon Quest IV",
+      "sha256": "06b9e396b4a15ea56e16179aa6bcc99177c7b9a3dc71c9850a499de7cb1f6f8d",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-dqm3-rose-official.png",
+      "url": "https://cache-www.dragonquest.jp/monsters3/characters/_img/rosalie/chara_full.png",
+      "page": "https://www.dragonquest.jp/monsters3/characters/rosalie.html",
+      "character": "Rose / Rosalie / ロザリー",
+      "series": "Dragon Quest Monsters 3",
+      "sha256": "a9fe88e9dfd7d96fd0a21667c8429dec4791b6d5b4b8685b4154580c2128286a",
+      "visually_inspected": true
+    },
+    {
+      "file": "b-dq4-maya-official.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_mana.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq4/",
+      "character": "Maya / マーニャ",
+      "series": "Dragon Quest IV",
+      "sha256": "f5895c52b6b1e56bf9400be5edae9df64789c02fb01a107c25c55a2e7de3541c",
+      "visually_inspected": true
+    }
+  ]
+}

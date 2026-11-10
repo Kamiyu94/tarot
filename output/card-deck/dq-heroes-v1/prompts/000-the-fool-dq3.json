@@ -1,0 +1,20 @@
+{
+  "card_id": 0,
+  "card_name": "愚者",
+  "character": "Dragon Quest III male Hero",
+  "series": "Dragon Quest III",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/dq3-hero-male-official.png"
+  ],
+  "reference_urls": [
+    "https://www.dragonquest.jp/roto-trilogy/dq3/character/_img/player/chara_a.png",
+    "https://www.dragonquest.jp/roto-trilogy/dq3/character/index.html"
+  ],
+  "prompt": "Use case: illustration-story. Asset type: a single finished tarot illustration, portrait 2:3 full bleed.\nPrimary request: The Fool portrayed by the ACTUAL classic male Hero of Dragon Quest III, using the provided official Square Enix character artwork as the identity and costume reference. This must be recognizably the DQIII Hero, not a generic original adventurer and not a Dragon Ball character.\nReference image role: exact character identity, face, hair silhouette, outfit and color reference. Preserve his black spiky swept-up hair, silver circlet with the central round green jewel, blue sleeveless lace-front tunic over yellow long sleeves and yellow leggings, leather diagonal strap and wide belt, purple scarf and long purple cape, brown cuffed boots and wrist guards. Keep his recognizable 16-year-old heroic proportions and angular Toriyama face. His sword stays sheathed over his shoulder and his recognizable shield rests by his side; no fighting pose.\nNew scene and tarot symbolism: he stands at the beginning of a journey on a sunlit grassy cliff overlooking an expansive Dragon Quest landscape of rounded green hills, rivers, a winding path and distant blue mountains. His body faces the open road, with a quietly hopeful, adventurous expression. A small white dog accompanies him near his boots, a tiny white rose rests in his free hand, and a modest travel bundle sits behind his shoulder without hiding his characteristic purple cape. Show the cliff edge clearly but he is safe, not falling. These details express an innocent beginning, trust and possibility.\nVisual direction for the shared DQ tarot deck: faithful Toriyama Dragon Quest character drawing with clean confident black ink contours, crisp cel color areas, subtle hand-painted texture, clear blue skies, warm ivory clouds, greens and warm ochre landscape. Polished illustrated art with excellent mobile readability. The hero fills most of the portrait; show his full figure with all key costume details legible. Full bleed artwork to every edge, a single cohesive scene.\nConstraints: no title, no letters, no numbers, no text, no logo, no watermark, no frame, no card border, no UI, no photographed card. Do not replace the official costume with orange martial arts clothing, a generic tunic or a travel cap. Do not add unrelated franchise characters. Use the reference to lock the actual DQIII Hero identity while composing this new tarot scene.",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-87fa506d-d89b-434f-a9e3-f73a75c39d4f.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-00-the-fool-dq3-hero.png",
+  "sha256": "c89038304e673c1a65bba9b3fce2ae90c60a4f2b0c8f319d409f2e4ed068b214",
+  "visual_review": "DQIII hero identity clearly preserved: silver circlet with green jewel, blue tunic/yellow sleeves and leggings, purple cape, sword/shield; full-body cliff/rose/dog beginning-of-journey tableau. No card title or border."
+}

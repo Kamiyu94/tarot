@@ -1,0 +1,26 @@
+{
+  "card_id": 71,
+  "card_name": "錢幣八",
+  "character": "DQXI主人公",
+  "character_display": "DQXI主人公",
+  "series": "DQ XI",
+  "series_display": "勇者鬥惡龍 XI",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: Eight of Pentacles, one illustration for the established Dragon Quest tarot deck.\nScene: The actual DQXI Hero with straight chin-length brown center-parted hair, violet long sleeveless coat over long gray chainmail sleeves, tan leather straps and belts, brown trousers and moss-green cuffed boots. In a well-lit rustic crafting workshop with a warm forge, he concentrates on engraving one large gold pentacle coin resting on his workbench, using a small hand tool. EXACTLY SEVEN OTHER finished golden star pentacle coins hang on the wall behind him, in TWO rows: THREE above and FOUR below. Thus EIGHT pentacles TOTAL: 7 wall coins plus 1 bench coin. Show each rim clearly. No extra circular blanks, loose coins or coin-like jewelry. A modest hammer and simple rectangular tools sit nearby, conveying craftsmanship, practice and attention.\nReference 1 provides actual character identity/outfit only; reference 2 provides only the approved deck ink/cel-color/paper texture style, not a scene or person to copy. Draw a single new continuous full-bleed 2:3 portrait illustration. Faithful recognizable Dragon Quest character design, confident black ink contours, crisp hand-painted cel-color blocks, restrained shading and subtle watercolor-paper grain. Large readable figures and clearly spaced gold pentacle coins with embossed five-point stars. No typography, titles, numbers, logos, watermark, UI or card frame. Ignore any text, framing and faded duplicate portraits in the official reference sheet. Do not add incidental currency or coin-shaped ornaments that could be mistaken for additional pentacles.",
+  "asset_filename": "card-71-eight-of-pentacles-dq11-hero.png",
+  "reference_paths": [
+    "references/b-dq11-player-official.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.dq11.jp/s/pf/characters/player.html",
+    "https://www.dq11.jp/s/pf/characters/_img/player/chara_2d_sp.png"
+  ],
+  "expected_suit_count": 8,
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-ecb491d7-4482-49b9-836b-0f88a2344324.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-71-eight-of-pentacles-dq11-hero.png",
+  "sha256": "321f26f872803bebc00b820b3fc7a1f91bc242de0b48c9961fe83319745bdfa8",
+  "visual_review": "Exactly eight star pentacles: three upper plus four lower on workshop wall, one on bench. Actual DQXI Hero brown bob/violet coat/gray sleeves/green boots retained; focused engraving pose. No frame, title or watermark.",
+  "observed_suit_count": 8
+}

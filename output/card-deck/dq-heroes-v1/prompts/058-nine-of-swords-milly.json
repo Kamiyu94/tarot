@@ -1,0 +1,24 @@
+{
+  "card_id": 58,
+  "card_name": "寶劍九",
+  "character": "Milly／ミレーユ",
+  "series": "DQ VI",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Nine of Swords. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual DQVI Milly: long blond hair, silver circlet, blue-violet tabard, silver chest piece and arm cuffs, mustard sash and cream trousers as official. Fully clothed in normal attire, she sits on a wooden bench at night with one hand against her forehead, reflecting on worries. Behind her exactly NINE steel swords hang on a stone wall in a very clear THREE BY THREE grid, nine complete blades and hilts separated. None touches her; no extra sword or weapon. Moonlit room opens to gentle mountains and hopeful dawn, nonviolent emotional concern, same crisp colored ink style. Ignore all reference page layout/text.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-58-nine-of-swords-milly.png",
+  "reference_paths": [
+    "references/artist-a-dq6-milly.jpg",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq6/story/",
+    "https://www.jp.square-enix.com/dqsp/dq6/story/images/mireille_bg.jpg"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-58-nine-of-swords-milly.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-b3055d89-92cf-40c4-b482-62e749f726e1.png",
+  "sha256": "f7777e2a71e8b7d2cf3b4e781e8081d406a2e01ee32da6388052dcc6648f1957",
+  "visual_review": "Milly official blond hair, silver circlet and blue-violet/cream outfit retained; exactly nine wall swords arranged three-by-three, no blade touches her, no text/frame.",
+  "expected_suit_count": 9,
+  "observed_suit_count": 9
+}

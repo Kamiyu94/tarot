@@ -1,0 +1,26 @@
+{
+  "card_id": 74,
+  "card_name": "錢幣侍者",
+  "character": "DQVII主人公",
+  "character_display": "DQVII主人公",
+  "series": "DQ VII",
+  "series_display": "勇者鬥惡龍 VII",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: Page of Pentacles, one card illustration for the established DQ tarot deck.\nScene: The actual DQVII boy Hero, short dark hair, floppy green cap with its golden edge, lime-green short-sleeved long tunic over a cream shirt, broad brown belt, teal leggings and cuffed brown boots. In a sunlit meadow by an old stone ruin, he holds one large golden pentacle coin in both hands, studying it with quiet curiosity. A folded map rests on a stone nearby. His full figure and the coin are prominent, expressing learning, practical discovery and a new opportunity.\nReference 1 is the exact Dragon Quest character identity and costume reference. Reference 2 is ONLY the approved deck line, color and subtle paper texture style. Create one original cohesive full-bleed portrait 2:3 illustration. Faithful Toriyama Dragon Quest character design, confident clean black ink contours, crisp hand-painted cel-color blocks, restrained shadows, verdant fantasy landscape and mobile-readable composition. Keep the character recognizable. Do not copy text, framing, UI, labels or faded duplicate portraits from the reference sheet. No title, typography, numbers, watermarks, logos or card border. Exactly ONE large golden pentacle coin with an embossed five-pointed star, with its entire circular edge clearly visible; no other coins in the scene.",
+  "asset_filename": "card-74-page-of-pentacles-dq7-hero.png",
+  "reference_paths": [
+    "references/artist-a-dq7-hero.jpg",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq7/story/",
+    "https://www.jp.square-enix.com/dqsp/dq7/story/images/hero_body.jpg"
+  ],
+  "expected_suit_count": 1,
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-33a933ee-d256-4b63-bb60-7594feb8582c.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-74-page-of-pentacles-dq7-hero.png",
+  "sha256": "c61cad87fb473dfd5bfbe058a29ab5e1aea657a7ee6f4178c319cb52193267cb",
+  "visual_review": "Actual DQVII Hero green cap/tunic, cream sleeves, brown belt, teal leggings and cuffed boots retained. Exactly one golden star pentacle, studying pose with map and ruins; no frame, title or watermark.",
+  "observed_suit_count": 1
+}

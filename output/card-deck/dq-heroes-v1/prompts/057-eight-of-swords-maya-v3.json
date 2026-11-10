@@ -1,0 +1,24 @@
+{
+  "card_id": 57,
+  "card_name": "寶劍八",
+  "character": "Maya／マーニャ",
+  "series": "DQ IV",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: precise-object-edit. Edit ONLY the sword count in the supplied artwork. It currently shows FIVE gold sword pommels to the LEFT of the woman and FOUR to her RIGHT, nine swords total. REMOVE exactly ONE sword: the small rightmost sword of the LEFT cluster, whose round gold pommel is at approximately x=252, y=656 in the 1024x1536 image, immediately beside/partly behind the left edge of her white cape. Remove that small gold pommel, its short visible dark handle, crossguard and blade segment, restoring matching grass/cape/background there. Keep the other FOUR left swords with their pommels at approximately x=70,124,183,210, and keep all FOUR right swords. Final must be exactly EIGHT swords, 4 left + 4 right. Do not add any sword. Do not move or redraw any other sword, character, clothing, hands, blindfold, landscape or light. No other changes, no text/border. Maintain original portrait size and clean colored-ink illustration.",
+  "asset_filename": "card-57-eight-of-swords-maya-v3.png",
+  "reference_paths": [
+    "sources/card-57-eight-of-swords-maya-v2.png",
+    "references/b-dq4-maya-official.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq4/",
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_mana.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-57-eight-of-swords-maya-v3.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-e2993892-e29e-4fef-8519-58fc41b14f41.png",
+  "sha256": "2b28bb0a71859ddfbe306ea83cdbc63070daa32d24be67cf3cc6b33e20d62c49",
+  "visual_review": "Final correction shows four distinct left hilts and four distinct right hilts, exactly eight swords; Maya identity/covered orange-white attire retained, free hands and open path, no text/frame.",
+  "expected_suit_count": 8,
+  "observed_suit_count": 8
+}

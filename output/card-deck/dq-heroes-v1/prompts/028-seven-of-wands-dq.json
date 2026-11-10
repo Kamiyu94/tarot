@@ -1,0 +1,25 @@
+{
+  "card_id": 28,
+  "card_name": "權杖七",
+  "character": "Jade／マルティナ",
+  "series": "DQ XI",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/b-dq11-martina-official.png"
+  ],
+  "reference_urls": [
+    "https://www.dq11.jp/s/pf/characters/_img/martina/chara_2d_sp.png",
+    "https://www.dq11.jp/s/pf/characters/martina.html"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ XI adult Jade: very long black high ponytail with orange tie, pale-green/black martial arts outfit, black shorts and long green split overskirt, green forearm guards and tall green laced boots. Neutral heroic presentation.\nTarot composition: Seven of Wands. Adult DQXI Jade stands firmly on a small grassy rise, holding ONE blunt wooden wand horizontally at waist height in a composed defensive stance. Exactly SIX further wooden wands are planted in a wide fan below the rise, each separated and fully countable; no people hold them and none touch her body. SEVEN total, no spear/blade/other poles. Keep actual long black ponytail and pale-green/black outfit; neutral heroic full-body scene, courage and boundaries.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-28-seven-of-wands-dq.png",
+  "character_display": "瑪蒂娜（マルティナ）",
+  "series_display": "勇者鬥惡龍 XI",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-6be67a29-5294-4b65-ba7f-3672947aa146.png",
+  "sha256": "97a4884f560f92b0938257109b0f471d6ef164ecb8aa45e0535a9cc330ccd9f5",
+  "visual_review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+  "expected_suit_count": 7,
+  "observed_suit_count": 7
+}

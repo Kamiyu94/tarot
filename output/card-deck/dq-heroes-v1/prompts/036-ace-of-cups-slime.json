@@ -1,0 +1,22 @@
+{
+  "card_id": 36,
+  "card_name": "聖杯王牌",
+  "character": "Slime／スライム",
+  "series": "DQ 系列",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Ace of Cups. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: The actual BLUE Slime monster: classic smooth blue teardrop silhouette, pointed top, big white oval eyes with small dark pupils, friendly red smile. Reference is an official plush for shape/face only; redraw as traditional ink/cel-color illustration, not fabric or plush. A single enormous ornate golden chalice rises above a crystal spring; exactly ONE chalice, overflowing clear water into a pond of white lilies. One cheerful blue Slime sits beside its base, water droplets sparkling in the sunlight. No other cups. Broad blue sky and verdant Dragon Quest hills; fresh emotion and generosity.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-36-ace-of-cups-slime.png",
+  "reference_paths": [
+    "references/b-slime-official.jpg",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://store.jp.square-enix.com/estore/e/edragonquest-goods_dD_p4/",
+    "https://store.jp.square-enix.com/img/goods/S/MW1192-3_00S.jpg"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-36-ace-of-cups-slime.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-a99aa9e3-0010-4f03-9fed-feaf0d53b6ce.png",
+  "sha256": "a2a0b1e712adc5dbfcb5fd17c97cbec6515ac36687b6f639d69d70bbdcb69a5a",
+  "visual_review": "Classic blue Slime identity preserved, exactly one overflowing golden chalice, no extra cups; bright consistent deck style, full bleed 1024x1536 with no text/frame."
+}

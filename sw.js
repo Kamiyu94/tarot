@@ -1,5 +1,5 @@
 // Service Worker for 塔羅牌占卜 PWA
-const CACHE_NAME = 'tarot-app-v8';
+const CACHE_NAME = 'tarot-app-v9';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',

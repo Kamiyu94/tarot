@@ -1,0 +1,30 @@
+{
+  "card_id": 54,
+  "card_name": "寶劍五",
+  "character": "Ladja／ゲマ",
+  "series": "DQ V",
+  "tool": "image_gen.imagegen",
+  "status": "failed_moderation",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Five of Swords. The first 2 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual DQV Ladja/Gema, preserve his identifiable face, headdress and purple clerical/monster costume from official reference. He stands with a cunning expression in a windswept ruined courtyard, contemplating the cost of conflict. Exactly FIVE steel swords, all planted separately in the ground across the foreground, five full visible hilts and blades; no sword in his hands and no hidden extra weapons. Empty battlefield with no victims or bodies, no gore or injury. Storm clouds beginning to clear, restrained dramatic shadow, same clean vivid ink/cel deck style, not a screenshot.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-54-five-of-swords-ladja.png",
+  "reference_paths": [
+    "references/parent-ladja-official.jpg",
+    "references/parent-ladja-official-banner.jpg",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://cache.sqex-bridge.jp/jp/ja/guest/information/91840",
+    "https://cache.sqex-bridge.jp/img/d051c67ac7d06edea5de090f720d14feb4174dceb8c49c97e4881fb193f91df8b",
+    "https://cache.sqex-bridge.jp/img/c5a19010949db7eee1a08d17b4ea6ff80876c47cd3223ba08e47ee76aca8f238b"
+  ],
+  "failure": {
+    "http_status": 400,
+    "code": "moderation_blocked",
+    "categories": [
+      "other"
+    ],
+    "request_id": "09aa1c47-c2ea-4679-a2d9-ef485af52e79",
+    "message": "Your request was rejected by the safety system."
+  },
+  "resolution": "Reported to parent. Continuing unrelated cards, no repeated retry or backend substitution."
+}

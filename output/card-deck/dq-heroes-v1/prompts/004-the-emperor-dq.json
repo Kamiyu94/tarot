@@ -1,0 +1,21 @@
+{
+  "card_id": 4,
+  "card_name": "皇帝",
+  "character": "Pankraz／パパス",
+  "series": "DQ V",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/artist-a-dq5-pankraz.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/images/papas_illust.png",
+    "https://www.jp.square-enix.com/dqsp/dq5/"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ V Pankraz: muscular dark-haired middle-aged father with thick mustache, cream one-shoulder tunic, fur-edged dark blue wrap, iron wrist bands and pink waist pouch.\nTarot composition: The Emperor. Pankraz sits upright on a sturdy simple stone throne on a mountain terrace, his reassuring fatherly gaze toward the viewer. Keep his muscular mustached official design and rough one-shoulder clothing. One sheathed sword rests at his side, his hand on the solid stone armrest. Ordered stone architecture and distant red-gold mountains convey structure and protective authority.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-04-the-emperor-dq.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-e330532d-8efc-45f4-a6f2-c6498aeb6054.png",
+  "sha256": "f3e2eb8794dfe737d5e6344d9b343b37deb5f9c37c65146e7d970e665e6bac42",
+  "visual_review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+}

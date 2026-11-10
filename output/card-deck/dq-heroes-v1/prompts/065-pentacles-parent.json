@@ -1,0 +1,26 @@
+{
+  "card_id": 65,
+  "card_name": "錢幣二",
+  "character": "Torneko／トルネコ",
+  "character_display": "Torneko／トルネコ",
+  "series": "DQ IV",
+  "series_display": "勇者鬥惡龍 IV",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: 錢幣二, one illustration for the established Dragon Quest tarot deck.\nScene: Two of Pentacles. Dragon Quest IV stout merchant Torneko, red soft cap over blue hair, large blue moustache, purple vest and blue-white striped merchant robe, stands with a good-humored focused smile beside a sunny harbor. EXACTLY TWO large gold star-pentacle coins, one supported in each hand, are connected by a single flowing green ribbon forming a sideways infinity loop. Both coin outlines fully visible. Ships and gentle waves beyond, colorful market awnings and small stone buildings. His pose suggests balancing resources with flexibility. NO merchant staff, money pouch contents, scattered coins or other circular gold ornaments.\nDraw a single new continuous full-bleed 2:3 portrait illustration for the approved Dragon Quest tarot deck. Reference 1 supplies character identity/outfit only; reference 2 supplies approved deck ink, cel-color and paper texture only, not a scene or person to copy. Faithful recognizable Dragon Quest character design, confident black ink contours, crisp painted cel-color blocks, restrained shading and subtle watercolor-paper grain, bright rich countryside colors. Large readable figure and clearly visible separate gold circular pentacles with embossed five-point stars. No typography, titles, numbers, logos, watermark, UI or card border. Ignore all lettering and background framing in the reference image. No extra coins, currency or gold disc ornaments.",
+  "asset_filename": "card-65-two-of-pentacles-dq4-torneko.png",
+  "reference_paths": [
+    "references/artist-a-dq4-torneko.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png"
+  ],
+  "expected_suit_count": 2,
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-af406748-97d3-4062-a306-5455e640a7e2.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-65-two-of-pentacles-dq4-torneko.png",
+  "sha256": "d07d7e5544992754181d57b4997d5c6a421f78a38c21ce681392eae9284c46c7",
+  "visual_review": "Torneko identity and blue-white striped robe retained. Exactly two clearly separated star pentacle coins, one in each hand, connected by green infinity ribbon. No extra currency or text/frame.",
+  "observed_suit_count": 2
+}

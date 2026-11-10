@@ -1,0 +1,23 @@
+{
+  "card_id": 23,
+  "card_name": "權杖二",
+  "character": "Midenhall 王子",
+  "series": "DQ II",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/artist-a-dq2-cast.jpg"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq2/images/main_visual.jpg",
+    "https://www.jp.square-enix.com/dqsp/dq2/"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ II Prince of Midenhall: the dark-haired young man wearing BLUE helmet with SILVER GOGGLES and BLUE clothes/scarf. NOT the green-clothed Cannock Prince, NOT the purple-haired red-clothed Princess. Preserve his blue/gray/brown outfit.\nTarot composition: Two of Wands. Actual DQII Prince of Midenhall in blue clothes/blue helmet with goggles stands on a castle terrace surveying distant mountains and sea. Exactly TWO tall sprouting wooden wands: one held clearly in his left hand and the other planted upright at his right side. A small plain globe sits on the parapet. No drawn sword, additional staffs or similar poles; two wands total.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-23-two-of-wands-dq.png",
+  "character_display": "羅雷西亞王子",
+  "series_display": "勇者鬥惡龍 II",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-ec8e3283-07a7-454a-806d-b04e5d3d8f38.png",
+  "sha256": "d64a79eefd8188553b17aa8b0921735952bc75f477628db364b9237cb87cac2b",
+  "visual_review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+}

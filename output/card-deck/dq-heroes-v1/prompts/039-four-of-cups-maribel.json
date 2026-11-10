@@ -1,0 +1,22 @@
+{
+  "card_id": 39,
+  "card_name": "聖杯四",
+  "character": "Maribel／マリベル",
+  "series": "DQ VII",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Four of Cups. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual DQVII Maribel: curly reddish hair under orange hood, long green/orange sleeveless overcoat over dark red dress, orange sleeves, brown boots. She sits thoughtfully beneath a large tree, arms loosely folded, a bored inward-looking expression. Exactly FOUR golden chalices: THREE clearly spaced on ground in a row before her and ONE held out by a soft cloud-hand at her side. Nothing else shaped like a cup. Calm garden, green hills, emotional pause. Reference includes writing/frame; ignore all text and frame.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-39-four-of-cups-maribel.png",
+  "reference_paths": [
+    "references/artist-a-dq7-maribel.jpg",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq7/story/",
+    "https://www.jp.square-enix.com/dqsp/dq7/story/images/maribel_body.jpg"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-39-four-of-cups-maribel.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-a4fbe1c7-361a-4c1e-bbc8-000874675757.png",
+  "sha256": "5be6724dc83746b5a2c456725c0c1709cbd1ec9146ac53f202bf7986269a295c",
+  "visual_review": "Actual Maribel identity with orange hood, red curls and green/red outfit; three cups on ground plus one cloud-hand cup, exactly four, no text/frame and consistent portrait style."
+}

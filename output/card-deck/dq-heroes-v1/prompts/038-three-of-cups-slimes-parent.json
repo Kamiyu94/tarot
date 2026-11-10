@@ -1,0 +1,27 @@
+{
+  "card_id": 38,
+  "card_name": "聖杯三",
+  "character": "Slime／スライム（三隻）",
+  "character_display": "史萊姆（三隻）",
+  "series": "DQ 系列",
+  "series_display": "勇者鬥惡龍系列",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one new finished full-bleed portrait 2:3 tarot illustration, Three of Cups, for a Dragon Quest deck.\nCreate a sunny friendship scene starring THREE classic blue Slimes from Dragon Quest. Reference 1 gives their exact identity: smooth blue teardrop bodies, pointed tops, big white oval eyes, tiny dark pupils and cheerful red smiles. Redraw them as ink-and-cel illustrations, not as plush fabric. Reference 2 is only the approved deck drawing/color/texture style; do not copy its human character or its scene.\nThree happy blue Slimes gather on a grassy terrace beside a low mossy stone platform. On the platform stand exactly THREE separate ornate golden chalices, each holding a small bouquet of white flowers. Arrange the three chalices at clear separate positions so all three rims, stems and bases can be counted. Each Slime sits beside one chalice and leans toward the group in joyful companionship. No additional cups anywhere.\nA bright blue sky, warm ivory clouds, distant green Dragon Quest hills and a small distant fantasy town create a lively celebratory setting. Clean confident black ink contours, crisp cel-color shapes, restrained shadows and subtle hand-painted paper texture match the second reference. Large readable silhouettes, three blue Slimes and three flower-filled golden chalices dominate the composition. One continuous artwork edge to edge. No human characters, no lettering, no numbers, no logo or watermark, no card frame or UI.",
+  "asset_filename": "card-38-three-of-cups-slimes.png",
+  "reference_paths": [
+    "references/b-slime-official.jpg",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://store.jp.square-enix.com/estore/e/edragonquest-goods_dD_p4/",
+    "https://store.jp.square-enix.com/img/goods/S/MW1192-3_00S.jpg"
+  ],
+  "design_revision": "New non-human friendship scene; previous rejected human-scene attempts retained separately.",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-01acd112-e2cc-479c-971d-4993a3f2bbb7.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-38-three-of-cups-slimes.png",
+  "sha256": "49c66d092cb47a7e459ae2c0a799f7b2fd4c03f6b13b74e3bb6b398b229b9480",
+  "visual_review": "Exactly three recognizable blue Slimes and exactly three separate golden flower-filled chalices. Approved deck line/color/texture maintained. Full-bleed portrait without humans, lettering, frame or watermark.",
+  "expected_suit_count": 3,
+  "observed_suit_count": 3
+}

@@ -1,0 +1,20 @@
+{
+  "card_id": 2,
+  "card_name": "女祭司",
+  "character": "Serena / セーニャ",
+  "series": "Dragon Quest XI S",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/dq11-serena-official.png"
+  ],
+  "reference_urls": [
+    "https://www.dq11.jp/s/pf/characters/senya.html",
+    "https://www.dq11.jp/s/pf/characters/_img/senya/chara_2d_sp.png"
+  ],
+  "prompt": "Use case: illustration-story. Asset type: one finished tarot illustration, portrait 2:3 full bleed.\nPrimary request: The High Priestess portrayed by the ACTUAL Serena / セーニャ from Dragon Quest XI S. Use the provided official 2D character art as the strict identity, hairstyle, outfit, jewelry and harp reference. This must be clearly recognizable Serena, not an original priestess, generic blonde elf or another Dragon Quest character.\nIdentity constraints from the reference: long straight pale-blonde hair held back by the broad dark-green headband, gentle large blue eyes and her characteristic calm Toriyama face. Preserve her exact recognizable green lace-front bodice and long green dress, white puffed shoulder sleeves with white forearm cuffs, ivory vertical pleated front skirt panel, orange draped hip sash with the central oval silver buckle, turquoise-bead necklace and drop earrings, and muted purple ankle boots. Her familiar small curved brown wooden lyre is held naturally in her lap. No replacement with a veil, crown, armor or generic blue priestess robes.\nNew scene and tarot symbolism: Serena sits serenely on a simple stone seat between two unlettered pale and dark temple columns in a moonlit sacred garden. She holds her familiar lyre quietly, her expression peaceful and perceptive, as though listening to inner wisdom. In front of her is a clear shallow reflecting pool with a softly glowing crescent-moon reflection near her feet. A luminous ivory moon and a few stars appear in the deep blue evening sky behind the open temple. A closed plain scroll with no visible writing rests beside her, suggesting knowledge not yet spoken. Convey intuition, sacred wisdom, silence and healing rather than battle or spellcasting spectacle.\nShared DQ tarot art direction: faithful classic Toriyama Dragon Quest character illustration, crisp confident black ink contours, precise cel-painted color areas with subtle hand-painted paper texture, warm ivory moonlight on the recognizable green/orange/white costume, rich clear blue/turquoise atmosphere and restrained golden accents. Keep her face, headband, jewelry and full costume highly legible at phone-card size. The character should dominate the composition, full figure visible from headband to boots, with a calm readable silhouette and uncluttered background.\nComposition: one coherent full-bleed 2:3 vertical illustration, no physical card mockup. Identity accuracy is more important than elaborate scenery.\nConstraints: no card title, no words, no letters on columns, no numbers, no text, no watermark, no logo, no border or card frame, no UI. No additional characters. Do not change Serena's official clothing colors or hair into an original character design.",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-3c492fd3-fba4-4bba-bd75-0e9b9c3dba2e.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-02-high-priestess-dq11-serena.png",
+  "sha256": "9c9ba7ee32a41e92a39ab1ba2cec7733bb46733a18bdea4275a924e72331f275",
+  "visual_review": "Serena identity preserved: long pale-blonde hair and broad green headband, turquoise jewelry, green laced bodice/green skirt with ivory pleated front, white puff sleeves, orange sash, purple boots and brown lyre. Calm moonlit unlettered columns/pool/scroll scene; no card title, frame or watermark. Waist buckle partly obscured by hands/lyre in seated pose."
+}

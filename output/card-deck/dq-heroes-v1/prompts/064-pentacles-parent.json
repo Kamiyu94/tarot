@@ -1,0 +1,27 @@
+{
+  "card_id": 64,
+  "card_name": "錢幣王牌",
+  "character": "Stella／サンディ",
+  "character_display": "Stella／サンディ",
+  "series": "DQ IX",
+  "series_display": "勇者鬥惡龍 IX",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: 錢幣王牌, one illustration for the established Dragon Quest tarot deck.\nScene: Ace of Pentacles. Dragon Quest IX Stella, the small tan-skinned fairy with blonde curly hair, pink hair bow, orange bow-front dress, black stockings, black shoes with red bows and pink butterfly wings, hovers in a joyful relaxed upright pose above a sunny flowering garden path. ONE AND ONLY ONE large golden star-pentacle coin floats gently between her open hands at chest height, entirely visible and separated from her face. Green garden arch, white lilies, rolling blue-green hills and a castle in the distance; a hopeful new practical opportunity. Wholesome fairy adventure illustration, outfit fully retained as in the character reference. Do not copy the gallery heading.\nDraw a single new continuous full-bleed 2:3 portrait illustration for the approved Dragon Quest tarot deck. Reference 1 supplies character identity/outfit only; reference 2 supplies approved deck ink, cel-color and paper texture only, not a scene or person to copy. Faithful recognizable Dragon Quest character design, confident black ink contours, crisp painted cel-color blocks, restrained shading and subtle watercolor-paper grain, bright rich countryside colors. Large readable figure and clearly visible separate gold circular pentacles with embossed five-point stars. No typography, titles, numbers, logos, watermark, UI or card border. Ignore all lettering and background framing in the reference image. No extra coins, currency or gold disc ornaments.",
+  "asset_filename": "card-64-ace-of-pentacles-dq9-stella.png",
+  "reference_paths": [
+    "references/parent-dq9-stella-gallery-reference.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.creativeuncut.com/gallery-14/dq9-sandy.html",
+    "https://www.creativeuncut.com/gallery-14/art/dq9-sandy.jpg"
+  ],
+  "expected_suit_count": 1,
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-502ff927-56a4-43af-9aaf-1dc939a87e56.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-64-ace-of-pentacles-dq9-stella.png",
+  "sha256": "2b99676adc9e973951ed1b1ec812c1141c4b077d187e0d40abd86ba5fc86f6ea",
+  "visual_review": "Stella recognizable blonde curls/pink bow/orange dress/black stockings/red-bow shoes/pink butterfly wings. Exactly one large star pentacle fully visible. Approved deck ink/cel-color texture, no text or frame.",
+  "observed_suit_count": 1,
+  "referenceHostType": "third_party_original_art_archive_not_official_host"
+}

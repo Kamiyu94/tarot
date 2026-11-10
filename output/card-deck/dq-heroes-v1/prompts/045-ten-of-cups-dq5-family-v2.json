@@ -1,0 +1,22 @@
+{
+  "card_id": 45,
+  "card_name": "聖杯十",
+  "character": "主人公與家人",
+  "series": "DQ V",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: precise-object-edit. Image 1 is the tarot artwork to edit; image 2 is an official character sheet used ONLY as identity reference for the small DAUGHTER figure at its lower foreground. Change ONLY the young girl standing in the lower-right foreground of image 1. She must be the DQV Hero daughter: blond straight hair with blunt bangs and two small side bunches tied with GREEN ribbon bows, a short white/light-lavender tunic dress, purple scarf/cape, silver round belt buckle, small GREEN pouch at her hip, pale blue cuffs and WHITE boots, exactly as the small girl in image 2. Do not draw her with Biancas childhood teal cape and orange dress or long braided pigtails. Keep her innocent joyful face and approximate position beside her brother. Preserve the father, mother, boy, all TEN cups on the rainbow, all scenery, exact framing, lighting, ink/cel palette and 2:3 portrait dimensions unchanged. No additional person or tarot objects, no title or text, no border or watermark. This is a gentle fully clothed family illustration.",
+  "asset_filename": "card-45-ten-of-cups-dq5-family-v2.png",
+  "reference_paths": [
+    "sources/card-45-ten-of-cups-dq5-family.png",
+    "references/artist-a-dq5-twins.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/boy_girl_illust.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-45-ten-of-cups-dq5-family-v2.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-cd546683-614d-4c65-b277-364690fc49b7.png",
+  "sha256": "33ac97b8e0c109f9d888a8459bddcdc20ae6067e76477fff50e1861e43561614",
+  "visual_review": "Corrected daughter to actual DQV white/lavender dress, purple cape, green ribbon bows and green pouch; parents and boy identities retained; exactly ten rainbow cups (five each side), no text/frame."
+}

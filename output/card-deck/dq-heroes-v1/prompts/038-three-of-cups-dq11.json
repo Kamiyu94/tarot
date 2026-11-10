@@ -1,0 +1,34 @@
+{
+  "card_id": 38,
+  "card_name": "聖杯三",
+  "character": "Serena、Veronica、Jade",
+  "series": "DQ XI",
+  "tool": "image_gen.imagegen",
+  "status": "failed_moderation",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Three of Cups. The first 3 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: The actual Serena, Veronica and Jade from DQXI celebrate friendship in a flower meadow. Three characters, each raises exactly ONE golden chalice, exactly THREE cups total, all visible with space between rims. Serena: blonde green headband and green/white dress with orange waist cloth. Veronica: her recognizable petite red hood/dress, blonde braids and white sleeves. Jade: very long dark-purple ponytail, lime-green martial outfit and black shorts. Keep official clothing tasteful/fully clothed; no extra drinks or cups, no weapons. Joyful celebratory composition, clear blue sky, flowers.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-38-three-of-cups-dq11.png",
+  "reference_paths": [
+    "references/dq11-serena-official.png",
+    "references/b-dq11-veronica-official.png",
+    "references/b-dq11-martina-official.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.dq11.jp/s/pf/characters/senya.html",
+    "https://www.dq11.jp/s/pf/characters/_img/senya/chara_2d_sp.png",
+    "https://www.dq11.jp/s/pf/characters/veronica.html",
+    "https://www.dq11.jp/s/pf/characters/_img/veronica/chara_2d_sp.png",
+    "https://www.dq11.jp/s/pf/characters/martina.html",
+    "https://www.dq11.jp/s/pf/characters/_img/martina/chara_2d_sp.png"
+  ],
+  "failure": {
+    "http_status": 400,
+    "code": "moderation_blocked",
+    "categories": [
+      "other"
+    ],
+    "request_id": "029f0c3a-5c0b-4451-89c2-81bebc76eb19",
+    "message": "Your request was rejected by the safety system."
+  },
+  "resolution": "Parent approved a substantively new adult-characters-and-flower-chalices scene, not an altered retry of this composition."
+}

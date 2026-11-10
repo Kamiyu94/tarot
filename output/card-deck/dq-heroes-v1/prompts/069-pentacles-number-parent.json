@@ -1,0 +1,26 @@
+{
+  "card_id": 69,
+  "card_name": "錢幣六",
+  "character": "Torneko／トルネコ",
+  "character_display": "Torneko／トルネコ",
+  "series": "DQ IV",
+  "series_display": "勇者鬥惡龍 IV",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: Six of Pentacles, one illustration for the established Dragon Quest tarot deck.\nScene: The actual stout merchant Torneko, red soft cap over blue hair, large blue moustache, purple vest and blue-white striped merchant robe, kindly gives a wrapped loaf of bread to two fully clothed adult townspeople in his sunny village courtyard. A small empty balance scale rests on a wooden table. EXACTLY SIX large gold five-point-star pentacle medallions decorate the stone wall behind them: TWO distinct vertical columns, THREE coins in each column. All six circular outlines are visible and separated. He is giving bread, not loose currency, so no extra coin in any hand or on the table. Warm generosity, sharing and fair exchange; rolling Dragon Quest hills beyond.\nReference 1 provides actual character identity/outfit only; reference 2 provides only the approved deck ink/cel-color/paper texture style, not a scene or person to copy. Draw a single new continuous full-bleed 2:3 portrait illustration. Faithful recognizable Dragon Quest character design, confident black ink contours, crisp hand-painted cel-color blocks, restrained shading and subtle watercolor-paper grain. Large readable figures and clearly spaced gold pentacle coins with embossed five-point stars. No typography, titles, numbers, logos, watermark, UI or card frame. Ignore any text, framing and faded duplicate portraits in the official reference sheet. Do not add incidental currency or coin-shaped ornaments that could be mistaken for additional pentacles.",
+  "asset_filename": "card-69-six-of-pentacles-dq4-torneko.png",
+  "reference_paths": [
+    "references/artist-a-dq4-torneko.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png"
+  ],
+  "expected_suit_count": 6,
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-936f13bb-f5f8-4fab-bd27-612de4f5eecb.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-69-six-of-pentacles-dq4-torneko.png",
+  "sha256": "d31c4402b254e5c79cc9677b7b7768f041da20306350194f48f4bdd2bb7a2a7d",
+  "visual_review": "Exactly six star pentacle coins in two columns of three on wall; Torneko shares bread with two clothed townspeople, scale empty. Merchant identity, approved deck style, no title/frame/watermark.",
+  "observed_suit_count": 6
+}

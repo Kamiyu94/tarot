@@ -1,0 +1,99 @@
+{
+  "references": [
+    {
+      "file": "parent-ladja-official.jpg",
+      "character": "Ladja / ゲマ",
+      "page": "https://cache.sqex-bridge.jp/jp/ja/guest/information/91840",
+      "url": "https://cache.sqex-bridge.jp/img/d051c67ac7d06edea5de090f720d14feb4174dceb8c49c97e4881fb193f91df8b",
+      "sha256": "da697d9164113ec0fb1b193b083334c4d8579d134f77120d924e5e12490aca26",
+      "dimensions": [
+        750,
+        2602
+      ],
+      "visually_inspected": true,
+      "role": "identity_reference_only_not_output"
+    },
+    {
+      "file": "parent-ladja-official-banner.jpg",
+      "character": "Ladja / ゲマ",
+      "page": "https://cache.sqex-bridge.jp/jp/ja/guest/information/91840",
+      "url": "https://cache.sqex-bridge.jp/img/c5a19010949db7eee1a08d17b4ea6ff80876c47cd3223ba08e47ee76aca8f238b",
+      "sha256": "8b137cf3fb49c602da38fc3f930050ddb7bfeb53d5e6c58c39faabf5c7227b45",
+      "dimensions": [
+        624,
+        164
+      ],
+      "visually_inspected": true,
+      "role": "identity_reference_only_not_output"
+    },
+    {
+      "file": "parent-dragonlord-official.jpg",
+      "character": "Dragonlord / りゅうおう",
+      "page": "https://cache.sqex-bridge.jp/guest/information/97263",
+      "url": "https://cache.sqex-bridge.jp/img/4d7f8ce49cf9c3a0fe737aa7275897814ff4f713c3ae0b5d0784dc15be1872e9b",
+      "sha256": "83d7f4cd0e48f09a94154d5425bcbbecc275d921924a1782bcbf51b338d90c58",
+      "dimensions": [
+        750,
+        3648
+      ],
+      "visually_inspected": true,
+      "role": "identity_reference_only_not_output"
+    },
+    {
+      "file": "parent-dragonlord-official-banner.jpg",
+      "character": "Dragonlord / りゅうおう",
+      "page": "https://cache.sqex-bridge.jp/guest/information/97263",
+      "url": "https://cache.sqex-bridge.jp/img/9136dc29bc5b73f1c70ee1c433e13dff381e5bbb1c70c873da9bf90204aee9b0b",
+      "sha256": "649e37534b4f68c9516ad3ab37abb68c178c46b17fcf0ed900f69045f5663745",
+      "dimensions": [
+        624,
+        164
+      ],
+      "visually_inspected": true,
+      "role": "identity_reference_only_not_output"
+    },
+    {
+      "file": "parent-psaro-official.png",
+      "character": "Psaro / ピサロ (DQM3)",
+      "page": "https://www.dragonquest.jp/monsters3/characters/index.html",
+      "url": "https://cache-www.dragonquest.jp/monsters3/characters/_img/psaro/chara_full.png",
+      "sha256": "f47f2fc5a136f44db201bdc21813045a1c5878e62d0d914af642c8ef93512e5f",
+      "dimensions": [
+        314,
+        850
+      ],
+      "visually_inspected": true,
+      "role": "identity_reference_only_not_output"
+    },
+    {
+      "file": "parent-dq1-hero-official.png",
+      "character": "DQ I Hero",
+      "page": "https://www.dragonquest.jp/roto-trilogy/dq1and2/character/index.html",
+      "url": "https://www.dragonquest.jp/roto-trilogy/dq1and2/character/_img/player_dq1/chara.png",
+      "hostType": "official",
+      "sha256": "0b948a18fda4c891f997e64cf1241b25659f8b45a4892942419c853a4e8a0c07",
+      "visually_inspected": true,
+      "role": "identity_reference_only_not_output"
+    },
+    {
+      "file": "parent-dq9-hero-gallery-reference.png",
+      "character": "DQ IX default male Celestrian Hero",
+      "page": "https://www.creativeuncut.com/gallery-14/dq9-angel-main-player-male.html",
+      "url": "https://www.creativeuncut.com/gallery-14/art/dq9-angel-main-player-male.jpg",
+      "hostType": "third_party_official_art_archive",
+      "sha256": "2b5eb5270474a111399faedc752e5fb91b44345bcffa0b6ee717e7f92f3e5b08",
+      "visually_inspected": true,
+      "role": "identity_reference_only_not_output"
+    },
+    {
+      "file": "parent-dq9-stella-gallery-reference.png",
+      "character": "Stella / サンディ",
+      "page": "https://www.creativeuncut.com/gallery-14/dq9-sandy.html",
+      "url": "https://www.creativeuncut.com/gallery-14/art/dq9-sandy.jpg",
+      "hostType": "third_party_official_art_archive",
+      "sha256": "c3a5a383933398ca39aa57ac4782c5dcd4cab0e7283e18457da23e6a1b3fece3",
+      "visually_inspected": true,
+      "role": "identity_reference_only_not_output"
+    }
+  ]
+}

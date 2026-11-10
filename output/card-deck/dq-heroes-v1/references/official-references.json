@@ -1,0 +1,50 @@
+{
+  "references": [
+    {
+      "file": "dq3-hero-male-official.png",
+      "url": "https://www.dragonquest.jp/roto-trilogy/dq3/character/_img/player/chara_a.png",
+      "page": "https://www.dragonquest.jp/roto-trilogy/dq3/character/index.html",
+      "character": "Hero (male)",
+      "series": "Dragon Quest III",
+      "sha256": "349f8a8e0e81b934cf497bfb0a5b7e8310f1d1aeb69548f9ce1e4eaef945068d",
+      "visually_inspected": true
+    },
+    {
+      "file": "dq5-hero-official.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq5/",
+      "character": "Hero (adult and child reference artwork)",
+      "series": "Dragon Quest V",
+      "sha256": "aed440b9db18f96180f88fef6bcb754ce07e0e9af982d4e706a331a9aa491d06",
+      "visually_inspected": true
+    },
+    {
+      "file": "dq5-main-visual-official.png",
+      "url": "https://www.jp.square-enix.com/dqsp/dq5/images/main_visual.png",
+      "page": "https://www.jp.square-enix.com/dqsp/dq5/",
+      "character": "Cast including adult Hero",
+      "series": "Dragon Quest V",
+      "sha256": "7dc17464ddc8f14a92a37dc56eada74bcff0834300f9a8b3114cee9101481ecd",
+      "visually_inspected": true
+    },
+    {
+      "file": "dq11-serena-official.png",
+      "url": "https://www.dq11.jp/s/pf/characters/_img/senya/chara_2d_sp.png",
+      "page": "https://www.dq11.jp/s/pf/characters/senya.html",
+      "character": "Serena / セーニャ",
+      "series": "Dragon Quest XI S",
+      "sha256": "cd3ad56c1e42df2f32c4a219ce64ecc395d2678b5ded7159702844b466f87332",
+      "visually_inspected": true
+    },
+    {
+      "file": "great-sabrecat-official-card.jpg",
+      "url": "https://blog.jp.square-enix.com/dqmbs/PR_MO-094_%E3%82%AD%E3%83%A9%E3%83%BC%E3%83%91%E3%83%B3%E3%82%B5%E3%83%BC.jpg",
+      "page": "https://blog.jp.square-enix.com/dqmbs/2016/10/post-60.html",
+      "character": "Great Sabrecat / キラーパンサー",
+      "series": "Dragon Quest / Monster Battle Scanner",
+      "sha256": "49a9247666c7831eb29856025f0691cbbcc8ff0cf24bc60066502922ef3f135e",
+      "visually_inspected": true,
+      "usage": "Monster identity/color reference only; exclude official card frame, text, QR and stats."
+    }
+  ]
+}

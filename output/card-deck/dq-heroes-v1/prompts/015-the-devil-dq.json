@@ -1,0 +1,23 @@
+{
+  "card_id": 15,
+  "card_name": "惡魔",
+  "character": "Dragonlord／竜王",
+  "series": "DQ I",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/parent-dragonlord-official.jpg"
+  ],
+  "reference_urls": [
+    "https://cache.sqex-bridge.jp/img/4d7f8ce49cf9c3a0fe737aa7275897814ff4f713c3ae0b5d0784dc15be1872e9b",
+    "https://cache.sqex-bridge.jp/guest/information/97263"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ I Dragonlord HUMANOID form: blue-gray face, black two-horn head crown, purple robe with high white collar, gold bead chain with red central jewel. Use only actual character from top-left portrait; ignore all UI.\nTarot composition: The Devil. Humanoid Dragonlord sits on a dark stone throne in a richly illustrated shadowy cavern. His blue-gray face, horn-like black crown, purple robe/high white collar and gold bead/red-gem necklace stay recognizable. Two loose OPEN broken chains rest at the base of the throne, with a wide unobstructed exit to daylight behind them. A small treasure glow tempts, but freedom remains possible. Moody indigo/violet/gold; no captives, gore or torture.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-15-the-devil-dq.png",
+  "character_display": "龍王（りゅうおう）",
+  "series_display": "勇者鬥惡龍 I",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-b8f1057a-fbb4-40a3-97f4-e3f56e470cb2.png",
+  "sha256": "233a2ebc68143a42907588306d1c5b75cd87e9c64af03f19b07c4812a23e3278",
+  "visual_review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+}

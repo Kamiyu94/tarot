@@ -1,0 +1,24 @@
+{
+  "card_id": 63,
+  "card_name": "寶劍國王",
+  "character": "勇者",
+  "series": "DQ IV",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, King of Swords. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual male DQIV Hero, exact distinctive green hair, headband and official colorful outfit/cape from reference. He sits steadily on a carved stone throne high above the valley, holding exactly ONE upright steel sword, expression thoughtful and fair. One sword total, omit any spare hilt/scabbard or additional weapon. Windy clear sky with pale clouds and distant blue mountains, authority through rational judgment. Preserve actual DQIV hero identity, not a generic king with crown. Full bleed colored ink illustration, no text/frame.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-63-king-of-swords-dq4-hero.png",
+  "reference_paths": [
+    "references/artist-a-dq4-hero.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_hero_male.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-63-king-of-swords-dq4-hero.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-f426b7e9-3dc2-4457-b0de-e4d134df1128.png",
+  "sha256": "b376430034ac4466af8fb5b1a9af9964dc788c78eb6a642abb29554948a49645",
+  "visual_review": "DQIV male Hero official green hair, winged blue-jewel headband, teal cape/tunic and white clothing retained. Exactly one upright sword, no secondary hilt, no text/frame.",
+  "expected_suit_count": 1,
+  "observed_suit_count": 1
+}

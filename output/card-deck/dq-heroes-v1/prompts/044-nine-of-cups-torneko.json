@@ -1,0 +1,22 @@
+{
+  "card_id": 44,
+  "card_name": "聖杯九",
+  "character": "Torneko／トルネコ",
+  "series": "DQ IV",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Nine of Cups. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual DQIV Torneko: round kindly merchant with blue mustache/hair, purple cap and vest, blue-and-white striped long tunic, brown apron and sandals. He sits contentedly on a wooden bench with arms comfortably folded, a grateful satisfied expression. Behind him are exactly NINE golden chalices displayed in a clear THREE BY THREE arrangement on a wooden shelf. All nine full cups visible and distinct, no additional cup anywhere. Cozy trading village garden, generous warm light, not greedy caricature. No printed text, numbers or signage.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-44-nine-of-cups-torneko.png",
+  "reference_paths": [
+    "references/artist-a-dq4-torneko.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+    "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-44-nine-of-cups-torneko.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-fde27035-8d66-4c1e-870b-60d90be81e09.png",
+  "sha256": "672313a535afbe93d74326f6ce82be3a3132f12708adb7ded525db41ee4dedc4",
+  "visual_review": "Torneko official blue mustache, purple cap/vest and blue-white stripes preserved; exactly nine chalices clearly displayed in three-by-three shelves. Full bleed, no text/frame."
+}

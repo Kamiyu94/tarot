@@ -1,0 +1,23 @@
+{
+  "card_id": 14,
+  "card_name": "節制",
+  "character": "Milly／ミレーユ",
+  "series": "DQ VI",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/artist-a-dq6-milly.jpg"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq6/story/images/mireille_bg.jpg",
+    "https://www.jp.square-enix.com/dqsp/dq6/story/"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ VI Milly: long flowing pale-blonde hair, silver circlet/armbands and light breastplate over blue tunic, white trousers, lilac hip drape, long golden-yellow waist ribbons and gray boots. Foreground character only.\nTarot composition: Temperance. Milly stands calmly at a clear stream with one foot on a dry stone and one at the water edge. She carefully pours a thin flowing stream of water from ONE gold cup into ONE silver cup: exactly TWO vessels, each held in one hand. Blonde hair, silver circlet/armor, blue/white/lilac costume and gold ribbons remain faithful. Soft rainbow light and balanced garden scenery; peaceful moderation.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-14-temperance-dq.png",
+  "character_display": "米蕾優（ミレーユ）",
+  "series_display": "勇者鬥惡龍 VI",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-93c65523-b7c4-4fe9-beea-f110ce397223.png",
+  "sha256": "2888bf13c8d76e55832ac05fff23d8cc409e06f7b93574f8c391abbe83306486",
+  "visual_review": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+}

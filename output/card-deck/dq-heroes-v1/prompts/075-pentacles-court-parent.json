@@ -1,0 +1,26 @@
+{
+  "card_id": 75,
+  "card_name": "錢幣騎士",
+  "character": "DQVIII主人公",
+  "character_display": "DQVIII主人公",
+  "series": "DQ VIII",
+  "series_display": "勇者鬥惡龍 VIII",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: Knight of Pentacles, one card illustration for the established DQ tarot deck.\nScene: The actual DQVIII Hero, red-orange bandana, brown hair, long mustard-yellow sleeveless coat over a blue tunic, green trousers, gray cuffed boots, orange cross-body strap and green pouch. He sits upright on a calm sturdy brown horse standing still on a country road beside a cultivated field. He holds one large golden pentacle coin in one hand, clearly facing the viewer, and the reins in the other. Dependable, composed expression, deliberate unhurried journey. Show horse and rider fully, rich green hills and a small village beyond. No drawn sword or other handheld object.\nReference 1 is the exact Dragon Quest character identity and costume reference. Reference 2 is ONLY the approved deck line, color and subtle paper texture style. Create one original cohesive full-bleed portrait 2:3 illustration. Faithful Toriyama Dragon Quest character design, confident clean black ink contours, crisp hand-painted cel-color blocks, restrained shadows, verdant fantasy landscape and mobile-readable composition. Keep the character recognizable. Do not copy text, framing, UI, labels or faded duplicate portraits from the reference sheet. No title, typography, numbers, watermarks, logos or card border. Exactly ONE large golden pentacle coin with an embossed five-pointed star, with its entire circular edge clearly visible; no other coins in the scene.",
+  "asset_filename": "card-75-knight-of-pentacles-dq8-hero.png",
+  "reference_paths": [
+    "references/artist-a-dq8-hero.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq8/",
+    "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_hero.png"
+  ],
+  "expected_suit_count": 1,
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c333-3235-7943-ad5d-5a0609a39962/exec-1f1995b9-c2fc-4fdf-9f65-57e3a1333a01.png",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-75-knight-of-pentacles-dq8-hero.png",
+  "sha256": "64124f7ad014071239ef55a8c2f92e3e47b66a9d11f7c78504c505481255fb71",
+  "visual_review": "Actual DQVIII Hero orange bandana/yellow coat/blue tunic/green pouch retained. Calm horse standing on road, exactly one raised gold pentacle. Consistent deck colors and linework; no frame, title or watermark.",
+  "observed_suit_count": 1
+}

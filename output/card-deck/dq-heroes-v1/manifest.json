@@ -1,0 +1,3510 @@
+{
+  "schemaVersion": 2,
+  "deck": "dq-heroes-v1",
+  "label": "勇者鬥惡龍・角色塔羅候選牌面",
+  "createdAt": "2026-11-10T13:54:30.790194+00:00",
+  "expectedCount": 78,
+  "sampleIds": [
+    0,
+    8,
+    2
+  ],
+  "tarotDataSha256": "9138bfd7518b9c976b0afde80fab691725315188aa7655a84b350dbf71425d51",
+  "application": {
+    "state": "applied",
+    "appliedAt": "2026-11-10T15:28:31.010939+00:00",
+    "backup": "output/card-deck/dq-heroes-v1/tarot-data.before-apply.js",
+    "dataSha256": "10b1cadaa3c5b05a50c71200f7719245d5c7fc8d49a59645dc4da1993285e31a"
+  },
+  "cards": [
+    {
+      "id": 0,
+      "name": "愚者",
+      "nameEn": "The Fool",
+      "originalImage": "images/cards/0.webp",
+      "originalSha256": "44275d6d81abb91be2e9d64b0ff4b0b098b5fa4f15867c15459c2bf218b7fb21",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-00.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-00.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-00-the-fool-dq3-hero.png",
+      "sourceSha256": "c89038304e673c1a65bba9b3fce2ae90c60a4f2b0c8f319d409f2e4ed068b214",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "daa796c7b1227f53230d696e18f507f73ad6968999882c2f2b90d421963e45b9",
+      "importedAt": "2026-11-10T13:57:22.539488+00:00",
+      "character": "第三代勇者（男性）",
+      "series": "勇者鬥惡龍 III",
+      "referenceUrls": [
+        "https://www.dragonquest.jp/roto-trilogy/dq3/character/index.html",
+        "https://www.dragonquest.jp/roto-trilogy/dq3/character/_img/player/chara_a.png"
+      ],
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/000-the-fool-dq3.json",
+      "promptSha256": "ed53228da446e2fef109257192f31a18ba04e263b69fd63f096a1495074e12c2",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "DQIII hero identity clearly preserved: silver circlet with green jewel, blue tunic/yellow sleeves and leggings, purple cape, sword/shield; full-body cliff/rose/dog beginning-of-journey tableau. No card title or border.",
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      }
+    },
+    {
+      "id": 1,
+      "name": "魔術師",
+      "nameEn": "The Magician",
+      "originalImage": "images/cards/1.webp",
+      "originalSha256": "b198bfc0eda72e7b57e934e40e0f3d5c95079a9266828d0b86b2941cc482dc91",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-01.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-01.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-01-the-magician-dq.png",
+      "sourceSha256": "eb5308697f2943ab94c09acd43f314d9495371c61c81d39620fd08ae75bf4278",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "2c814f0a232978345c816e7e68e7424c805b9678ebccffd369ddc13b4736e749",
+      "importedAt": "2026-11-10T14:24:01.614023+00:00",
+      "character": "Veronica／ベロニカ",
+      "series": "DQ XI",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/_img/veronica/chara_2d_sp.png",
+        "https://www.dq11.jp/s/pf/characters/veronica.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/001-the-magician-dq.json",
+      "promptSha256": "0f2df7f57f593a119d940f4f96e49bda1956671636f0a50f5da91c7003cce984",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 2,
+      "name": "女祭司",
+      "nameEn": "The High Priestess",
+      "originalImage": "images/cards/2.webp",
+      "originalSha256": "46ebe2986fcd36095697255d5b31fb93b1b289265432de4285a746da52436709",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-02.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-02.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-02-high-priestess-dq11-serena.png",
+      "sourceSha256": "9c9ba7ee32a41e92a39ab1ba2cec7733bb46733a18bdea4275a924e72331f275",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "1a7294e850b08f1ac7c4ba2185bd138306a2dad326bef8e1753ece7b3500c2ca",
+      "importedAt": "2026-11-10T14:01:23.261088+00:00",
+      "character": "瑟妮雅（セーニャ）",
+      "series": "勇者鬥惡龍 XI S",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/senya.html",
+        "https://www.dq11.jp/s/pf/characters/_img/senya/chara_2d_sp.png"
+      ],
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/002-high-priestess-dq11-serena.json",
+      "promptSha256": "9101343a06bf9360bc4ca5f8506bde243820c83ecb74703204c2e3ca14057fa0",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Serena identity preserved: long pale-blonde hair and broad green headband, turquoise jewelry, green laced bodice/green skirt with ivory pleated front, white puff sleeves, orange sash, purple boots and brown lyre. Calm moonlit unlettered columns/pool/scroll scene; no card title, frame or watermark. Waist buckle partly obscured by hands/lyre in seated pose.",
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      }
+    },
+    {
+      "id": 3,
+      "name": "皇后",
+      "nameEn": "The Empress",
+      "originalImage": "images/cards/3.webp",
+      "originalSha256": "729d0fcf721738eb4626c9061f03c1fca51530b03665524cb48ad2fb18dbddd2",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-03.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-03.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-03-the-empress-dq.png",
+      "sourceSha256": "60735bc1b0ac085ae07a28397433faf5dffe23ada134eb2cee679cff3b27e39d",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "bd24976bc3a1794bc35d8e3010f40267da9fc2dbccc1a15786b09a3fc8b3e4fe",
+      "importedAt": "2026-11-10T14:22:01.635311+00:00",
+      "character": "Bianca／ビアンカ",
+      "series": "DQ V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png",
+        "https://www.jp.square-enix.com/dqsp/dq5/"
+      ],
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/003-the-empress-dq.json",
+      "promptSha256": "2d85d6124de896dadfc180decd0c67a9e1903cc752d6154392a3eea8e09b2f8c",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      }
+    },
+    {
+      "id": 4,
+      "name": "皇帝",
+      "nameEn": "The Emperor",
+      "originalImage": "images/cards/4.webp",
+      "originalSha256": "d9f1747fe1cd1123323bd2ed5a0abd2fb61c9fa445bee8e748e1ff665e36af1b",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-04.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-04.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-04-the-emperor-dq.png",
+      "sourceSha256": "f3e2eb8794dfe737d5e6344d9b343b37deb5f9c37c65146e7d970e665e6bac42",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "d7093648e69ba0855f4d8759ea72701b093cd9099c8721721f6872898f014153",
+      "importedAt": "2026-11-10T14:22:01.836454+00:00",
+      "character": "Pankraz／パパス",
+      "series": "DQ V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/images/papas_illust.png",
+        "https://www.jp.square-enix.com/dqsp/dq5/"
+      ],
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/004-the-emperor-dq.json",
+      "promptSha256": "3cc64c3925a0da04bac6f84edcbfa25bdd7b5accb08a06befa783e81d66b2fd9",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      }
+    },
+    {
+      "id": 5,
+      "name": "教皇",
+      "nameEn": "The Hierophant",
+      "originalImage": "images/cards/5.webp",
+      "originalSha256": "f38bc825cccae6069282955091263de3d69ca256460e4b56bbfb445c07e7bb94",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-05.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-05.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-05-the-hierophant-dq.png",
+      "sourceSha256": "a2846999fe939ce7becb653f6b7099c79071ded35aed8127c042e8b183d01bbd",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "a437a8442502621fafded4841ffe6a5cabffa2e5aeeca0b8d98ee09f1e428242",
+      "importedAt": "2026-11-10T14:24:01.755125+00:00",
+      "character": "Kiryl／クリフト",
+      "series": "DQ IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_krift.png",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/005-the-hierophant-dq.json",
+      "promptSha256": "fb7af810fb19fb9329ac2fdd7dc45747556663ed7d370a0e29d86982c0e0a6e1",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 6,
+      "name": "戀人",
+      "nameEn": "The Lovers",
+      "originalImage": "images/cards/6.webp",
+      "originalSha256": "9a8bba944580000f4058aa445656ded6799ebce209fe3e6f047652b3ea1516ff",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-06.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-06.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-06-the-lovers-dq.png",
+      "sourceSha256": "7366cb728b92a87d0b78d3305420bfaba79fcc630a79c56f9c52aff285feb394",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "eaf1bb0388e5392adfb4e6d99c7092cbebe1b74546e5a886d0d37913dc36d98d",
+      "importedAt": "2026-11-10T14:26:06.903724+00:00",
+      "character": "主人公、Bianca、Nera",
+      "series": "DQ V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/flora_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/006-the-lovers-dq.json",
+      "promptSha256": "98a47f18023e92acd053000c7c1767815016c03491ceaf9d952eb763204559dd",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 7,
+      "name": "戰車",
+      "nameEn": "The Chariot",
+      "originalImage": "images/cards/7.webp",
+      "originalSha256": "70219f323ad5e8f285cacf3034be08029b051b6c3967a1d10e5c994e2a46d9bf",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-07.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-07.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-07-the-chariot-dq.png",
+      "sourceSha256": "eaa6908da61af11c5d059873cb6341f9be1e293ae6146676bbf350cc065a26d4",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "d50734c3d6523391921ce41a1d81b00494bf323eea736ac546674a00c3c7d55a",
+      "importedAt": "2026-11-10T14:26:07.042357+00:00",
+      "character": "主人公與 Great Sabrecat",
+      "series": "DQ VIII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_hero.png",
+        "https://www.jp.square-enix.com/dqsp/dq8/",
+        "https://blog.jp.square-enix.com/dqmbs/PR_MO-094_%E3%82%AD%E3%83%A9%E3%83%BC%E3%83%91%E3%83%B3%E3%82%B5%E3%83%BC.jpg",
+        "https://blog.jp.square-enix.com/dqmbs/2016/10/post-60.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/007-the-chariot-dq.json",
+      "promptSha256": "aac120f0191755edfae24ea861f1fd19191df4d558943055db7f6cb1ee3c7faa",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 8,
+      "name": "力量",
+      "nameEn": "Strength",
+      "originalImage": "images/cards/8.webp",
+      "originalSha256": "c03a95f1a9db72b9468f96afac4387344865aa03ca18ebf4d28f994c9f625403",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-08.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-08.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-08-strength-dq5-hero-sabrecat.png",
+      "sourceSha256": "12c6ddb7de3d307ca3bcff0f85815a73a66f0d2b9db776f92c5203578abb5edd",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "709ec452418d21335b33190c71bcb3b0d5299c9e9b1b7b2dfdc465eaa8d8d388",
+      "importedAt": "2026-11-10T13:59:16.999303+00:00",
+      "character": "第五代主人公與殺人豹",
+      "series": "勇者鬥惡龍 V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/main_visual.png",
+        "https://blog.jp.square-enix.com/dqmbs/2016/10/post-60.html",
+        "https://blog.jp.square-enix.com/dqmbs/PR_MO-094_%E3%82%AD%E3%83%A9%E3%83%BC%E3%83%91%E3%83%B3%E3%82%B5%E3%83%BC.jpg"
+      ],
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/008-strength-dq5.json",
+      "promptSha256": "1112025c453d2dbadebf003ecb38aa383d49b0202b7d4f3b3252857165a28d99",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Recognizable adult DQV protagonist: purple turban/scarf/cape, white sleeveless tunic, green pouch, silver bands, blue calf wraps and wood staff. Great Sabrecat has red crest/tail tuft, yellow black-spotted coat, white chest/paws and saber fangs. Gentle trusting interaction, no frame/text/QR.",
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      }
+    },
+    {
+      "id": 9,
+      "name": "隱士",
+      "nameEn": "The Hermit",
+      "originalImage": "images/cards/9.webp",
+      "originalSha256": "66daa9ca163c0c714c084fcd48adb7ca42566d90a9669da164e81a2f45db2017",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-09.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-09.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-09-the-hermit-dq.png",
+      "sourceSha256": "1bec0fd8e0c1e83cc681e3348d06cea623e64f644914b11e33cd2d51477a39ef",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "4176fe73847dc681d0a4375d6b9acb76723eb7873425528d7205e0c6dc188e2e",
+      "importedAt": "2026-11-10T14:29:28.057436+00:00",
+      "character": "Rab／ロウ",
+      "series": "DQ XI",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/_img/row/chara_2d_sp.png",
+        "https://www.dq11.jp/s/pf/characters/row.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/009-the-hermit-dq.json",
+      "promptSha256": "06f343fee8e7fb664504e7f914a4b233bf4f15b5c577bf004113bbcbc85701fa",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 10,
+      "name": "命運之輪",
+      "nameEn": "Wheel of Fortune",
+      "originalImage": "images/cards/10.webp",
+      "originalSha256": "89450619a1355d13c3a42f375ada4ff7123510cee0eca48fdf3a67a3152cb8c7",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-10.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-10.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-10-wheel-of-fortune-dq.png",
+      "sourceSha256": "b870a117cc22ec54a03433579d9a55e1539300dea484f7c484dc4ada678113c5",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "3c934147866ea941b2b5a89fb2dab03cffdb11b368165b609432d9b4833812d7",
+      "importedAt": "2026-11-10T14:29:28.213028+00:00",
+      "character": "Torneko／トルネコ",
+      "series": "DQ IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/010-wheel-of-fortune-dq.json",
+      "promptSha256": "ff0e5d43c6ef76aa2890faa4b303bbfa402611c03d4b4582de579aa4ebc779b7",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 11,
+      "name": "正義",
+      "nameEn": "Justice",
+      "originalImage": "images/cards/11.webp",
+      "originalSha256": "c46a2ab6f2bbdb6bcdd1472dc80754ca580e791f1479889610629274f35ad944",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-11.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-11.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-11-justice-dq.png",
+      "sourceSha256": "abd97d692511ad2e6482e2467168d529db7b6663bdc49dd43eed491dc3e614a2",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "22af0c4a3d7fe1c24be9ee64055f3e0493a5d0cc0e0aa827d7d29cb5361d8fb8",
+      "importedAt": "2026-11-10T14:29:28.362172+00:00",
+      "character": "勇者",
+      "series": "DQ IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_hero_male.png",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/011-justice-dq.json",
+      "promptSha256": "bba798179a56d038b3b0613f5c674c6192f9de749202c2e93cf1018bf658fd9d",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 12,
+      "name": "倒吊人",
+      "nameEn": "The Hanged Man",
+      "originalImage": "images/cards/12.webp",
+      "originalSha256": "ca9f87915b909b6ac14f1d593729afc8c0a309610ccfd1cfe0ad854aa5ceba28",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-12.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-12.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-12-the-hanged-man-dq.png",
+      "sourceSha256": "32c2ccac71af07d7bc811d3273e3e14239b4365540040b87890f98da908bc5e4",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "1b5a28bd804611ab72cd8c574e27dcb502beaf87684d3150182512ddc868ba67",
+      "importedAt": "2026-11-10T14:34:30.249856+00:00",
+      "character": "奇法（キーファ）",
+      "series": "勇者鬥惡龍 VII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq7/story/images/kifa_body.jpg",
+        "https://www.jp.square-enix.com/dqsp/dq7/story/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/012-the-hanged-man-dq.json",
+      "promptSha256": "a783a75212db40675929a1b39f31c8effc71b59837eaffcf966dcc955119ffdb",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 13,
+      "name": "死神",
+      "nameEn": "Death",
+      "originalImage": "images/cards/13.webp",
+      "originalSha256": "b97cb1df0ac86bd21656537dff3fdbd7e37faf3d7fb2268e602c8ae1f2701870",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-13.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-13.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-13-death-dq.png",
+      "sourceSha256": "bd79ee0779a563c778a36f13e4e70fc797235a325104c203739c7fdd59d7276c",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "87403025fcbe20f7c69d51230d1ac898598413197d39cce16db963481bd23fc8",
+      "importedAt": "2026-11-10T14:34:30.392452+00:00",
+      "character": "皮薩羅（ピサロ）",
+      "series": "勇者鬥惡龍 IV",
+      "referenceUrls": [
+        "https://cache-www.dragonquest.jp/monsters3/characters/_img/psaro/chara_full.png",
+        "https://www.dragonquest.jp/monsters3/characters/index.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/013-death-dq.json",
+      "promptSha256": "a4b87c7c5a44cd076b933bf106be8f197bd954f7f34fa8301cfc94e4bd7a22de",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "referenceVersion": "DQM3 official Psaro artwork"
+    },
+    {
+      "id": 14,
+      "name": "節制",
+      "nameEn": "Temperance",
+      "originalImage": "images/cards/14.webp",
+      "originalSha256": "7415d67e2ab75ca90aea4d2d665f29d4a587a2d1c4bab93e330ba46b2b888808",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-14.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-14.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-14-temperance-dq.png",
+      "sourceSha256": "2888bf13c8d76e55832ac05fff23d8cc409e06f7b93574f8c391abbe83306486",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "5b0183f0552ba4b9efd4044870f43dc4a1055cb694bd6b7a1707baf34368d65e",
+      "importedAt": "2026-11-10T14:34:30.536696+00:00",
+      "character": "米蕾優（ミレーユ）",
+      "series": "勇者鬥惡龍 VI",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq6/story/images/mireille_bg.jpg",
+        "https://www.jp.square-enix.com/dqsp/dq6/story/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/014-temperance-dq.json",
+      "promptSha256": "a4ab34722eb01751bf959b7281bf359cd6d6b0d14325655a81ec26c17a3dda02",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 15,
+      "name": "惡魔",
+      "nameEn": "The Devil",
+      "originalImage": "images/cards/15.webp",
+      "originalSha256": "231b2e9f67c2e5ba93fde2908d8e1cdceb49cc4d9dbf3139e912029e8067c6a7",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-15.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-15.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-15-the-devil-dq.png",
+      "sourceSha256": "233a2ebc68143a42907588306d1c5b75cd87e9c64af03f19b07c4812a23e3278",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "dd78808b789873c8b31dd2de20591773cfe451b606116314b2f91e28bbd82a83",
+      "importedAt": "2026-11-10T14:38:12.045774+00:00",
+      "character": "龍王（りゅうおう）",
+      "series": "勇者鬥惡龍 I",
+      "referenceUrls": [
+        "https://cache.sqex-bridge.jp/img/4d7f8ce49cf9c3a0fe737aa7275897814ff4f713c3ae0b5d0784dc15be1872e9b",
+        "https://cache.sqex-bridge.jp/guest/information/97263"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/015-the-devil-dq.json",
+      "promptSha256": "5580ef2213902cdd5631c7c6304535eb270af621c5339d3ec57a3d61288520e6",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 16,
+      "name": "高塔",
+      "nameEn": "The Tower",
+      "originalImage": "images/cards/16.webp",
+      "originalSha256": "e8fa7d55b01dda820be5ca4f2eac64ec43336bcc708c9ec188b9e603320615b4",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-16.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-16.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-16-the-tower-dq.png",
+      "sourceSha256": "560e67fee5d883200020e5e87924125b6f85a82fd35036aaf4bb81421c353c42",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "9fd3d99a1e50b443d6cbd261ba4a8ddf21f9691a8cae5b31e42da0c42678d45e",
+      "importedAt": "2026-11-10T14:38:12.185019+00:00",
+      "character": "蓋瑪（ゲマ）",
+      "series": "勇者鬥惡龍 V",
+      "referenceUrls": [
+        "https://cache.sqex-bridge.jp/img/d051c67ac7d06edea5de090f720d14feb4174dceb8c49c97e4881fb193f91df8b",
+        "https://cache.sqex-bridge.jp/jp/ja/guest/information/91840"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/016-the-tower-dq.json",
+      "promptSha256": "7a0d382ce0c990d8cef60c1ed20b825762a83c4571066f11a63f17441a85ea56",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 17,
+      "name": "星星",
+      "nameEn": "The Star",
+      "originalImage": "images/cards/17.webp",
+      "originalSha256": "85ecb2b7d18cf5c5787c3675a3021271b17ddd8b6ab3cedfc0618c88d6519925",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-17.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-17.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-17-the-star-dq.png",
+      "sourceSha256": "4130aeb14503795d2aeae66a194e9aa36c664e9de95a14af0b1ebe4782c6ca43",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "67d6c73c68babe770ab26b890848a60367db7f9006c63e17c7a5220beba6dfca",
+      "importedAt": "2026-11-10T14:42:54.896865+00:00",
+      "character": "潔西卡（ゼシカ）",
+      "series": "勇者鬥惡龍 VIII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_jessica.png",
+        "https://www.jp.square-enix.com/dqsp/dq8/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/017-the-star-dq.json",
+      "promptSha256": "ddddb3c5583ee954a6353658f5c9a1543a3938666613351a00c35e52cadba86b",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Jessica identity/outfit preserved; corrected final sky has exactly one large star and seven small stars. Two pitchers, hopeful water scene, no card frame/text."
+    },
+    {
+      "id": 18,
+      "name": "月亮",
+      "nameEn": "The Moon",
+      "originalImage": "images/cards/18.webp",
+      "originalSha256": "8db5e82bb232368bc070e9031ab9bed2d4975a5c509095c9897db0ecbcc4725b",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-18.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-18.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-18-the-moon-dq.png",
+      "sourceSha256": "a556744190ec159ab4b882e1341f2d1a562a73884958290c5c425deeb14dddf1",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "02a6ac86284dc8b405751708aca44780e62db4d67af430fc134ad7c8390bc7d4",
+      "importedAt": "2026-11-10T14:42:55.054591+00:00",
+      "character": "芭芭拉（バーバラ）",
+      "series": "勇者鬥惡龍 VI",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq6/story/images/barbara_bg.jpg",
+        "https://www.jp.square-enix.com/dqsp/dq6/story/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/018-the-moon-dq.json",
+      "promptSha256": "873c82e7056bf67a693456395fb52efa6a28dd14fb140b79fa829d26d955dd8b",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 19,
+      "name": "太陽",
+      "nameEn": "The Sun",
+      "originalImage": "images/cards/19.webp",
+      "originalSha256": "6387834ef40cf7d7eee0249a91cd0d52e26d283e9bd9345edb23e9554989c014",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-19.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-19.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-19-the-sun-dq.png",
+      "sourceSha256": "e43672805b8bc2ddd5c89c2603ef838dd2edbc0e631cd6366adb18e0b4116dbd",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "a62bc23f04728bb6728494c2ae201d6876699bb902299cdd2fec3268e97285a6",
+      "importedAt": "2026-11-10T14:42:55.200030+00:00",
+      "character": "亞莉娜（アリーナ）",
+      "series": "勇者鬥惡龍 IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_arena.png",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/019-the-sun-dq.json",
+      "promptSha256": "cd318b895b849d040ee430f38eb0971c286caf8491e5f1d35b583ac2d2fa0a02",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 20,
+      "name": "審判",
+      "nameEn": "Judgement",
+      "originalImage": "images/cards/20.webp",
+      "originalSha256": "774ea938aee96cee527ab38159a11aa7a6d35ea69352d94dd7e061b9def53ae2",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-20.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-20.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-20-judgement-dq.png",
+      "sourceSha256": "bb638fb32357820cd5d89e43be6b2ea9a4e2c99288fe14fc4e349e85558b2e6a",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "cbcab8de5e9d51757f9c4041262086ebc553a75909f842db55629018886a4172",
+      "importedAt": "2026-11-10T14:42:55.348925+00:00",
+      "character": "第九代主人公",
+      "series": "勇者鬥惡龍 IX",
+      "referenceUrls": [
+        "https://www.creativeuncut.com/gallery-14/art/dq9-angel-main-player-male.jpg",
+        "https://www.creativeuncut.com/gallery-14/dq9-angel-main-player-male.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/020-judgement-dq.json",
+      "promptSha256": "b30622d025400b419ff5f2cc9dfe1690f443c0cebc61cea705786ee0a03e3e87",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "referenceHostType": "third_party_original_art_archive_not_official_host"
+    },
+    {
+      "id": 21,
+      "name": "世界",
+      "nameEn": "The World",
+      "originalImage": "images/cards/21.webp",
+      "originalSha256": "f8bb7eaac6ee65e9a01b4c3c7de29a47b9a8beb2f3d7966f40ba2d3602ee3e31",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-21.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-21.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-21-the-world-dq.png",
+      "sourceSha256": "c1d8a7519d5e35199578b6e5072f2c0faa658c79e94136917d002f306cb1d457",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "8c1372633aea727285f2b8898eaa7035e15f7f70f2e63fa2f6f541ed93bafdb6",
+      "importedAt": "2026-11-10T14:48:25.939799+00:00",
+      "character": "第十一代主人公",
+      "series": "勇者鬥惡龍 XI",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/_img/player/chara_2d_sp.png",
+        "https://www.dq11.jp/s/pf/characters/player.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/021-the-world-dq.json",
+      "promptSha256": "461e8f26b1b56796fcd11ad2604642d921dc2372af56290ccb163cba38d9f827",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 22,
+      "name": "權杖王牌",
+      "nameEn": "Ace of Wands",
+      "originalImage": "images/cards/card_22.webp",
+      "originalSha256": "58355fad3b4ab97a12c00af67aa935479c8012dd0b3bf93daac3244ed93b88f8",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-22.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-22.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-22-ace-of-wands-dq.png",
+      "sourceSha256": "1dcc517207d0740d2ec5993469ae74c2404ad373bf81f1e40270862de89403a6",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "f8a70f58d71134a4cbd0d22aee4150ae3e1e998f1e7e33d1fcffe35c71e5e1df",
+      "importedAt": "2026-11-10T14:48:26.096068+00:00",
+      "character": "第六代主人公",
+      "series": "勇者鬥惡龍 VI",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq6/story/images/hero_bg.jpg",
+        "https://www.jp.square-enix.com/dqsp/dq6/story/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/022-ace-of-wands-dq.json",
+      "promptSha256": "a140244c8de23e9856ad9d95fb440d87de29a25b32d72e03cd5fe6fcdbfb64db",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 23,
+      "name": "權杖二",
+      "nameEn": "Two of Wands",
+      "originalImage": "images/cards/card_23.webp",
+      "originalSha256": "969047f705fc504e0d5ec18f785a8aabd07ccc2f4200bef5f62167474db185a7",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-23.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-23.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-23-two-of-wands-dq.png",
+      "sourceSha256": "d64a79eefd8188553b17aa8b0921735952bc75f477628db364b9237cb87cac2b",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "b0a7d250f09e7055b3911ae4c80900f6a9d69b95ee3e2111e8a684fa6190874c",
+      "importedAt": "2026-11-10T14:48:26.245045+00:00",
+      "character": "羅雷西亞王子",
+      "series": "勇者鬥惡龍 II",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq2/images/main_visual.jpg",
+        "https://www.jp.square-enix.com/dqsp/dq2/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/023-two-of-wands-dq.json",
+      "promptSha256": "da4bdf13a4c3a366b5067d5a5b918832a8804bc351de7d67e935ad1633495c77",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable."
+    },
+    {
+      "id": 24,
+      "name": "權杖三",
+      "nameEn": "Three of Wands",
+      "originalImage": "images/cards/card_24.webp",
+      "originalSha256": "9a4f91001a76e0ed1c153fe4861e4bad7c0c70e5ecd14cf3bd7dbcafdeae7e28",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-24.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-24.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-24-three-of-wands-dq.png",
+      "sourceSha256": "813038b26c7b7ac01ff15993b77787029068e83787509140a8d3861f80cc7c74",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "c4d390e8796edaaf5a9c8419635fca40bbcdc5c96e0c5fad83827e819c332c22",
+      "importedAt": "2026-11-10T14:54:09.423288+00:00",
+      "character": "第八代主人公",
+      "series": "勇者鬥惡龍 VIII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_hero.png",
+        "https://www.jp.square-enix.com/dqsp/dq8/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/024-three-of-wands-dq.json",
+      "promptSha256": "0032a105f7420472e61188ff49416962911fec3b80e55624ea26764ef20d3383",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 3,
+      "observedSuitCount": 3
+    },
+    {
+      "id": 25,
+      "name": "權杖四",
+      "nameEn": "Four of Wands",
+      "originalImage": "images/cards/card_25.webp",
+      "originalSha256": "fd74bada443e0b8cca94c9c24cb6fa764a2ef683db375b494c23872269ac9e54",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-25.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-25.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-25-four-of-wands-dq.png",
+      "sourceSha256": "ec18eb86ae614fd552705517eac18eda323b4ad7224c05bcb3e5f36d683deed8",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "1328af9a2e043bc06ac16a264264f10c65cba42d633cb616e911e4c244e259b2",
+      "importedAt": "2026-11-10T15:04:15.590965+00:00",
+      "character": "特魯內克與成年村民",
+      "series": "勇者鬥惡龍 IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/025-four-of-wands-dq.json",
+      "promptSha256": "7e6204629e9ba3bc708cf157f2273fb120cd678c6a7201425b6e2f576579e916",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 4,
+      "observedSuitCount": 4
+    },
+    {
+      "id": 26,
+      "name": "權杖五",
+      "nameEn": "Five of Wands",
+      "originalImage": "images/cards/card_26.webp",
+      "originalSha256": "dae81f80574f821acd7cc861da6aa547e50db505eddd09a030688b8c2de28e06",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-26.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-26.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-26-five-of-wands-dq.png",
+      "sourceSha256": "08b7f906a05e3c8c6e1552dad4de12c884ba56742875ba45ad45cc460ebef2de",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "812e22fc07274148edd362d5fdd1e806d19505dee316e9d5f1d82a1a67ce5c03",
+      "importedAt": "2026-11-10T14:54:09.588904+00:00",
+      "character": "亞莉娜、克里夫特與布萊",
+      "series": "勇者鬥惡龍 IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_arena.png",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_krift.png",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_burai.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/026-five-of-wands-dq.json",
+      "promptSha256": "eb52552d6d13195336cf67b40f76e4df3625fc05e36572aa3b03188c72de8486",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 5,
+      "observedSuitCount": 5
+    },
+    {
+      "id": 27,
+      "name": "權杖六",
+      "nameEn": "Six of Wands",
+      "originalImage": "images/cards/card_27.webp",
+      "originalSha256": "3059dfe7557bb1292490b3cb1a0801c3883df5498323a09f836d67bce3be998e",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-27.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-27.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-27-six-of-wands-dq.png",
+      "sourceSha256": "081ad82d7d483c15d03f2eeb619a5c9cc62f780c64a5e7ff1a522820bb8f001d",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "430fc63e5977bd9229b618f799edd6e1e00bb54cd6aaabd3b0716a5f0e67e2b7",
+      "importedAt": "2026-11-10T14:58:52.080949+00:00",
+      "character": "萊安（ライアン）",
+      "series": "勇者鬥惡龍 IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_ryan.png",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/027-six-of-wands-dq.json",
+      "promptSha256": "5fd8edd5001f8980ca65e7bd55f68475341ed2730ef9663684e1cc4feade158c",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 6,
+      "observedSuitCount": 6
+    },
+    {
+      "id": 28,
+      "name": "權杖七",
+      "nameEn": "Seven of Wands",
+      "originalImage": "images/cards/card_28.webp",
+      "originalSha256": "5aeba044a7e1ca8c42ff6b7f90eaa3f66c72aaaf9f33ea496c62de41389a8d9d",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-28.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-28.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-28-seven-of-wands-dq.png",
+      "sourceSha256": "97a4884f560f92b0938257109b0f471d6ef164ecb8aa45e0535a9cc330ccd9f5",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "9ae718924b02a4fb1848581b931bd3cdd68c176c700eb7cf4b84174b8aa2afee",
+      "importedAt": "2026-11-10T14:58:52.231089+00:00",
+      "character": "瑪蒂娜（マルティナ）",
+      "series": "勇者鬥惡龍 XI",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/_img/martina/chara_2d_sp.png",
+        "https://www.dq11.jp/s/pf/characters/martina.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/028-seven-of-wands-dq.json",
+      "promptSha256": "077aeb401a38f162bd87861a72b29eca062be2b40fbc51f3f455970b6fbc6a35",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 7,
+      "observedSuitCount": 7
+    },
+    {
+      "id": 29,
+      "name": "權杖八",
+      "nameEn": "Eight of Wands",
+      "originalImage": "images/cards/card_29.webp",
+      "originalSha256": "5535bf4823c02fdafadd1e467f2b78e5bd2150b8dcd876521faefef95fc64311",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-29.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-29.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-29-eight-of-wands-dq.png",
+      "sourceSha256": "b7a10ef78da91126c54c03b9967479d916394df01a6ab682682a024dee823b12",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "ce8e790036439c291d9dd5a9ab22445f1ee681d6a7d317c7e02a9f57261c24a2",
+      "importedAt": "2026-11-10T14:58:52.375608+00:00",
+      "character": "卡繆（カミュ）",
+      "series": "勇者鬥惡龍 XI",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/_img/camus/chara_2d_sp.png",
+        "https://www.dq11.jp/s/pf/characters/camus.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/029-eight-of-wands-dq.json",
+      "promptSha256": "6f8fd07ec98e27f5d0e91875501daf5500d090bea6cad2b722fa2ebb9217c55b",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 8,
+      "observedSuitCount": 8
+    },
+    {
+      "id": 30,
+      "name": "權杖九",
+      "nameEn": "Nine of Wands",
+      "originalImage": "images/cards/card_30.webp",
+      "originalSha256": "54c2fff5a563ebf8fb4fe3bc25bee76f965b208c281536af2b3a1bf8d36e2e22",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-30.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-30.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-30-nine-of-wands-dq.png",
+      "sourceSha256": "5e26d7163b681a500f0a989a2720151541aa7df5e6795eb5a2cc63cf54d9740d",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "5ccd4a474b4cc6ee46baa2df3144567e7119266ec92c055ef0801facd467b071",
+      "importedAt": "2026-11-10T15:09:39.109440+00:00",
+      "character": "哈桑（ハッサン）",
+      "series": "勇者鬥惡龍 VI",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq6/story/images/hassan_bg.jpg",
+        "https://www.jp.square-enix.com/dqsp/dq6/story/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/030-nine-of-wands-dq.json",
+      "promptSha256": "ad4473ed7b95d64fefee1659cebf01d4808b4464887d2b3b334ab02c5368b7fe",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Carver identity preserved; final image visually counted eight rear staffs (four each side) plus one front staff = nine total. No additional wand-like props, no text/frame.",
+      "expectedSuitCount": 9,
+      "observedSuitCount": 9
+    },
+    {
+      "id": 31,
+      "name": "權杖十",
+      "nameEn": "Ten of Wands",
+      "originalImage": "images/cards/card_31.webp",
+      "originalSha256": "93160004259bfe2a2ff1ade7a137474f120c091bcb1466facd6b1c9fc0e0fb0c",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-31.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-31.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-31-ten-of-wands-dq.png",
+      "sourceSha256": "f44ca47e8f85fab809a4998781bceddd1eb76839ae14cda39e2bc2397b5386ae",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "8b453103d7d98be95b72bdfa3ed569e67e41cf88a25b011790948682d2053cb4",
+      "importedAt": "2026-11-10T15:04:15.733844+00:00",
+      "character": "楊格斯（ヤンガス）",
+      "series": "勇者鬥惡龍 VIII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_yangus.png",
+        "https://www.jp.square-enix.com/dqsp/dq8/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/031-ten-of-wands-dq.json",
+      "promptSha256": "3fd25d0046bf70050a0060c9c32e9147e8340edfbf513c641f08428e0f79c877",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 10,
+      "observedSuitCount": 10
+    },
+    {
+      "id": 32,
+      "name": "權杖侍者",
+      "nameEn": "Page of Wands",
+      "originalImage": "images/cards/card_32.webp",
+      "originalSha256": "40195313e5c7b09c4c42c046b29d61389f0a25dae3f912f9b78eeef09db2b5ee",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-32.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-32.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-32-page-of-wands-dq.png",
+      "sourceSha256": "f9414ba22dbd7c3908ddfdf978460f3f735579f0cbc9e19ae5283a302a4e3d49",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "16fb5d0a2a37acb9d4496f8ad5281c2b7ec3bb98696a8d274b58988fc18cbea3",
+      "importedAt": "2026-11-10T15:09:39.256798+00:00",
+      "character": "奇法（キーファ）",
+      "series": "勇者鬥惡龍 VII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq7/story/images/kifa_body.jpg",
+        "https://www.jp.square-enix.com/dqsp/dq7/story/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/032-page-of-wands-dq.json",
+      "promptSha256": "6df956603fdc31131e9a6a6215781a1885a82447bf3df659d0f3f7d216a723ea",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 33,
+      "name": "權杖騎士",
+      "nameEn": "Knight of Wands",
+      "originalImage": "images/cards/card_33.webp",
+      "originalSha256": "c9ba63e9e17318e3c535ffc455d7e7a0e91ba884c85b2a4a1a77642652a95f6e",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-33.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-33.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-33-knight-of-wands-dq.png",
+      "sourceSha256": "0dad0f777743eb0417c56911079ed5b80e4ab1faf09c2e40cec2e39a3c4d319c",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "18513a5a68c9418d67f8d7a02a29cf9dab6269cdbf4c85b54357a3203545663c",
+      "importedAt": "2026-11-10T15:09:39.404038+00:00",
+      "character": "泰瑞（テリー）",
+      "series": "勇者鬥惡龍 VI",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq6/story/images/terry_bg.jpg",
+        "https://www.jp.square-enix.com/dqsp/dq6/story/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/033-knight-of-wands-dq.json",
+      "promptSha256": "da40e940f7f3c03792dea71c4474cb52145c1610f33a807aa406cbde4cc5d230",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 34,
+      "name": "權杖王后",
+      "nameEn": "Queen of Wands",
+      "originalImage": "images/cards/card_34.webp",
+      "originalSha256": "b78c69c0e7988ddf7a99213ac1bbb8b51b2bef7f840bd26762178af732e59c57",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-34.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-34.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-34-queen-of-wands-dq.png",
+      "sourceSha256": "f364f09a4d2176e3fb99f37e0bb7f210e5377065229c156f55bc0f71c420bcb8",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "d2867703c8aa1c1e88b6ead78d8b12313fdc90a0622720fdff8d7dd57fdf4de8",
+      "importedAt": "2026-11-10T15:09:39.538200+00:00",
+      "character": "亞莉娜（アリーナ）",
+      "series": "勇者鬥惡龍 IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_arena.png",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/034-queen-of-wands-dq.json",
+      "promptSha256": "d79403bcaaaf1a15cbac2a508a3949c8741d3949dbaca15c10dfdab57480d313",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 35,
+      "name": "權杖國王",
+      "nameEn": "King of Wands",
+      "originalImage": "images/cards/card_35.webp",
+      "originalSha256": "0bbd95219cb33a515d3fe93e8ff855f5caa494527f2af9e90e5790fd1a60c9be",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-35.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-35.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-35-king-of-wands-dq.png",
+      "sourceSha256": "b4f9e922bbed557faec4dd4e72231497151635fe2cffa028e1c4c87acc176f1a",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "edb72def3e80fdb8aa99f2a886e0ade6781b12e58be86f39de222dca2239b2a4",
+      "importedAt": "2026-11-10T15:16:44.210732+00:00",
+      "character": "羅雷西亞王子",
+      "series": "勇者鬥惡龍 II",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq2/images/main_visual.jpg",
+        "https://www.jp.square-enix.com/dqsp/dq2/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/035-king-of-wands-dq.json",
+      "promptSha256": "dabc531133eb4943c3460d294dc8a7c90fde98db449c3c6844d2f60a688bd1aa",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 36,
+      "name": "聖杯王牌",
+      "nameEn": "Ace of Cups",
+      "originalImage": "images/cards/card_36.webp",
+      "originalSha256": "92bdf400a9916e17803ab694e026ea767cb5a0a669d7b2f8f7fce1837e9adbcd",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-36.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-36.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-36-ace-of-cups-slime.png",
+      "sourceSha256": "a2a0b1e712adc5dbfcb5fd17c97cbec6515ac36687b6f639d69d70bbdcb69a5a",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "57b059d05c2403695f65b451657d5f41f6dde5c7150c6fe6f9c39ee3ae041c25",
+      "importedAt": "2026-11-10T14:22:21.719839+00:00",
+      "character": "Slime／スライム",
+      "series": "DQ 系列",
+      "referenceUrls": [
+        "https://store.jp.square-enix.com/estore/e/edragonquest-goods_dD_p4/",
+        "https://store.jp.square-enix.com/img/goods/S/MW1192-3_00S.jpg"
+      ],
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/036-ace-of-cups-slime.json",
+      "promptSha256": "eace8c0baab51442071c32f419b68d099c24545c0ffbdb2ace95df44c341c3fb",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Classic blue Slime identity preserved, exactly one overflowing golden chalice, no extra cups; bright consistent deck style, full bleed 1024x1536 with no text/frame.",
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      }
+    },
+    {
+      "id": 37,
+      "name": "聖杯二",
+      "nameEn": "Two of Cups",
+      "originalImage": "images/cards/card_37.webp",
+      "originalSha256": "06d9512a36d8b5803c541c5fa10d017d43bbf75ff20f124c5de4c190c6cc4d43",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-37.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-37.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-37-two-of-cups-dq5.png",
+      "sourceSha256": "1b3b4b5eecd3929671c1245c1e4c9943b0c11a4cc0807199aac9f60ac019d1b3",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "0d91ca18d3d68f1b2f43f8b89649db7e1cc944ed4a4e6af98274edfc8607344e",
+      "importedAt": "2026-11-10T14:24:01.902496+00:00",
+      "character": "主人公與 Bianca",
+      "series": "DQ V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/037-two-of-cups-dq5.json",
+      "promptSha256": "0c08454cc5d066b108c7a332bd6bf03634ed658e1cf9bc0ad4e2448884dc728f",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "DQV adult Hero and Bianca identities preserved, two adults each hold one cup, exactly two chalices; no duplicate reference figures, no text/frame, consistent 1024x1536 style."
+    },
+    {
+      "id": 38,
+      "name": "聖杯三",
+      "nameEn": "Three of Cups",
+      "originalImage": "images/cards/card_38.webp",
+      "originalSha256": "975bafa7e1b62984d28881a9a950186adae9257db5067d6d0f74b9a04c18547b",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-38.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-38.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-38-three-of-cups-slimes.png",
+      "sourceSha256": "49c66d092cb47a7e459ae2c0a799f7b2fd4c03f6b13b74e3bb6b398b229b9480",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "8d2f33f5a2c0f7433bf60de110ba4c6766b173f7b6c4c92b5af692058c2ad653",
+      "importedAt": "2026-11-10T14:36:31.457855+00:00",
+      "character": "史萊姆（三隻）",
+      "series": "勇者鬥惡龍系列",
+      "referenceUrls": [
+        "https://store.jp.square-enix.com/estore/e/edragonquest-goods_dD_p4/",
+        "https://store.jp.square-enix.com/img/goods/S/MW1192-3_00S.jpg"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/038-three-of-cups-slimes-parent.json",
+      "promptSha256": "4d70c42aaf7c834b197e4395d2f1d70f16d6c8a7eec16db2d656a51a87c910b4",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Exactly three recognizable blue Slimes and exactly three separate golden flower-filled chalices. Approved deck line/color/texture maintained. Full-bleed portrait without humans, lettering, frame or watermark.",
+      "expectedSuitCount": 3,
+      "observedSuitCount": 3
+    },
+    {
+      "id": 39,
+      "name": "聖杯四",
+      "nameEn": "Four of Cups",
+      "originalImage": "images/cards/card_39.webp",
+      "originalSha256": "c2177923314a164593618f7985727d302186103d5fd7e5347d33c9cdee0ce921",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-39.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-39.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-39-four-of-cups-maribel.png",
+      "sourceSha256": "5be6724dc83746b5a2c456725c0c1709cbd1ec9146ac53f202bf7986269a295c",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "56b3e57bacc8b0c93f60556b3c5ce9120c02fed20ae8594bbf69234e5ed73ee7",
+      "importedAt": "2026-11-10T14:25:46.702498+00:00",
+      "character": "Maribel／マリベル",
+      "series": "DQ VII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq7/story/",
+        "https://www.jp.square-enix.com/dqsp/dq7/story/images/maribel_body.jpg"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/039-four-of-cups-maribel.json",
+      "promptSha256": "9eb03c764b0159aebd67f95654518003e107f2c9cfd5e532e6d21d67d65a98fd",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Actual Maribel identity with orange hood, red curls and green/red outfit; three cups on ground plus one cloud-hand cup, exactly four, no text/frame and consistent portrait style."
+    },
+    {
+      "id": 40,
+      "name": "聖杯五",
+      "nameEn": "Five of Cups",
+      "originalImage": "images/cards/card_40.webp",
+      "originalSha256": "bb734a8fad9572dd580a60a17519d310612fd49a94a699e5d58e0811335dd0c5",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-40.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-40.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-40-five-of-cups-trode.png",
+      "sourceSha256": "0cd8c2829805e28a25f4b3913810407c8359cd9953677a9941b5ecaf161006cf",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "4c6b2ea9344f2666b91cac712da764f257aba4bcd2739b07c4289c91466bca16",
+      "importedAt": "2026-11-10T14:27:27.467719+00:00",
+      "character": "Trode／トロデ",
+      "series": "DQ VIII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq8/",
+        "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_torode.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/040-five-of-cups-trode.json",
+      "promptSha256": "786c57c3265f221bc901102aee2628842cb3cd5260e11680c0464677635eb368",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "King Trode retains green creature identity and orange robe. Exactly three spilled cups in foreground plus two standing cups behind him, five total; no typography/frame and consistent style."
+    },
+    {
+      "id": 41,
+      "name": "聖杯六",
+      "nameEn": "Six of Cups",
+      "originalImage": "images/cards/card_41.webp",
+      "originalSha256": "fa72922e5ec592ed1aa10fb65c8513081b0b4f8c2ae311b8d97e155e3569582f",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-41.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-41.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-41-six-of-cups-dq5-childhood.png",
+      "sourceSha256": "c3197d02fc96a85cd34cbdf9cc00216492a98b47a057c5ae335eb21f2f149f6e",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "126784929ae24b5107c726d0d57f90d57a9c0e5de452563fe867d7a70dd36120",
+      "importedAt": "2026-11-10T14:30:48.805485+00:00",
+      "character": "幼年主人公與幼年 Bianca",
+      "series": "DQ V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/041-six-of-cups-dq5-childhood.json",
+      "promptSha256": "af065c0a1974b182f8926a5e8f4f7df9050892f92e7be04daadcdcfda45ee449",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "DQV child Hero and child Bianca correctly selected, innocent flower exchange; exactly four flower chalices foreground and two on wall, six total. No adult duplicates, text or frame, consistent portrait style."
+    },
+    {
+      "id": 42,
+      "name": "聖杯七",
+      "nameEn": "Seven of Cups",
+      "originalImage": "images/cards/card_42.webp",
+      "originalSha256": "3d672c2a407732eb08b6767bce1aefaca72e04e83a1ee33397e73e9aeb1ae474",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-42.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-42.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-42-seven-of-cups-meena.png",
+      "sourceSha256": "07daf8c13c61d14a3ab1f809eb53d2560f5bc628cfcec23d2e8fe7b171b9915b",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "ffd811c777d8cfe4fe308346e127632a3ca82ce67d366af92d9f47135fac1ab1",
+      "importedAt": "2026-11-10T14:32:29.379973+00:00",
+      "character": "Meena／ミネア",
+      "series": "DQ IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_minea.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/042-seven-of-cups-meena.json",
+      "promptSha256": "831d41c46cd769f6a3cdf2b99d8dfe6d7e606e398211366b8bc73a3b2a68e4bd",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Meena identity preserved with purple hair, orange dress and silver-green circlet. Exactly seven vision chalices, four upper and three middle; no extra cup, clear count, no text/frame."
+    },
+    {
+      "id": 43,
+      "name": "聖杯八",
+      "nameEn": "Eight of Cups",
+      "originalImage": "images/cards/card_43.webp",
+      "originalSha256": "aaf1e9c3b8dd419c809b6ac1f4557fb19a117f46b8ceafaf28732a89819f7317",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-43.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-43.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-43-eight-of-cups-kiefer.png",
+      "sourceSha256": "f27bcc8d617ee20b73182caf701a6a740eff68d5797b0d0d2239bfce54ab31f7",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "0fbbd1f4b88caeeb082e70047958bf2fb00f3c2dada91124355d4b311c8c958e",
+      "importedAt": "2026-11-10T14:34:09.998942+00:00",
+      "character": "Kiefer／キーファ",
+      "series": "DQ VII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq7/story/",
+        "https://www.jp.square-enix.com/dqsp/dq7/story/images/kifa_body.jpg"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/043-eight-of-cups-kiefer.json",
+      "promptSha256": "7396b51e3e496add4b7295d3bd8da60d55be9749cc5ba7ffa6fc08cb32cb8445",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Kiefer official blond hair and red princely outfit preserved; eight cups clearly arranged five lower and three upper, departing toward mountains, no text/frame."
+    },
+    {
+      "id": 44,
+      "name": "聖杯九",
+      "nameEn": "Nine of Cups",
+      "originalImage": "images/cards/card_44.webp",
+      "originalSha256": "2db4f563ffb46367a7ffc231e6a7f2cfeee4a084c02fb7f37ea5458f77ff2b1e",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-44.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-44.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-44-nine-of-cups-torneko.png",
+      "sourceSha256": "672313a535afbe93d74326f6ce82be3a3132f12708adb7ded525db41ee4dedc4",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "7cd7f490acd3ec20d333c6f3ffb9b180c054d316accda0e35a39c41bd3cecf8c",
+      "importedAt": "2026-11-10T14:35:10.882469+00:00",
+      "character": "Torneko／トルネコ",
+      "series": "DQ IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/044-nine-of-cups-torneko.json",
+      "promptSha256": "edf245a91b7a68051ff8bc86d32aa92edd8d28aacad0c3a2c8edfa79d566953b",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Torneko official blue mustache, purple cap/vest and blue-white stripes preserved; exactly nine chalices clearly displayed in three-by-three shelves. Full bleed, no text/frame."
+    },
+    {
+      "id": 45,
+      "name": "聖杯十",
+      "nameEn": "Ten of Cups",
+      "originalImage": "images/cards/card_45.webp",
+      "originalSha256": "693ae475a2444bef9bdb7fb0deff50d7a55671e042be16777f8ff67046b1c8ec",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-45.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-45.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-45-ten-of-cups-dq5-family-v2.png",
+      "sourceSha256": "33ac97b8e0c109f9d888a8459bddcdc20ae6067e76477fff50e1861e43561614",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "747efc27eab23695fe73d1faa53ef6f7b2ff17e425a1e974473b40a1c2a76fa9",
+      "importedAt": "2026-11-10T14:38:52.557074+00:00",
+      "character": "主人公與家人",
+      "series": "DQ V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/boy_girl_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/045-ten-of-cups-dq5-family-v2.json",
+      "promptSha256": "8b4f7e7d0ce793817af4fae1753b7e3da9b18bcf00b1b776aabf3c6cd9afe6da",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Corrected daughter to actual DQV white/lavender dress, purple cape, green ribbon bows and green pouch; parents and boy identities retained; exactly ten rainbow cups (five each side), no text/frame."
+    },
+    {
+      "id": 46,
+      "name": "聖杯侍者",
+      "nameEn": "Page of Cups",
+      "originalImage": "images/cards/card_46.webp",
+      "originalSha256": "80556308ff280a96b0e04691470aac7d42c356e3af5ef67dd8ecc303227e33fd",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-46.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-46.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-46-page-of-cups-sylvando.png",
+      "sourceSha256": "b3d9b12d7d7530c7978dc87fa2d90e5a824c5e67a79209ea8f5349f8304d4868",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "d3cc3e3ee127fab6f5b1c2fc9c9f20840c7ac35bd5039fca7f79971ab517da51",
+      "importedAt": "2026-11-10T14:40:53.431982+00:00",
+      "character": "Sylvando／シルビア",
+      "series": "DQ XI",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/silvia.html",
+        "https://www.dq11.jp/s/pf/characters/_img/silvia/chara_2d_sp.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/046-page-of-cups-sylvando.json",
+      "promptSha256": "f30288c7e710d858c1859b36d202dfd42a6c9e4b81ef747912000ddff6586f3d",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Sylvando official black tied-back hair and gray-cream/red performer costume preserved. Exactly one chalice with one visible little fish, seaside scene, no text/frame; consistent deck art."
+    },
+    {
+      "id": 47,
+      "name": "聖杯騎士",
+      "nameEn": "Knight of Cups",
+      "originalImage": "images/cards/card_47.webp",
+      "originalSha256": "2737fe99f597840909f4ae85e9688e84370d81a7c0cf2f4b5d220af08dabbe4a",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-47.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-47.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-47-knight-of-cups-angelo.png",
+      "sourceSha256": "e8dfa0fd8adae266ee7722925dbb749a3046d85b2129bbd52054c7bd2085f386",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "f5a452cccd7c7cc1fa41472c93f1f88e1e41a9126d63cc0d33c06cc546f19f3f",
+      "importedAt": "2026-11-10T14:41:54.038108+00:00",
+      "character": "Angelo／ククール",
+      "series": "DQ VIII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq8/",
+        "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_kukule.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/047-knight-of-cups-angelo.json",
+      "promptSha256": "fa1e83c93fc3c87d56354543b00535b7dd9f16d32d28faa16d068884e7532efc",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Angelo official silver tied hair, red templar outfit and white boots retained; white horse and exactly one offered cup, no extra cup, no text/frame."
+    },
+    {
+      "id": 48,
+      "name": "聖杯王后",
+      "nameEn": "Queen of Cups",
+      "originalImage": "images/cards/card_48.webp",
+      "originalSha256": "bfa9c0bc75a3d9272711c8c154c93dce7e7840e29f51c47f583c0de7e77e9296",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-48.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-48.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-48-queen-of-cups-nera.png",
+      "sourceSha256": "52ddd003cce9f0de4b7926f472d4341c7360ac8c4cec3bd8de3e2fa262cb588c",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "36f333dced8a256b73ae1a1ed767419079065d87ca275d5d4161732f0f241bca",
+      "importedAt": "2026-11-10T14:44:03.414089+00:00",
+      "character": "Nera／フローラ",
+      "series": "DQ V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/flora_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/048-queen-of-cups-nera.json",
+      "promptSha256": "3a07a83e161cc42eb131216070a7e44962c28ed6343d400b9d010dcee5fb05a2",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Actual Nera identity: blue hair, pink bow, ornate white/pink dress and gold accents. One cup held by both hands, calm lake scene, no extra cups, no text/frame."
+    },
+    {
+      "id": 49,
+      "name": "聖杯國王",
+      "nameEn": "King of Cups",
+      "originalImage": "images/cards/card_49.webp",
+      "originalSha256": "0314b118252365f56a93d80ed24314e3fb0fc2c89b07ddba939ff13869ff2d69",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-49.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-49.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-49-king-of-cups-dq5-hero.png",
+      "sourceSha256": "b6a6416363ca786c8ffe0b0062f61397d5292b63948b6e60cd2950c2e7fa5b93",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "ef6df3575cd63b406a0c358d6934b51d74bd0631387a84cf089622d6536fc3d2",
+      "importedAt": "2026-11-10T14:48:05.647962+00:00",
+      "character": "成年主人公",
+      "series": "DQ V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/049-king-of-cups-dq5-hero.json",
+      "promptSha256": "b78d9a95b54ab859b485637d1f4a5513d041f8e5d85f487971f05d08ae8dc914",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "DQV adult Hero purple turban/cape, white robe and green pouch preserved. Exactly one cup on seaside throne, no staff or additional cup, no text/frame."
+    },
+    {
+      "id": 50,
+      "name": "寶劍王牌",
+      "nameEn": "Ace of Swords",
+      "originalImage": "images/cards/card_50.webp",
+      "originalSha256": "8dabc89eaf784c26e773e3a51b88d3dcd891202b18d0363ab492e1b742194140",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-50.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-50.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-50-ace-of-swords-dq3-hero.png",
+      "sourceSha256": "1bfd5fd1adeae638f676281b9e5375911d4f7605db80d4d9823685ff965047d8",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "52adc655978a04708e82ff837639e4d0639123b1b7465abf6ef34f12bd32b257",
+      "importedAt": "2026-11-10T14:14:58.311695+00:00",
+      "character": "Dragon Quest III male Hero",
+      "series": "Dragon Quest III",
+      "referenceUrls": [
+        "https://www.dragonquest.jp/roto-trilogy/dq3/character/index.html",
+        "https://www.dragonquest.jp/roto-trilogy/dq3/character/_img/player/chara_a.png"
+      ],
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/050-ace-of-swords-dq3.json",
+      "promptSha256": "c8581a217cb3ed17609697ec5d91932f90b6a4e6ec384561f81b0c4ef790405d",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Actual DQIII Hero identity and costume preserved. Exactly one upright sword with crown and olive/palm branches, no second hilt; full bleed 1024x1536, no text/frame.",
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      }
+    },
+    {
+      "id": 51,
+      "name": "寶劍二",
+      "nameEn": "Two of Swords",
+      "originalImage": "images/cards/card_51.webp",
+      "originalSha256": "7a5149b926d73f48f448e4c671dd932501d603eb8b2f0b6db1b4668c88a43157",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-51.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-51.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-51-two-of-swords-terry.png",
+      "sourceSha256": "8b1671d0b076b364f13b173ce53262a042f1bdb136c37edb03440818f5990d42",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "f76ef26c40a0afa61c884a700db2003bfc8e6dec87be5152cf0b1d1065fe9b60",
+      "importedAt": "2026-11-10T14:50:07.050765+00:00",
+      "character": "Terry／テリー",
+      "series": "DQ VI",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq6/story/",
+        "https://www.jp.square-enix.com/dqsp/dq6/story/images/terry_bg.jpg"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/051-two-of-swords-terry.json",
+      "promptSha256": "60820ddea4531293d310fe277eaad766299f2da5aa58eaa5093193d1be8febe2",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Terry official teal costume and silver hair preserved with blindfold; exactly two complete crossed blades, no additional hilts, no text/frame.",
+      "expectedSuitCount": 2,
+      "observedSuitCount": 2
+    },
+    {
+      "id": 52,
+      "name": "寶劍三",
+      "nameEn": "Three of Swords",
+      "originalImage": "images/cards/card_52.webp",
+      "originalSha256": "1145539db4ec55423f28a4c79dd680a1b528a4cf914fd78a99bd9335c74ffd09",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-52.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-52.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-52-three-of-swords-psaro-rose.png",
+      "sourceSha256": "e4e1a7daf6b241d2adfaf5e2e3848f175c1a846c0ea4dc0588f10786ab5e97ab",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "61741a000d7e111b52f8426c913a165802a2d71eb7538aebe3825a7fcd6f36ff",
+      "importedAt": "2026-11-10T15:02:14.253698+00:00",
+      "character": "Psaro 與 Rose／ロザリー",
+      "series": "DQ IV",
+      "referenceUrls": [
+        "https://www.dragonquest.jp/monsters3/characters/index.html",
+        "https://cache-www.dragonquest.jp/monsters3/characters/_img/psaro/chara_full.png",
+        "https://www.dragonquest.jp/monsters3/characters/rosalie.html",
+        "https://cache-www.dragonquest.jp/monsters3/characters/_img/rosalie/chara_full.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/052-three-of-swords-psaro-rose.json",
+      "promptSha256": "d12c24d0dc87c7c594e603df46439b427ae82656ee9a9bfc4494a91a2a317be5",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Actual Psaro and Rosalie identities match official DQM3 reference variant; exactly three swords through a symbolic heart cloud, none touches people, no injury; no text/frame.",
+      "expectedSuitCount": 3,
+      "observedSuitCount": 3
+    },
+    {
+      "id": 53,
+      "name": "寶劍四",
+      "nameEn": "Four of Swords",
+      "originalImage": "images/cards/22.webp",
+      "originalSha256": "9690d9a46256ead6b80d070b788f061289b7fc5562a63569ea889080c771f854",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-53.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-53.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-53-four-of-swords-dq1-hero.png",
+      "sourceSha256": "5cbd3a38f8ca1b9c9e9be69bd4f97b8629b3575ec116a42d6d9eb23406e591c3",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "04a024c0ed89c315c0f8f90a3dd4444d814d4a13da9bdb039df5a288b23c7b2d",
+      "importedAt": "2026-11-10T14:51:47.931128+00:00",
+      "character": "主人公",
+      "series": "DQ I",
+      "referenceUrls": [
+        "https://www.dragonquest.jp/roto-trilogy/dq1and2/character/index.html",
+        "https://www.dragonquest.jp/roto-trilogy/dq1and2/character/_img/player_dq1/chara.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/053-four-of-swords-dq1-hero.json",
+      "promptSha256": "4b71e9eb1b6e59509fa3c3d2a4704764bcd0dac696adae5787e4956ba6666d37",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "DQI hero official horned blue helmet, blue armor and red-white cape retained. Exactly four wall swords, all separate, no personal sword hilt, peaceful rest; no text/frame.",
+      "expectedSuitCount": 4,
+      "observedSuitCount": 4
+    },
+    {
+      "id": 54,
+      "name": "寶劍五",
+      "nameEn": "Five of Swords",
+      "originalImage": "images/cards/23.webp",
+      "originalSha256": "d1a825050965797249f177dbedc07e3d37133f621c8bd876d2201613e04650f8",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-54.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-54.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-54-five-of-swords-erik-v2.png",
+      "sourceSha256": "90c1254fe4450554786c1426861856c2908894da472dedf47d15cffac4eb39cd",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "59912b02a47a1e555df0d0dea2903f3befe32df5a7af537d33503f291572cf3f",
+      "importedAt": "2026-11-10T15:03:55.293285+00:00",
+      "character": "Erik／カミュ",
+      "series": "DQ XI",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/camus.html",
+        "https://www.dq11.jp/s/pf/characters/_img/camus/chara_2d_sp.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/054-five-of-swords-erik-v2.json",
+      "promptSha256": "f6a5457ded6899f6978fc1c61c022b0a91cf95f73e2141304f4591908d461269",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "New Erik scene succeeds: canonical blue hair/green hood/magenta sash, one thoughtful adult, exactly five complete rack swords, none held or used. No text/frame.",
+      "expectedSuitCount": 5,
+      "observedSuitCount": 5
+    },
+    {
+      "id": 55,
+      "name": "寶劍六",
+      "nameEn": "Six of Swords",
+      "originalImage": "images/cards/24.webp",
+      "originalSha256": "84b8383b02fd193ee8dac7c31b1997b1d0b5295027d07d726010ff8a876be3fa",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-55.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-55.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-55-six-of-swords-dq8-hero.png",
+      "sourceSha256": "5709ec7b45586f96c55fcd65ee8218e36a608ccd9fcc9b4ea31473ec48a8666b",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "9047c7fd797caaf0b90ea14340e4d582978439a8717ff15a7d84c7f07c8a7f12",
+      "importedAt": "2026-11-10T15:05:16.515450+00:00",
+      "character": "主人公（單人划船）",
+      "series": "DQ VIII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq8/",
+        "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_hero.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/055-six-of-swords-dq8-hero.json",
+      "promptSha256": "f2b45b7bc7c5b8c220555d3ab85357c07b7f7fc3980b204e59bd952e50073e7b",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Actual DQVIII Hero alone in boat, orange bandana/yellow coat/blue tunic/green trousers. Exactly three secured swords each side, six total, no personal hilt or other person, no text/frame.",
+      "expectedSuitCount": 6,
+      "observedSuitCount": 6
+    },
+    {
+      "id": 56,
+      "name": "寶劍七",
+      "nameEn": "Seven of Swords",
+      "originalImage": "images/cards/25.webp",
+      "originalSha256": "33289b80346fc7c91d28ceff18dacd4bb5c76b7cfa44671a79ce483b1390c71d",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-56.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-56.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-56-seven-of-swords-erik.png",
+      "sourceSha256": "ffe078a88b67a2711a65c54dfeb2283bacde20536b9669c76ad4fb613996a824",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "ede0f11a486625cc74454b3f2df0e13f7dbb73e7608e9288a284b4b879c233a3",
+      "importedAt": "2026-11-10T15:06:37.292584+00:00",
+      "character": "Erik／カミュ",
+      "series": "DQ XI",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/camus.html",
+        "https://www.dq11.jp/s/pf/characters/_img/camus/chara_2d_sp.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/056-seven-of-swords-erik.json",
+      "promptSha256": "3d81a24b01f16921c55e7725f4858440efd84d96a86f8bb6cd5ea812b70b2dcd",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Erik identity retained, exactly five carried swords with five visible hilts and two left planted behind, seven total. No extra personal weapon, no text/frame.",
+      "expectedSuitCount": 7,
+      "observedSuitCount": 7
+    },
+    {
+      "id": 57,
+      "name": "寶劍八",
+      "nameEn": "Eight of Swords",
+      "originalImage": "images/cards/26.webp",
+      "originalSha256": "31e989be76eca085dd4b58be74d634b383005248180e67333e9604d8471ec4e8",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-57.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-57.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-57-eight-of-swords-maya-v3.png",
+      "sourceSha256": "2b28bb0a71859ddfbe306ea83cdbc63070daa32d24be67cf3cc6b33e20d62c49",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "faa02e6867b94a03345f77c836480fa48e4a767e593da90b33f3f8071c617ed3",
+      "importedAt": "2026-11-10T15:12:21.107233+00:00",
+      "character": "Maya／マーニャ",
+      "series": "DQ IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_mana.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/057-eight-of-swords-maya-v3.json",
+      "promptSha256": "802a588c4b6e13c662b637291fda0bcb7c524ae2f32e4dacb6e1e913c99ba74b",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Final correction shows four distinct left hilts and four distinct right hilts, exactly eight swords; Maya identity/covered orange-white attire retained, free hands and open path, no text/frame.",
+      "expectedSuitCount": 8,
+      "observedSuitCount": 8
+    },
+    {
+      "id": 58,
+      "name": "寶劍九",
+      "nameEn": "Nine of Swords",
+      "originalImage": "images/cards/27.webp",
+      "originalSha256": "15dabd51226cb4d8a0a3d36a533535bee35f251e86d65db373950093ddbc3dad",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-58.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-58.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-58-nine-of-swords-milly.png",
+      "sourceSha256": "f7777e2a71e8b7d2cf3b4e781e8081d406a2e01ee32da6388052dcc6648f1957",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "7a9f57a5fd1e12b6b9a3b917dd452fbc022d77aab77720cb5f769e818cb6824d",
+      "importedAt": "2026-11-10T15:15:23.189364+00:00",
+      "character": "Milly／ミレーユ",
+      "series": "DQ VI",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq6/story/",
+        "https://www.jp.square-enix.com/dqsp/dq6/story/images/mireille_bg.jpg"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/058-nine-of-swords-milly.json",
+      "promptSha256": "e6dacc2101dc37041b5fc9ce12895aaeef74240ff86927cef5a228cd7c8dcc95",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Milly official blond hair, silver circlet and blue-violet/cream outfit retained; exactly nine wall swords arranged three-by-three, no blade touches her, no text/frame.",
+      "expectedSuitCount": 9,
+      "observedSuitCount": 9
+    },
+    {
+      "id": 59,
+      "name": "寶劍十",
+      "nameEn": "Ten of Swords",
+      "originalImage": "images/cards/28.webp",
+      "originalSha256": "5031d32dd76a2b4768fbceca7a0a3811f41d871dffb759f474c6c4019e45ae72",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-59.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-59.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-59-ten-of-swords-pankraz.png",
+      "sourceSha256": "02bc5e9f92789ec3149c584279883df3894617a404aa27e2995d0967607e7aa5",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "8e7b1dc90bece2ee40721e7b0a46afafe8a8d982920232af980f9c03128e3997",
+      "importedAt": "2026-11-10T15:20:02.462048+00:00",
+      "character": "Pankraz／パパス",
+      "series": "DQ V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/papas_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/059-ten-of-swords-pankraz.json",
+      "promptSha256": "4c0264be01dfd46ec296f91ae1dea8b6677510354a4e641753510c4afe8f81d7",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Pankraz actual cream leather one-shoulder top, tooth necklace, blue fur cloak, black mustache and red pouch retained. Exactly five planted swords left and five right, ten total; alive/uninjured, no text/frame.",
+      "expectedSuitCount": 10,
+      "observedSuitCount": 10
+    },
+    {
+      "id": 60,
+      "name": "寶劍侍者",
+      "nameEn": "Page of Swords",
+      "originalImage": "images/cards/29.webp",
+      "originalSha256": "025da73ce801dbeb7e1062a6f6c90326a9b3eaf3125a5655278c7c6eea680b7b",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-60.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-60.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-60-page-of-swords-ragnar.png",
+      "sourceSha256": "237aa953204a30f70e1a11d4927824048b4c5088fe4141e74cd58587751c2dd3",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "360159fde26528b7fd10de6cd2e1f53035cde1afccb1730716b651fbb85f0098",
+      "importedAt": "2026-11-10T15:21:03.697916+00:00",
+      "character": "Ragnar／ライアン",
+      "series": "DQ IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_ryan.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/060-page-of-swords-ragnar.json",
+      "promptSha256": "5d93a02e201995d75bdfeedcc6aeed2bd6d63c5b36aa1c3ad15e0e3c5f20a317",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Ragnar official pink armor, plumed pink helmet, blue mustache, gray shoulders and red cape retained. Exactly one complete upright sword, no spare hilt, no text/frame.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 61,
+      "name": "寶劍騎士",
+      "nameEn": "Knight of Swords",
+      "originalImage": "images/cards/30.webp",
+      "originalSha256": "74bcb1f52d29f1e6545765fe71e7ee0ec00f4c18577a79dde69785775e138dd1",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-61.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-61.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-61-knight-of-swords-hendrik.png",
+      "sourceSha256": "cdceaa8ffa2443c90d7697c42387cd659e2ce91171042d34f5d9676d8bfe86c8",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "1c514ea1c47d91afaeef7d10890b8ef5f191d673b8dbd9bfe5362ea08f852dda",
+      "importedAt": "2026-11-10T15:22:44.921521+00:00",
+      "character": "Hendrik／グレイグ",
+      "series": "DQ XI",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/s1_gur.html",
+        "https://www.dq11.jp/s/pf/characters/_img/s1_gur/chara_pc.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/061-knight-of-swords-hendrik.json",
+      "promptSha256": "d2a493fffc4d187166135ae5b9c6812cb1eca0f7c4c984ac0d3a5d5a1ee578ec",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Hendrik canonical purple hair/beard and black-gold full armor with eagle and red cape retained in 2D. Exactly one raised sword on dark horse, no spare hilt, no text/frame.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 62,
+      "name": "寶劍王后",
+      "nameEn": "Queen of Swords",
+      "originalImage": "images/cards/31.webp",
+      "originalSha256": "4ebf83b17a7905d625262d69b0aed5641feb0afced2aba4f1e065f0afa0bcab5",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-62.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-62.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-62-queen-of-swords-anlucia.png",
+      "sourceSha256": "a5b08dd87cfc2db2633ab4029851df489738ba20035c46ec82628f0f15727f4f",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "e638c3c3731ffde46dee8e63b4e2aaa37460fa0ac8980824e9c369ce873d3e51",
+      "importedAt": "2026-11-10T15:25:07.029603+00:00",
+      "character": "Anlucia／アンルシア",
+      "series": "DQ X",
+      "referenceUrls": [
+        "https://www.dqx.jp/offline/character/buddy/06/",
+        "https://www.dqx.jp/offline/assets/img/character/buddy/06/character.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/062-queen-of-swords-anlucia.json",
+      "promptSha256": "eec8fe3a7e8fb921d4e65010a8b79a2d5e0fb8bcd4b748297fc98ce9243598eb",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Anlucia official blonde hair/circlet, pink-gold tunic over white sleeves, red cape and crest retained. Exactly one full sword held vertically, no spare hilt, no text/frame.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 63,
+      "name": "寶劍國王",
+      "nameEn": "King of Swords",
+      "originalImage": "images/cards/32.webp",
+      "originalSha256": "f3c9466850b0b718134a658a7c3bfe8837e7357e7dcbcaa203c4cb54fdc2c525",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-63.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-63.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-63-king-of-swords-dq4-hero.png",
+      "sourceSha256": "b376430034ac4466af8fb5b1a9af9964dc788c78eb6a642abb29554948a49645",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "bb567de9db9a0ef4e7bbc2bf767dd0ee15b87a148d2d3a4f2ba212e497216618",
+      "importedAt": "2026-11-10T15:27:08.875484+00:00",
+      "character": "勇者",
+      "series": "DQ IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_hero_male.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/063-king-of-swords-dq4-hero.json",
+      "promptSha256": "728d7d741bacc07444a317fd6e58c921f44b468c252e30d324010be6899c96c7",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "DQIV male Hero official green hair, winged blue-jewel headband, teal cape/tunic and white clothing retained. Exactly one upright sword, no secondary hilt, no text/frame.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 64,
+      "name": "錢幣王牌",
+      "nameEn": "Ace of Pentacles",
+      "originalImage": "images/cards/33.webp",
+      "originalSha256": "57552197df1c6fce9ef0414f8f127b1ba36f244a4a847b17181156694ac2adc2",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-64.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-64.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-64-ace-of-pentacles-dq9-stella.png",
+      "sourceSha256": "2b99676adc9e973951ed1b1ec812c1141c4b077d187e0d40abd86ba5fc86f6ea",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "4f261295b9afafe11dd3fb2345e617ee202f3751401ca7c393c957a7083e16ed",
+      "importedAt": "2026-11-10T15:16:03.695259+00:00",
+      "character": "Stella／サンディ",
+      "series": "勇者鬥惡龍 IX",
+      "referenceUrls": [
+        "https://www.creativeuncut.com/gallery-14/dq9-sandy.html",
+        "https://www.creativeuncut.com/gallery-14/art/dq9-sandy.jpg"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/064-pentacles-parent.json",
+      "promptSha256": "2fb0cf29e818b841932de1af079752608a8e1bd95dc92d9ab6f4fc8835a406e2",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Stella recognizable blonde curls/pink bow/orange dress/black stockings/red-bow shoes/pink butterfly wings. Exactly one large star pentacle fully visible. Approved deck ink/cel-color texture, no text or frame.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1,
+      "referenceHostType": "third_party_original_art_archive_not_official_host",
+      "metadataCorrections": [
+        {
+          "correctedAt": "2026-11-10T15:20:02.063655+00:00",
+          "reason": "reference_host_type field renamed to referenceHostType; artwork/source SHA unchanged",
+          "previousPromptSha256": "e9fb8e161dac4c759b1062643557d9abdbc136bb88281c44b14150f17f7f3b31",
+          "previousPromptPath": "output/card-deck/dq-heroes-v1/prompts/revisions/064-before-reference-host-field-fix.json"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "錢幣二",
+      "nameEn": "Two of Pentacles",
+      "originalImage": "images/cards/34.webp",
+      "originalSha256": "605b0d34e905684a10dc385047364de6bfdbd426bab093820958e70c8dbc588a",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-65.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-65.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-65-two-of-pentacles-dq4-torneko.png",
+      "sourceSha256": "d07d7e5544992754181d57b4997d5c6a421f78a38c21ce681392eae9284c46c7",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "2133dea5dbbe8cebc32162da9b2f329ee8022943ae24d54a8f5f0e451dacd695",
+      "importedAt": "2026-11-10T15:17:04.484880+00:00",
+      "character": "Torneko／トルネコ",
+      "series": "勇者鬥惡龍 IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/065-pentacles-parent.json",
+      "promptSha256": "aa3d0b6609eb0565b4fb2a3f4ad303c38681436455b81035833ae24491e61164",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Torneko identity and blue-white striped robe retained. Exactly two clearly separated star pentacle coins, one in each hand, connected by green infinity ribbon. No extra currency or text/frame.",
+      "expectedSuitCount": 2,
+      "observedSuitCount": 2
+    },
+    {
+      "id": 66,
+      "name": "錢幣三",
+      "nameEn": "Three of Pentacles",
+      "originalImage": "images/cards/35.webp",
+      "originalSha256": "403a9bfcbdcc374f7fff69412ee69bbcc2123e84f00a9a25dc0c99fc9f8829e1",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-66.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-66.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-66-three-of-pentacles-dq.png",
+      "sourceSha256": "cc5dc1dd80af40b4f9549ddb6530d1cfdd6e9ebbd480156fdf06866d335c8a9a",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "6580a9666f06d689b735f70b4440813a32b1c0cad5bf12830eacd7b2417ffc52",
+      "importedAt": "2026-11-10T15:26:28.148409+00:00",
+      "character": "哈桑、萊安與楊格斯",
+      "series": "勇者鬥惡龍 VI、IV、VIII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq6/story/images/hassan_bg.jpg",
+        "https://www.jp.square-enix.com/dqsp/dq6/story/",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_ryan.png",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+        "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_yangus.png",
+        "https://www.jp.square-enix.com/dqsp/dq8/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/066-three-of-pentacles-dq.json",
+      "promptSha256": "3dd058a9fa897a5bd8d274eb443e2a9cd63dba0bdbb232396a4c1571d5a4870d",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Final image has exactly three large gold pentacles on the arch; blueprint is plain architectural linework without extra coin symbols. Carver/Ragnar/Yangus identity and cooperative scene preserved, no text/frame.",
+      "expectedSuitCount": 3,
+      "observedSuitCount": 3
+    },
+    {
+      "id": 67,
+      "name": "錢幣四",
+      "nameEn": "Four of Pentacles",
+      "originalImage": "images/cards/36.webp",
+      "originalSha256": "4fa4e48c46d5a3144b506f47cbc28d8943854e00a7f6a97ef8c8389330bf3de4",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-67.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-67.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-67-four-of-pentacles-dq.png",
+      "sourceSha256": "74a44b3bf586ad1d7ecbf4e3f6150d9502a8ef8061a93b4419b0c48723a1c744",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "c7bd2e622c845cc8aecd61e99a96fc70f7b04aab55b00033dc2e719e4e1a89e9",
+      "importedAt": "2026-11-10T15:22:45.085308+00:00",
+      "character": "特洛德王（トロデ）",
+      "series": "勇者鬥惡龍 VIII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_torode.png",
+        "https://www.jp.square-enix.com/dqsp/dq8/"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/067-four-of-pentacles-dq.json",
+      "promptSha256": "9ff9d4bc8425a3ea5cc907fe6f897112f28d5e5b738d3279d043315fd2eb5257",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 4,
+      "observedSuitCount": 4
+    },
+    {
+      "id": 68,
+      "name": "錢幣五",
+      "nameEn": "Five of Pentacles",
+      "originalImage": "images/cards/37.webp",
+      "originalSha256": "16ba70b50980f9611a78042c275f906736f0c007c8d74a2dffef6b73def3dde8",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-68.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-68.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-68-five-of-pentacles-dq.png",
+      "sourceSha256": "0ac77592c780dc2d1c9b15f5693e8407e9b3b1bddcee8855bf8f5c24e59c60b1",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "e25bc62a8fa3b22f877e285d850db25e54bdc8e9c0d25f316f41d2add7ff2903",
+      "importedAt": "2026-11-10T15:22:45.242106+00:00",
+      "character": "第五代主人公與碧安卡",
+      "series": "勇者鬥惡龍 V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/068-five-of-pentacles-dq.json",
+      "promptSha256": "8f19019caab13abeaff58f7c90e27a38c76e62cbf917325b8729d70f22d8f52f",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Visually reviewed: correct recognizable character, coherent tarot scene, no card title/frame and correct suit count where applicable.",
+      "expectedSuitCount": 5,
+      "observedSuitCount": 5
+    },
+    {
+      "id": 69,
+      "name": "錢幣六",
+      "nameEn": "Six of Pentacles",
+      "originalImage": "images/cards/38.webp",
+      "originalSha256": "73b6b4181caf6c662d01becdbcdcf76e17907332bac741a551dd7b87d93faaa6",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-69.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-69.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-69-six-of-pentacles-dq4-torneko.png",
+      "sourceSha256": "d31c4402b254e5c79cc9677b7b7768f041da20306350194f48f4bdd2bb7a2a7d",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "adda635e9ad4bb07a5705f1dc42f177d34269f7a9c3993bdb71964fdb59bee9e",
+      "importedAt": "2026-11-10T14:56:50.836325+00:00",
+      "character": "Torneko／トルネコ",
+      "series": "勇者鬥惡龍 IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/069-pentacles-number-parent.json",
+      "promptSha256": "f995c26a6c9c22d9de537c90e2281c304d2b8bd16e4672de8dfe3592683e14b2",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Exactly six star pentacle coins in two columns of three on wall; Torneko shares bread with two clothed townspeople, scale empty. Merchant identity, approved deck style, no title/frame/watermark.",
+      "expectedSuitCount": 6,
+      "observedSuitCount": 6
+    },
+    {
+      "id": 70,
+      "name": "錢幣七",
+      "nameEn": "Seven of Pentacles",
+      "originalImage": "images/cards/39.webp",
+      "originalSha256": "76587a9bad69f3933438c374dd24b529414bd2740311ae01b713c5d7c0d33739",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-70.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-70.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-70-seven-of-pentacles-dq5-bianca.png",
+      "sourceSha256": "4a7aad1fa8a07df8e9ad7748613667b2ddd7f2d4294e07284a47a870b8164e82",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "ea0c893dcb6f20b703f1c160847a586bf1e9306bc5199747c84397b1bc53f9c0",
+      "importedAt": "2026-11-10T14:56:50.994074+00:00",
+      "character": "Bianca／ビアンカ",
+      "series": "勇者鬥惡龍 V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/070-pentacles-number-parent.json",
+      "promptSha256": "c7d3e15186e42c23dee5acffc379943b099a13b2dfa607fb4a887fdffbeb35a9",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Exactly seven star pentacles on vine trellis: three upper and four lower. Grown-up Bianca official side braid, teal dress and yellow cape preserved; thoughtful gardening pose, no title/frame/watermark.",
+      "expectedSuitCount": 7,
+      "observedSuitCount": 7
+    },
+    {
+      "id": 71,
+      "name": "錢幣八",
+      "nameEn": "Eight of Pentacles",
+      "originalImage": "images/cards/40.webp",
+      "originalSha256": "c2d66a798b61f6b227116e2e91514393b34e5c918657ab208f061d2530fd1914",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-71.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-71.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-71-eight-of-pentacles-dq11-hero.png",
+      "sourceSha256": "321f26f872803bebc00b820b3fc7a1f91bc242de0b48c9961fe83319745bdfa8",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "f4ca41ef3dac048f80582400cf54fd6bbcea160b031d69fcad3ecdd54f8f7c6d",
+      "importedAt": "2026-11-10T15:00:33.165476+00:00",
+      "character": "DQXI主人公",
+      "series": "勇者鬥惡龍 XI",
+      "referenceUrls": [
+        "https://www.dq11.jp/s/pf/characters/player.html",
+        "https://www.dq11.jp/s/pf/characters/_img/player/chara_2d_sp.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/071-pentacles-number-parent.json",
+      "promptSha256": "8c150ee8519fcc36cbd86072e4cf59f8eb0521f8cc0d050f195aedbb124fb8e0",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Exactly eight star pentacles: three upper plus four lower on workshop wall, one on bench. Actual DQXI Hero brown bob/violet coat/gray sleeves/green boots retained; focused engraving pose. No frame, title or watermark.",
+      "expectedSuitCount": 8,
+      "observedSuitCount": 8
+    },
+    {
+      "id": 72,
+      "name": "錢幣九",
+      "nameEn": "Nine of Pentacles",
+      "originalImage": "images/cards/41.webp",
+      "originalSha256": "d501204c8f28d52be53307ec7df8ee1d1546737dcaf483350b62de3523f046ca",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-72.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-72.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-72-nine-of-pentacles-dq5-nera.png",
+      "sourceSha256": "6ef830d21b6973333454ca647ece1f86d863d7e168ed9977d2ccf51296fb054c",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "c1cc6f5fd3fa373c21a1556b2b598ef790521f0594d656c26107e58e5e38cab8",
+      "importedAt": "2026-11-10T15:00:33.326562+00:00",
+      "character": "Nera／フローラ",
+      "series": "勇者鬥惡龍 V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/flora_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/072-pentacles-number-parent.json",
+      "promptSha256": "afb1fa483e0f7e56fb701c44fb9e848f5c4fd1d4b5c8efc444087680e96afd07",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Exactly nine star pentacles on garden trellis, three rows of three. Actual Nera blue hair/pink bow/white-pink long dress and ornamental waist colors retained; dignified garden pose and falcon. No frame, title or watermark.",
+      "expectedSuitCount": 9,
+      "observedSuitCount": 9
+    },
+    {
+      "id": 73,
+      "name": "錢幣十",
+      "nameEn": "Ten of Pentacles",
+      "originalImage": "images/cards/42.webp",
+      "originalSha256": "5850347867c7a49fe1e429375653255b86ceed8e5eba02fc5ccd32c260ef8799",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-73.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-73.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-73-ten-of-pentacles-dq.png",
+      "sourceSha256": "5058b98e158915fb77cca32b3601d63035f0b501f25f7f2fa850d2df59b057cc",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "dcc2b266a90cfe2cde5b500ad073917755ead9858fa6c7068810f8963e602b88",
+      "importedAt": "2026-11-10T15:22:45.390568+00:00",
+      "character": "第五代主人公與家人",
+      "series": "勇者鬥惡龍 V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/boy_girl_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/073-ten-of-pentacles-dq.json",
+      "promptSha256": "e3739b1d15855a24ee56adde88370fb2b94243a72c86ed1b3efa0eddd51c2adb",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Final image visually counted five gold star coins on each stone pillar = ten total. DQV Hero/Bianca/Rex/Tabitha and all signature costumes preserved. No printed text or card frame.",
+      "expectedSuitCount": 10,
+      "observedSuitCount": 10
+    },
+    {
+      "id": 74,
+      "name": "錢幣侍者",
+      "nameEn": "Page of Pentacles",
+      "originalImage": "images/cards/43.webp",
+      "originalSha256": "1ee199448c396de4279e4040990226562581c0bb40b55a65fda4e46858118d6d",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-74.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-74.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-74-page-of-pentacles-dq7-hero.png",
+      "sourceSha256": "c61cad87fb473dfd5bfbe058a29ab5e1aea657a7ee6f4178c319cb52193267cb",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "df18bb528aab051906146d48a46234fb1d57e99908ccbe454991417ba6547223",
+      "importedAt": "2026-11-10T14:42:34.454937+00:00",
+      "character": "DQVII主人公",
+      "series": "勇者鬥惡龍 VII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq7/story/",
+        "https://www.jp.square-enix.com/dqsp/dq7/story/images/hero_body.jpg"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/074-pentacles-court-parent.json",
+      "promptSha256": "eb07e1cd843b60a590bd9b3f29fad4cab26eaf8f295f9b294f7613e4b5e025ec",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Actual DQVII Hero green cap/tunic, cream sleeves, brown belt, teal leggings and cuffed boots retained. Exactly one golden star pentacle, studying pose with map and ruins; no frame, title or watermark.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 75,
+      "name": "錢幣騎士",
+      "nameEn": "Knight of Pentacles",
+      "originalImage": "images/cards/44.webp",
+      "originalSha256": "ae985f0f5306229a6b3a85feeabefbf60538084fcec32f68182ab48dec1b890f",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-75.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-75.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-75-knight-of-pentacles-dq8-hero.png",
+      "sourceSha256": "64124f7ad014071239ef55a8c2f92e3e47b66a9d11f7c78504c505481255fb71",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "6a6011b69103abaaabf8ee0828847384581f677e7d799b765af568c8c58e24ea",
+      "importedAt": "2026-11-10T14:42:34.619195+00:00",
+      "character": "DQVIII主人公",
+      "series": "勇者鬥惡龍 VIII",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq8/",
+        "https://www.jp.square-enix.com/dqsp/dq8/assets/characters/images/character_hero.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/075-pentacles-court-parent.json",
+      "promptSha256": "9041a1e2d3f696476bd856965e5636f57100d468f5037e58cbc0262097d86bb0",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Actual DQVIII Hero orange bandana/yellow coat/blue tunic/green pouch retained. Calm horse standing on road, exactly one raised gold pentacle. Consistent deck colors and linework; no frame, title or watermark.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 76,
+      "name": "錢幣王后",
+      "nameEn": "Queen of Pentacles",
+      "originalImage": "images/cards/45.webp",
+      "originalSha256": "6b46278c5b53a9585c04161d119588d269301577c7c2503082e9bb5bad42919a",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-76.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-76.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-76-queen-of-pentacles-dq5-debora.png",
+      "sourceSha256": "e7261647b6334c6af9971bb09696d2ad3006b763869b2ac05c0479353155090a",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "1e69ac7f7188fe1601ef5cbc077e7bb87966f93b2e07c608692e8ac38f1a19aa",
+      "importedAt": "2026-11-10T14:47:04.969141+00:00",
+      "character": "Debora／デボラ",
+      "series": "勇者鬥惡龍 V",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq5/",
+        "https://www.jp.square-enix.com/dqsp/dq5/images/debora_illust.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/076-pentacles-court-parent.json",
+      "promptSha256": "67531e7d2840b20fc790a404b04c835c6960a7daed7cd4479b3897dc7fd438c5",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Actual adult Debora identity: voluminous dark hair, rose ornaments, turquoise eyes, green jewels, pink ruffled dress and white fur coat retained. Relaxed dignified seated pose, one clearly visible large star pentacle on lap, garden and rabbit. Consistent deck style; no title/frame/watermark.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    },
+    {
+      "id": 77,
+      "name": "錢幣國王",
+      "nameEn": "King of Pentacles",
+      "originalImage": "images/cards/46.webp",
+      "originalSha256": "ef3b9a3e13c6d59f77863951248cd7d88a80cbe844af0d29bc44eb58d00ed5dd",
+      "originalDimensions": {
+        "width": 480,
+        "height": 720
+      },
+      "expectedImage": "images/cards/dq-heroes-v1/card-77.webp",
+      "candidateImage": "images/cards/dq-heroes-v1/card-77.webp",
+      "sourcePath": "output/card-deck/dq-heroes-v1/sources/card-77-king-of-pentacles-dq4-torneko.png",
+      "sourceSha256": "aa9a7aa16cb0ae0d809ef1a0b1f6a572822d4f464a0f39807e9ec786649e1d2e",
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "candidate_ready",
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      },
+      "sha256": "4c784a390595bb7cf836bf8410421ab2657cdcfad548b4e0c19799c2d2556635",
+      "importedAt": "2026-11-10T14:47:05.129222+00:00",
+      "character": "Torneko／トルネコ",
+      "series": "勇者鬥惡龍 IV",
+      "referenceUrls": [
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/index.html",
+        "https://www.jp.square-enix.com/dqsp/dq4/assets/story/images/chara_torneco.png"
+      ],
+      "encoding": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "promptPath": "output/card-deck/dq-heroes-v1/prompts/077-pentacles-court-parent.json",
+      "promptSha256": "c43e100934f54a962389da401f439609618b1b1a3a195a1236562c5d11b59ed9",
+      "generationTool": "image_gen.imagegen",
+      "visualReview": "Actual Torneko red cap, blue hair and moustache, purple vest, blue-white striped merchant robe and satchel retained. Seated in merchant courtyard holding one large clearly marked star pentacle. Consistent deck style with no title/frame/watermark.",
+      "expectedSuitCount": 1,
+      "observedSuitCount": 1
+    }
+  ],
+  "encodingProfile": {
+    "format": "WEBP",
+    "maxWidth": 640,
+    "maxHeight": 960,
+    "quality": 84,
+    "method": 6
+  },
+  "encodingHistory": [
+    {
+      "changedAt": "2026-11-10T14:24:01.396080+00:00",
+      "encodingProfile": {
+        "format": "WEBP",
+        "maxWidth": 640,
+        "maxHeight": 960,
+        "quality": 84,
+        "method": 6
+      },
+      "candidateCount": 7,
+      "beforeTotalBytes": 2682374,
+      "afterTotalBytes": 1694880,
+      "savedBytes": 987494,
+      "previousDerivatives": "output/card-deck/dq-heroes-v1/encoding-study/pre-640-q84-20261110T142400Z"
+    }
+  ]
+}

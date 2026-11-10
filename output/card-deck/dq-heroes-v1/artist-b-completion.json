@@ -1,0 +1,368 @@
+{
+  "agent": "card_art_b",
+  "completedCount": 27,
+  "ids": [
+    36,
+    37,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "verified": true,
+  "issues": [],
+  "cards": [
+    {
+      "id": 36,
+      "name": "聖杯王牌",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-36-ace-of-cups-slime.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/036-ace-of-cups-slime.json",
+      "sha256": "a2a0b1e712adc5dbfcb5fd17c97cbec6515ac36687b6f639d69d70bbdcb69a5a",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Classic blue Slime identity preserved, exactly one overflowing golden chalice, no extra cups; bright consistent deck style, full bleed 1024x1536 with no text/frame."
+    },
+    {
+      "id": 37,
+      "name": "聖杯二",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-37-two-of-cups-dq5.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/037-two-of-cups-dq5.json",
+      "sha256": "1b3b4b5eecd3929671c1245c1e4c9943b0c11a4cc0807199aac9f60ac019d1b3",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "DQV adult Hero and Bianca identities preserved, two adults each hold one cup, exactly two chalices; no duplicate reference figures, no text/frame, consistent 1024x1536 style."
+    },
+    {
+      "id": 39,
+      "name": "聖杯四",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-39-four-of-cups-maribel.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/039-four-of-cups-maribel.json",
+      "sha256": "5be6724dc83746b5a2c456725c0c1709cbd1ec9146ac53f202bf7986269a295c",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Actual Maribel identity with orange hood, red curls and green/red outfit; three cups on ground plus one cloud-hand cup, exactly four, no text/frame and consistent portrait style."
+    },
+    {
+      "id": 40,
+      "name": "聖杯五",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-40-five-of-cups-trode.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/040-five-of-cups-trode.json",
+      "sha256": "0cd8c2829805e28a25f4b3913810407c8359cd9953677a9941b5ecaf161006cf",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "King Trode retains green creature identity and orange robe. Exactly three spilled cups in foreground plus two standing cups behind him, five total; no typography/frame and consistent style."
+    },
+    {
+      "id": 41,
+      "name": "聖杯六",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-41-six-of-cups-dq5-childhood.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/041-six-of-cups-dq5-childhood.json",
+      "sha256": "c3197d02fc96a85cd34cbdf9cc00216492a98b47a057c5ae335eb21f2f149f6e",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "DQV child Hero and child Bianca correctly selected, innocent flower exchange; exactly four flower chalices foreground and two on wall, six total. No adult duplicates, text or frame, consistent portrait style."
+    },
+    {
+      "id": 42,
+      "name": "聖杯七",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-42-seven-of-cups-meena.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/042-seven-of-cups-meena.json",
+      "sha256": "07daf8c13c61d14a3ab1f809eb53d2560f5bc628cfcec23d2e8fe7b171b9915b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Meena identity preserved with purple hair, orange dress and silver-green circlet. Exactly seven vision chalices, four upper and three middle; no extra cup, clear count, no text/frame."
+    },
+    {
+      "id": 43,
+      "name": "聖杯八",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-43-eight-of-cups-kiefer.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/043-eight-of-cups-kiefer.json",
+      "sha256": "f27bcc8d617ee20b73182caf701a6a740eff68d5797b0d0d2239bfce54ab31f7",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Kiefer official blond hair and red princely outfit preserved; eight cups clearly arranged five lower and three upper, departing toward mountains, no text/frame."
+    },
+    {
+      "id": 44,
+      "name": "聖杯九",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-44-nine-of-cups-torneko.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/044-nine-of-cups-torneko.json",
+      "sha256": "672313a535afbe93d74326f6ce82be3a3132f12708adb7ded525db41ee4dedc4",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Torneko official blue mustache, purple cap/vest and blue-white stripes preserved; exactly nine chalices clearly displayed in three-by-three shelves. Full bleed, no text/frame."
+    },
+    {
+      "id": 45,
+      "name": "聖杯十",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-45-ten-of-cups-dq5-family-v2.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/045-ten-of-cups-dq5-family-v2.json",
+      "sha256": "33ac97b8e0c109f9d888a8459bddcdc20ae6067e76477fff50e1861e43561614",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Corrected daughter to actual DQV white/lavender dress, purple cape, green ribbon bows and green pouch; parents and boy identities retained; exactly ten rainbow cups (five each side), no text/frame."
+    },
+    {
+      "id": 46,
+      "name": "聖杯侍者",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-46-page-of-cups-sylvando.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/046-page-of-cups-sylvando.json",
+      "sha256": "b3d9b12d7d7530c7978dc87fa2d90e5a824c5e67a79209ea8f5349f8304d4868",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Sylvando official black tied-back hair and gray-cream/red performer costume preserved. Exactly one chalice with one visible little fish, seaside scene, no text/frame; consistent deck art."
+    },
+    {
+      "id": 47,
+      "name": "聖杯騎士",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-47-knight-of-cups-angelo.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/047-knight-of-cups-angelo.json",
+      "sha256": "e8dfa0fd8adae266ee7722925dbb749a3046d85b2129bbd52054c7bd2085f386",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Angelo official silver tied hair, red templar outfit and white boots retained; white horse and exactly one offered cup, no extra cup, no text/frame."
+    },
+    {
+      "id": 48,
+      "name": "聖杯王后",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-48-queen-of-cups-nera.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/048-queen-of-cups-nera.json",
+      "sha256": "52ddd003cce9f0de4b7926f472d4341c7360ac8c4cec3bd8de3e2fa262cb588c",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Actual Nera identity: blue hair, pink bow, ornate white/pink dress and gold accents. One cup held by both hands, calm lake scene, no extra cups, no text/frame."
+    },
+    {
+      "id": 49,
+      "name": "聖杯國王",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-49-king-of-cups-dq5-hero.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/049-king-of-cups-dq5-hero.json",
+      "sha256": "b6a6416363ca786c8ffe0b0062f61397d5292b63948b6e60cd2950c2e7fa5b93",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "DQV adult Hero purple turban/cape, white robe and green pouch preserved. Exactly one cup on seaside throne, no staff or additional cup, no text/frame."
+    },
+    {
+      "id": 50,
+      "name": "寶劍王牌",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-50-ace-of-swords-dq3-hero.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/050-ace-of-swords-dq3.json",
+      "sha256": "1bfd5fd1adeae638f676281b9e5375911d4f7605db80d4d9823685ff965047d8",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Actual DQIII Hero identity and costume preserved. Exactly one upright sword with crown and olive/palm branches, no second hilt; full bleed 1024x1536, no text/frame."
+    },
+    {
+      "id": 51,
+      "name": "寶劍二",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-51-two-of-swords-terry.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/051-two-of-swords-terry.json",
+      "sha256": "8b1671d0b076b364f13b173ce53262a042f1bdb136c37edb03440818f5990d42",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Terry official teal costume and silver hair preserved with blindfold; exactly two complete crossed blades, no additional hilts, no text/frame."
+    },
+    {
+      "id": 52,
+      "name": "寶劍三",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-52-three-of-swords-psaro-rose.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/052-three-of-swords-psaro-rose.json",
+      "sha256": "e4e1a7daf6b241d2adfaf5e2e3848f175c1a846c0ea4dc0588f10786ab5e97ab",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Actual Psaro and Rosalie identities match official DQM3 reference variant; exactly three swords through a symbolic heart cloud, none touches people, no injury; no text/frame."
+    },
+    {
+      "id": 53,
+      "name": "寶劍四",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-53-four-of-swords-dq1-hero.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/053-four-of-swords-dq1-hero.json",
+      "sha256": "5cbd3a38f8ca1b9c9e9be69bd4f97b8629b3575ec116a42d6d9eb23406e591c3",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "DQI hero official horned blue helmet, blue armor and red-white cape retained. Exactly four wall swords, all separate, no personal sword hilt, peaceful rest; no text/frame."
+    },
+    {
+      "id": 54,
+      "name": "寶劍五",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-54-five-of-swords-erik-v2.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/054-five-of-swords-erik-v2.json",
+      "sha256": "90c1254fe4450554786c1426861856c2908894da472dedf47d15cffac4eb39cd",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "New Erik scene succeeds: canonical blue hair/green hood/magenta sash, one thoughtful adult, exactly five complete rack swords, none held or used. No text/frame."
+    },
+    {
+      "id": 55,
+      "name": "寶劍六",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-55-six-of-swords-dq8-hero.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/055-six-of-swords-dq8-hero.json",
+      "sha256": "5709ec7b45586f96c55fcd65ee8218e36a608ccd9fcc9b4ea31473ec48a8666b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Actual DQVIII Hero alone in boat, orange bandana/yellow coat/blue tunic/green trousers. Exactly three secured swords each side, six total, no personal hilt or other person, no text/frame."
+    },
+    {
+      "id": 56,
+      "name": "寶劍七",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-56-seven-of-swords-erik.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/056-seven-of-swords-erik.json",
+      "sha256": "ffe078a88b67a2711a65c54dfeb2283bacde20536b9669c76ad4fb613996a824",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Erik identity retained, exactly five carried swords with five visible hilts and two left planted behind, seven total. No extra personal weapon, no text/frame."
+    },
+    {
+      "id": 57,
+      "name": "寶劍八",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-57-eight-of-swords-maya-v3.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/057-eight-of-swords-maya-v3.json",
+      "sha256": "2b28bb0a71859ddfbe306ea83cdbc63070daa32d24be67cf3cc6b33e20d62c49",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Final correction shows four distinct left hilts and four distinct right hilts, exactly eight swords; Maya identity/covered orange-white attire retained, free hands and open path, no text/frame."
+    },
+    {
+      "id": 58,
+      "name": "寶劍九",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-58-nine-of-swords-milly.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/058-nine-of-swords-milly.json",
+      "sha256": "f7777e2a71e8b7d2cf3b4e781e8081d406a2e01ee32da6388052dcc6648f1957",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Milly official blond hair, silver circlet and blue-violet/cream outfit retained; exactly nine wall swords arranged three-by-three, no blade touches her, no text/frame."
+    },
+    {
+      "id": 59,
+      "name": "寶劍十",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-59-ten-of-swords-pankraz.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/059-ten-of-swords-pankraz.json",
+      "sha256": "02bc5e9f92789ec3149c584279883df3894617a404aa27e2995d0967607e7aa5",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Pankraz actual cream leather one-shoulder top, tooth necklace, blue fur cloak, black mustache and red pouch retained. Exactly five planted swords left and five right, ten total; alive/uninjured, no text/frame."
+    },
+    {
+      "id": 60,
+      "name": "寶劍侍者",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-60-page-of-swords-ragnar.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/060-page-of-swords-ragnar.json",
+      "sha256": "237aa953204a30f70e1a11d4927824048b4c5088fe4141e74cd58587751c2dd3",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Ragnar official pink armor, plumed pink helmet, blue mustache, gray shoulders and red cape retained. Exactly one complete upright sword, no spare hilt, no text/frame."
+    },
+    {
+      "id": 61,
+      "name": "寶劍騎士",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-61-knight-of-swords-hendrik.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/061-knight-of-swords-hendrik.json",
+      "sha256": "cdceaa8ffa2443c90d7697c42387cd659e2ce91171042d34f5d9676d8bfe86c8",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Hendrik canonical purple hair/beard and black-gold full armor with eagle and red cape retained in 2D. Exactly one raised sword on dark horse, no spare hilt, no text/frame."
+    },
+    {
+      "id": 62,
+      "name": "寶劍王后",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-62-queen-of-swords-anlucia.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/062-queen-of-swords-anlucia.json",
+      "sha256": "a5b08dd87cfc2db2633ab4029851df489738ba20035c46ec82628f0f15727f4f",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "Anlucia official blonde hair/circlet, pink-gold tunic over white sleeves, red cape and crest retained. Exactly one full sword held vertically, no spare hilt, no text/frame."
+    },
+    {
+      "id": 63,
+      "name": "寶劍國王",
+      "file": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-63-king-of-swords-dq4-hero.png",
+      "promptFile": "output/card-deck/dq-heroes-v1/prompts/063-king-of-swords-dq4-hero.json",
+      "sha256": "b376430034ac4466af8fb5b1a9af9964dc788c78eb6a642abb29554948a49645",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "visualReview": "DQIV male Hero official green hair, winged blue-jewel headband, teal cape/tunic and white clothing retained. Exactly one upright sword, no secondary hilt, no text/frame."
+    }
+  ],
+  "handoffs": {
+    "38": "parent",
+    "64-65": "parent",
+    "66-68": "card_art",
+    "69-72": "parent"
+  },
+  "method": "one built-in imagegen call per distinct asset, targeted built-in edits for incorrect daughter identity and sword count; originals and failed attempts preserved"
+}

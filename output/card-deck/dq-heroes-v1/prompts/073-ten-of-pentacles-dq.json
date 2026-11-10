@@ -1,0 +1,38 @@
+{
+  "card_id": 73,
+  "card_name": "錢幣十",
+  "character": "主人公與家人",
+  "series": "DQ V",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "reference_paths": [
+    "references/dq5-hero-official.png",
+    "references/artist-a-dq5-bianca.png",
+    "references/artist-a-dq5-twins.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/images/hero_illust.png",
+    "https://www.jp.square-enix.com/dqsp/dq5/",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/bianca_illust.png",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/boy_girl_illust.png"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ V ADULT hero: purple turban/scarf/long cape, white sleeveless rough-edged tunic, green belt pouch, silver bands, dark hair; use fully colored adult at upper right, not child or sepia portrait.\nCharacter reference 2: DQ V Bianca: adult fully colored blonde woman with side braid, teal dress, golden-yellow cape and oval silver buckle; not the child or sepia portrait.\nCharacter reference 3: DQ V twins Rex and Tabitha: the blonde son in BLUE tunic/purple cape, and blonde daughter with green hair bows, pale dress/purple cape; two children, use fully colored figures, not sepia portraits.\nTarot composition: Ten of Pentacles. The actual DQV adult Hero and adult Bianca stand with their son Rex and daughter Tabitha in a welcoming family garden under a stone arch. Four recognizable people only. Exactly TEN separate large round GOLD COINS with a simple embossed five-point star each decorate the arch in two vertical columns of FIVE coins, one column each side. All ten clearly visible with equal space, none held or hidden by people, no other coins. Long-term family prosperity, warm home, gentle smiles.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-73-ten-of-pentacles-dq.png",
+  "character_display": "第五代主人公與家人",
+  "series_display": "勇者鬥惡龍 V",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5b5-0dee-7be3-b713-9acfb0886f7b/exec-ffb2be8c-e876-4359-8ca1-2b106b619b39.png",
+  "sha256": "5058b98e158915fb77cca32b3601d63035f0b501f25f7f2fa850d2df59b057cc",
+  "visual_review": "Final image visually counted five gold star coins on each stone pillar = ten total. DQV Hero/Bianca/Rex/Tabitha and all signature costumes preserved. No printed text or card frame.",
+  "expected_suit_count": 10,
+  "observed_suit_count": 10,
+  "iterations": [
+    {
+      "source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/rejected/card-73-ten-of-pentacles-v1-eight-coins.png",
+      "status": "rejected",
+      "reason": "Four coins per pillar made eight instead of ten",
+      "sha256": "27948f11b1036e84ec6af371c2365937d2f3e7dd758f4fa187256429515911c2"
+    }
+  ],
+  "edit_prompt": "Edit only the decorative coin ornaments on the two stone arch pillars. Keep the four Dragon Quest V family members, all faces, clothes, poses and every other part of the illustration unchanged. The current pillars have FOUR large star coins each (eight total), but this is the Ten of Pentacles and needs TEN. Replace the coin layout on each pillar with exactly FIVE identical separate round GOLD coins, each with one simple embossed five-point star. Arrange the five centers evenly along each pillar at roughly y=270,400,530,660,790 of the 1024x1536 image; left-column centers near x=80, right-column centers near x=944. Make coins just small enough that all five in each column are wholly visible with gaps, each coin stays on its pillar, and none overlap characters. Final image: exactly FIVE gold star coins on the LEFT pillar and FIVE on the RIGHT pillar, TEN total, with no extra coins elsewhere. Do not add printed numbers, labels, border or lettering. Do not change the family or their clothes."
+}

@@ -1,0 +1,27 @@
+{
+  "card_id": 25,
+  "card_name": "權杖四",
+  "character": "主人公的兒子與女兒",
+  "series": "DQ V",
+  "tool": "image_gen.imagegen",
+  "status": "generation_failed",
+  "reference_paths": [
+    "references/artist-a-dq5-twins.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/images/boy_girl_illust.png",
+    "https://www.jp.square-enix.com/dqsp/dq5/"
+  ],
+  "style_reference": "sources/card-00-the-fool-dq3-hero.png",
+  "prompt": "Create ONE finished tarot illustration, portrait 2:3 (1024x1536), edge-to-edge full bleed. Use the first reference images strictly for the ACTUAL Dragon Quest character identities, hairstyles, faces and costume colors. Some official references contain sepia portraits, page text, frames or UI: use only the solid colored character design, never reproduce reference text/layout. The LAST reference is an already accepted DQIII Fool card used ONLY for matching the deck's bold clean black linework, classic Toriyama Dragon Quest cel coloring, subtly hand-painted paper texture, warm ivory highlights, rich clear blue/turquoise atmosphere, greens and warm ochre accents; do NOT reuse its hero or composition. Actual named characters, not generic original adventurers. Large legible silhouettes and faces; scene thoughtfully composed for a phone screen. Character identity and correct suit-object count matter more than elaborate detail.\nCharacter reference 1: DQ V twins Rex and Tabitha: the blonde son in BLUE tunic/purple cape, and blonde daughter with green hair bows, pale dress/purple cape; two children, use fully colored figures, not sepia portraits.\nTarot composition: Four of Wands. The actual DQV son and daughter, blonde Rex in blue/purple and Tabitha in pale dress/purple cape/green hairbows, celebrate together in a sunny garden. Exactly FOUR tall wooden wands form two clearly separated pairs supporting a loose garland of flowers over them. Four wand tops must all remain visible and separate, no other posts. Children smile and hold a flower basket, no weapons. Joy and a welcoming home.\nOne coherent illustration, no collage. Absolutely no card title, text, numbers, letters, UI, logo, watermark, outer border/frame or photographed card. Do not add extra weapons or suit objects. Objects explicitly counted must all be visibly separate and accurately counted, with no duplicates or obscured extras. Preserve official costume and clear anatomy.",
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-25-four-of-wands-dq.png",
+  "generation_error": {
+    "http_status": 400,
+    "code": "moderation_blocked",
+    "stage": "input",
+    "categories": [
+      "other"
+    ],
+    "request_id": "eb9ace3f-179e-41cf-b4f0-5dea55876f79"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": 48,
+  "card_name": "聖杯王后",
+  "character": "Nera／フローラ",
+  "series": "DQ V",
+  "tool": "image_gen.imagegen",
+  "status": "generated_candidate",
+  "prompt": "Use case: illustration-story. Asset: one complete full-bleed portrait 2:3 tarot illustration, Queen of Cups. The first 1 reference image(s) are exact Dragon Quest character identity/costume references; the LAST is ONLY the approved deck ink/color/texture style, not a scene or person to copy.\nScene and exact characters: Actual DQV Nera/Flora: long straight blue hair, large pink bow, white puff sleeves and white/pink layered long dress with ornate turquoise/gold trim, belt and golden accessories from reference. She sits gracefully on a carved stone chair beside a tranquil lake, holding exactly ONE ornate golden chalice with both hands, warm thoughtful expression. One chalice only. White lilies, gentle water, compassionate calm, soft daylight. No other characters or duplicate portraits from reference sheet. Preserve the actual costume rather than generic queen robes.\nShared deck art direction: faithfully drawn Akira Toriyama Dragon Quest characters, clean confident black ink outlines, expressive recognizable faces, crisp hand-painted cel color blocks, restrained shadows and a subtle watercolor-paper grain matching the approved illustration. Original illustration, NOT a 3D screenshot, product photograph, plush, collage or card mockup. Full-bleed single cohesive artwork edge to edge, mobile-readable clear silhouettes and large key symbols.\nHard constraints: no title, no typography, no letters or numerals, no UI, no watermark/logo, no borders or card frame. Any writing, decorative labels, copyright line, duplicate background portraits or layout boxes on reference sheets must NOT appear. Preserve actual named DQ characters, hairstyle/clothing/colors, not generic original substitutes. Keep the stated number of tarot objects exact; avoid incidental extra cups/swords/coins/wands. Do not mix in characters from other franchises.",
+  "asset_filename": "card-48-queen-of-cups-nera.png",
+  "reference_paths": [
+    "references/artist-a-dq5-nera.png",
+    "sources/card-00-the-fool-dq3-hero.png"
+  ],
+  "reference_urls": [
+    "https://www.jp.square-enix.com/dqsp/dq5/",
+    "https://www.jp.square-enix.com/dqsp/dq5/images/flora_illust.png"
+  ],
+  "workspace_source": "/Users/krislu/Dev/Personal/tarot/output/card-deck/dq-heroes-v1/sources/card-48-queen-of-cups-nera.png",
+  "source_path": "/Users/krislu/.codex/generated_images/01a1c5cc-053b-7f83-95a1-c318b1dcfe69/exec-842dfb95-52ce-4977-aba7-f71c45e2d70a.png",
+  "sha256": "52ddd003cce9f0de4b7926f472d4341c7360ac8c4cec3bd8de3e2fa262cb588c",
+  "visual_review": "Actual Nera identity: blue hair, pink bow, ornate white/pink dress and gold accents. One cup held by both hands, calm lake scene, no extra cups, no text/frame."
+}

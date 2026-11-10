@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "releaseDeck": "dq-heroes-v1",
+  "expectedCardCount": 78,
+  "runtimeImageGlob": "images/cards/dq-heroes-v1/card-*.webp",
+  "provenanceArtifacts": [
+    "output/card-deck/dq-heroes-v1/manifest.json",
+    "output/card-deck/dq-heroes-v1/prompts/**/*.json",
+    "output/card-deck/dq-heroes-v1/references/*.json",
+    "output/card-deck/dq-heroes-v1/character-plan.json",
+    "output/card-deck/dq-heroes-v1/visual-review.json",
+    "output/card-deck/dq-heroes-v1/encoding-study/report.json",
+    "output/card-deck/dq-heroes-v1/README.md",
+    "output/card-deck/dq-heroes-v1/preview.html",
+    "scripts/card_deck.py",
+    "output/card-deck/dq-heroes-v1/deployment-allowlist.json",
+    "output/card-deck/dq-heroes-v1/tarot-data.before-apply.js",
+    "output/card-deck/dq-heroes-v1/runtime-asset-report.json",
+    "output/card-deck/dq-heroes-v1/artist-b-completion.json"
+  ],
+  "localOnly": [
+    "output/card-deck/*/sources/",
+    "output/card-deck/*/references/* except *.json",
+    "output/card-deck/*/encoding-study/* except report.json",
+    "output/card-deck/*/queue-status.json",
+    "output/card-deck/*/.integration.lock",
+    "images/cards/manga-adventure-v1/",
+    "output/card-deck/manga-adventure-v1/"
+  ],
+  "application": {
+    "check": {
+      "status": "passed",
+      "verifiedAt": "2026-11-10T15:28:31.594961+00:00",
+      "cardCount": 78,
+      "localSourcesVerified": true,
+      "releaseAssetsVerified": true
+    },
+    "qa": {
+      "status": "passed",
+      "reviewer": "parent-agent",
+      "scope": "All 78 cards visually reviewed and loaded at 640x960; final IDs 62/63/66 reviewed before explicit apply authorization."
+    },
+    "apply": {
+      "state": "applied",
+      "appliedAt": "2026-11-10T15:28:31.010939+00:00",
+      "backup": "output/card-deck/dq-heroes-v1/tarot-data.before-apply.js",
+      "dataSha256": "10b1cadaa3c5b05a50c71200f7719245d5c7fc8d49a59645dc4da1993285e31a"
+    }
+  },
+  "productionBreakdown": {
+    "initialSamples": 3,
+    "artistA": 37,
+    "artistB": 27,
+    "parentAgent": 11,
+    "total": 78
+  }
+}
