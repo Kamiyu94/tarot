@@ -1,5 +1,5 @@
 // Service Worker for 塔羅牌占卜 PWA
-const CACHE_NAME = 'tarot-app-v4';
+const CACHE_NAME = 'tarot-app-v8';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -17,7 +17,8 @@ self.addEventListener('install', (event) => {
         caches.open(CACHE_NAME)
             .then((cache) => {
                 console.log('Caching app assets');
-                return cache.addAll(ASSETS_TO_CACHE);
+                // 新版本必須重新抓取，避免把瀏覽器裡的舊版檔案存進新快取。
+                return cache.addAll(ASSETS_TO_CACHE.map(url => new Request(url, { cache: 'reload' })));
             })
             .catch((error) => {
                 console.log('Cache failed:', error);
@@ -46,7 +47,7 @@ self.addEventListener('activate', (event) => {
 // Fetch event - serve from cache, fallback to network
 self.addEventListener('fetch', (event) => {
     event.respondWith(
-        caches.match(event.request)
+        caches.open(CACHE_NAME).then(cache => cache.match(event.request))
             .then((cachedResponse) => {
                 if (cachedResponse) {
                     return cachedResponse;
@@ -72,7 +73,7 @@ self.addEventListener('fetch', (event) => {
                     .catch(() => {
                         // Offline fallback
                         if (event.request.mode === 'navigate') {
-                            return caches.match('./index.html');
+                            return caches.open(CACHE_NAME).then(cache => cache.match('./index.html'));
                         }
                     });
             })

@@ -1,4 +1,4 @@
-﻿/* ========================================
+/* ========================================
    Tarot Fortune Teller - Consolidated Stylesheet
    Refactored: Clean, No Duplicates
    ======================================== */
@@ -10,7 +10,7 @@
     --bg-primary: #0a0a1a;
     --bg-secondary: #1a0a2e;
     --bg-card: #2a1a3e;
-    --accent-gold: #ffd700;
+    --accent-gold: #e9ce8a;
     --accent-purple: #9b59b6;
     --accent-pink: #e91e63;
     --text-primary: #f0e6ff;
@@ -26,10 +26,26 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-    overflow-x: hidden;
+html {
+    min-height: 100%;
+    scrollbar-gutter: stable;
+}
+
+button, input, textarea {
+    font: inherit;
+}
+
+button, input, textarea, [role="button"] {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible, input:focus-visible, textarea:focus-visible, [role="button"]:focus-visible {
+    outline: 3px solid var(--accent-gold);
+    outline-offset: 4px;
+}
+
+[hidden] {
+    display: none !important;
 }
 
 body {
@@ -79,29 +95,22 @@ body {
 }
 
 /* ===========================================
-   3. SCREEN SYSTEM (Fixed Fullscreen Panels)
+   3. SCREENS — normal page flow, including short viewports
    =========================================== */
 .screen {
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: relative;
     width: 100%;
-    height: 100%;
-    display: flex;
+    min-height: 100vh;
+    min-height: 100svh;
+    display: none;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
+    padding: max(28px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
     z-index: 1;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
-    overflow-y: auto;
 }
 
 .screen.active {
-    opacity: 1;
-    visibility: visible;
+    display: flex;
 }
 
 /* ===========================================
@@ -109,7 +118,10 @@ body {
    =========================================== */
 .home-content {
     text-align: center;
-    max-width: 400px;
+    width: 100%;
+    max-width: 760px;
+    margin: auto 0;
+    padding: 20px 0;
 }
 
 .logo {
@@ -239,16 +251,18 @@ body {
 
 /* Mode Selection Buttons */
 .mode-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
 }
 
 .mode-btn {
     background: linear-gradient(135deg, rgba(42, 26, 62, 0.9), rgba(26, 10, 46, 0.9));
     border: 2px solid transparent;
     border-radius: 20px;
-    padding: 25px 30px;
+    padding: 22px 12px;
+    min-width: 0;
+    min-height: 148px;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -283,7 +297,7 @@ body {
 
 .card-icon {
     font-size: 2rem;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     color: #ffffff;
     font-family: Arial, sans-serif;
     display: inline-block;
@@ -303,9 +317,10 @@ body {
 
 /* Back Button */
 .back-btn {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    position: relative;
+    align-self: flex-start;
+    margin-bottom: 24px;
+    min-height: 44px;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
     color: var(--text-primary);
@@ -328,7 +343,7 @@ body {
 .draw-content {
     text-align: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
 }
 
 .draw-title {
@@ -338,20 +353,31 @@ body {
 }
 
 .cards-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 16px;
+    margin: 20px auto 30px;
+    width: 100%;
 }
 
 /* Tarot Card (3D Flip) */
 .tarot-card {
-    width: 120px;
-    height: 180px;
+    width: 100%;
+    max-width: 220px;
+    aspect-ratio: 1 / 1.8;
+    min-width: 0;
+    justify-self: center;
     perspective: 1000px;
     cursor: pointer;
+}
+
+.tarot-card[aria-disabled="true"]:not(.disabled) {
+    opacity: 0.55;
+    cursor: default;
+}
+
+.tarot-card[aria-disabled="false"] .card-back {
+    border-color: var(--accent-gold);
 }
 
 .tarot-card.disabled {
@@ -371,7 +397,11 @@ body {
 }
 
 .tarot-card.reversed .card-inner {
-    transform: rotateY(180deg) rotateZ(180deg);
+    transform: rotateY(180deg);
+}
+
+.tarot-card.reversed .card-symbol {
+    transform: rotate(180deg);
 }
 
 .card-face {
@@ -429,6 +459,19 @@ body {
     line-height: 1;
 }
 
+.card-front .card-symbol {
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.card-front .card-label {
+    font-size: 0.75rem;
+    flex-shrink: 0;
+}
+
 .card-name {
     font-weight: 700;
     font-size: 1rem;
@@ -464,7 +507,7 @@ body {
     height: 100%;
     max-width: 100%;
     max-height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
     border-radius: 10px;
 }
@@ -505,9 +548,7 @@ body {
 .result-content {
     text-align: center;
     width: 100%;
-    max-width: 600px;
-    max-height: calc(100vh - 100px);
-    overflow-y: auto;
+    max-width: 900px;
     padding: 20px;
     padding-bottom: 30px;
     background: linear-gradient(135deg, rgba(10, 10, 26, 0.95), rgba(26, 10, 46, 0.95));
@@ -525,12 +566,12 @@ body {
 .result-visual,
 .result-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 15px;
     width: 100%;
-    max-width: 400px;
+    max-width: 100%;
     margin: 0 auto 30px auto;
-    padding: 0 10px;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -546,9 +587,10 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    aspect-ratio: 2 / 3.5;
+    aspect-ratio: 1 / 1.9;
     width: 100%;
-    max-width: none;
+    max-width: 240px;
+    justify-self: center;
     min-width: 0;
     margin: 0;
     position: relative;
@@ -563,8 +605,6 @@ body {
 }
 
 /* Reversed: Only rotate the image/symbol */
-.result-card.reversed img,
-.result-card.reversed .card-image,
 .result-card.reversed .card-symbol {
     transform: rotate(180deg);
 }
@@ -586,7 +626,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    flex: 1;
+    min-height: 0;
     width: 100%;
     overflow: hidden;
 }
@@ -596,7 +637,7 @@ body {
     color: #1a0a2e;
     font-weight: 700;
     flex-shrink: 0;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 /* Result Card Images */
@@ -604,27 +645,14 @@ body {
     width: 100%;
     height: auto;
     max-width: 100%;
-    max-height: 80%;
-    object-fit: cover;
+    max-height: 100%;
+    object-fit: contain;
     border-radius: 6px;
 }
 
-/* 3-Card Spread: Center last card */
-.result-visual>.result-card:nth-child(3):last-child,
-.result-cards>.result-card:nth-child(3):last-child {
-    grid-column: 1 / -1;
-    justify-self: center;
-    width: 50%;
-    max-width: 180px;
-}
-
-/* 5-Card Spread: Center last card */
-.result-visual>.result-card:nth-child(5):last-child,
-.result-cards>.result-card:nth-child(5):last-child {
-    grid-column: 1 / -1;
-    justify-self: center;
-    width: 50%;
-    max-width: 180px;
+.result-cards.single-card {
+    grid-template-columns: minmax(0, 240px);
+    justify-content: center;
 }
 
 /* ===========================================
@@ -645,6 +673,7 @@ body {
 .meaning-header {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 15px;
 }
@@ -661,6 +690,13 @@ body {
 
 .meaning-symbol {
     font-size: 1.5rem;
+    width: 36px;
+    height: 54px;
+    flex-shrink: 0;
+}
+
+.meaning-name {
+    overflow-wrap: anywhere;
 }
 
 .meaning-name {
@@ -719,11 +755,15 @@ body {
    8. ACTION BUTTONS
    =========================================== */
 .action-buttons {
+    position: fixed;
+    inset: auto 0 0;
     display: flex;
     gap: 10px;
-    margin-top: 20px;
-    flex-wrap: wrap;
+    padding: 14px max(12px, env(safe-area-inset-right)) max(14px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
     justify-content: center;
+    background: rgba(10, 10, 26, 0.96);
+    border-top: 1px solid rgba(155, 89, 182, 0.3);
+    z-index: 20;
 }
 
 .action-btn {
@@ -731,6 +771,8 @@ body {
     align-items: center;
     gap: 8px;
     padding: 12px 20px;
+    min-height: 44px;
+    justify-content: center;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -769,7 +811,7 @@ body {
    =========================================== */
 .toast {
     position: fixed;
-    bottom: 30px;
+    bottom: calc(100px + env(safe-area-inset-bottom));
     left: 50%;
     transform: translateX(-50%) translateY(20px);
     background: rgba(155, 89, 182, 0.95);
@@ -782,7 +824,10 @@ body {
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
     pointer-events: none;
-    white-space: nowrap;
+    width: max-content;
+    max-width: calc(100% - 32px);
+    text-align: center;
+    line-height: 1.5;
 }
 
 .toast.show {
@@ -854,94 +899,310 @@ body {
 }
 
 /* ===========================================
-   13. MEDIA QUERIES (MOBILE)
+   13. CUSTOM COUNT & RESULT FORMAT
    =========================================== */
-
-/* Tablet and below */
-@media (max-width: 768px) {
-    .result-content {
-        padding-bottom: 20px;
-    }
+.section-heading {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin: 0 0 12px;
 }
 
-/* Mobile phones */
+.custom-draw {
+    margin-top: 16px;
+    padding: 20px;
+    border: 1px solid rgba(155, 89, 182, 0.45);
+    border-radius: 16px;
+    background: rgba(42, 26, 62, 0.5);
+    text-align: left;
+}
+
+.custom-draw > label {
+    display: block;
+    color: var(--accent-gold);
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.custom-draw-controls {
+    display: flex;
+    gap: 12px;
+}
+
+.count-field {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+    min-width: 0;
+    color: var(--text-secondary);
+}
+
+.count-field input {
+    width: 100%;
+    min-width: 0;
+    min-height: 48px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(155, 89, 182, 0.6);
+    color: var(--text-primary);
+    background: var(--bg-secondary);
+    font-size: 1rem;
+}
+
+.custom-draw-btn {
+    min-height: 48px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--accent-gold);
+    color: #1a0a2e;
+    background: var(--accent-gold);
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.simple-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 20px;
+    padding: 18px;
+    text-align: left;
+    border: 1px solid rgba(155, 89, 182, 0.25);
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.simple-option input {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    accent-color: var(--accent-gold);
+    margin-top: 2px;
+}
+
+.simple-option strong {
+    font-size: 0.95rem;
+    color: var(--accent-gold);
+}
+
+.option-description {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+.draw-progress {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 20px 0;
+}
+
+#resultScreen {
+    padding-bottom: calc(110px + env(safe-area-inset-bottom));
+}
+
+.result-format {
+    display: flex;
+    padding: 4px;
+    border: 1px solid rgba(155, 89, 182, 0.5);
+    border-radius: 14px;
+    background: rgba(26, 10, 46, 0.9);
+    width: min(100%, 360px);
+}
+
+.result-format button {
+    flex: 1;
+    min-height: 44px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.result-format button[aria-pressed="true"] {
+    color: #1a0a2e;
+    background: var(--accent-gold);
+    font-weight: 700;
+}
+
+.format-hint, .result-summary {
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.format-hint {
+    max-width: 520px;
+    margin: 12px 0 24px;
+}
+
+.result-summary {
+    margin: -12px 0 24px;
+}
+
 @media (max-width: 600px) {
+    .screen {
+        padding-top: max(20px, env(safe-area-inset-top));
+    }
+
+    .home-content {
+        padding: 8px 0;
+    }
+
+    .logo {
+        gap: 10px;
+    }
+
     .logo h1 {
-        font-size: 2rem;
+        font-size: clamp(1.6rem, 7vw, 2rem);
     }
 
-    .tarot-card {
-        width: 90px;
-        height: 135px;
+    .subtitle {
+        font-size: 0.95rem;
+        letter-spacing: 1px;
     }
 
-    .card-symbol {
+    .mode-buttons {
+        gap: 8px;
+    }
+
+    .mode-btn {
+        padding: 16px 6px;
+        border-radius: 14px;
+        min-height: 130px;
+        gap: 8px;
+    }
+
+    .mode-btn::before {
+        border-radius: 14px;
+    }
+
+    .card-icon {
         font-size: 1.5rem;
+    }
+
+    .mode-title {
+        font-size: 1rem;
+    }
+
+    .mode-desc {
+        font-size: 0.875rem;
+        line-height: 1.6;
+    }
+
+    .question-hint, .option-description {
+        font-size: 1rem;
+        line-height: 1.7;
+        color: var(--text-secondary);
+    }
+
+    .format-hint, .result-summary, .draw-progress, .meaning-description {
+        font-size: 1rem;
+        line-height: 1.75;
+        color: var(--text-primary);
+    }
+
+    .back-btn, .result-format button {
+        font-size: 1rem;
+        min-height: 48px;
+    }
+
+    .custom-draw {
+        padding: 16px;
+    }
+
+    .custom-draw-btn {
+        padding: 10px 14px;
+    }
+
+    .cards-container, .result-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .cards-container:has(> :only-child) {
+        grid-template-columns: minmax(0, 240px);
+        justify-content: center;
+    }
+
+    .card-face {
+        padding: 8px;
     }
 
     .card-name {
-        font-size: 0.85rem;
-    }
-
-    .card-name-en {
-        font-size: 0.6rem;
-    }
-
-    /* Larger draw cards on mobile */
-    .draw-content .tarot-card {
-        width: 60vw;
-        height: calc(60vw * 1.75);
-        max-width: 280px;
-        max-height: 490px;
-        margin: 0 auto 40px auto;
-    }
-
-    .draw-content .cards-container {
-        min-height: calc(60vw * 1.8);
-    }
-
-    /* Enable scrolling on draw screen */
-    .draw-content,
-    body {
-        overflow-y: auto;
-    }
-
-    .result-card .card-symbol {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.5;
     }
 
     .result-card .card-name {
-        font-size: 0.85rem;
-    }
-
-    .action-btn {
-        padding: 10px 15px;
-        font-size: 0.85rem;
-    }
-}
-
-/* Very small phones */
-@media (max-width: 400px) {
-    .tarot-card {
-        width: 70px;
-        height: 105px;
-    }
-
-    .card-symbol {
-        font-size: 1.2rem;
-    }
-
-    .card-label {
-        font-size: 0.6rem;
-    }
-
-    .card-name {
-        font-size: 0.7rem;
+        font-size: 1.125rem;
+        line-height: 1.4;
     }
 
     .card-name-en {
         display: none;
     }
+
+    .card-position, .card-front .card-label, .result-card .card-label, .meaning-position {
+        font-size: 0.875rem;
+        line-height: 1.5;
+        padding: 4px 10px;
+        margin-top: 0;
+        flex-shrink: 0;
+    }
+
+    .result-content {
+        padding: 16px 12px;
+    }
+
+    .result-card {
+        padding: 6px;
+        gap: 6px;
+        aspect-ratio: 1 / 2.1;
+    }
+
+    .meaning-card {
+        padding: 16px;
+    }
+
+    .meaning-label {
+        font-size: 0.875rem;
+        padding: 4px 8px;
+    }
+
+    .meaning-name {
+        font-size: 1.125rem;
+    }
+
+    .keyword {
+        font-size: 0.875rem;
+    }
+
+    .action-buttons {
+        gap: 6px;
+    }
+
+    .action-btn {
+        flex: 1;
+        max-width: 180px;
+        padding: 12px 6px;
+        min-height: 48px;
+        gap: 4px;
+        font-size: 0.875rem;
+    }
 }
 
-
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}

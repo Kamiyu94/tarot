@@ -1,7 +1,10 @@
 // 塔羅占卜 App - 主程式
 class TarotApp {
     constructor() {
-        this.mode = null; // 'single' | 'three' | 'five'
+        this.mode = null; // 'single' | 'three' | 'five' | 'custom'
+        this.customCount = 4;
+        this.isSimple = false;
+        this.resultTimer = null;
         this.question = '';
         this.drawnCards = [];
         this.currentDrawIndex = 0;
@@ -32,12 +35,21 @@ class TarotApp {
         this.singleModeBtn = document.getElementById('singleModeBtn');
         this.threeModeBtn = document.getElementById('threeModeBtn');
         this.fiveModeBtn = document.getElementById('fiveModeBtn');
+        this.customDrawForm = document.getElementById('customDrawForm');
+        this.customCountInput = document.getElementById('customCountInput');
+        this.customCountInput.max = TAROT_CARDS.length;
+        this.simpleModeInput = document.getElementById('simpleModeInput');
+        this.simpleResultBtn = document.getElementById('simpleResultBtn');
+        this.detailedResultBtn = document.getElementById('detailedResultBtn');
+        this.resultFormatHint = document.getElementById('resultFormatHint');
+        this.resultSummary = document.getElementById('resultSummary');
 
         this.backBtn = document.getElementById('backBtn');
         this.drawTitle = document.getElementById('drawTitle');
         this.drawQuestionPreview = document.getElementById('drawQuestionPreview');
         this.cardsContainer = document.getElementById('cardsContainer');
         this.drawHint = document.getElementById('drawHint');
+        this.drawProgress = document.getElementById('drawProgress');
 
         this.resultBackBtn = document.getElementById('resultBackBtn');
         this.resultContent = document.getElementById('resultContent');
@@ -55,6 +67,19 @@ class TarotApp {
         this.singleModeBtn.addEventListener('click', () => this.startDraw('single'));
         this.threeModeBtn.addEventListener('click', () => this.startDraw('three'));
         this.fiveModeBtn.addEventListener('click', () => this.startDraw('five'));
+        this.customDrawForm.addEventListener('submit', event => {
+            event.preventDefault();
+            if (!this.customDrawForm.reportValidity()) return;
+            const count = Number(this.customCountInput.value);
+            if (!Number.isInteger(count) || count < 1 || count > TAROT_CARDS.length) return;
+            this.customCount = count;
+            this.startDraw('custom');
+        });
+        this.simpleModeInput.addEventListener('change', () => {
+            this.setResultFormat(this.simpleModeInput.checked);
+        });
+        this.simpleResultBtn.addEventListener('click', () => this.setResultFormat(true));
+        this.detailedResultBtn.addEventListener('click', () => this.setResultFormat(false));
 
         this.backBtn.addEventListener('click', () => this.goToHome());
         this.resultBackBtn.addEventListener('click', () => this.goToHome());
@@ -114,6 +139,7 @@ class TarotApp {
             screen.classList.remove('active');
         });
         target.classList.add('active');
+        target.scrollTop = 0;
         window.scrollTo(0, 0);
         setTimeout(() => window.scrollTo(0, 0), 50);
     }
@@ -126,6 +152,7 @@ class TarotApp {
     }
 
     goToHome() {
+        clearTimeout(this.resultTimer);
         this.switchScreen(this.homeScreen);
         this.drawnCards = [];
         this.currentDrawIndex = 0;
@@ -147,6 +174,7 @@ class TarotApp {
             case 'single': return 1;
             case 'three': return 3;
             case 'five': return 5;
+            case 'custom': return this.customCount;
             default: return 1;
         }
     }
@@ -156,12 +184,35 @@ class TarotApp {
             case 'single': return '點擊卡牌抽牌';
             case 'three': return '依序點擊三張卡牌';
             case 'five': return '依序點擊五張卡牌';
+            case 'custom': return `依序點擊 ${this.customCount} 張卡牌`;
             default: return '點擊卡牌抽牌';
         }
     }
 
     captureQuestion() {
         this.question = (this.questionInput?.value || '').trim();
+    }
+
+    getCardLabel(index) {
+        if (!this.isSimple && this.mode !== 'custom') {
+            return this.modeLabels[this.mode][index];
+        }
+        return `第 ${index + 1} 張`;
+    }
+
+    setResultFormat(isSimple) {
+        this.isSimple = isSimple;
+        this.simpleModeInput.checked = isSimple;
+        this.simpleResultBtn.setAttribute('aria-pressed', String(isSimple));
+        this.detailedResultBtn.setAttribute('aria-pressed', String(!isSimple));
+        document.getElementById('threeModeDesc').textContent = isSimple ? '依序抽出三張牌' : '過去・現在・未來';
+        document.getElementById('fiveModeDesc').textContent = isSimple ? '依序抽出五張牌' : '深度問題解析';
+        this.resultFormatHint.textContent = isSimple
+            ? '只列抽牌結果，不設定牌位；複製給 AI 也使用此格式。'
+            : this.mode === 'custom'
+                ? '提供每張牌的牌義，自訂抽牌不設定牌位；複製給 AI 也使用此格式。'
+                : '提供原有牌位與每張牌的牌義；複製給 AI 也使用此格式。';
+        if (this.resultScreen.classList.contains('active')) this.renderResults();
     }
 
     updateQuestionPreviews() {
@@ -203,25 +254,25 @@ class TarotApp {
     startDraw(mode) {
         if (!mode) return;
 
+        clearTimeout(this.resultTimer);
         this.captureQuestion();
         this.mode = mode;
         this.drawnCards = [];
         this.currentDrawIndex = 0;
 
         const cardCount = this.getCardCount(mode);
-        const labels = this.modeLabels[mode];
-
         this.drawTitle.textContent = this.getDrawTitle(mode);
         this.updateQuestionPreviews();
 
         this.cardsContainer.innerHTML = '';
         for (let i = 0; i < cardCount; i++) {
-            const card = this.createCardElement(i, mode !== 'single' ? labels[i] : null);
+            const card = this.createCardElement(i, this.getCardLabel(i));
             this.cardsContainer.appendChild(card);
         }
 
         this.drawHint.classList.remove('hidden');
         this.drawHint.querySelector('span:last-child').textContent = '點擊卡牌揭示命運';
+        this.drawProgress.textContent = `已抽 0 / ${cardCount} 張・請點第 1 張`;
         this.switchScreen(this.drawScreen);
         this.clearResultHash();
     }
@@ -230,6 +281,10 @@ class TarotApp {
         const card = document.createElement('div');
         card.className = 'tarot-card';
         card.dataset.index = index;
+        card.setAttribute('role', 'button');
+        card.setAttribute('aria-label', `翻開${label}`);
+        card.setAttribute('aria-disabled', String(index !== 0));
+        card.tabIndex = index === 0 ? 0 : -1;
         card.innerHTML = `
             <div class="card-inner">
                 <div class="card-face card-back">
@@ -245,6 +300,12 @@ class TarotApp {
             </div>
         `;
         card.addEventListener('click', () => this.handleCardClick(card, index));
+        card.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                this.handleCardClick(card, index);
+            }
+        });
         return card;
     }
 
@@ -276,18 +337,28 @@ class TarotApp {
         positionEl.textContent = drawnCard.isReversed ? '逆位' : '正位';
         positionEl.className = `card-position ${drawnCard.isReversed ? 'reversed' : 'upright'}`;
 
-        // 正位：翻面；逆位：翻面 + 旋轉（CSS .reversed 已含 rotateY）
+        // 只旋轉逆位牌的圖面，讓牌名與正逆位標示保持可讀。
         cardElement.classList.add(drawnCard.isReversed ? 'reversed' : 'flipped');
         cardElement.classList.add('disabled');
+        cardElement.setAttribute('aria-disabled', 'true');
+        cardElement.setAttribute('aria-label', `${this.getCardLabel(index)}：${drawnCard.card.name}（${drawnCard.isReversed ? '逆位' : '正位'}）`);
+        cardElement.tabIndex = -1;
         this.currentDrawIndex++;
 
         const totalCards = this.getCardCount(this.mode);
         if (this.currentDrawIndex < totalCards) {
+            this.drawProgress.textContent = `已抽 ${this.currentDrawIndex} / ${totalCards} 張・請點第 ${this.currentDrawIndex + 1} 張`;
             this.drawHint.querySelector('span:last-child').textContent =
                 `還剩 ${totalCards - this.currentDrawIndex} 張牌`;
+            const nextCard = this.cardsContainer.children[this.currentDrawIndex];
+            nextCard.setAttribute('aria-disabled', 'false');
+            nextCard.tabIndex = 0;
+            nextCard.focus({ preventScroll: true });
+            nextCard.scrollIntoView({ block: 'nearest', inline: 'nearest' });
         } else {
+            this.drawProgress.textContent = `已抽 ${totalCards} / ${totalCards} 張・正在整理結果`;
             this.drawHint.classList.add('hidden');
-            setTimeout(() => this.showResult(), 1000);
+            this.resultTimer = setTimeout(() => this.showResult(), 1000);
         }
     }
 
@@ -304,22 +375,35 @@ class TarotApp {
     }
 
     showResult() {
-        const labels = this.modeLabels[this.mode];
+        this.setResultFormat(this.isSimple);
+        this.renderResults();
+        this.switchScreen(this.resultScreen);
+
+        if (window.location.hash !== '#result') {
+            history.pushState({ page: 'result' }, '', '#result');
+        }
+    }
+
+    renderResults() {
         this.updateQuestionPreviews();
+        this.resultSummary.textContent = `共 ${this.drawnCards.length} 張・${this.isSimple || this.mode === 'custom' ? '依抽牌順序排列，不設定牌位' : this.modeNames[this.mode]}`;
+        this.resultCards.classList.toggle('single-card', this.drawnCards.length === 1);
 
         this.resultCards.innerHTML = this.drawnCards.map((drawn, i) => {
             const visual = drawn.card.image
-                ? `<img src="${drawn.card.image}" class="tarot-img result-img" alt="${drawn.card.name}">`
+                ? `<img src="${drawn.card.image}" class="tarot-img result-img" alt="${drawn.card.name}" loading="lazy">`
                 : drawn.card.symbol;
             return `
             <div class="result-card ${drawn.isReversed ? 'reversed' : ''}">
-                ${this.mode !== 'single' ? `<div class="card-label">${labels[i]}</div>` : ''}
+                <div class="card-label">${this.getCardLabel(i)}</div>
                 <div class="card-symbol ${drawn.isReversed ? 'is-reversed' : ''}">${visual}</div>
                 <div class="card-name">${drawn.card.name}</div>
+                <div class="card-position ${drawn.isReversed ? 'reversed' : 'upright'}">${drawn.isReversed ? '逆位' : '正位'}</div>
             </div>`;
         }).join('');
 
-        this.resultMeanings.innerHTML = this.drawnCards.map((drawn, i) => {
+        this.resultMeanings.hidden = this.isSimple;
+        this.resultMeanings.innerHTML = this.isSimple ? '' : this.drawnCards.map((drawn, i) => {
             const meaning = drawn.isReversed ? drawn.card.reversed : drawn.card.upright;
             const visual = drawn.card.image
                 ? `<img src="${drawn.card.image}" class="tarot-img meaning-img" alt="${drawn.card.name}">`
@@ -327,7 +411,7 @@ class TarotApp {
             return `
                 <div class="meaning-card">
                     <div class="meaning-header">
-                        ${this.mode !== 'single' ? `<span class="meaning-label">${labels[i]}</span>` : ''}
+                        ${this.mode !== 'single' ? `<span class="meaning-label">${this.getCardLabel(i)}</span>` : ''}
                         <span class="meaning-symbol">${visual}</span>
                         <span class="meaning-name">${drawn.card.name}</span>
                         <span class="meaning-position ${drawn.isReversed ? 'reversed' : 'upright'}">
@@ -342,11 +426,6 @@ class TarotApp {
             `;
         }).join('');
 
-        this.switchScreen(this.resultScreen);
-
-        if (window.location.hash !== '#result') {
-            history.pushState({ page: 'result' }, '', '#result');
-        }
     }
 
     showLoading(show) {
@@ -366,19 +445,19 @@ class TarotApp {
             this.resultContent.classList.add('snapshot-mode');
 
             const imgs = Array.from(this.resultContent.querySelectorAll('img'));
-            await Promise.all(imgs.map(img =>
-                img.complete
-                    ? Promise.resolve()
-                    : new Promise(r => {
-                        img.onload = r;
-                        img.onerror = r;
-                    })
-            ));
+            await Promise.all(imgs.map(img => {
+                img.loading = 'eager';
+                return img.decode().catch(() => {});
+            }));
             await new Promise(resolve => setTimeout(resolve, 100));
 
+            // 多張結果在手機上較長，控制畫布尺寸以免超出行動瀏覽器的限制。
+            const width = this.resultContent.scrollWidth;
+            const height = this.resultContent.scrollHeight;
+            const scale = Math.min(2, 8192 / Math.max(width, height), Math.sqrt(12000000 / (width * height)));
             const canvas = await html2canvas(this.resultContent, {
                 backgroundColor: '#0a0a1a',
-                scale: 2,
+                scale,
                 useCORS: true,
                 allowTaint: true,
                 logging: false,
@@ -412,9 +491,19 @@ class TarotApp {
     }
 
     buildResultText() {
-        const labels = this.modeLabels[this.mode];
+        if (this.isSimple) {
+            const lines = ['塔羅牌抽牌結果', `張數：${this.drawnCards.length}`];
+            if (this.question) lines.push(`問題：${this.question}`);
+            lines.push('');
+            this.drawnCards.forEach((drawn, i) => {
+                lines.push(`${i + 1}. ${drawn.card.name} / ${drawn.card.nameEn}（${drawn.isReversed ? '逆位' : '正位'}）`);
+            });
+            return lines.join('\n');
+        }
         let text = `🔮 塔羅牌占卜結果\n`;
-        text += `牌陣：${this.modeNames[this.mode] || this.mode}\n`;
+        text += this.mode === 'custom'
+            ? `自訂抽牌：${this.customCount} 張（依抽牌順序，不設定牌位）\n`
+            : `牌陣：${this.modeNames[this.mode]}\n`;
 
         if (this.question) {
             text += `問題：${this.question}\n`;
@@ -425,7 +514,7 @@ class TarotApp {
         this.drawnCards.forEach((drawn, i) => {
             const meaning = drawn.isReversed ? drawn.card.reversed : drawn.card.upright;
             if (this.mode !== 'single') {
-                text += `【${labels[i]}】\n`;
+                text += `【${this.getCardLabel(i)}】\n`;
             }
             text += `${drawn.card.name} / ${drawn.card.nameEn}（${drawn.isReversed ? '逆位' : '正位'}）\n`;
             text += `關鍵字：${meaning.keywords.join('、')}\n`;

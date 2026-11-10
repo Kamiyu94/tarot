@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="description" content="塔羅牌占卜 - 探索命運的指引">
     <meta name="theme-color" content="#1a0a2e">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -13,6 +13,7 @@
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="icons/icon-192.svg">
+    <link rel="icon" href="icons/icon-192.svg" type="image/svg+xml">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,28 +50,50 @@
                     maxlength="300"
                     placeholder="例如：我該不該換工作？這段關係還值得繼續嗎？"
                 ></textarea>
-                <p class="question-hint">抽牌後可連同問題與牌義，一鍵複製貼給 AI 解讀</p>
+                <p class="question-hint">先讓心靜下來，想一想此刻最在意的事。</p>
             </div>
 
+            <h2 class="section-heading">選擇抽牌張數</h2>
             <div class="mode-buttons">
                 <button class="mode-btn" id="singleModeBtn">
-                    <span class="card-icon">🂠</span>
+                    <span class="card-icon" aria-hidden="true">01</span>
                     <span class="mode-title">單張抽牌</span>
                     <span class="mode-desc">獲得今日的靈感指引</span>
                 </button>
 
                 <button class="mode-btn" id="threeModeBtn">
-                    <span class="card-icon">🂠🂠🂠</span>
+                    <span class="card-icon" aria-hidden="true">03</span>
                     <span class="mode-title">三張牌陣</span>
-                    <span class="mode-desc">過去・現在・未來</span>
+                    <span class="mode-desc" id="threeModeDesc">過去・現在・未來</span>
                 </button>
 
                 <button class="mode-btn" id="fiveModeBtn">
-                    <span class="card-icon">🂠🂠🂠🂠🂠</span>
+                    <span class="card-icon" aria-hidden="true">05</span>
                     <span class="mode-title">五張牌陣</span>
-                    <span class="mode-desc">深度問題解析</span>
+                    <span class="mode-desc" id="fiveModeDesc">深度問題解析</span>
                 </button>
             </div>
+
+            <form class="custom-draw" id="customDrawForm">
+                <label for="customCountInput">自訂張數</label>
+                <div class="custom-draw-controls">
+                    <div class="count-field">
+                        <input type="number" id="customCountInput" min="1" max="78" step="1"
+                            value="4" required inputmode="numeric" aria-describedby="customCountHint">
+                        <span aria-hidden="true">張</span>
+                    </div>
+                    <button class="custom-draw-btn" type="submit">開始抽牌 <span aria-hidden="true">→</span></button>
+                </div>
+                <p class="question-hint" id="customCountHint">可輸入 1–78 的整數，每次抽牌不重複。</p>
+            </form>
+
+            <label class="simple-option" for="simpleModeInput">
+                <input type="checkbox" id="simpleModeInput">
+                <span>
+                    <strong>簡易版・不設定牌位</strong>
+                    <span class="option-description">只保留問題、牌名與正逆位，方便交給 AI 自由解讀。取消勾選可使用原有牌位與牌義。</span>
+                </span>
+            </label>
         </div>
     </div>
 
@@ -82,6 +105,7 @@
             <h2 class="draw-title" id="drawTitle">點擊卡牌抽牌</h2>
             <div class="question-banner" id="drawQuestionPreview" hidden></div>
 
+            <p class="draw-progress" id="drawProgress" role="status"></p>
             <div class="cards-container" id="cardsContainer">
                 <!-- Cards will be dynamically inserted here -->
             </div>
@@ -97,8 +121,15 @@
     <div class="screen" id="resultScreen">
         <button class="back-btn" id="resultBackBtn">← 返回</button>
 
+        <div class="result-format" role="group" aria-label="結果格式">
+            <button id="simpleResultBtn" type="button" aria-pressed="false">簡易版</button>
+            <button id="detailedResultBtn" type="button" aria-pressed="true">牌義版</button>
+        </div>
+        <p class="format-hint" id="resultFormatHint">提供原有牌位與每張牌的牌義；複製給 AI 也使用此格式。</p>
+
         <div class="result-content" id="resultContent">
             <h2 class="result-title">占卜結果</h2>
+            <p class="result-summary" id="resultSummary"></p>
             <div class="question-banner result-question" id="resultQuestion" hidden></div>
 
             <div class="result-cards" id="resultCards">
@@ -124,7 +155,7 @@
     </div>
 
     <!-- 複製成功提示 -->
-    <div class="toast" id="toast">已複製，可直接貼給 AI 解牌</div>
+    <div class="toast" id="toast" role="status">已複製，可直接貼給 AI 解牌</div>
 
     <!-- Loading overlay -->
     <div class="loading-overlay" id="loadingOverlay">
