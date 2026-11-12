@@ -157,6 +157,16 @@
     <!-- 複製成功提示 -->
     <div class="toast" id="toast" role="status">已複製，可直接貼給 AI 解牌</div>
 
+    <dialog class="copy-dialog" id="copyFallbackDialog" aria-labelledby="copyFallbackTitle" aria-describedby="copyFallbackHint">
+        <h2 id="copyFallbackTitle">手動複製抽牌結果</h2>
+        <p id="copyFallbackHint">未能自動複製，請長按下方文字，選擇「全選」與「複製」，再貼給 AI。</p>
+        <textarea id="copyFallbackText" aria-label="可手動複製的完整抽牌結果" readonly spellcheck="false"></textarea>
+        <div class="copy-dialog-actions">
+            <button type="button" id="retryCopyBtn">再試複製</button>
+            <form method="dialog"><button>關閉</button></form>
+        </div>
+    </dialog>
+
     <!-- Loading overlay -->
     <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-spinner"></div>

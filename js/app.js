@@ -4,6 +4,7 @@ class TarotApp {
         this.mode = null; // 'single' | 'three' | 'five' | 'custom'
         this.customCount = 4;
         this.isSimple = false;
+        this.copyInProgress = false;
         this.resultTimer = null;
         this.question = '';
         this.drawnCards = [];
@@ -60,6 +61,9 @@ class TarotApp {
         this.copyTextBtn = document.getElementById('copyTextBtn');
         this.redrawBtn = document.getElementById('redrawBtn');
         this.toast = document.getElementById('toast');
+        this.copyFallbackDialog = document.getElementById('copyFallbackDialog');
+        this.copyFallbackText = document.getElementById('copyFallbackText');
+        this.retryCopyBtn = document.getElementById('retryCopyBtn');
         this.loadingOverlay = document.getElementById('loadingOverlay');
     }
 
@@ -86,6 +90,7 @@ class TarotApp {
 
         this.saveBtn.addEventListener('click', () => this.saveImage());
         this.copyTextBtn.addEventListener('click', () => this.copyTextForAI());
+        this.retryCopyBtn.addEventListener('click', () => this.copyTextForAI());
         this.redrawBtn.addEventListener('click', () => this.startDraw(this.mode));
 
         window.addEventListener('popstate', () => this.handlePopState());
@@ -434,8 +439,7 @@ class TarotApp {
 
     async saveImage() {
         if (typeof html2canvas !== 'function') {
-            this.copyTextForAI();
-            this.showToast('截圖套件未載入，已改複製文字');
+            if (await this.copyTextForAI()) this.showToast('截圖套件未載入，已複製文字');
             return;
         }
 
@@ -483,8 +487,7 @@ class TarotApp {
         } catch (error) {
             console.error('Save image failed:', error);
             this.resultContent.classList.remove('snapshot-mode');
-            this.copyTextForAI();
-            this.showToast('儲存失敗，已改複製文字');
+            if (await this.copyTextForAI()) this.showToast('儲存失敗，已複製文字');
         } finally {
             this.showLoading(false);
         }
@@ -530,25 +533,93 @@ class TarotApp {
         return text;
     }
 
-    copyTextForAI() {
-        const text = this.buildResultText();
-
-        const shareOrPrompt = () => {
-            if (navigator.share) {
-                navigator.share({ text }).catch(e => {
-                    if (e.name !== 'AbortError') prompt('請複製以下內容', text);
-                });
-            } else {
-                prompt('請複製以下內容', text);
+    copySelectedText(text) {
+        const previousFocus = document.activeElement;
+        const selection = window.getSelection();
+        const ranges = selection ? Array.from({ length: selection.rangeCount }, (_, i) => selection.getRangeAt(i).cloneRange()) : [];
+        const field = document.createElement('textarea');
+        field.value = text;
+        field.readOnly = true;
+        field.tabIndex = -1;
+        field.setAttribute('aria-hidden', 'true');
+        // 保持可選取，避免 iPhone 對 display:none 欄位無法複製；16px 避免自動放大。
+        field.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;padding:0;border:0;opacity:0.01;font-size:16px;';
+        const supplyText = event => {
+            if (event.clipboardData) {
+                event.clipboardData.setData('text/plain', text);
+                event.preventDefault();
             }
         };
+        try {
+            document.body.appendChild(field);
+            field.focus({ preventScroll: true });
+            field.select();
+            field.setSelectionRange(0, text.length);
+            document.addEventListener('copy', supplyText, true);
+            // 同步執行於點擊事件內；不先清空或讀取使用者的剪貼簿。
+            return document.execCommand('copy');
+        } catch {
+            return false;
+        } finally {
+            document.removeEventListener('copy', supplyText, true);
+            field.remove();
+            previousFocus?.focus({ preventScroll: true });
+            if (selection) {
+                selection.removeAllRanges();
+                ranges.forEach(range => selection.addRange(range));
+            }
+        }
+    }
 
-        if (navigator.clipboard?.writeText) {
-            navigator.clipboard.writeText(text)
-                .then(() => this.showToast())
-                .catch(shareOrPrompt);
-        } else {
-            shareOrPrompt();
+    showCopyFallback(text) {
+        this.copyFallbackText.value = text;
+        if (!this.copyFallbackDialog.open) this.copyFallbackDialog.showModal();
+        this.copyFallbackText.focus({ preventScroll: true });
+        this.copyFallbackText.select();
+        this.copyFallbackText.setSelectionRange(0, text.length);
+    }
+
+    async copyTextForAI() {
+        if (this.copyInProgress) return false;
+        if (!this.drawnCards.length) {
+            this.showToast('請先完成抽牌');
+            return false;
+        }
+        const text = this.buildResultText();
+        if (!text.trim()) return false;
+
+        this.copyInProgress = true;
+        try {
+            // 先用手機相容的選取複製；不支援時，再嘗試 Clipboard API。
+            let copied = this.copySelectedText(text);
+            if (!copied && navigator.clipboard?.writeText) {
+                this.copyTextBtn.disabled = true;
+                this.retryCopyBtn.disabled = true;
+                let timeout;
+                try {
+                    await Promise.race([
+                        navigator.clipboard.writeText(text),
+                        new Promise((_, reject) => {
+                            timeout = setTimeout(() => reject(new Error('Clipboard timed out')), 5000);
+                        })
+                    ]);
+                } finally {
+                    clearTimeout(timeout);
+                }
+                copied = true;
+            }
+            if (!copied) throw new Error('Clipboard unavailable');
+            if (this.copyFallbackDialog.open) this.copyFallbackDialog.close();
+            this.showToast();
+            return true;
+        } catch {
+            // 分享選單不等於複製。保留完整文字，讓使用者可直接長按複製。
+            this.showCopyFallback(text);
+            return false;
+        } finally {
+            this.copyInProgress = false;
+            this.copyTextBtn.disabled = false;
+            this.retryCopyBtn.disabled = false;
         }
     }
 

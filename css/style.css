@@ -835,6 +835,71 @@ body {
     transform: translateX(-50%) translateY(0);
 }
 
+.copy-dialog {
+    width: min(600px, calc(100% - 32px));
+    max-height: calc(100dvh - 32px);
+    padding: 20px;
+    border: 1px solid #e9ce8a;
+    border-radius: 16px;
+    background: #191126;
+    color: #f3eafd;
+    overflow-y: auto;
+}
+
+.copy-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.copy-dialog h2 {
+    margin: 0 0 12px;
+    color: #e9ce8a;
+    font-size: 22px;
+}
+
+.copy-dialog p {
+    margin: 0 0 16px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.copy-dialog textarea {
+    display: block;
+    width: 100%;
+    height: clamp(160px, 40vh, 340px);
+    padding: 12px;
+    border: 1px solid #8e72a6;
+    border-radius: 8px;
+    background: #100c20;
+    color: #fff;
+    font: 16px/1.6 system-ui, sans-serif;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+.copy-dialog-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.copy-dialog-actions > * { flex: 1; }
+.copy-dialog-actions button {
+    width: 100%;
+    min-height: 48px;
+    padding: 10px;
+    border: 1px solid #e9ce8a;
+    border-radius: 8px;
+    background: #e9ce8a;
+    color: #21162c;
+    font: inherit;
+    cursor: pointer;
+}
+
+#copyTextBtn:disabled, #retryCopyBtn:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
 /* ===========================================
    10. LOADING OVERLAY
    =========================================== */
